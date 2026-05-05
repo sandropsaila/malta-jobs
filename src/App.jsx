@@ -7,6 +7,7 @@ import FilterDrawer from "./components/FilterDrawer";
 import DesktopSidebar from "./components/DesktopSidebar";
 import JobCard from "./components/JobCard";
 import CompaniesDirectory from "./components/CompaniesDirectory";
+import LiveJobSearch from "./components/LiveJobSearch";
 import { JOBS } from "./data/jobs";
 import "./styles/global.css";
 import "./styles/pinlock.css";
@@ -17,6 +18,7 @@ import "./styles/jobcard.css";
 import "./styles/drawer.css";
 import "./styles/sidebar.css";
 import "./styles/directory.css";
+import "./styles/livesearch.css";
 
 const SESSION_KEY = "malta_jobs_auth";
 
@@ -73,8 +75,14 @@ export default function App() {
           onCategoryClick={(cat) => setFilters((f) => ({ ...f, category: cat }))}
         />
         <MarketSnapshot jobs={JOBS} />
+
+        {/* AI-powered live search — Option C */}
+        <LiveJobSearch />
+
         <DesktopSidebar jobs={JOBS} filters={filters} onChange={setFilters} />
+
         <div className="jobs-list">
+          <div className="jobs-list-label">Curated vacancies</div>
           {filtered.length === 0 ? (
             <div className="empty-state">
               <p>No vacancies match your search.</p>
@@ -86,20 +94,14 @@ export default function App() {
             filtered.map((job) => <JobCard key={job.id} job={job} />)
           )}
         </div>
+
         <footer className="footer">
           <p>High Profile Jobs — Malta Executive Vacancies</p>
           <p>Data sourced from LinkedIn · GRS · Keepmeposted · Jobsinmalta · Konnekt · Direct</p>
-          <p style={{ marginTop: 6, color: "var(--amber)" }}>
+          <p style={{ marginTop: 6 }}>
             <button
               onClick={() => setCompaniesOpen(true)}
-              style={{
-                background: "transparent",
-                border: "none",
-                color: "var(--amber)",
-                cursor: "pointer",
-                font: "inherit",
-                textDecoration: "underline",
-              }}
+              style={{ background: "transparent", border: "none", color: "var(--amber)", cursor: "pointer", font: "inherit", textDecoration: "underline", fontSize: "0.72rem" }}
             >
               View 927 monitored companies →
             </button>

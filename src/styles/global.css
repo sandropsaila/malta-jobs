@@ -110,3 +110,16 @@ body {
   font-size: 0.72rem;
   line-height: 1.7;
 }
+
+.jobs-list-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  padding: 4px 2px;
+}
+
+@media (min-width: 900px) {
+  .live-search { grid-column: 1 / -1; }
+}
