@@ -1,4 +1,5 @@
-import { JOBS, CATEGORIES } from "../data/jobs";
+import { CATEGORIES } from "../data/jobs";
+import { COMPANIES } from "../data/companies";
 
 export default function MarketSnapshot({ jobs }) {
   const newCount = jobs.filter((j) => j.isNew).length;
@@ -11,16 +12,16 @@ export default function MarketSnapshot({ jobs }) {
   return (
     <div className="snapshot">
       <p className="snapshot-text">
-        <span className="snapshot-highlight">{jobs.length} senior vacancies</span> currently tracked across Malta's executive job market.{" "}
-        <span className="snapshot-highlight">{newCount} new role{newCount !== 1 ? "s" : ""}</span> added in the past 7 days.
-        The most active category is <span className="snapshot-highlight">{topCat?.label}</span> with{" "}
-        {topCat?.count} open position{topCat?.count !== 1 ? "s" : ""}.{" "}
+        <span className="snapshot-highlight">{jobs.length} senior vacancies</span> tracked across{" "}
+        <span className="snapshot-highlight">{COMPANIES.length.toLocaleString()} Malta companies</span> in
+        Consumer, Financial, Banking, iGaming, and Tech.{" "}
+        <span className="snapshot-highlight">{newCount} new role{newCount !== 1 ? "s" : ""}</span> in the past 7 days.
+        Most active category: <span className="snapshot-highlight">{topCat?.label}</span>{" "}
+        ({topCat?.count} open).{" "}
         {withSalary > 0 && (
-          <>
-            {withSalary} listing{withSalary !== 1 ? "s" : ""} include{withSalary === 1 ? "s" : ""} a disclosed salary range.{" "}
-          </>
+          <>{withSalary} listing{withSalary !== 1 ? "s" : ""} disclose salary. </>
         )}
-        Sourced from LinkedIn, GRS, Keepmeposted, Jobsinmalta, Konnekt, and direct company career pages.
+        Sources: LinkedIn, GRS, Keepmeposted, Jobsinmalta, Konnekt, and direct career pages.
       </p>
     </div>
   );

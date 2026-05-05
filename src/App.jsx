@@ -6,6 +6,7 @@ import MarketSnapshot from "./components/MarketSnapshot";
 import FilterDrawer from "./components/FilterDrawer";
 import DesktopSidebar from "./components/DesktopSidebar";
 import JobCard from "./components/JobCard";
+import CompaniesDirectory from "./components/CompaniesDirectory";
 import { JOBS } from "./data/jobs";
 import "./styles/global.css";
 import "./styles/pinlock.css";
@@ -15,6 +16,7 @@ import "./styles/snapshot.css";
 import "./styles/jobcard.css";
 import "./styles/drawer.css";
 import "./styles/sidebar.css";
+import "./styles/directory.css";
 
 const SESSION_KEY = "malta_jobs_auth";
 
@@ -22,6 +24,7 @@ export default function App() {
   const [unlocked, setUnlocked] = useState(() => sessionStorage.getItem(SESSION_KEY) === "1");
   const [search, setSearch] = useState("");
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [companiesOpen, setCompaniesOpen] = useState(false);
   const [filters, setFilters] = useState({ category: null, source: null, sort: "date" });
 
   const handleUnlock = () => {
@@ -60,6 +63,7 @@ export default function App() {
       <NavBar
         onSearch={setSearch}
         onFilterOpen={() => setDrawerOpen(true)}
+        onCompaniesOpen={() => setCompaniesOpen(true)}
         searchVal={search}
       />
       <main className="main">
@@ -69,14 +73,7 @@ export default function App() {
           onCategoryClick={(cat) => setFilters((f) => ({ ...f, category: cat }))}
         />
         <MarketSnapshot jobs={JOBS} />
-
-        {/* Desktop sidebar — hidden on mobile via CSS */}
-        <DesktopSidebar
-          jobs={JOBS}
-          filters={filters}
-          onChange={setFilters}
-        />
-
+        <DesktopSidebar jobs={JOBS} filters={filters} onChange={setFilters} />
         <div className="jobs-list">
           {filtered.length === 0 ? (
             <div className="empty-state">
@@ -89,10 +86,24 @@ export default function App() {
             filtered.map((job) => <JobCard key={job.id} job={job} />)
           )}
         </div>
-
         <footer className="footer">
           <p>High Profile Jobs — Malta Executive Vacancies</p>
           <p>Data sourced from LinkedIn · GRS · Keepmeposted · Jobsinmalta · Konnekt · Direct</p>
+          <p style={{ marginTop: 6, color: "var(--amber)" }}>
+            <button
+              onClick={() => setCompaniesOpen(true)}
+              style={{
+                background: "transparent",
+                border: "none",
+                color: "var(--amber)",
+                cursor: "pointer",
+                font: "inherit",
+                textDecoration: "underline",
+              }}
+            >
+              View 927 monitored companies →
+            </button>
+          </p>
         </footer>
       </main>
 
@@ -102,6 +113,8 @@ export default function App() {
         filters={filters}
         onChange={setFilters}
       />
+
+      {companiesOpen && <CompaniesDirectory onClose={() => setCompaniesOpen(false)} />}
     </div>
   );
 }
