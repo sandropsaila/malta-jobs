@@ -3,9 +3,9 @@
 //   crypto.subtle.digest('SHA-256', new TextEncoder().encode('YOUR_PIN'))
 //     .then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
 
-// SHA-256 of "1234"
+// SHA-256 of "1122"
 export const HASHED_PIN =
-  "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
+  "b3282a2f2a28757b3a18ab833de16a9c54518c0b0cf493e3f0a7cf09386f326a";
 
 export async function hashPin(pin) {
   const encoded = new TextEncoder().encode(pin);
