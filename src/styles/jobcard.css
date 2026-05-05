@@ -1,0 +1,194 @@
+.job-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.15s;
+  border-left: 3px solid var(--cat-color, var(--border));
+}
+.job-card:hover { border-color: var(--cat-color, var(--border)); }
+
+.job-card-header {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 14px 14px 14px 14px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.job-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.job-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.badge-new {
+  background: var(--amber);
+  color: #000;
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 3px 7px;
+  border-radius: 4px;
+}
+
+.badge-cat {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--cat-color);
+  background: var(--cat-bg);
+  border: 1px solid var(--cat-border);
+  padding: 3px 8px;
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+}
+
+.badge-source {
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.badge-salary {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--emerald);
+  background: rgba(16,185,129,0.1);
+  border: 1px solid rgba(16,185,129,0.25);
+  padding: 3px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.job-card-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.job-info { flex: 1; }
+
+.job-title {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-bottom: 2px;
+}
+
+.job-company {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.job-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.job-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+
+.age-tag { color: var(--amber); font-style: normal; }
+
+.expand-icon {
+  color: var(--text-dim);
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+/* Card body */
+.job-card-body {
+  padding: 0 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 2px;
+}
+
+.job-description {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+.job-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-tag {
+  font-size: 0.67rem;
+  color: var(--text-muted);
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.job-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-apply {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--amber);
+  color: #000;
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 9px 18px;
+  border-radius: 99px;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.btn-apply:hover { opacity: 0.85; }
+
+.btn-source {
+  display: inline-flex;
+  align-items: center;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  padding: 9px 16px;
+  border-radius: 99px;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-source:hover { border-color: var(--text-muted); color: var(--text); }

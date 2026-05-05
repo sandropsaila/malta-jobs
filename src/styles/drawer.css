@@ -1,0 +1,105 @@
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 200;
+  backdrop-filter: blur(2px);
+}
+
+.drawer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-radius: 20px 20px 0 0;
+  z-index: 201;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: slideUp 0.22s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translate(-50%, 100%); }
+  to   { transform: translate(-50%, 0); }
+}
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drawer-header h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.drawer-close {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  width: 34px;
+  height: 34px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.drawer-section { display: flex; flex-direction: column; gap: 10px; }
+
+.drawer-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.drawer-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.drawer-chip {
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.drawer-chip.selected {
+  border-color: var(--cat-color, var(--amber));
+  color: var(--cat-color, var(--amber));
+  background: var(--cat-bg, rgba(245,158,11,0.1));
+}
+
+.drawer-apply {
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: var(--amber);
+  color: #000;
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  width: 100%;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-top: 4px;
+}
+.drawer-apply:hover { opacity: 0.88; }
