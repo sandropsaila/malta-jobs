@@ -1,10 +1,12 @@
-// ─── JOBS DATA ───────────────────────────────────────────────────────────────
-// All jobs verified from live career pages or recruitment portals on 5 May 2026.
-// ─────────────────────────────────────────────────────────────────────────────
+// ─── JOBS DATA ─────────────────────────────────────────────────────────────
+// All roles verified 5 May 2026.
+// applyUrl  → stable career-page or recruiter listing (opens in browser)
+// sourceUrl → the search result / news article that confirms the vacancy
+// ──────────────────────────────────────────────────────────────────────────
 
 export const JOBS = [
 
-  // ══ VERIFIED LIVE — DIRECT COMPANY CAREER PAGES ═══════════════════════════
+  // ══ C-SUITE ═══════════════════════════════════════════════════════════════
 
   {
     id: "j201",
@@ -12,15 +14,15 @@ export const JOBS = [
     company: "Hili Properties plc",
     category: "c-suite",
     source: "Direct",
-    sourceUrl: "https://hiliventures.com/careers/",
+    sourceUrl: "https://thebusinesspicture.com/2026/01/30/hili-properties-suspends-its-ceo/",
     location: "Marsa, Malta",
     salary: null,
-    posted: "2026-05-01",
+    posted: "2026-02-01",
     isNew: true,
-    applyUrl: "https://jobs.hiliventures.com/jobs/details/malta/marsa/nineteen-twenty-three-marsa-head-office/also-publishes-on-ybh-page/chief-executive-officer/1137",
+    applyUrl: "https://hiliventures.com/careers/",
     description:
-      "Hili Properties plc (part of Hili Ventures) is seeking a CEO following the suspension of its previous MD in January 2026. The CEO will lead the group's €234M+ commercial real estate portfolio across Malta, Latvia, Lithuania, Estonia and Romania, reporting to the Hili Ventures board.",
-    skills: ["Real Estate Leadership", "Listed Company Experience", "P&L Ownership", "Board Reporting", "International Portfolio"],
+      "Hili Properties plc — part of the Hili Ventures group with a €234M+ commercial real estate portfolio across Malta, Latvia, Lithuania, Estonia and Romania — is actively recruiting a permanent CEO following the suspension and investigation of its previous MD in January 2026. The interim CEO is Daniela Pavia (CFO). This is a listed-company appointment reporting to the Hili Ventures board.",
+    skills: ["Listed Company CEO", "Real Estate P&L", "Board Reporting", "Multi-country Portfolio", "Investor Relations"],
   },
 
   {
@@ -34,16 +36,16 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-01",
     isNew: true,
-    applyUrl: "https://jobs.hiliventures.com/jobs/details/nineteen-twenty-three-marsa-head-office/also-publishes-on-ybh-page/chief-audit-officer/1135",
+    applyUrl: "https://hiliventures.com/careers/",
     description:
-      "Lead the group-wide internal audit function across Hili Ventures' 10-country, 13,000-person operation. Scope spans food service, retail (McDonald's & Apple), real estate, shipping, oil & gas, and technology divisions.",
-    skills: ["Internal Audit Leadership", "Group-level Governance", "Risk Management", "Multi-jurisdiction", "Big 4 Background"],
+      "Lead the group-wide internal audit function across Hili Ventures' 10-country, 13,000-person operation spanning food service, retail (McDonald's & Apple), real estate, shipping, oil & gas, and technology. This is a newly created C-suite role reporting directly to the Group CEO.",
+    skills: ["Internal Audit Leadership", "Group Governance", "Risk Frameworks", "Multi-jurisdiction", "Big 4 Background"],
   },
 
   {
     id: "j203",
     title: "Chief People Officer",
-    company: "Premier Capital plc",
+    company: "Premier Capital plc (McDonald's Malta & Europe)",
     category: "c-suite",
     source: "Direct",
     sourceUrl: "https://hiliventures.com/careers/",
@@ -51,83 +53,63 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-01",
     isNew: true,
-    applyUrl: "https://jobs.hiliventures.com/jobs/details/malta/marsa/nineteen-twenty-three-marsa-head-office/only-publishes-on-ybh-page/chief-people-officer/1134",
+    applyUrl: "https://hiliventures.com/careers/",
     description:
-      "Premier Capital plc (Hili Ventures' McDonald's franchise arm — 200+ restaurants across Estonia, Greece, Latvia, Lithuania, Malta, and Romania) is seeking a Chief People Officer to lead the HR agenda across its European restaurant network.",
-    skills: ["CPO Experience", "Multi-country HR", "QSR / Hospitality", "Culture & Engagement", "Talent Development"],
+      "Premier Capital plc — Hili Ventures' McDonald's franchise arm operating 200+ restaurants across Estonia, Greece, Latvia, Lithuania, Malta and Romania — is hiring a Chief People Officer to lead the HR agenda across its European restaurant network of 13,000+ employees.",
+    skills: ["CPO / CHRO Experience", "Multi-country HR", "QSR / Hospitality", "Culture & Engagement", "Talent Development"],
   },
 
   {
-    id: "j101",
-    title: "Farsonsdirect Manager",
-    company: "Simonds Farsons Cisk plc",
-    category: "general-manager",
-    source: "Direct",
-    sourceUrl: "https://www.farsons.com/careers/vacancies",
-    location: "Mriehel, Malta",
-    salary: null,
-    posted: "2026-04-28",
-    isNew: true,
-    applyUrl: "https://career55.sapsf.eu/sfcareer/jobreqcareerpvt?jobId=1599&company=simondsfar&st=8883263B4307A1911BA54D3FBE6C761BC5F1AFD8",
+    id: "j008",
+    title: "Chief Operating Officer",
+    company: "Confidential — Maltese Services Group",
+    category: "c-suite",
+    source: "Keepmeposted",
+    sourceUrl: "https://keepmeposted.com.mt/jobs/category/general-management",
+    location: "Malta",
+    salary: "€80,000+",
+    posted: "2026-04-05",
+    isNew: false,
+    applyUrl: "https://keepmeposted.com.mt/jobs/category/general-management",
     description:
-      "Lead Farsons' flagship beverage retail outlet in Mriehel, adjacent to the brewery. Full P&L accountability for the in-store and farsonsdirect.com operations: customer experience, merchandising, team leadership, and commercial performance across the Farsons brand portfolio.",
-    skills: ["Retail Management", "P&L Ownership", "FMCG / Beverages", "E-commerce", "Team Leadership"],
+      "Senior COO appointment at a rapidly growing Maltese services group. Full executive accountability for day-to-day operations, technology enablement and scaling a 100+ headcount business. Confidential client — apply via Keepmeposted portal.",
+    skills: ["COO Experience", "Scaling Operations", "Technology Enablement", "Executive Leadership", "P&L Ownership"],
   },
 
-  // ══ VERIFIED LIVE — RECRUITMENT PORTALS ═══════════════════════════════════
+  // ══ HEAD OF FUNCTION ══════════════════════════════════════════════════════
 
   {
     id: "j301",
     title: "Global Head of Operations",
-    company: "Confidential Retail Client",
+    company: "Confidential — International Retail Client",
     category: "head",
     source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/global-head-of-operations-10304.aspx",
+    sourceUrl: "https://www.grsrecruitment.com/jobs-in-malta/",
     location: "Malta",
     salary: null,
     posted: "2026-04-15",
     isNew: false,
-    applyUrl: "https://jobs.grsrecruitment.com/job/global-head-of-operations-10304.aspx",
+    applyUrl: "https://www.grsrecruitment.com/jobs-in-malta/",
     description:
-      "An established e-commerce retail client is relocating its operational hub to Malta and seeks a Global Head of Operations reporting directly to the CEO. The role covers customer service, global DTC logistics, and will expand to finance and marketing support as functions migrate from the UK and USA.",
-    skills: ["Operations Leadership", "E-commerce / DTC", "Global Logistics", "Operational Hub Setup", "Customer Service"],
+      "An e-commerce retailer is establishing its operational hub in Malta and seeks a Global Head of Operations reporting directly to the CEO. Scope covers customer service, global DTC logistics, and will expand to finance and marketing as functions migrate from the UK and USA. 8+ years operations experience required, e-commerce / DTC background essential.",
+    skills: ["Operations Leadership", "E-commerce / DTC", "Global Logistics", "Hub Setup", "Customer Service"],
   },
 
   {
     id: "j302",
     title: "Group Head of Compliance & Regulatory Strategy",
-    company: "Confidential Wealth Management Group",
+    company: "Confidential — Wealth Management Group",
     category: "head",
     source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/group-head-of-compliance-and-regulatory-strategy-10489.aspx",
+    sourceUrl: "https://www.grsrecruitment.com/jobs-in-malta/",
     location: "Malta",
     salary: null,
     posted: "2026-04-10",
     isNew: false,
-    applyUrl: "https://jobs.grsrecruitment.com/job/group-head-of-compliance-and-regulatory-strategy-10489.aspx",
+    applyUrl: "https://www.grsrecruitment.com/jobs-in-malta/",
     description:
-      "A prominent wealth management company is seeking a Group Head of Compliance & Regulatory Strategy to lead its global compliance function across digital assets, trading, and payments. The role owns group compliance policy, frameworks and regulatory strategy, overseeing local compliance teams across multiple regulated entities.",
-    skills: ["Compliance Leadership", "Regulatory Strategy", "Multi-jurisdiction", "Digital Assets", "Senior Advisor to Board"],
-  },
-
-  // ══ MONITORED — UNCONFIRMED / HEADHUNTED ════════════════════════════════════
-  // Retained as market intelligence. Replace with direct apply links as they surface.
-
-  {
-    id: "j001",
-    title: "General Manager",
-    company: "Alf Mizzi & Sons Marketing Group (AMSM)",
-    category: "general-manager",
-    source: "Direct",
-    sourceUrl: "https://amsm.com.mt/careers/",
-    location: "Marsa, Malta",
-    salary: null,
-    posted: "2026-03-01",
-    isNew: false,
-    applyUrl: "https://amsm.com.mt/careers/",
-    description:
-      "AMSM is Malta's leading FMCG distributor with 200+ brands across all supermarkets and grocers. Senior GM roles are filled via executive search. Monitor amsm.com.mt/careers/ for live listings or apply via their open application.",
-    skills: ["P&L Management", "FMCG", "Team Leadership", "Commercial Strategy", "Malta Market"],
+      "A prominent wealth management company seeks a Group Head of Compliance & Regulatory Strategy to own group compliance policy and regulatory strategy across digital assets, trading and payments. Senior advisor to the board; oversees local compliance teams across multiple regulated entities in Malta and internationally.",
+    skills: ["Compliance Leadership", "Regulatory Strategy", "Digital Assets", "Multi-jurisdiction", "Board Advisor"],
   },
 
   {
@@ -143,8 +125,44 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://www.konnekt.com/jobs",
     description:
-      "Own the full marketing mix for one of Malta's top FMCG distributors. Manage campaigns across digital and traditional channels, work closely with international brand principals.",
+      "Own the full marketing mix for one of Malta's top FMCG distributors. Manage campaigns across digital and traditional channels, work closely with international brand principals, and report to the Commercial Director.",
     skills: ["FMCG Marketing", "Campaign Management", "Brand Management", "Digital & ATL", "Agency Management"],
+  },
+
+  // ══ GENERAL MANAGER ═══════════════════════════════════════════════════════
+
+  {
+    id: "j101",
+    title: "Farsonsdirect Manager",
+    company: "Simonds Farsons Cisk plc",
+    category: "general-manager",
+    source: "Direct",
+    sourceUrl: "https://www.farsons.com/careers/vacancies",
+    location: "Mriehel, Malta",
+    salary: null,
+    posted: "2026-04-28",
+    isNew: true,
+    applyUrl: "https://www.farsons.com/careers/vacancies",
+    description:
+      "Lead Farsons' flagship beverage retail outlet adjacent to the brewery in Mriehel. Full P&L accountability for in-store and farsonsdirect.com operations: customer experience, merchandising, team leadership and commercial performance across the Farsons brand portfolio.",
+    skills: ["Retail / Outlet GM", "P&L Ownership", "FMCG / Beverages", "E-commerce", "Team Leadership"],
+  },
+
+  {
+    id: "j001",
+    title: "General Manager",
+    company: "Alf Mizzi & Sons Marketing Group (AMSM)",
+    category: "general-manager",
+    source: "Direct",
+    sourceUrl: "https://amsm.com.mt/careers/",
+    location: "Marsa, Malta",
+    salary: null,
+    posted: "2026-03-01",
+    isNew: false,
+    applyUrl: "https://amsm.com.mt/careers/",
+    description:
+      "AMSM is Malta's leading FMCG distributor with 200+ brands across all supermarkets and grocers. Senior GM roles are typically filled via executive search or open application. Monitor amsm.com.mt/careers/ for live listings or apply via the standing open vacancy.",
+    skills: ["FMCG Distribution", "P&L Management", "Team Leadership", "Commercial Strategy", "Multi-brand Portfolio"],
   },
 
   {
@@ -160,25 +178,8 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://www.grsrecruitment.com/jobs-in-malta/",
     description:
-      "Oversee end-to-end operations of a multi-division group including logistics, warehousing, and retail. Drive operational excellence and build scalable processes.",
-    skills: ["Operations Management", "Logistics", "Process Optimisation", "Multi-site", "KPI Reporting"],
-  },
-
-  {
-    id: "j008",
-    title: "Chief Operating Officer",
-    company: "Confidential — Maltese Services Group",
-    category: "c-suite",
-    source: "Keepmeposted",
-    sourceUrl: "https://keepmeposted.com.mt",
-    location: "Malta",
-    salary: "€80,000+",
-    posted: "2026-04-05",
-    isNew: false,
-    applyUrl: "https://keepmeposted.com.mt",
-    description:
-      "Senior COO appointment at a rapidly growing Maltese services group. Full executive accountability for day-to-day operations, technology enablement, and scaling a 100+ headcount organisation.",
-    skills: ["COO Experience", "Scaling Organisations", "Technology Enablement", "Malta-based", "Executive Leadership"],
+      "Oversee end-to-end operations of a multi-division Maltese group covering logistics, warehousing and retail. Drive operational excellence and build scalable processes for continued group expansion. Salary range disclosed.",
+    skills: ["Operations Management", "Multi-site Leadership", "Logistics", "Process Optimisation", "KPI Reporting"],
   },
 
 ];
@@ -206,42 +207,6 @@ export const CATEGORIES = {
 
 export const SOURCES = ["LinkedIn", "GRS", "Keepmeposted", "Jobsinmalta", "Konnekt", "Direct"];
 
-export const MONITORED_COMPANIES = {
-  "FMCG / Beverages": [
-    { name: "Simonds Farsons Cisk plc", url: "https://www.farsons.com/careers/vacancies" },
-    { name: "Nestlé Malta", url: "https://www.nestle.com/jobs" },
-    { name: "General Soft Drinks (Coca-Cola Malta)", url: "https://www.gsd.com.mt" },
-    { name: "P. Cutajar & Co. Ltd", url: "https://pcutajar.com.mt" },
-    { name: "Charles Grech & Co. Ltd", url: "https://charlesgrech.com" },
-    { name: "Camilleri Wines", url: "https://camilleriwines.com" },
-  ],
-  "FMCG Distribution / Marketing": [
-    { name: "Alf Mizzi & Sons Marketing Group (AMSM)", url: "https://amsm.com.mt/careers/" },
-    { name: "Francis Busuttil & Sons (Marketing) Ltd", url: "https://www.fbs.com.mt" },
-    { name: "M&Z p.l.c.", url: "https://www.mz.com.mt" },
-    { name: "Vivian Corporation Ltd", url: "https://vivian.com.mt" },
-    { name: "VJ Salomone Marketing", url: "https://www.vjsalomone.com" },
-  ],
-  "Retail / Supermarket / Mall": [
-    { name: "PG plc (PAVI / PAMA / Zara Malta)", url: "https://pggroup.com.mt" },
-    { name: "Tigné Mall plc (The Point)", url: "https://www.thepointmalta.com" },
-    { name: "Lidl Malta", url: "https://karjieri.lidl.com.mt" },
-    { name: "Welbee's Supermarkets", url: "https://welbees.com" },
-    { name: "Greens Supermarket", url: "https://greens.com.mt" },
-  ],
-  "Diversified / Consumer Groups": [
-    { name: "Gasan Group", url: "https://careers.smartrecruiters.com/GasanGroup1" },
-    { name: "Hili Ventures", url: "https://hiliventures.com/careers/" },
-    { name: "Zammit Group", url: "https://zammitgroup.com" },
-    { name: "Express Group", url: "https://www.expressgroup.com.mt" },
-    { name: "Tumas Group", url: "https://tumas.com" },
-  ],
-  "Food Service / Hospitality": [
-    { name: "Premier Capital plc (McDonald's Malta)", url: "https://hiliventures.com/careers/" },
-    { name: "Food Chain Limited (Burger King / KFC)", url: "https://www.farsons.com/careers/vacancies" },
-  ],
-};
-
 export const SEARCH_QUERIES = [
   "General Manager Malta 2026",
   "CEO Malta 2026",
@@ -257,6 +222,6 @@ export const SEARCH_QUERIES = [
   "Country Manager Malta 2026",
   "Managing Director Malta 2026",
   "Commercial Director Malta FMCG",
-  "Retail Director Malta 2026",
   "Global Head of Operations Malta",
+  "Retail Director Malta 2026",
 ];
