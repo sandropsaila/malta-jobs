@@ -1,22 +1,9 @@
 # High Profile Jobs — Malta Vacancies
 
-A mobile-first, PIN-protected React job board tracking senior executive vacancies in Malta.
-Auto-deploys to Vercel on every GitHub push.
+A mobile-first, PIN-protected React job board tracking senior executive vacancies in Malta. Auto-deploys to Vercel on every GitHub push.
 
-## Live App
-
-**PIN:** `1234` (change it — see below)
-
-## Features
-
-- PIN-protected access — 4-digit PIN, SHA-256 hashed, session-persisted
-- Dark mobile-first UI — Plus Jakarta Sans, amber/violet/emerald palette
-- Stats bar — live vacancy counts per sub-category, tap to filter
-- Market snapshot — auto-generated summary of the board
-- Search + filter drawer — full-text search, category, source, sort
-- Expandable job cards — skills, description, salary badge, NEW badge, Apply link
-- OG meta tags — WhatsApp and LinkedIn sharing preview ready
-- Auto-deploy — push to GitHub → live in ~60 seconds
+**Live:** https://malta-jobs.vercel.app
+**PIN:** `1122`
 
 ## Sub-categories
 
@@ -26,16 +13,45 @@ Auto-deploys to Vercel on every GitHub push.
 | head | Head of Function | Violet #8B5CF6 |
 | general-manager | General Manager | Emerald #10B981 |
 
-## Adding New Jobs
+## Companies monitored (FMCG · Retail · Consumer)
 
-Open `src/data/jobs.js` and add a new object at the **top** of the JOBS array:
+**FMCG / Beverages:** Simonds Farsons Cisk · Nestlé Malta · General Soft Drinks (Coca-Cola Malta) · P. Cutajar & Co. · Charles Grech · Camilleri Wines · Liquigas
+
+**FMCG Distribution / Marketing:** Alf Mizzi & Sons Marketing Group · Francis Busuttil & Sons · M&Z p.l.c. · Vivian Corporation · VJ Salomone Marketing · MAG Distribution · Anchor Brand Trading
+
+**Retail / Supermarket / Mall:** PG plc (PAVI / PAMA / Zara Malta) · Tigné Mall (The Point) · Lidl Malta · Welbee's · Greens · Smart · Scotts
+
+**Diversified / Consumer Groups:** Gasan Group · Hili Ventures · Zammit Group · Express Group · Tumas Group · Eden Leisure · GO plc · Melita
+
+**Food Service / Hospitality Retail:** Premier Capital (McDonald's Malta) · Food Chain (Burger King / KFC / Boost) · HV Hospitality
+
+## Job Sources
+
+LinkedIn · GRS · Keepmeposted · Jobsinmalta · Konnekt · Direct company career pages
+
+## Search Queries
+
+```
+General Manager / CEO / COO / CMO Malta 2026
+Marketing Director / Sales Director Malta 2026
+Head of Marketing / Sales / Operations Malta 2026
+Country Manager / Managing Director Malta 2026
+Commercial Director / CCO Malta FMCG
+Retail Director / Brand Manager Malta consumer
+```
+
+## Adding new jobs
+
+Send Claude a screenshot of any job alert (LinkedIn, Konnekt, etc.) and say "Add these jobs to the app" — Claude will extract and push to GitHub. Live on Vercel in ~60 seconds.
+
+Or edit `src/data/jobs.js` manually:
 
 ```js
 {
-  id: "j009",
+  id: "j010",
   title: "Chief Commercial Officer",
   company: "Acme Malta Ltd",
-  category: "c-suite",          // "c-suite" | "head" | "general-manager"
+  category: "c-suite",          // c-suite | head | general-manager
   source: "LinkedIn",
   sourceUrl: "https://linkedin.com/jobs/...",
   location: "Malta",
@@ -48,21 +64,15 @@ Open `src/data/jobs.js` and add a new object at the **top** of the JOBS array:
 },
 ```
 
-Also update LAST_UPDATED in `src/components/NavBar.jsx`. Push to GitHub → auto-deploys.
-
 ## Changing the PIN
 
-1. Open browser console and run:
-   crypto.subtle.digest('SHA-256', new TextEncoder().encode('YOUR_PIN'))
-     .then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
-2. Paste the hash into HASHED_PIN in `src/utils/auth.js`
+In browser console:
+```js
+crypto.subtle.digest('SHA-256', new TextEncoder().encode('YOUR_PIN'))
+  .then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
+```
+Paste hash into `HASHED_PIN` in `src/utils/auth.js`.
 
-## Local Development
+## Tech
 
-npm install && npm run dev
-
-## Deploy to Vercel
-
-1. Push repo to GitHub
-2. vercel.com → New Project → import repo → Deploy
-3. Every future git push auto-deploys
+React 18 + Vite · Lucide icons · Plus Jakarta Sans · Web Crypto API · Vercel · GitHub
