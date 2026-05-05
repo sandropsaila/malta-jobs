@@ -104,3 +104,36 @@
   transition: border-color 0.15s, color 0.15s;
 }
 .filter-btn:hover { border-color: var(--amber); color: var(--amber); }
+
+/* ── Desktop navbar ─────────────────────────────────────────────────────── */
+@media (min-width: 900px) {
+  .navbar {
+    max-width: 100%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .navbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 72px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
+    align-items: center;
+  }
+
+  /* Hide the separate search row — search moves into navbar-inner */
+  .navbar-search-row {
+    display: none;
+  }
+
+  .navbar-inner .search-wrap {
+    display: block;
+    max-width: 420px;
+  }
+
+  .navbar-inner .filter-btn {
+    display: flex;
+  }
+}

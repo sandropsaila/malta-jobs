@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import StatsBar from "./components/StatsBar";
 import MarketSnapshot from "./components/MarketSnapshot";
 import FilterDrawer from "./components/FilterDrawer";
+import DesktopSidebar from "./components/DesktopSidebar";
 import JobCard from "./components/JobCard";
 import { JOBS } from "./data/jobs";
 import "./styles/global.css";
@@ -13,6 +14,7 @@ import "./styles/stats.css";
 import "./styles/snapshot.css";
 import "./styles/jobcard.css";
 import "./styles/drawer.css";
+import "./styles/sidebar.css";
 
 const SESSION_KEY = "malta_jobs_auth";
 
@@ -67,6 +69,14 @@ export default function App() {
           onCategoryClick={(cat) => setFilters((f) => ({ ...f, category: cat }))}
         />
         <MarketSnapshot jobs={JOBS} />
+
+        {/* Desktop sidebar — hidden on mobile via CSS */}
+        <DesktopSidebar
+          jobs={JOBS}
+          filters={filters}
+          onChange={setFilters}
+        />
+
         <div className="jobs-list">
           {filtered.length === 0 ? (
             <div className="empty-state">
@@ -79,11 +89,13 @@ export default function App() {
             filtered.map((job) => <JobCard key={job.id} job={job} />)
           )}
         </div>
+
         <footer className="footer">
           <p>High Profile Jobs — Malta Executive Vacancies</p>
           <p>Data sourced from LinkedIn · GRS · Keepmeposted · Jobsinmalta · Konnekt · Direct</p>
         </footer>
       </main>
+
       <FilterDrawer
         isOpen={drawerOpen}
         onClose={() => setDrawerOpen(false)}

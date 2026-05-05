@@ -52,3 +52,14 @@
   text-align: center;
   line-height: 1.2;
 }
+
+@media (min-width: 900px) {
+  .stats-bar {
+    overflow-x: visible;
+    flex-wrap: wrap;
+  }
+  .stat-pill {
+    min-width: 0;
+    flex: 1;
+  }
+}

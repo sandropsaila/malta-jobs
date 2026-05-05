@@ -5,6 +5,7 @@ const LAST_UPDATED = "5 May 2026, 09:00";
 export default function NavBar({ onSearch, onFilterOpen, searchVal }) {
   return (
     <header className="navbar">
+      {/* On desktop this single row contains brand + search + updated */}
       <div className="navbar-inner">
         <div className="navbar-brand">
           <svg width="28" height="28" viewBox="0 0 40 40" fill="none">
@@ -16,8 +17,27 @@ export default function NavBar({ onSearch, onFilterOpen, searchVal }) {
             <span className="navbar-sub">Malta Vacancies</span>
           </div>
         </div>
-        <span className="navbar-updated">Updated {LAST_UPDATED}</span>
+
+        {/* Search — visible inline on desktop, hidden on mobile */}
+        <div className="search-wrap">
+          <Search size={16} className="search-icon" />
+          <input
+            className="search-input"
+            placeholder="Search roles, companies…"
+            value={searchVal}
+            onChange={(e) => onSearch(e.target.value)}
+          />
+        </div>
+
+        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+          <span className="navbar-updated">Updated {LAST_UPDATED}</span>
+          <button className="filter-btn" onClick={onFilterOpen} aria-label="Filters">
+            <SlidersHorizontal size={18} />
+          </button>
+        </div>
       </div>
+
+      {/* Mobile-only: search row below brand */}
       <div className="navbar-search-row">
         <div className="search-wrap">
           <Search size={16} className="search-icon" />
