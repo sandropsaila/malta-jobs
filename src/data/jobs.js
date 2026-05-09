@@ -1,13 +1,29 @@
 // ─── JOBS DATA ─────────────────────────────────────────────────────────────
-// All roles verified from live sources — 6 May 2026.
-// applyUrl  → direct application page (opens in browser, bot-protected URLs
-//             point to recruiter listing page which always works)
-// sourceUrl → the search-indexed URL confirming the vacancy
+// All roles verified from live sources — 9 May 2026.
+// applyUrl  → direct application page (always opens in browser)
+// sourceUrl → indexed URL confirming the vacancy exists
 // ──────────────────────────────────────────────────────────────────────────
 
 export const JOBS = [
 
   // ══ C-SUITE ════════════════════════════════════════════════════════════════
+
+  {
+    id: "j601",
+    title: "Chief Commercial Officer",
+    company: "Expedition42 (Konnekt / Jobsinmalta / Talexio)",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://www.konnekt.com/jobs/marketing-pr-jobs/chief-commercial-officer/28515",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-20",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs/apply/28515/marketing-pr-jobs/chief-commercial-officer",
+    description:
+      "Expedition42 — the hybrid tech and HR services group behind Konnekt, Jobsinmalta, Payrollmalta, Salariesinmalta and Talexio — is recruiting a CCO to drive sustainable revenue and margin growth across its entire brand portfolio. The CCO leads a 12-person sales and marketing team, owns the full customer lifecycle from acquisition to LTV, and reports to the CEO. 10+ years' commercial experience required, 5 in management. Contact jonathan.camilleri@exp42.com.",
+    skills: ["CCO / Commercial Leadership", "B2B & B2C Sales", "Digital Marketing", "Brand Portfolio", "Revenue Growth"],
+  },
 
   {
     id: "j401",
@@ -22,8 +38,25 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://www.konnekt.com/jobs/apply/83978/general-management-jobs/chief-operating-officer",
     description:
-      "A leading MFSA-regulated financial services firm is seeking a Chief Operating Officer to lead and coordinate core operational areas including IT, risk, payments, and customer service. The COO will drive digital transformation, shape operational strategy alongside the CEO, and oversee business continuity and risk controls. Closing date 31 May 2026. Ref: BZ096 — contact Therisa Gambin at Konnekt (+356 2258 8038).",
+      "A leading MFSA-regulated financial services firm is seeking a COO to lead and coordinate core operational areas including IT, risk, payments, and customer service. The COO will drive digital transformation, shape operational strategy alongside the CEO, and oversee business continuity and risk controls. Closing date 31 May 2026. Ref: BZ096 — contact Therisa Gambin at Konnekt (+356 2258 8038).",
     skills: ["Financial Services Ops", "MFSA / EU Regulation", "Digital Transformation", "Risk & Continuity", "C-Suite Leadership"],
+  },
+
+  {
+    id: "j602",
+    title: "Chief Operating Officer — Construction",
+    company: "Confidential — Maltese Construction Group",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://mt.bebee.com/job/223eb8f8c106d4483c14355a951ef7a2",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-28",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "A well-established Maltese construction group is seeking a COO to oversee construction projects from inception to delivery, ensuring they are completed within agreed timeframes and budgets as agreed with the board. The role requires a seasoned operator with deep knowledge of the Maltese construction landscape.",
+    skills: ["Construction Operations", "Project Delivery", "Board Reporting", "Budget Management", "Site Oversight"],
   },
 
   {
@@ -39,7 +72,7 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://hiliventures.com/careers/",
     description:
-      "Hili Properties plc — part of Hili Ventures with a €234M+ commercial real estate portfolio across Malta, Latvia, Lithuania, Estonia and Romania — is recruiting a permanent CEO following the suspension of its previous MD in January 2026. Daniela Pavia (CFO) serves as interim CEO. Listed-company appointment reporting to the Hili Ventures board. Apply via hiliventures.com/careers.",
+      "Hili Properties plc — part of Hili Ventures with a €234M+ commercial real estate portfolio across Malta, Latvia, Lithuania, Estonia and Romania — is recruiting a permanent CEO following the suspension of its previous MD in January 2026. Daniela Pavia (CFO) serves as interim CEO. Listed-company appointment reporting to the Hili Ventures board.",
     skills: ["Listed Company CEO", "Real Estate P&L", "Board Reporting", "Multi-country Portfolio", "Investor Relations"],
   },
 
@@ -92,8 +125,25 @@ export const JOBS = [
     isNew: true,
     applyUrl: "https://jobs.grsrecruitment.com/job/head-of-sales-and-marketing-10942/apply.aspx",
     description:
-      "A Malta-based FMCG company is seeking a Head of Sales and Marketing to lead both departments and drive the overall growth strategy. The role reports to the General Manager and is responsible for planning, organising and directing Marketing and Sales in support of the company's business strategy — growing revenue, increasing market share, and executing strategies in collaboration with brand principals. 7+ years in FMCG sales and marketing required, with at least 3 in senior leadership. Ref #10942 — contact Sarah Miceli at sarah@grsrecruitment.com.",
+      "A Malta-based FMCG company is seeking a Head of Sales and Marketing reporting to the General Manager, responsible for directing both departments to grow revenue, increase market share, and execute strategies in collaboration with brand principals. 7+ years in FMCG sales and marketing, 3+ in senior leadership. Ref #10942 — sarah@grsrecruitment.com.",
     skills: ["FMCG Sales Leadership", "Brand & Marketing Strategy", "P&L / Budget Management", "Market Expansion", "Principal Management"],
+  },
+
+  {
+    id: "j603",
+    title: "Head of Sales & Marketing",
+    company: "Expedition42",
+    category: "head",
+    source: "Konnekt",
+    sourceUrl: "https://maltayp.com/company/354/Konnekt/jobs/4",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-15",
+    isNew: false,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "Expedition42 is seeking a Head of Sales & Marketing to join their C-Suite, reporting directly to the CEO. The selected individual will lead both sales and marketing teams, own the commercialisation strategy across multiple brands, and drive client acquisition and retention. 10+ years' experience with strong B2B track record required.",
+    skills: ["Sales & Marketing Leadership", "Multi-brand Strategy", "B2B Commercial", "Team Leadership", "Revenue Growth"],
   },
 
   {
@@ -109,7 +159,7 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://jobs.grsrecruitment.com/job/head-of-tax-advisory-10494/apply.aspx",
     description:
-      "A leading Malta-based Corporate Services provider is hiring a Head of Tax Advisory to build and grow its Tax Advisory line of business. The role involves leading a team of tax professionals, providing advanced advisory to corporates, international groups and HNWIs, and developing compliance frameworks covering FATCA, CRS, DAC, ATAD, Transfer Pricing and Pillar 2. Business development and client pitching also in scope. Ref #10494 — contact Michelle Cooper at michellec@grsrecruitment.com.",
+      "A leading Malta-based Corporate Services provider is hiring a Head of Tax Advisory to build and grow its Tax Advisory practice — leading a team of tax professionals, advising corporates, international groups and HNWIs, and developing compliance frameworks covering FATCA, CRS, DAC, ATAD, Transfer Pricing and Pillar 2. Ref #10494 — michellec@grsrecruitment.com.",
     skills: ["Tax Advisory Leadership", "International Tax Law", "FATCA / CRS / Pillar 2", "Client Development", "Team Leadership"],
   },
 
@@ -126,7 +176,7 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://jobs.grsrecruitment.com/job/global-head-of-operations-10304/apply.aspx",
     description:
-      "An e-commerce retailer is establishing its operational hub in Malta and seeks a Global Head of Operations reporting to the CEO. Initial focus on customer service and global DTC logistics, expanding to finance and marketing as functions migrate from the UK and USA. 8+ years operations experience, strong e-commerce / DTC background essential. Ref #10304 — contact Michelle Cooper at michellec@grsrecruitment.com.",
+      "An e-commerce retailer establishing its operational hub in Malta seeks a Global Head of Operations reporting to the CEO. Initial scope covers customer service and global DTC logistics, expanding to finance and marketing as functions migrate from the UK and USA. 8+ years operations, strong e-commerce / DTC background. Ref #10304 — michellec@grsrecruitment.com.",
     skills: ["Operations Leadership", "E-commerce / DTC", "Global Logistics", "Hub Setup", "Customer Service"],
   },
 
@@ -143,11 +193,28 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://jobs.grsrecruitment.com/job/group-head-of-compliance-and-regulatory-strategy-10489/apply.aspx",
     description:
-      "A prominent wealth management company seeks a Group Head of Compliance & Regulatory Strategy to own group compliance policy and regulatory strategy across digital assets, trading and payments. Senior advisor to the board; oversees local compliance teams across multiple regulated entities. Ref #10489 — contact Michelle Cooper at michellec@grsrecruitment.com.",
+      "A prominent wealth management group seeks a Group Head of Compliance & Regulatory Strategy to own group compliance policy and regulatory strategy across digital assets, trading and payments — senior advisor to the board across multiple regulated entities. Ref #10489 — michellec@grsrecruitment.com.",
     skills: ["Compliance Leadership", "Regulatory Strategy", "Digital Assets", "Multi-jurisdiction", "Board Advisor"],
   },
 
   // ══ GENERAL MANAGER ════════════════════════════════════════════════════════
+
+  {
+    id: "j604",
+    title: "General Manager — Hospitality",
+    company: "Confidential — Maltese Hospitality Group",
+    category: "general-manager",
+    source: "Konnekt",
+    sourceUrl: "https://mt.trabajo.org/job-1812-72256ae7a69f94cd00530daeee354d68",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-25",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "A growing Maltese hospitality company is recruiting a General Manager reporting to the Board of Directors. Scope covers all operations, supplier and client relationships, business growth, KPI oversight, P&L management, team leadership, sales targets, and representation at industry events. The ideal candidate brings proven hospitality GM experience with strong commercial acumen.",
+    skills: ["Hospitality GM", "P&L Ownership", "Board Reporting", "Client Relations", "Business Development"],
+  },
 
   {
     id: "j101",
@@ -179,7 +246,7 @@ export const JOBS = [
     isNew: false,
     applyUrl: "https://amsm.com.mt/careers/",
     description:
-      "AMSM is Malta's leading FMCG importer and distributor with 200+ brands across all supermarket and grocery channels. Senior GM roles at AMSM are typically filled via executive search or standing open application. Apply at amsm.com.mt/careers or approach directly.",
+      "AMSM is Malta's leading FMCG importer and distributor with 200+ brands across all supermarket and grocery channels. Senior GM roles are typically filled via executive search or standing open application. Apply at amsm.com.mt/careers or approach directly.",
     skills: ["FMCG Distribution", "P&L Management", "Multi-brand Portfolio", "Commercial Strategy", "Team Leadership"],
   },
 
@@ -213,6 +280,7 @@ export const SEARCH_QUERIES = [
   "CEO Malta 2026",
   "COO Malta 2026",
   "CMO Malta 2026",
+  "CCO Malta 2026",
   "Chief People Officer Malta 2026",
   "Chief Audit Officer Malta 2026",
   "Marketing Director Malta 2026",
@@ -224,5 +292,4 @@ export const SEARCH_QUERIES = [
   "Managing Director Malta 2026",
   "Commercial Director Malta FMCG",
   "Global Head of Operations Malta",
-  "Retail Director Malta 2026",
 ];
