@@ -344,7 +344,7 @@ export const CATEGORIES = {
 export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Konnekt", "Direct"];
 
 export const SEARCH_QUERIES = [
-  // C-Suite
+  // ── C-Suite titles ─────────────────────────────────────────────────────
   "CEO Malta 2026",
   "COO Malta 2026",
   "CFO Malta 2026",
@@ -355,7 +355,7 @@ export const SEARCH_QUERIES = [
   "Chief Audit Officer Malta 2026",
   "Chief Risk Officer Malta 2026",
   "Managing Director Malta 2026",
-  // Head of Function
+  // ── Head of Function ───────────────────────────────────────────────────
   "Head of Marketing Malta 2026",
   "Head of Sales Malta 2026",
   "Head of Operations Malta 2026",
@@ -365,19 +365,65 @@ export const SEARCH_QUERIES = [
   "Head of Transformation Malta 2026",
   "Marketing Director Malta 2026",
   "Sales Director Malta 2026",
-  "Commercial Director Malta FMCG",
+  "Commercial Director Malta 2026",
   "Global Head of Operations Malta",
-  // General Manager
+  // ── General Manager ────────────────────────────────────────────────────
   "General Manager Malta 2026",
   "Country Manager Malta 2026",
-  // By recruiter
-  "site:jobs.grsrecruitment.com Malta senior manager director",
+  // ── Recruiter portals (direct site: queries) ───────────────────────────
+  "site:jobs.grsrecruitment.com Malta senior director head",
   "site:broadwing.jobs Malta director head manager",
   "site:www.reedglobal.com.mt Malta head director senior",
   "site:www.corecruitment.com Malta manager director",
   "site:www.aims-malta.com Malta senior manager director",
-  "site:konnekt.com Malta senior management director",
+  "site:konnekt.com Malta general management director",
   "site:outreachrecruitment.net Malta general manager director",
-  "site:manpowergroup.com.mt Malta head director senior manager",
+  "site:manpowergroup.com.mt Malta head director senior",
+  // ── Google-indexed LinkedIn job listings (no login needed) ─────────────
+  "site:linkedin.com/jobs "Malta" "Chief Executive Officer"",
+  "site:linkedin.com/jobs "Malta" "Chief Operating Officer"",
+  "site:linkedin.com/jobs "Malta" "Chief Financial Officer"",
+  "site:linkedin.com/jobs "Valletta" OR "Malta" "General Manager"",
+  "site:linkedin.com/jobs "Malta" "Head of" director senior",
+  "site:linkedin.com/jobs "Malta" "Managing Director"",
+  // ── Indeed Malta (aggregates LinkedIn + direct posts) ──────────────────
+  "site:indeed.com "Malta" "Chief" OR "General Manager" OR "Head of" senior 2026",
+  "site:mt.indeed.com CEO OR COO OR CFO OR "General Manager" Malta",
+  // ── Malta news sources (vacancy & appointment announcements) ───────────
+  "site:timesofmalta.com "CEO" OR "General Manager" vacancy appointed Malta 2026",
+  "site:maltatoday.com.mt "Chief Executive" OR "General Manager" vacancy Malta 2026",
+  "site:thebusinesspicture.com CEO OR "General Manager" OR "Head of" Malta vacancy 2026",
+  "site:independent.com.mt "Chief Executive" OR "General Manager" appointed vacancy Malta 2026",
+  // ── Direct company LinkedIn pages (companies that post direct) ──────────
+  "site:linkedin.com "ONE.io" Malta vacancy",
+  "site:linkedin.com "Hili Ventures" Malta vacancy 2026",
+  "site:linkedin.com Malta fintech payments CEO "General Manager" vacancy 2026",
+  "site:linkedin.com Malta iGaming "Head of" OR "Chief" vacancy 2026",
+  "site:linkedin.com Malta FMCG "General Manager" OR "Head of" vacancy 2026",
+];
+
+// ── ADDITIONAL CAREER PAGES TO MONITOR ────────────────────────────────────
+// Companies that post direct to LinkedIn or own careers pages (not via recruiters)
+export const DIRECT_CAREER_PAGES = [
+  // Fintech / Payments
+  { name: "ONE.io",             url: "https://one.io/about-us/" },
+  { name: "Trustly Malta",      url: "https://www.trustly.com/careers" },
+  { name: "Nuvei Malta",        url: "https://www.nuvei.com/careers" },
+  { name: "Revolut Malta",      url: "https://www.revolut.com/careers" },
+  // iGaming
+  { name: "Kindred Group",      url: "https://careers.kindredgroup.com" },
+  { name: "Betsson Group",      url: "https://www.betsson.com/en/careers" },
+  { name: "LeoVegas Group",     url: "https://careers.leovegas.com" },
+  { name: "Gaming Innovation Group", url: "https://careers.gig.com" },
+  { name: "Everi / NRT Malta",  url: "https://everi.com/careers/" },
+  // Consumer / FMCG
+  { name: "Simonds Farsons Cisk", url: "https://www.farsons.com/careers/vacancies" },
+  { name: "Hili Ventures",      url: "https://hiliventures.com/careers/" },
+  { name: "Gasan Group",        url: "https://careers.smartrecruiters.com/GasanGroup1" },
+  { name: "AMSM",               url: "https://amsm.com.mt/careers/" },
+  // News sources for vacancy/appointment announcements
+  { name: "Times of Malta — Business", url: "https://timesofmalta.com/business" },
+  { name: "The Business Picture",      url: "https://thebusinesspicture.com" },
+  { name: "MaltaToday Business",       url: "https://www.maltatoday.com.mt/business" },
 ];
 
