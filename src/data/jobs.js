@@ -341,25 +341,43 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Keepmeposted", "Jobsinmalta", "Konnekt", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Konnekt", "Direct"];
 
 export const SEARCH_QUERIES = [
-  "General Manager Malta 2026",
+  // C-Suite
   "CEO Malta 2026",
   "COO Malta 2026",
+  "CFO Malta 2026",
   "CMO Malta 2026",
   "CCO Malta 2026",
+  "CTO Malta 2026",
   "Chief People Officer Malta 2026",
   "Chief Audit Officer Malta 2026",
-  "Marketing Director Malta 2026",
-  "Sales Director Malta 2026",
+  "Chief Risk Officer Malta 2026",
+  "Managing Director Malta 2026",
+  // Head of Function
   "Head of Marketing Malta 2026",
   "Head of Sales Malta 2026",
   "Head of Operations Malta 2026",
-  "Country Manager Malta 2026",
-  "Managing Director Malta 2026",
+  "Head of Finance Malta 2026",
+  "Head of Risk Malta 2026",
+  "Head of Compliance Malta 2026",
+  "Head of Transformation Malta 2026",
+  "Marketing Director Malta 2026",
+  "Sales Director Malta 2026",
   "Commercial Director Malta FMCG",
   "Global Head of Operations Malta",
+  // General Manager
+  "General Manager Malta 2026",
+  "Country Manager Malta 2026",
+  // By recruiter
+  "site:jobs.grsrecruitment.com Malta senior manager director",
+  "site:broadwing.jobs Malta director head manager",
+  "site:www.reedglobal.com.mt Malta head director senior",
+  "site:www.corecruitment.com Malta manager director",
+  "site:www.aims-malta.com Malta senior manager director",
+  "site:konnekt.com Malta senior management director",
+  "site:outreachrecruitment.net Malta general manager director",
+  "site:manpowergroup.com.mt Malta head director senior manager",
 ];
 
-// ── APPENDED 9 May 2026 — International Recruiter Search ──────────────────

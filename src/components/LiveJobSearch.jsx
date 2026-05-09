@@ -2,53 +2,77 @@ import { useState } from "react";
 import { Search, RefreshCw, ExternalLink, X, Sparkles, AlertCircle } from "lucide-react";
 import { SEARCH_QUERIES } from "../data/jobs";
 
-const SYSTEM_PROMPT = `You are a job search assistant specialising in senior executive vacancies in Malta.
-Your task is to search for and return ONLY real, currently open senior executive job vacancies in Malta.
+// ── Recruiter career pages to scan on every live search ─────────────────────
+const RECRUITER_PAGES = [
+  // Malta-based agencies
+  { name: "GRS Recruitment",   url: "https://jobs.grsrecruitment.com/vacancies.aspx" },
+  { name: "Konnekt",           url: "https://www.konnekt.com/search/job-focus:general-management" },
+  { name: "Broadwing",         url: "https://broadwing.jobs/careers/job-location/malta/" },
+  { name: "Reed Malta",        url: "https://www.reedglobal.com.mt/jobs" },
+  { name: "Manpower Malta",    url: "https://www.manpowergroup.com.mt/jobs" },
+  { name: "Outreach",          url: "https://outreachrecruitment.net/vacancies/" },
+  { name: "AIMS International",url: "https://www.aims-malta.com/jobs" },
+  // International agencies with Malta mandates
+  { name: "COREcruitment",     url: "https://www.corecruitment.com/vacancies" },
+  // Direct company career pages
+  { name: "Hili Ventures",     url: "https://hiliventures.com/careers/" },
+  { name: "Farsons",           url: "https://www.farsons.com/careers/vacancies" },
+  { name: "AMSM",              url: "https://amsm.com.mt/careers/" },
+  { name: "Gasan Group",       url: "https://careers.smartrecruiters.com/GasanGroup1" },
+];
 
-Rules:
-- Only return roles at Chief, Head of Function, General Manager, Managing Director, or Director level
-- Only Malta-based roles
-- Only return jobs you can find evidence for via web search — do NOT invent or hallucinate listings
-- If you cannot find verified current vacancies, return an empty array
-- Focus on: FMCG, Retail, Consumer, Financial Services, iGaming, and Technology sectors
+const SYSTEM_PROMPT = `You are an executive recruitment researcher specialising in senior management vacancies in Malta.
 
-Respond ONLY with a valid JSON array (no markdown, no preamble, no explanation). Example format:
+Your task: search the web and scan the recruiter career pages provided. Return ONLY currently open, verified senior executive vacancies in Malta at Chief, Head of Function, General Manager, Managing Director, or Director level.
+
+STRICT RULES:
+- Only return roles that exist right now — do NOT invent or hallucinate listings
+- Only Malta-based or Malta-relocating roles
+- Minimum seniority: Head of Function / General Manager / Director / C-Suite
+- Sectors: FMCG, Retail, Consumer, Financial Services, iGaming, Technology, Hospitality, Construction
+- If you find nothing verifiable, return an empty array []
+
+Recruiter pages to scan:
+${RECRUITER_PAGES.map(r => `- ${r.name}: ${r.url}`).join('\n')}
+
+Respond ONLY with a valid JSON array (no markdown, no preamble). Format:
 [
   {
-    "title": "Head of Marketing",
-    "company": "Company Name",
+    "title": "Head of Sales",
+    "company": "Company Name or Confidential",
     "category": "head",
-    "source": "LinkedIn",
+    "source": "GRS",
     "location": "Malta",
-    "salary": "€60,000 – €75,000",
-    "posted": "2026-05-05",
+    "salary": "€60,000 – €75,000 or null",
+    "posted": "2026-05-09",
     "applyUrl": "https://...",
-    "description": "2-3 sentence description of the role.",
+    "description": "2-3 sentence factual description.",
     "skills": ["Skill 1", "Skill 2", "Skill 3"]
   }
 ]
 
-Category values: "c-suite" (CEO/COO/CMO/CFO/Chief X), "head" (Head of X, VP, Director), "general-manager" (GM, Country Manager, MD)
-If salary unknown use null. If posted date unknown use today's date.`;
+category values: "c-suite" (CEO/COO/CFO/CMO/CTO/Chief X), "head" (Head of X, VP, Director), "general-manager" (GM, Country Manager, MD)
+source values: "GRS" | "Konnekt" | "Reed Malta" | "Broadwing" | "COREcruitment" | "AIMS" | "Manpower" | "Outreach" | "LinkedIn" | "Direct"`;
 
 const CATEGORY_LABELS = {
   "c-suite": "Chief / C-Suite",
-  "head": "Head of Function",
+  head: "Head of Function",
   "general-manager": "General Manager",
 };
-
 const CATEGORY_COLORS = {
   "c-suite": "#F59E0B",
-  "head": "#8B5CF6",
+  head: "#8B5CF6",
   "general-manager": "#10B981",
 };
 
 function formatDate(d) {
-  return new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+  try {
+    return new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+  } catch { return d; }
 }
 
 export default function LiveJobSearch() {
-  const [status, setStatus] = useState("idle"); // idle | searching | done | error
+  const [status, setStatus] = useState("idle");
   const [results, setResults] = useState([]);
   const [errorMsg, setErrorMsg] = useState("");
   const [expanded, setExpanded] = useState({});
@@ -60,23 +84,16 @@ export default function LiveJobSearch() {
     setResults([]);
     setErrorMsg("");
 
-    // Use a random sample of search queries to keep it varied
-    const queries = SEARCH_QUERIES
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 6)
-      .join(", ");
+    // Rotate through all query types — pick 8 varied ones each run
+    const shuffled = [...SEARCH_QUERIES].sort(() => Math.random() - 0.5);
+    const querySet = shuffled.slice(0, 8).join(", ");
 
-    const userPrompt = `Search for currently open senior executive vacancies in Malta using these queries: ${queries}
+    const userPrompt = `Search for currently open senior executive vacancies in Malta using these search queries: ${querySet}
 
-Also check these career pages for live senior roles:
-- https://hiliventures.com/careers/
-- https://www.farsons.com/careers/vacancies
-- https://amsm.com.mt/careers/
-- https://careers.smartrecruiters.com/GasanGroup1
-- https://www.grsrecruitment.com/jobs-in-malta/
-- https://www.konnekt.com/jobs
+Also scan these recruiter career pages for live senior roles:
+${RECRUITER_PAGES.map(r => `- ${r.name}: ${r.url}`).join('\n')}
 
-Return only verified, currently open roles at Chief / Head of / General Manager / Director level in Malta. JSON array only.`;
+Return only verified, currently open roles at Chief / Head of / General Manager / Director level in Malta. JSON array only — no text before or after.`;
 
     try {
       const response = await fetch("https://api.anthropic.com/v1/messages", {
@@ -92,25 +109,17 @@ Return only verified, currently open roles at Chief / Head of / General Manager 
       });
 
       const data = await response.json();
+      if (!response.ok) throw new Error(data.error?.message || "API error");
 
-      if (!response.ok) {
-        throw new Error(data.error?.message || "API error");
-      }
-
-      // Extract text from response
       const textBlock = data.content?.find((b) => b.type === "text");
       const raw = textBlock?.text?.trim() || "[]";
-
-      // Strip any markdown fences
       const clean = raw.replace(/```json|```/g, "").trim();
 
       let jobs = [];
       try {
         jobs = JSON.parse(clean);
         if (!Array.isArray(jobs)) jobs = [];
-      } catch {
-        jobs = [];
-      }
+      } catch { jobs = []; }
 
       setResults(jobs);
       setStatus("done");
@@ -122,11 +131,12 @@ Return only verified, currently open roles at Chief / Head of / General Manager 
 
   return (
     <div className="live-search">
-      {/* Trigger button */}
       <div className="live-search-bar">
         <div className="live-search-info">
           <Sparkles size={15} className="live-search-sparkle" />
-          <span className="live-search-label">AI-powered live search</span>
+          <span className="live-search-label">
+            Live search · {RECRUITER_PAGES.length} sources
+          </span>
         </div>
         <button
           className={`live-search-btn${status === "searching" ? " loading" : ""}`}
@@ -138,17 +148,22 @@ Return only verified, currently open roles at Chief / Head of / General Manager 
         </button>
       </div>
 
-      {/* Searching state */}
+      {/* Source pills — always visible */}
+      <div className="live-source-pills">
+        {RECRUITER_PAGES.map((r) => (
+          <span key={r.name} className="live-source-pill">{r.name}</span>
+        ))}
+      </div>
+
       {status === "searching" && (
         <div className="live-search-progress">
-          <div className="progress-bar">
-            <div className="progress-fill" />
-          </div>
-          <p className="progress-label">Scanning career pages and job boards across Malta…</p>
+          <div className="progress-bar"><div className="progress-fill" /></div>
+          <p className="progress-label">
+            Scanning {RECRUITER_PAGES.length} recruiter pages and job boards across Malta…
+          </p>
         </div>
       )}
 
-      {/* Error state */}
       {status === "error" && (
         <div className="live-search-error">
           <AlertCircle size={16} />
@@ -156,7 +171,6 @@ Return only verified, currently open roles at Chief / Head of / General Manager 
         </div>
       )}
 
-      {/* Results */}
       {status === "done" && (
         <div className="live-results">
           <div className="live-results-header">
@@ -178,11 +192,11 @@ Return only verified, currently open roles at Chief / Head of / General Manager 
             >
               <button className="live-card-header" onClick={() => toggleExpand(i)}>
                 <div className="live-card-badges">
-                  <span className="live-badge-cat">
-                    {CATEGORY_LABELS[job.category] || job.category}
-                  </span>
+                  <span className="live-badge-cat">{CATEGORY_LABELS[job.category] || job.category}</span>
                   <span className="live-badge-source">{job.source}</span>
-                  {job.salary && <span className="live-badge-salary">{job.salary}</span>}
+                  {job.salary && job.salary !== "null" && (
+                    <span className="live-badge-salary">{job.salary}</span>
+                  )}
                 </div>
                 <div className="live-card-title-row">
                   <div>
@@ -206,12 +220,7 @@ Return only verified, currently open roles at Chief / Head of / General Manager 
                     </div>
                   )}
                   {job.applyUrl && (
-                    <a
-                      href={job.applyUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="live-apply-btn"
-                    >
+                    <a href={job.applyUrl} target="_blank" rel="noopener noreferrer" className="live-apply-btn">
                       Apply Now <ExternalLink size={12} />
                     </a>
                   )}
@@ -222,7 +231,7 @@ Return only verified, currently open roles at Chief / Head of / General Manager 
 
           {results.length > 0 && (
             <p className="live-results-footer">
-              Tap any card to expand. Send Claude a screenshot to add these permanently to the board.
+              Send a screenshot to Claude to add any of these permanently to the board.
             </p>
           )}
         </div>

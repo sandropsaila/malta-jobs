@@ -277,3 +277,22 @@
   padding: 4px 8px;
   line-height: 1.5;
 }
+
+/* Source pills */
+.live-source-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 0 2px;
+}
+
+.live-source-pill {
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 3px 8px;
+  border-radius: 99px;
+  white-space: nowrap;
+}
