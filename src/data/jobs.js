@@ -380,26 +380,26 @@ export const SEARCH_QUERIES = [
   "site:outreachrecruitment.net Malta general manager director",
   "site:manpowergroup.com.mt Malta head director senior",
   // ── Google-indexed LinkedIn job listings (no login needed) ─────────────
-  "site:linkedin.com/jobs "Malta" "Chief Executive Officer"",
-  "site:linkedin.com/jobs "Malta" "Chief Operating Officer"",
-  "site:linkedin.com/jobs "Malta" "Chief Financial Officer"",
-  "site:linkedin.com/jobs "Valletta" OR "Malta" "General Manager"",
-  "site:linkedin.com/jobs "Malta" "Head of" director senior",
-  "site:linkedin.com/jobs "Malta" "Managing Director"",
+  "site:linkedin.com/jobs Malta Chief Executive Officer",
+  "site:linkedin.com/jobs Malta Chief Operating Officer",
+  "site:linkedin.com/jobs Malta Chief Financial Officer",
+  "site:linkedin.com/jobs Valletta OR Malta General Manager",
+  "site:linkedin.com/jobs Malta Head of director senior",
+  "site:linkedin.com/jobs Malta Managing Director",
   // ── Indeed Malta (aggregates LinkedIn + direct posts) ──────────────────
-  "site:indeed.com "Malta" "Chief" OR "General Manager" OR "Head of" senior 2026",
-  "site:mt.indeed.com CEO OR COO OR CFO OR "General Manager" Malta",
+  "site:indeed.com Malta Chief OR General Manager OR Head of senior 2026",
+  "site:mt.indeed.com CEO OR COO OR CFO OR General Manager Malta",
   // ── Malta news sources (vacancy & appointment announcements) ───────────
-  "site:timesofmalta.com "CEO" OR "General Manager" vacancy appointed Malta 2026",
-  "site:maltatoday.com.mt "Chief Executive" OR "General Manager" vacancy Malta 2026",
-  "site:thebusinesspicture.com CEO OR "General Manager" OR "Head of" Malta vacancy 2026",
-  "site:independent.com.mt "Chief Executive" OR "General Manager" appointed vacancy Malta 2026",
+  "site:timesofmalta.com CEO OR General Manager vacancy appointed Malta 2026",
+  "site:maltatoday.com.mt Chief Executive OR General Manager vacancy Malta 2026",
+  "site:thebusinesspicture.com CEO OR General Manager OR Head of Malta vacancy 2026",
+  "site:independent.com.mt Chief Executive OR General Manager appointed vacancy Malta 2026",
   // ── Direct company LinkedIn pages (companies that post direct) ──────────
-  "site:linkedin.com "ONE.io" Malta vacancy",
-  "site:linkedin.com "Hili Ventures" Malta vacancy 2026",
-  "site:linkedin.com Malta fintech payments CEO "General Manager" vacancy 2026",
-  "site:linkedin.com Malta iGaming "Head of" OR "Chief" vacancy 2026",
-  "site:linkedin.com Malta FMCG "General Manager" OR "Head of" vacancy 2026",
+  "site:linkedin.com ONE.io Malta vacancy",
+  "site:linkedin.com Hili Ventures Malta vacancy 2026",
+  "site:linkedin.com Malta fintech payments CEO General Manager vacancy 2026",
+  "site:linkedin.com Malta iGaming Head of OR Chief vacancy 2026",
+  "site:linkedin.com Malta FMCG General Manager OR Head of vacancy 2026",
 ];
 
 // ── ADDITIONAL CAREER PAGES TO MONITOR ────────────────────────────────────
