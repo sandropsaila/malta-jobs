@@ -96,10 +96,18 @@ ${RECRUITER_PAGES.map(r => `- ${r.name}: ${r.url}`).join('\n')}
 Return only verified, currently open roles at Chief / Head of / General Manager / Director level in Malta. JSON array only — no text before or after.`;
 
     try {
+      const apiKey = import.meta.env.VITE_ANTHROPIC_API_KEY;
+      if (!apiKey) {
+        setErrorMsg("API key not configured. Add VITE_ANTHROPIC_API_KEY to your Vercel environment variables and redeploy.");
+        setStatus("error");
+        return;
+      }
+
       const response = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
+            "x-api-key": import.meta.env.VITE_ANTHROPIC_API_KEY || "",
             "anthropic-version": "2023-06-01",
             "anthropic-beta": "web-search-2025-03-05",
             "anthropic-dangerous-direct-browser-calls": "true",
