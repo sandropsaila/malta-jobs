@@ -267,6 +267,57 @@ export const JOBS = [
     skills: ["FMCG Distribution", "P&L Management", "Multi-brand Portfolio", "Commercial Strategy", "Team Leadership"],
   },
 
+  {
+    id: "j801",
+    title: "Head of Transformation",
+    company: "Confidential — Financial Services",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://www.reedglobal.com.mt/jobs",
+    location: "Birkirkara, Malta",
+    salary: null,
+    posted: "2026-04-18",
+    isNew: false,
+    applyUrl: "https://www.reedglobal.com.mt/jobs",
+    description:
+      "Reed Malta is recruiting a Head of Transformation for a confidential financial services client. Bridges strategy and delivery at the highest level — owning how ideas move from demand into production, defining delivery frameworks, leading re-architecture of legacy platforms, and driving consolidation programmes with measurable outcomes. 15+ years IT experience across systems analysis, development and delivery management with deep enterprise architecture expertise required. Contact antonio.ruiz@reed.com or +356 9903 6496.",
+    skills: ["Enterprise Architecture", "Digital Transformation", "Legacy Modernisation", "Delivery Management", "Senior IT Leadership"],
+  },
+
+  {
+    id: "j802",
+    title: "Chief Financial Officer",
+    company: "Confidential — Construction & M&E Group",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://broadwing.jobs/careers/",
+    location: "Malta",
+    salary: "€45,000 – €55,000",
+    posted: "2026-03-06",
+    isNew: false,
+    applyUrl: "https://broadwing.jobs/careers/",
+    description:
+      "Broadwing is recruiting a CFO for a growing Maltese construction and M&E group. Requires 5+ years in a senior finance leadership role within construction or M&E, a recognised accounting qualification (ACA, ACCA, CPA), and strong experience in project finance, cash flow management, multi-entity structures, and M&A. The CFO will align financial strategy with long-term group expansion, working closely with the board.",
+    skills: ["Construction Finance", "Project Finance", "Multi-entity CFO", "M&A Experience", "ACA / ACCA / CPA"],
+  },
+
+  {
+    id: "j803",
+    title: "Head of Risk",
+    company: "Confidential — Financial Services",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://broadwing.jobs/careers/",
+    location: "Malta",
+    salary: null,
+    posted: "2026-02-03",
+    isNew: false,
+    applyUrl: "https://broadwing.jobs/careers/",
+    description:
+      "Broadwing is recruiting a Head of Risk for a Malta-based financial services firm — tracking and managing overall risk exposure across all business areas, contributing to key internal reporting, and building the firm's risk framework. Senior financial services risk background essential.",
+    skills: ["Risk Management", "Financial Services", "Regulatory Reporting", "Risk Frameworks", "Senior Leadership"],
+  },
+
 ];
 
 export const CATEGORIES = {
@@ -310,3 +361,5 @@ export const SEARCH_QUERIES = [
   "Commercial Director Malta FMCG",
   "Global Head of Operations Malta",
 ];
+
+// ── APPENDED 9 May 2026 — International Recruiter Search ──────────────────
