@@ -6,6 +6,23 @@
 
 export const JOBS = [
 
+  {
+    id: "j701",
+    title: "Chief Executive Officer",
+    company: "Confidential — Food Manufacturing Company",
+    category: "c-suite",
+    source: "LinkedIn",
+    sourceUrl: "https://www.linkedin.com/jobs/view/chief-executive-officer-at-corecruitment-ltd-4366397714",
+    location: "Malta (Relocation Required)",
+    salary: null,
+    posted: "2026-05-08",
+    isNew: true,
+    applyUrl: "https://www.corecruitment.com/vacancies/8694220681",
+    description:
+      "COREcruitment is retained by a dynamic Maltese food manufacturing company to find an exceptional CEO. The ideal candidate is a food sector specialist with a proven career progression from hands-on operational roles to executive leadership — someone who has grown through production, operations, or commercial functions and now leads at board level. Responsibilities include directing long-term strategy, overseeing manufacturing operations, optimising quality and cost-efficiency, and inspiring high-performing teams to drive sustainable growth and profitability. Relocation to Malta required. Apply via corecruitment.com (ref #8694220681).",
+    skills: ["Food Manufacturing", "CEO / MD Experience", "Operational Leadership", "P&L Ownership", "Strategic Planning"],
+  },
+
   // ══ C-SUITE ════════════════════════════════════════════════════════════════
 
   {
