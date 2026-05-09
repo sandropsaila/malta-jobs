@@ -4,15 +4,13 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background: radial-gradient(ellipse at 30% 20%, rgba(245,158,11,0.06) 0%, transparent 60%),
-              radial-gradient(ellipse at 70% 80%, rgba(139,92,246,0.06) 0%, transparent 60%),
-              var(--bg);
+  background: var(--nav-bg);
+  border-top: 4px solid var(--bbc-red);
 }
 
 .pin-card {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 24px;
+  border-radius: 8px;
   padding: 40px 32px;
   width: 100%;
   max-width: 340px;
@@ -20,60 +18,42 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  box-shadow: 0 24px 64px rgba(0,0,0,0.5);
+  box-shadow: 0 24px 64px rgba(0,0,0,0.4);
 }
 
-.pin-logo { margin-bottom: 4px; }
-
-.pin-title {
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--text);
-  letter-spacing: -0.02em;
-}
-
-.pin-subtitle {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-weight: 500;
-  margin-bottom: 8px;
-}
+.pin-logo { margin-bottom: 8px; }
 
 .pin-instruction {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
   margin-top: 16px;
   margin-bottom: 4px;
+  font-weight: 600;
 }
 
-.pin-inputs {
-  display: flex;
-  gap: 12px;
-  margin: 8px 0;
-}
+.pin-inputs { display: flex; gap: 12px; margin: 8px 0; }
 
 .pin-box {
-  width: 56px;
-  height: 64px;
-  border-radius: 12px;
+  width: 58px;
+  height: 66px;
+  border-radius: 6px;
   background: var(--surface2);
   border: 2px solid var(--border);
-  color: var(--amber);
+  color: var(--bbc-blue);
   font-size: 1.8rem;
   font-weight: 800;
   text-align: center;
   font-family: inherit;
   outline: none;
   transition: border-color 0.15s;
-  caret-color: var(--amber);
 }
-.pin-box:focus { border-color: var(--amber); }
-.pin-box.error { border-color: var(--red); }
+.pin-box:focus { border-color: var(--bbc-blue); }
+.pin-box.error { border-color: var(--bbc-red); }
 
 .pin-error {
   font-size: 0.78rem;
-  color: var(--red);
-  font-weight: 600;
+  color: var(--bbc-red);
+  font-weight: 700;
 }
 
 .pin-hint {

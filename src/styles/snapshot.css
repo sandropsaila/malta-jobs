@@ -1,15 +1,16 @@
 .snapshot {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px;
-  border-left: 3px solid var(--amber);
+  border-left: 5px solid var(--bbc-red);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  box-shadow: var(--shadow);
 }
 
 .snapshot-text {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
 .snapshot-highlight {

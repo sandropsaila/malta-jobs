@@ -1,12 +1,13 @@
 .job-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-left: 5px solid var(--cat-color, var(--bbc-blue));
+  border-radius: var(--radius-sm);
   overflow: hidden;
-  transition: border-color 0.15s;
-  border-left: 3px solid var(--cat-color, var(--border));
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.15s, border-color 0.15s;
 }
-.job-card:hover { border-color: var(--cat-color, var(--border)); }
+.job-card:hover { box-shadow: var(--shadow-md); }
 
 .job-card-header {
   width: 100%;
@@ -15,7 +16,7 @@
   color: inherit;
   font-family: inherit;
   cursor: pointer;
-  padding: 14px 14px 14px 14px;
+  padding: 14px 16px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -30,48 +31,49 @@
   flex-wrap: wrap;
 }
 
-.job-badges {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-}
+.job-badges { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 
 .badge-new {
-  background: var(--amber);
-  color: #000;
+  background: var(--bbc-red);
+  color: #fff;
   font-size: 0.58rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   padding: 3px 7px;
-  border-radius: 4px;
+  border-radius: 3px;
+  text-transform: uppercase;
 }
 
 .badge-cat {
   font-size: 0.65rem;
   font-weight: 700;
-  color: var(--cat-color);
-  background: var(--cat-bg);
-  border: 1px solid var(--cat-border);
+  color: var(--cat-color, var(--bbc-blue));
+  background: var(--cat-bg, rgba(0,63,143,0.07));
+  border: 1px solid var(--cat-border, rgba(0,63,143,0.2));
   padding: 3px 8px;
-  border-radius: 6px;
+  border-radius: 3px;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .badge-source {
   font-size: 0.62rem;
   color: var(--text-dim);
-  font-weight: 500;
+  font-weight: 600;
+  background: var(--surface2);
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
 }
 
 .badge-salary {
   font-size: 0.68rem;
   font-weight: 700;
-  color: var(--emerald);
-  background: rgba(16,185,129,0.1);
-  border: 1px solid rgba(16,185,129,0.25);
+  color: var(--green);
+  background: rgba(0,122,77,0.07);
+  border: 1px solid rgba(0,122,77,0.2);
   padding: 3px 9px;
-  border-radius: 6px;
+  border-radius: 3px;
   white-space: nowrap;
 }
 
@@ -85,8 +87,8 @@
 .job-info { flex: 1; }
 
 .job-title {
-  font-size: 0.97rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 800;
   color: var(--text);
   line-height: 1.25;
   letter-spacing: -0.01em;
@@ -94,101 +96,85 @@
 }
 
 .job-company {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-weight: 500;
+  font-size: 0.82rem;
+  color: var(--bbc-blue-mid);
+  font-weight: 600;
   margin-bottom: 6px;
 }
 
-.job-meta {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
+.job-meta { display: flex; gap: 12px; flex-wrap: wrap; }
 
 .job-meta-item {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.68rem;
+  font-size: 0.69rem;
   color: var(--text-dim);
 }
 
-.age-tag { color: var(--amber); font-style: normal; }
+.age-tag { color: var(--bbc-red); font-style: normal; font-weight: 700; }
 
-.expand-icon {
-  color: var(--text-dim);
-  flex-shrink: 0;
-  padding-top: 2px;
-}
+.expand-icon { color: var(--text-dim); flex-shrink: 0; padding-top: 2px; }
 
-/* Card body */
+/* ── Card body ──────────────────────────────────────────────────────────── */
 .job-card-body {
-  padding: 0 14px 14px;
+  padding: 14px 16px;
+  border-top: 1px solid var(--border);
   display: flex;
   flex-direction: column;
   gap: 12px;
-  border-top: 1px solid var(--border);
-  padding-top: 12px;
-  margin-top: 2px;
+  background: #FAFAFA;
 }
 
 .job-description {
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
-.job-skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
+.job-skills { display: flex; flex-wrap: wrap; gap: 6px; }
 
 .skill-tag {
   font-size: 0.67rem;
   color: var(--text-muted);
-  background: var(--surface2);
+  background: var(--surface);
   border: 1px solid var(--border);
   padding: 4px 10px;
-  border-radius: 6px;
-  font-weight: 500;
+  border-radius: 3px;
+  font-weight: 600;
 }
 
-.job-actions {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
+.job-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .btn-apply {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  background: var(--amber);
-  color: #000;
+  background: var(--bbc-red);
+  color: #fff;
   font-family: inherit;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  padding: 9px 18px;
-  border-radius: 99px;
+  padding: 9px 20px;
+  border-radius: 4px;
   text-decoration: none;
-  transition: opacity 0.15s;
+  transition: background 0.15s;
+  letter-spacing: 0.01em;
 }
-.btn-apply:hover { opacity: 0.85; }
+.btn-apply:hover { background: #8E0000; }
 
 .btn-source {
   display: inline-flex;
   align-items: center;
   font-family: inherit;
-  font-size: 0.75rem;
+  font-size: 0.77rem;
   font-weight: 600;
-  color: var(--text-muted);
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  padding: 9px 16px;
-  border-radius: 99px;
+  color: var(--bbc-blue-mid);
+  background: var(--surface);
+  border: 2px solid var(--bbc-blue-mid);
+  padding: 8px 16px;
+  border-radius: 4px;
   text-decoration: none;
-  transition: border-color 0.15s, color 0.15s;
+  transition: background 0.15s, color 0.15s;
 }
-.btn-source:hover { border-color: var(--text-muted); color: var(--text); }
+.btn-source:hover { background: var(--bbc-blue-mid); color: #fff; }

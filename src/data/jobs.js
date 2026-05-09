@@ -323,21 +323,21 @@ export const JOBS = [
 export const CATEGORIES = {
   "c-suite": {
     label: "Chief / C-Suite",
-    color: "#F59E0B",
-    bg: "rgba(245,158,11,0.12)",
-    border: "rgba(245,158,11,0.35)",
+    color: "#BB1919",           // BBC Red
+    bg: "rgba(187,25,25,0.07)",
+    border: "rgba(187,25,25,0.25)",
   },
   head: {
     label: "Head of Function",
-    color: "#8B5CF6",
-    bg: "rgba(139,92,246,0.12)",
-    border: "rgba(139,92,246,0.35)",
+    color: "#003F8F",           // BBC Blue
+    bg: "rgba(0,63,143,0.07)",
+    border: "rgba(0,63,143,0.25)",
   },
   "general-manager": {
     label: "General Manager",
-    color: "#10B981",
-    bg: "rgba(16,185,129,0.12)",
-    border: "rgba(16,185,129,0.35)",
+    color: "#007A4D",           // Dark green
+    bg: "rgba(0,122,77,0.07)",
+    border: "rgba(0,122,77,0.25)",
   },
 };
 

@@ -1,6 +1,6 @@
 import { Search, SlidersHorizontal, Building2 } from "lucide-react";
 
-const LAST_UPDATED = "9 May 2026, 17:30";
+const LAST_UPDATED = "9 May 2026, 19:00";
 
 export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, searchVal }) {
   return (
@@ -8,8 +8,8 @@ export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, search
       <div className="navbar-inner">
         <div className="navbar-brand">
           <svg width="28" height="28" viewBox="0 0 40 40" fill="none">
-            <path d="M20 4L34 12V28L20 36L6 28V12L20 4Z" stroke="#F59E0B" strokeWidth="2" fill="none" />
-            <circle cx="20" cy="20" r="4" fill="#F59E0B" />
+            <path d="M20 4L34 12V28L20 36L6 28V12L20 4Z" stroke="#FFFFFF" strokeWidth="2" fill="none" />
+            <circle cx="20" cy="20" r="4" fill="#FFFFFF" />
           </svg>
           <div>
             <span className="navbar-title">High Profile Jobs</span>
