@@ -109,11 +109,11 @@ export default function App() {
             filtered.map((job) => <JobCard key={job.id} job={job} />)
           )}
         </div>
-        <footer className="footer">
-          <p>High Profile Jobs — Malta Executive Vacancies</p>
-          <p>LinkedIn · GRS · Konnekt · Broadwing · Reed Malta · AIMS · Manpower · Outreach · Heroix · Accelerate · Careerjet · Jobhound · COREcruitment · Pentasia</p>
-        </footer>
       </main>
+      <footer className="footer">
+        <p>High Profile Jobs — Malta Executive Vacancies</p>
+        <p>LinkedIn · GRS · Konnekt · Broadwing · Reed Malta · AIMS · Manpower · Outreach · Heroix · Accelerate · Careerjet · Jobhound · COREcruitment · Pentasia</p>
+      </footer>
 
       <FilterDrawer
         isOpen={drawerOpen}

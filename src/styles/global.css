@@ -145,22 +145,12 @@ body {
 
 /* ── Footer ─────────────────────────────────────────────────────────────── */
 .footer {
-  margin-top: 16px;
   background: var(--footer-bg);
   color: #999;
   font-size: 0.72rem;
   line-height: 1.8;
   text-align: center;
   padding: 20px 16px;
-  border-radius: var(--radius);
+  width: 100%;
 }
 .footer p { color: #aaa; }
-
-@media (min-width: 900px) {
-  .footer {
-    border-radius: 0 0 var(--radius) var(--radius);
-    margin-left: -40px;
-    margin-right: -40px;
-    padding: 24px 40px;
-  }
-}
