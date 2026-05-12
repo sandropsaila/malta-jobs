@@ -7,6 +7,57 @@
 export const JOBS = [
 
   {
+    id: "j1801",
+    title: "Chief Digital Officer",
+    company: "Confidential — Financial Services",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.careerjet.com.mt/jobad/mte9822cb9e49ecf1ca1c475319a73982b",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-20",
+    isNew: false,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "Konnekt is recruiting a Chief Digital Officer for a financial services client in Malta. The CDO will drive the digital agenda across the organisation, including strategic renewal of tools and processes, digital strategy planning, customer journey analysis, agile methodology, and coordination of multifunctional teams. C-Suite / Senior Management level appointment.",
+    skills: ["Chief Digital Officer", "Digital Transformation", "Financial Services", "Agile Methodology", "Customer Journey"],
+  },
+
+  {
+    id: "j1802",
+    title: "Audit Director",
+    company: "Confidential — Global Accounting & Advisory Firm",
+    category: "head",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/audit-director-9370.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-03-01",
+    isNew: false,
+    applyUrl: "https://jobs.grsrecruitment.com/job/audit-director-9370/apply.aspx",
+    description:
+      "GRS is recruiting an Audit Director for a global accounting and advisory firm in Malta. The director will work closely with a Partner, lead and direct an experienced team of auditors, and shape the long-term vision for the audit function. Requires 10+ years progressive audit experience, MQF Level 7 qualification, and ACCA/ACA/CPA certification. Ref #9370 — contact GRS directly.",
+    skills: ["Audit Leadership", "Big 4 / Advisory Firm", "ACCA / ACA / CPA", "Team Management", "Strategic Audit Planning"],
+  },
+
+  {
+    id: "j1803",
+    title: "Head of Dealing",
+    company: "Confidential — Multi-Regulated Brokerage",
+    category: "head",
+    source: "Boston Link",
+    sourceUrl: "https://www.boston-link.com/latest-careers",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-01",
+    isNew: true,
+    applyUrl: "https://www.boston-link.com/latest-careers",
+    description:
+      "Boston Link is recruiting a Head of Dealing for a multi-regulated, multi-asset brokerage in Malta. The role requires a dynamic and highly skilled dealing room leader to oversee trading operations, manage a dealing team, and ensure best execution across multiple asset classes. Senior front-office leadership background in brokerage or investment management required.",
+    skills: ["Head of Dealing", "Multi-Asset Brokerage", "Trading Operations", "Best Execution", "Regulated Environment"],
+  },
+
+  {
     id: "j1701",
     title: "Director of Operations (NPGO) — Business Aviation",
     company: "Confidential — Business Aviation",
