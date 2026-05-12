@@ -7,6 +7,57 @@
 export const JOBS = [
 
   {
+    id: "j1101",
+    title: "Chief Operating Officer",
+    company: "Confidential — Is-Swieqi, Malta",
+    category: "c-suite",
+    source: "Careerjet",
+    sourceUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
+    location: "Is-Swieqi, Malta",
+    salary: null,
+    posted: "2025-11-14",
+    isNew: false,
+    applyUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
+    description:
+      "A Malta-based company is seeking a dynamic and results-driven Chief Operating Officer to oversee ongoing operations and drive operational excellence. The COO will report to the CEO and be responsible for all operational functions across the business. Ref: 426305 via Careerjet.",
+    skills: ["COO Experience", "Operational Leadership", "Process Management", "KPI Reporting", "Executive Reporting"],
+  },
+
+  {
+    id: "j1102",
+    title: "Chief Technology Officer",
+    company: "Confidential — Manufacturing Group",
+    category: "c-suite",
+    source: "Careerjet",
+    sourceUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
+    location: "Malta",
+    salary: "€100,000",
+    posted: "2026-04-01",
+    isNew: false,
+    applyUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
+    description:
+      "A leading manufacturing group in Malta is seeking an experienced Chief Technology Officer to lead technology strategy, digital transformation, and IT infrastructure across the group. Salary disclosed at €100,000. Sourced via Careerjet.",
+    skills: ["CTO Experience", "Manufacturing / Industry", "Digital Transformation", "IT Infrastructure", "Group Leadership"],
+  },
+
+  {
+    id: "j1103",
+    title: "General Manager — Market Strategy (iGaming)",
+    company: "Confidential — European Games Provider",
+    category: "general-manager",
+    source: "Careerjet",
+    sourceUrl: "https://www.careerjet.com.mt/general-manager-jobs.html",
+    location: "Malta or Gibraltar (or Remote)",
+    salary: null,
+    posted: "2026-04-15",
+    isNew: false,
+    applyUrl: "https://www.careerjet.com.mt/general-manager-jobs.html",
+    description:
+      "A respected European B2B casino games provider is seeking a General Manager — Market Strategy with a focus on B2B casino games. The role is varied and covers commercial strategy, market development, and key partner relationships. Malta, Gibraltar, or remote considered for the right candidate. Sourced via Careerjet.",
+    skills: ["iGaming B2B", "Market Strategy", "Commercial Leadership", "Casino Games", "Partner Management"],
+  },
+
+  {
     id: "j1001",
     title: "General Manager",
     company: "Posh Turkish Malta",
@@ -375,7 +426,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Pentasia", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Pentasia", "Careerjet", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
@@ -418,6 +469,8 @@ export const SEARCH_QUERIES = [
   "site:jobhound.mt Managing Director OR Country Manager Malta",
   "site:pentasia.com Malta Head of OR Chief OR Director OR General Manager",
   "Pentasia Malta iGaming Head of Chief Director senior vacancy 2026",
+  "site:careerjet.com.mt General Manager OR Chief OR Head of OR Director senior Malta",
+  "site:careerjet.com.mt COO OR CEO OR CFO OR CTO Malta",
   // ── Google-indexed LinkedIn job listings (no login needed) ─────────────
   "site:linkedin.com/jobs Malta Chief Executive Officer",
   "site:linkedin.com/jobs Malta Chief Operating Officer",
@@ -462,6 +515,7 @@ export const DIRECT_CAREER_PAGES = [
   { name: "AMSM",               url: "https://amsm.com.mt/careers/" },
   // Malta job boards
   { name: "Jobhound.mt",        url: "https://jobhound.mt/jobs?category=management&category=executive" },
+  { name: "Careerjet Malta",    url: "https://www.careerjet.com.mt/general-manager-jobs.html" },
   // News sources for vacancy/appointment announcements
   { name: "Times of Malta — Business", url: "https://timesofmalta.com/business" },
   { name: "The Business Picture",      url: "https://thebusinesspicture.com" },
