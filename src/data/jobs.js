@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j1701",
+    title: "Director of Operations (NPGO) — Business Aviation",
+    company: "Confidential — Business Aviation",
+    category: "head",
+    source: "Link Talent",
+    sourceUrl: "https://www.linktalent.careers/",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-01",
+    isNew: true,
+    applyUrl: "https://www.linktalent.careers/",
+    description:
+      "Link Talent (part of Boston Link group) is seeking a seasoned aviation professional for a Director of Operations (NPGO) role with experience in Business Aviation and/or Special Missions. The NPGO (Nominated Person Ground Operations) will lead ground operations for a Malta-based business aviation operator. Senior aviation leadership background required. Apply via linktalent.careers.",
+    skills: ["NPGO / Nominated Person", "Business Aviation", "Ground Operations", "Regulatory Compliance", "Senior Aviation Leadership"],
+  },
+
+  {
     id: "j1601",
     title: "General Manager",
     company: "Confidential — Heroix Client",
@@ -562,7 +579,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Careerjet", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Betting Connections", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
@@ -655,6 +672,12 @@ export const DIRECT_CAREER_PAGES = [
   { name: "Castille Resources", url: "https://www.castilleresources.com/job-search/" },
   { name: "M Recruitment",     url: "https://www.mrecruitment.eu/vacancies/" },
   { name: "Jobsplus",          url: "https://jobsplus.gov.mt/job-seekers-3/vacancies" },
+  { name: "Boston Link",       url: "https://boston-link.com/jobs/" },
+  { name: "Betting Connections",url: "https://www.bettingconnections.com/jobs/" },
+  { name: "Van Kaizen",        url: "https://vankaizen.com/jobs/" },
+  { name: "Archer IT",         url: "https://www.archer.mt/jobs/" },
+  { name: "Meliteh",           url: "https://www.meliteh.com/vacancies/" },
+  { name: "Muovo",             url: "https://www.muovo.eu/jobs/" },
   // News sources for vacancy/appointment announcements
   { name: "Times of Malta — Business", url: "https://timesofmalta.com/business" },
   { name: "The Business Picture",      url: "https://thebusinesspicture.com" },
