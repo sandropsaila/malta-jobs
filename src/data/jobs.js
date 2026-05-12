@@ -341,7 +341,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Konnekt", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
@@ -379,6 +379,9 @@ export const SEARCH_QUERIES = [
   "site:konnekt.com Malta general management director",
   "site:outreachrecruitment.net Malta general manager director",
   "site:manpowergroup.com.mt Malta head director senior",
+  "site:jobhound.mt General Manager OR Chief OR Head of Director senior Malta",
+  "site:jobhound.mt CEO OR COO OR CFO OR CMO Malta management",
+  "site:jobhound.mt Managing Director OR Country Manager Malta",
   // ── Google-indexed LinkedIn job listings (no login needed) ─────────────
   "site:linkedin.com/jobs Malta Chief Executive Officer",
   "site:linkedin.com/jobs Malta Chief Operating Officer",
@@ -421,6 +424,8 @@ export const DIRECT_CAREER_PAGES = [
   { name: "Hili Ventures",      url: "https://hiliventures.com/careers/" },
   { name: "Gasan Group",        url: "https://careers.smartrecruiters.com/GasanGroup1" },
   { name: "AMSM",               url: "https://amsm.com.mt/careers/" },
+  // Malta job boards
+  { name: "Jobhound.mt",        url: "https://jobhound.mt/jobs?category=management&category=executive" },
   // News sources for vacancy/appointment announcements
   { name: "Times of Malta — Business", url: "https://timesofmalta.com/business" },
   { name: "The Business Picture",      url: "https://thebusinesspicture.com" },

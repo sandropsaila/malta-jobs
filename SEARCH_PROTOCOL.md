@@ -12,6 +12,7 @@ Fetch these pages and scan for C-Suite / Head of / GM / Director roles:
 - Outreach:   https://outreachrecruitment.net/vacancies/
 - AIMS:       https://www.aims-malta.com/jobs
 - COREcruitment: https://www.corecruitment.com/vacancies
+- Jobhound.mt:   https://jobhound.mt/jobs?category=management
 
 ## STEP 2 — Direct company career pages
 Fetch these and scan for senior openings:
