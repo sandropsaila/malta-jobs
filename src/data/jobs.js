@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j1401",
+    title: "Chief Development Officer",
+    company: "Premier Capital plc (McDonald's Europe)",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://hiliventures.com/news/premier-capital-appoints-new-senior-leadership-team-ahead-of-expansion/",
+    location: "Marsa, Malta",
+    salary: null,
+    posted: "2023-08-01",
+    isNew: false,
+    applyUrl: "https://hiliventures.com/careers/",
+    description:
+      "Premier Capital plc — Hili Ventures' McDonald's developmental licensee operating 200+ restaurants across Malta, Estonia, Greece, Latvia, Lithuania and Romania — has had its Chief Development Officer position vacant since Victor Tedesco's retirement. The CDO leads Premier Capital's restaurant expansion strategy, committed to opening 12 new restaurants per year across the European network. Melo Hili (Group CEO and Premier Capital Chairman) confirmed the position remains open. Apply via hiliventures.com/careers.",
+    skills: ["Restaurant Expansion", "Franchise Development", "Multi-country Operations", "QSR / McDonald's", "Strategic Growth"],
+  },
+
+  {
     id: "j1301",
     title: "General Manager (Insurance)",
     company: "Argus Insurance Company (Europe) Ltd — Malta Branch",
