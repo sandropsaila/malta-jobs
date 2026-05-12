@@ -7,6 +7,40 @@
 export const JOBS = [
 
   {
+    id: "j1001",
+    title: "General Manager",
+    company: "Posh Turkish Malta",
+    category: "general-manager",
+    source: "LinkedIn",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/general-manager-at-posh-turkish-malta-3781096853",
+    location: "Mosta, Malta",
+    salary: null,
+    posted: "2026-05-12",
+    isNew: true,
+    applyUrl: "mailto:purchasing@posh.com.mt",
+    description:
+      "Posh Turkish Malta is hiring a General Manager to lead their restaurant operation in Mosta. The GM will recruit, onboard and train high-performing teams, maintain project timelines, enforce operational standards, drive sales and profitability, and uphold the company's cultural values. Apply directly by emailing your CV to purchasing@posh.com.mt.",
+    skills: ["Restaurant / F&B GM", "Team Leadership", "Sales & Profitability", "Operations Management", "Hospitality Standards"],
+  },
+
+  {
+    id: "j1002",
+    title: "Chief Risk Officer",
+    company: "Confidential — Financial Services",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/articles/tag/347/management",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-01",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "Konnekt is recruiting a Chief Risk Officer for a financial services client. The CRO will track and manage the organisation's overall risk exposure across all business areas, contribute to the preparation of key internal reporting, and build enterprise risk frameworks. Senior financial services risk leadership experience required.",
+    skills: ["Chief Risk Officer", "Enterprise Risk Management", "Financial Services", "Regulatory Reporting", "Board Advisory"],
+  },
+
+  {
     id: "j701",
     title: "Chief Executive Officer",
     company: "Confidential — Food Manufacturing Company",
@@ -341,7 +375,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Pentasia", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
@@ -382,6 +416,8 @@ export const SEARCH_QUERIES = [
   "site:jobhound.mt General Manager OR Chief OR Head of Director senior Malta",
   "site:jobhound.mt CEO OR COO OR CFO OR CMO Malta management",
   "site:jobhound.mt Managing Director OR Country Manager Malta",
+  "site:pentasia.com Malta Head of OR Chief OR Director OR General Manager",
+  "Pentasia Malta iGaming Head of Chief Director senior vacancy 2026",
   // ── Google-indexed LinkedIn job listings (no login needed) ─────────────
   "site:linkedin.com/jobs Malta Chief Executive Officer",
   "site:linkedin.com/jobs Malta Chief Operating Officer",
