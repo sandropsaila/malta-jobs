@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j1601",
+    title: "General Manager",
+    company: "Confidential — Heroix Client",
+    category: "general-manager",
+    source: "Heroix",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/general-manager-at-heroix-4089939213",
+    location: "Birkirkara, Malta",
+    salary: null,
+    posted: "2026-05-01",
+    isNew: true,
+    applyUrl: "https://heroix.com.mt/vacancies/",
+    description:
+      "Heroix is recruiting a General Manager for a confidential client based in Birkirkara, Malta. The GM will thrive in a senior management position handling multiple priorities effectively. Requirements include an Engineering degree, bilingual Maltese/English, strong strategic thinking, and experience in operations, business administration, and management. Apply via Heroix.",
+    skills: ["General Management", "Operations", "Strategic Thinking", "Engineering Background", "Bilingual Maltese/English"],
+  },
+
+  {
     id: "j1501",
     title: "Head of Brands",
     company: "Confidential — Pharmaceutical & Healthcare Distributor",

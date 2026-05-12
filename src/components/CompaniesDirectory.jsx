@@ -25,8 +25,8 @@ export default function CompaniesDirectory({ onClose }) {
   }, [search, activeIndustry]);
 
   return (
-    <div className="dir-overlay">
-      <div className="dir-panel">
+    <div className="dir-overlay" style={{ position: "fixed", inset: 0, zIndex: 300, background: "var(--bg)", display: "flex", alignItems: "stretch", justifyContent: "center" }}>
+      <div className="dir-panel" style={{ height: "100dvh", borderRadius: 0, maxWidth: "900px", width: "100%", borderTop: "4px solid var(--bbc-red)" }}>
         <header className="dir-header">
           <div className="dir-title-wrap">
             <Building2 size={18} />

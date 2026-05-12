@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { verifyPin } from "../utils/auth";
 
-export default function PinLock({ onUnlock }) {
+export default function PinLock({ onUnlock, subtitle }) {
   const [digits, setDigits] = useState(["", "", "", ""]);
   const [error, setError] = useState(false);
   const [shaking, setShaking] = useState(false);
@@ -53,7 +53,7 @@ export default function PinLock({ onUnlock }) {
             <circle cx="20" cy="20" r="3.5" fill="#F59E0B" />
           </svg>
         </div>
-        <p className="pin-instruction">Enter your 4-digit access PIN</p>
+        <p className="pin-instruction">{subtitle ? `${subtitle} — Enter PIN` : "Enter your 4-digit access PIN"}</p>
         <div className="pin-inputs">
           {digits.map((d, i) => (
             <input

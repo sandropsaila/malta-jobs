@@ -21,17 +21,28 @@ import "./styles/directory.css";
 import "./styles/livesearch.css";
 
 const SESSION_KEY = "malta_jobs_auth";
+const COMPANIES_PIN_KEY = "malta_companies_auth";
 
 export default function App() {
   const [unlocked, setUnlocked] = useState(() => sessionStorage.getItem(SESSION_KEY) === "1");
+  const [companiesOpen, setCompaniesOpen] = useState(false);
+  const [companiesUnlocked, setCompaniesUnlocked] = useState(() => sessionStorage.getItem(COMPANIES_PIN_KEY) === "1");
   const [search, setSearch] = useState("");
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [companiesOpen, setCompaniesOpen] = useState(false);
   const [filters, setFilters] = useState({ category: null, source: null, sort: "date" });
 
   const handleUnlock = () => {
     sessionStorage.setItem(SESSION_KEY, "1");
     setUnlocked(true);
+  };
+
+  const handleCompaniesUnlock = () => {
+    sessionStorage.setItem(COMPANIES_PIN_KEY, "1");
+    setCompaniesUnlocked(true);
+  };
+
+  const handleCompaniesOpen = () => {
+    setCompaniesOpen(true);
   };
 
   const filtered = useMemo(() => {
@@ -58,14 +69,23 @@ export default function App() {
     return jobs;
   }, [search, filters]);
 
+  // Main app PIN
   if (!unlocked) return <PinLock onUnlock={handleUnlock} />;
+
+  // Companies directory — separate PIN-protected overlay
+  if (companiesOpen) {
+    if (!companiesUnlocked) {
+      return <PinLock onUnlock={handleCompaniesUnlock} subtitle="Companies Directory" />;
+    }
+    return <CompaniesDirectory onClose={() => setCompaniesOpen(false)} />;
+  }
 
   return (
     <div className="app">
       <NavBar
         onSearch={setSearch}
         onFilterOpen={() => setDrawerOpen(true)}
-        onCompaniesOpen={() => setCompaniesOpen(true)}
+        onCompaniesOpen={handleCompaniesOpen}
         searchVal={search}
       />
       <main className="main">
@@ -75,12 +95,7 @@ export default function App() {
           onCategoryClick={(cat) => setFilters((f) => ({ ...f, category: cat }))}
         />
         <MarketSnapshot jobs={JOBS} />
-
-        {/* AI-powered live search — Option C */}
-        <LiveJobSearch />
-
         <DesktopSidebar jobs={JOBS} filters={filters} onChange={setFilters} />
-
         <div className="jobs-list">
           <div className="jobs-list-label">Curated vacancies</div>
           {filtered.length === 0 ? (
@@ -94,18 +109,9 @@ export default function App() {
             filtered.map((job) => <JobCard key={job.id} job={job} />)
           )}
         </div>
-
         <footer className="footer">
           <p>High Profile Jobs — Malta Executive Vacancies</p>
-          <p>Data sourced from LinkedIn · GRS · Keepmeposted · Jobsinmalta · Konnekt · Direct</p>
-          <p style={{ marginTop: 6 }}>
-            <button
-              onClick={() => setCompaniesOpen(true)}
-              style={{ background: "transparent", border: "none", color: "var(--amber)", cursor: "pointer", font: "inherit", textDecoration: "underline", fontSize: "0.72rem" }}
-            >
-              View 927 monitored companies →
-            </button>
-          </p>
+          <p>Data sourced from LinkedIn · GRS · Konnekt · Broadwing · Reed · AIMS · Outreach · Heroix · Accelerate · Careerjet · Jobhound · and more</p>
         </footer>
       </main>
 
@@ -115,8 +121,6 @@ export default function App() {
         filters={filters}
         onChange={setFilters}
       />
-
-      {companiesOpen && <CompaniesDirectory onClose={() => setCompaniesOpen(false)} />}
     </div>
   );
 }
