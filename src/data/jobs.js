@@ -7,6 +7,57 @@
 export const JOBS = [
 
   {
+    id: "j1301",
+    title: "General Manager (Insurance)",
+    company: "Argus Insurance Company (Europe) Ltd — Malta Branch",
+    category: "general-manager",
+    source: "LinkedIn",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/general-manager-at-argus-malta-3216502207",
+    location: "Birkirkara, Malta",
+    salary: null,
+    posted: "2026-04-20",
+    isNew: false,
+    applyUrl: "https://mt.linkedin.com/jobs/view/general-manager-at-argus-malta-3216502207",
+    description:
+      "Argus Insurance Company (Europe) Limited — part of the Bermuda-based Argus Group and Malta's established general insurance provider — is seeking a General Manager to perform the regulated Branch Manager role. The GM will lead day-to-day operations, maintain a strong control environment, and drive growth across Argus Malta's commercial and personal lines portfolio. Argus Malta offers motor, home, commercial, liability, and marine insurance products.",
+    skills: ["Insurance GM / Branch Manager", "MFSA-regulated Role", "General Insurance", "Commercial & Personal Lines", "P&L Ownership"],
+  },
+
+  {
+    id: "j1302",
+    title: "General Manager & Registered Broker",
+    company: "Confidential — International Group",
+    category: "general-manager",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-15",
+    isNew: false,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "A leading international group with significant outreach is seeking a General Manager & Registered Broker for their Malta operation. The role combines full commercial leadership of the Malta entity with the regulated function of Registered Broker under MFSA licensing requirements. Dual accountability: commercial GM and regulatory representative.",
+    skills: ["General Management", "MFSA Registered Broker", "International Group", "Regulatory Compliance", "Commercial Leadership"],
+  },
+
+  {
+    id: "j1303",
+    title: "General Manager — Operations & Engineering",
+    company: "Confidential — Santa Venera, Malta",
+    category: "general-manager",
+    source: "Broadwing",
+    sourceUrl: "https://broadwing.jobs/careers/job/general-manager-3068/",
+    location: "Santa Venera, Malta",
+    salary: null,
+    posted: "2024-12-09",
+    isNew: false,
+    applyUrl: "https://broadwing.jobs/careers/job/general-manager-3068/",
+    description:
+      "Broadwing is recruiting a General Manager for a Malta-based engineering and operations business in Santa Venera. The GM will handle multiple priorities in a senior management capacity, covering job costing, coordination, customer requirements, strategic thinking, and full operational oversight. Engineering degree and Maltese/English bilingualism required.",
+    skills: ["Operations Management", "Engineering Background", "Job Costing", "Strategic Thinking", "Bilingual Maltese/English"],
+  },
+
+  {
     id: "j1201",
     title: "Head of Spa",
     company: "db Group Malta (db Seabank / db San Antonio / Pearl Spa)",
