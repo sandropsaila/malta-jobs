@@ -545,7 +545,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Careerjet", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Careerjet", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
@@ -635,6 +635,9 @@ export const DIRECT_CAREER_PAGES = [
   // Malta job boards
   { name: "Jobhound.mt",        url: "https://jobhound.mt/jobs?category=management&category=executive" },
   { name: "Careerjet Malta",    url: "https://www.careerjet.com.mt/general-manager-jobs.html" },
+  { name: "Castille Resources", url: "https://www.castilleresources.com/job-search/" },
+  { name: "M Recruitment",     url: "https://www.mrecruitment.eu/vacancies/" },
+  { name: "Jobsplus",          url: "https://jobsplus.gov.mt/job-seekers-3/vacancies" },
   // News sources for vacancy/appointment announcements
   { name: "Times of Malta — Business", url: "https://timesofmalta.com/business" },
   { name: "The Business Picture",      url: "https://thebusinesspicture.com" },
