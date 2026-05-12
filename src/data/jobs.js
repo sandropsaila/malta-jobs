@@ -7,6 +7,40 @@
 export const JOBS = [
 
   {
+    id: "j1501",
+    title: "Head of Brands",
+    company: "Confidential — Pharmaceutical & Healthcare Distributor",
+    category: "head",
+    source: "Heroix",
+    sourceUrl: "https://alfred.com.mt/job/head-of-brands-2",
+    location: "Malta",
+    salary: "€70,000 – €80,000",
+    posted: "2025-12-02",
+    isNew: false,
+    applyUrl: "https://alfred.com.mt/job/head-of-brands-2",
+    description:
+      "Heroix is recruiting a Head of Brands for a trusted leader in the distribution of pharmaceuticals, medical devices, and healthcare equipment in Malta. The role leads the Commercial Team, overseeing key brand operations locally. Responsibilities include driving brand growth through strategic planning, budget management, and multi-channel initiatives, working closely with the Chief Commercial Officer. Salary: €70,000 – €80,000. Application deadline was 13 January 2026 — contact Heroix directly to confirm status.",
+    skills: ["Brand Leadership", "Pharmaceutical / Healthcare", "Commercial Strategy", "Budget Management", "Multi-channel Marketing"],
+  },
+
+  {
+    id: "j1502",
+    title: "Head of Finance (FinTech)",
+    company: "Confidential — FinTech Company",
+    category: "head",
+    source: "Accelerate",
+    sourceUrl: "https://accelerate.mt/finance-jobs/",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-01",
+    isNew: false,
+    applyUrl: "https://accelerate.mt/finance-jobs/",
+    description:
+      "Accelerate Finance & Legal Recruitment is recruiting a Head of Finance for a FinTech company in Malta. The role oversees the full finance function, financial reporting, regulatory compliance, and business partnering with senior leadership. Accelerate specialises in finance and legal recruitment in Malta across fintech, iGaming, payments, crypto, and banking sectors. Contact Accelerate directly for full details.",
+    skills: ["Head of Finance", "FinTech", "Financial Reporting", "Regulatory Compliance", "Business Partnering"],
+  },
+
+  {
     id: "j1401",
     title: "Chief Development Officer",
     company: "Premier Capital plc (McDonald's Europe)",
@@ -511,7 +545,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Pentasia", "Careerjet", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Careerjet", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
