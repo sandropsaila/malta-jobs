@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j1201",
+    title: "Head of Spa",
+    company: "db Group Malta (db Seabank / db San Antonio / Pearl Spa)",
+    category: "head",
+    source: "Careerjet",
+    sourceUrl: "https://mt.trabajo.org/job-4111-d8e68b612ceb1884c281565abc21414c",
+    location: "Birkirkara, Malta (primarily db Seabank Resort + Spa)",
+    salary: null,
+    posted: "2026-04-07",
+    isNew: false,
+    applyUrl: "https://alfred.com.mt/job/head-of-spa",
+    description:
+      "Malta's largest hospitality group — db Group, operator of db Seabank Resort + Spa, db San Antonio Hotel + Spa, Pearl Spa, Hard Rock Café Malta, Starbucks Malta, and 10+ concept restaurants — is seeking a Head of Spa for strategic leadership of the entire Spa division. The role covers revenue growth, guest experience, wellness innovation, team performance, and operational excellence across the group's spa properties. A visionary leader with a strong commercial track record in luxury spa / wellness required. Apply via alfred.com.mt.",
+    skills: ["Spa / Wellness Leadership", "Revenue & Commercial Growth", "Luxury Hospitality", "Team Management", "Guest Experience Strategy"],
+  },
+
+  {
     id: "j1101",
     title: "Chief Operating Officer",
     company: "Confidential — Is-Swieqi, Malta",
