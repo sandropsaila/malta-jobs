@@ -30,7 +30,7 @@ export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, search
 
         <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
           <span className="navbar-updated">Updated {LAST_UPDATED}</span>
-          <button className="filter-btn" onClick={onCompaniesOpen} aria-label="Companies monitored" title="Companies monitored">
+          <button className="filter-btn" onClick={onCompaniesOpen} aria-label="Companies">
             <Building2 size={18} />
           </button>
           <button className="filter-btn" onClick={onFilterOpen} aria-label="Filters">
@@ -50,7 +50,7 @@ export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, search
             onChange={(e) => onSearch(e.target.value)}
           />
         </div>
-        <button className="filter-btn" onClick={onCompaniesOpen} aria-label="Companies monitored">
+        <button className="filter-btn" onClick={onCompaniesOpen} aria-label="Companies">
           <Building2 size={18} />
         </button>
         <button className="filter-btn" onClick={onFilterOpen} aria-label="Filters">

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { verifyPin } from "../utils/auth";
+import { verifyPin, verifyCompaniesPin } from "../utils/auth";
 
 export default function PinLock({ onUnlock, subtitle }) {
   const [digits, setDigits] = useState(["", "", "", ""]);
@@ -29,7 +29,7 @@ export default function PinLock({ onUnlock, subtitle }) {
   };
 
   const checkPin = async (pin) => {
-    const ok = await verifyPin(pin);
+    const ok = subtitle ? await verifyCompaniesPin(pin) : await verifyPin(pin);
     if (ok) {
       onUnlock();
     } else {

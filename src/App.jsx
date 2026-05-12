@@ -111,7 +111,7 @@ export default function App() {
         </div>
         <footer className="footer">
           <p>High Profile Jobs — Malta Executive Vacancies</p>
-          <p>Data sourced from LinkedIn · GRS · Konnekt · Broadwing · Reed · AIMS · Outreach · Heroix · Accelerate · Careerjet · Jobhound · and more</p>
+          <p>LinkedIn · GRS · Konnekt · Broadwing · Reed Malta · AIMS · Manpower · Outreach · Heroix · Accelerate · Careerjet · Jobhound · COREcruitment · Pentasia</p>
         </footer>
       </main>
 

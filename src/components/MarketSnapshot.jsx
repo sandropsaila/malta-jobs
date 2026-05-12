@@ -1,5 +1,4 @@
 import { CATEGORIES } from "../data/jobs";
-import { COMPANIES } from "../data/companies";
 
 export default function MarketSnapshot({ jobs }) {
   const newCount = jobs.filter((j) => j.isNew).length;
@@ -12,16 +11,14 @@ export default function MarketSnapshot({ jobs }) {
   return (
     <div className="snapshot">
       <p className="snapshot-text">
-        <span className="snapshot-highlight">{jobs.length} senior vacancies</span> tracked across{" "}
-        <span className="snapshot-highlight">{COMPANIES.length.toLocaleString()} Malta companies</span> in
-        Consumer, Financial, Banking, iGaming, and Tech.{" "}
+        <span className="snapshot-highlight">{jobs.length} senior vacancies</span> tracked across Malta in Consumer, Financial, Banking, iGaming, and Tech.{" "}
         <span className="snapshot-highlight">{newCount} new role{newCount !== 1 ? "s" : ""}</span> in the past 7 days.
         Most active category: <span className="snapshot-highlight">{topCat?.label}</span>{" "}
         ({topCat?.count} open).{" "}
         {withSalary > 0 && (
           <>{withSalary} listing{withSalary !== 1 ? "s" : ""} disclose salary. </>
         )}
-        Sources: LinkedIn, GRS, Keepmeposted, Jobsinmalta, Konnekt, and direct career pages.
+        Sources: LinkedIn, GRS, Konnekt, Broadwing, Reed, Heroix, Accelerate, Careerjet, and direct career pages.
       </p>
     </div>
   );
