@@ -7,6 +7,74 @@
 export const JOBS = [
 
   {
+    id: "j1901",
+    title: "Chief Executive Officer",
+    company: "Confidential — International Client",
+    category: "c-suite",
+    source: "Beautiful Recruitment",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/chief-executive-officer-at-beautiful-recruitment",
+    location: "Valletta, Malta (On-site)",
+    salary: null,
+    posted: "2026-05-12",
+    isNew: true,
+    applyUrl: "https://mt.linkedin.com/jobs/view/chief-executive-officer-at-beautiful-recruitment",
+    description:
+      "Beautiful Recruitment — an international executive recruitment firm — is actively recruiting a CEO for a confidential client based in Valletta, Malta (on-site). Actively recruiting with Easy Apply enabled on LinkedIn. Beautiful Recruitment specialises in senior-level placements across iGaming, financial services, and technology in Malta and internationally.",
+    skills: ["CEO Experience", "Executive Leadership", "Strategic Direction", "Malta-based", "P&L Accountability"],
+  },
+
+  {
+    id: "j1902",
+    title: "Head of VIP",
+    company: "bet365",
+    category: "head",
+    source: "LinkedIn",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/head-of-vip-at-bet365",
+    location: "Sliema, Malta (On-site)",
+    salary: null,
+    posted: "2026-05-12",
+    isNew: true,
+    applyUrl: "https://www.bet365.com/careers",
+    description:
+      "bet365 — one of the world's leading online gambling companies with significant operations in Sliema, Malta — is recruiting a Head of VIP. The role leads the VIP customer strategy across bet365's Malta hub, with 12 company alumni already in the building per LinkedIn. Senior iGaming VIP management experience required. Apply directly via bet365.com/careers.",
+    skills: ["VIP Programme Leadership", "iGaming / Sports Betting", "Customer Retention", "High-Value Player Strategy", "Team Management"],
+  },
+
+  {
+    id: "j1903",
+    title: "Chief Executive Officer",
+    company: "Confidential — Malta-based",
+    category: "c-suite",
+    source: "Reed Malta",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/chief-executive-officer-at-reed-recruitment-malta-4410705339",
+    location: "Marsa, Malta",
+    salary: null,
+    posted: "2026-05-06",
+    isNew: true,
+    applyUrl: "https://www.reedglobal.com.mt/jobs",
+    description:
+      "Reed Recruitment Malta is retained to find a CEO for a confidential client based in Marsa, Malta. Posted 1 week ago on LinkedIn. Reed Malta specialises in C-suite and senior executive placements across financial services, technology, and professional services. Apply via reedglobal.com.mt/jobs.",
+    skills: ["CEO / MD Experience", "Strategic Leadership", "Malta-based", "P&L Ownership", "Stakeholder Management"],
+  },
+
+  {
+    id: "j1904",
+    title: "Head of FP&A",
+    company: "Confidential — Global iGaming Leader",
+    category: "head",
+    source: "Pentasia",
+    sourceUrl: "https://www.pentasia.com/cm/igaming-jobs-malta",
+    location: "Malta (Hybrid)",
+    salary: null,
+    posted: "2026-05-08",
+    isNew: true,
+    applyUrl: "https://www.pentasia.com/cm/igaming-jobs-malta",
+    description:
+      "Pentasia is recruiting a Head of FP&A for a global iGaming leader in Malta (hybrid). The role leads the Financial Planning & Analysis function, partnering closely with the CFO and executive team. Responsibilities include long-term strategic financial planning, scenario analysis, annual budgeting, rolling forecasts, and monthly financial reporting with variance analysis. A critical strategic finance appointment at a leading Malta-licensed operator.",
+    skills: ["Head of FP&A", "Strategic Finance", "iGaming / Gaming", "CFO Partnering", "Budgeting & Forecasting"],
+  },
+
+  {
     id: "j1801",
     title: "Chief Digital Officer",
     company: "Confidential — Financial Services",
@@ -630,7 +698,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Betting Connections", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Beautiful Recruitment", "TalentBet", "Get Recruited Worldwide", "Betting Connections", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
