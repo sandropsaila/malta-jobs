@@ -7,6 +7,57 @@
 export const JOBS = [
 
   {
+    id: "j2001",
+    title: "General Manager Malta",
+    company: "CMA CGM Malta Agency",
+    category: "general-manager",
+    source: "LinkedIn",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/general-manager-malta-at-cma-cgm",
+    location: "Marsaxlokk, Malta",
+    salary: null,
+    posted: "2026-05-14",
+    isNew: true,
+    applyUrl: "https://jobs.cmacgm-group.com/",
+    description:
+      "CMA CGM — one of the world's largest container shipping and logistics groups (155,000 employees, 420+ ports, 623 vessels) — is actively recruiting a General Manager for its Malta Agency. The GM leads CMA CGM Malta's 30+ year operation at the Marsaxlokk freeport, overseeing containerised cargo, specialised/refrigerated cargo, breakbulk, and multimodal logistics across the Maltese islands. This is a replacement GM role following the current incumbent's wider group responsibilities. Reports to CMA CGM Group regional leadership. Apply via jobs.cmacgm-group.com.",
+    skills: ["Shipping & Logistics GM", "Port Operations", "P&L Ownership", "Container / RORO", "Malta Market Leadership"],
+  },
+
+  {
+    id: "j2002",
+    title: "General Manager",
+    company: "Confidential — New Company Setup",
+    category: "general-manager",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/search/job-focus:management",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-10",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "Konnekt has a new General Manager position reporting directly to the Board of Directors. The role involves the initial setup of the company, including building operational infrastructure, establishing processes, and leading the business from the ground up. Ideal for an entrepreneurial GM with experience launching or restructuring a Malta-based entity. Full details and sector available on application to Konnekt.",
+    skills: ["GM — Company Setup", "Board Reporting", "Operational Leadership", "Entrepreneurial", "Process Building"],
+  },
+
+  {
+    id: "j2003",
+    title: "Head of Operations",
+    company: "Confidential — Senior Management Team",
+    category: "head",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/search/job-focus:management",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-10",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "Konnekt is recruiting a Head of Operations as a key member of the Senior Management team, reporting to the CEO. Responsibilities include setting operational objectives and KPIs, driving operational excellence, managing cross-functional teams, and contributing to overall business strategy. Full sector and company details available on application to Konnekt.",
+    skills: ["Head of Operations", "CEO Reporting", "Operational Strategy", "KPI Management", "Team Leadership"],
+  },
+
+  {
     id: "j1901",
     title: "Chief Executive Officer",
     company: "Confidential — International Client",
@@ -770,6 +821,7 @@ export const SEARCH_QUERIES = [
 // Companies that post direct to LinkedIn or own careers pages (not via recruiters)
 export const DIRECT_CAREER_PAGES = [
   // Fintech / Payments
+  { name: "CMA CGM Malta",      url: "https://jobs.cmacgm-group.com/" },
   { name: "ONE.io",             url: "https://one.io/about-us/" },
   { name: "Trustly Malta",      url: "https://www.trustly.com/careers" },
   { name: "Nuvei Malta",        url: "https://www.nuvei.com/careers" },
