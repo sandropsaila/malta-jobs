@@ -7,6 +7,40 @@
 export const JOBS = [
 
   {
+    id: "j2101",
+    title: "Head of Corporate Services",
+    company: "Confidential — Accountancy & Consultancy Firm",
+    category: "head",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-corporate-services-11026.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-10",
+    isNew: true,
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-corporate-services-11026/apply.aspx",
+    description:
+      "GRS is recruiting a Head of Corporate Services to lead the Corporate Services Division of a well-established accountancy and consultancy firm in Malta. The role drives strategic growth, oversees service delivery to a diverse client base, and shapes the firm's future direction. Requires ACCA qualification, 5+ years post-qualification experience, 3+ years in senior management, and a strong track record in corporate client management within practice. Ref #11026 — michellec@grsrecruitment.com.",
+    skills: ["Corporate Services Leadership", "ACCA Qualified", "Client Portfolio Management", "Team Development", "Strategic Growth"],
+  },
+
+  {
+    id: "j2102",
+    title: "Head of Compliance (CO/MLRO)",
+    company: "Confidential — Wealth Management Company",
+    category: "head",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-compliance-11023.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-10",
+    isNew: true,
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-compliance-11023/apply.aspx",
+    description:
+      "GRS is recruiting a Head of Compliance for a reputable wealth management company in Malta. The role serves as the Authorised Compliance Officer and MLRO, managing regulatory and financial crime compliance risk. Scope covers AML/CTF, MiFID II, MiFIR, MAR, MFSA conduct of business rules, FATCA/CRS reporting, and KYC/CDD. Part of the senior management team, reporting to the Board of Directors. Ref #11023 — michellec@grsrecruitment.com.",
+    skills: ["CO / MLRO", "Wealth Management", "AML / CTF", "MiFID II / MFSA", "FATCA / CRS"],
+  },
+
+  {
     id: "j2001",
     title: "General Manager Malta",
     company: "CMA CGM Malta Agency",
