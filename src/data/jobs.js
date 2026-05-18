@@ -7,6 +7,57 @@
 export const JOBS = [
 
   {
+    id: "j2201",
+    title: "Chief Operating Officer (MiCA)",
+    company: "OKX Europe",
+    category: "c-suite",
+    source: "LinkedIn",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/chief-operating-officer-mica-at-okx",
+    location: "Sliema, Malta",
+    salary: null,
+    posted: "2026-05-15",
+    isNew: true,
+    applyUrl: "https://www.okx.com/en-eu/join-us",
+    description:
+      "OKX Europe — one of the world's leading crypto exchanges and Malta's MiCA hub since January 2025 — is recruiting a Chief Operating Officer with deep MiCA regulatory expertise. OKX Europe serves 450M+ EU residents, holds a MiCA licence and Payment Institution (PI) licence, and is aggressively expanding into OKX Cards, OKX Pay, and X-Perps. The COO will oversee operations across OKX's Sliema hub as the business scales its EU footprint. Apply via okx.com/en-eu/join-us.",
+    skills: ["COO Experience", "MiCA / Crypto Regulation", "Crypto Exchange Operations", "EU Regulatory Frameworks", "Scaling Operations"],
+  },
+
+  {
+    id: "j2202",
+    title: "Chief Executive Officer",
+    company: "Trade Malta Ltd",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-executive-officer-ceo/80167",
+    location: "Luqa, Malta (On-site)",
+    salary: null,
+    posted: "2025-06-17",
+    isNew: false,
+    applyUrl: "https://www.konnekt.com/jobs/apply/80167/general-management-jobs/chief-executive-officer-ceo",
+    description:
+      "Trade Malta Ltd — a public-private partnership between the Government of Malta and The Malta Chamber of Commerce — is seeking a CEO reporting to the Board of Directors. The CEO oversees day-to-day operations, develops and retains talent, assists the local business community with internationalisation, and monitors international markets of interest to Maltese enterprises. Tania Brown was appointed interim CEO in November 2025; this listing remains active for the permanent appointment.",
+    skills: ["CEO / MD Experience", "Public-Private Partnership", "International Trade", "Government Relations", "Business Development"],
+  },
+
+  {
+    id: "j2203",
+    title: "Head of HR, Europe",
+    company: "OKX Europe",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://web3.career/web3-companies/okx+europe",
+    location: "Malta (On-site)",
+    salary: null,
+    posted: "2026-05-01",
+    isNew: true,
+    applyUrl: "https://www.okx.com/en-eu/join-us",
+    description:
+      "OKX Europe is recruiting a Head of HR for the EU region, based in Malta. The role shapes and owns the EU People Plan, leads a team of HR professionals, oversees HR operations, local policy, talent planning, and employee engagement across OKX's rapidly expanding EU hub. A strategic senior HR appointment partnering with local and global leadership. Apply via okx.com/en-eu/join-us.",
+    skills: ["Head of HR / CHRO", "EU People Strategy", "Crypto / FinTech", "HR Operations", "Talent Planning"],
+  },
+
+  {
     id: "j2101",
     title: "Head of Corporate Services",
     company: "Confidential — Accountancy & Consultancy Firm",
@@ -856,6 +907,7 @@ export const SEARCH_QUERIES = [
 export const DIRECT_CAREER_PAGES = [
   // Fintech / Payments
   { name: "CMA CGM Malta",      url: "https://jobs.cmacgm-group.com/" },
+  { name: "OKX Europe",          url: "https://www.okx.com/en-eu/join-us" },
   { name: "ONE.io",             url: "https://one.io/about-us/" },
   { name: "Trustly Malta",      url: "https://www.trustly.com/careers" },
   { name: "Nuvei Malta",        url: "https://www.nuvei.com/careers" },
