@@ -7,6 +7,74 @@
 export const JOBS = [
 
   {
+    id: "j2301",
+    title: "Head of Internal Audit, Malta",
+    company: "OKX Europe",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://isecjobs.com/job/265126-head-of-internal-audit-malta/",
+    location: "Sliema, Malta",
+    salary: null,
+    posted: "2026-05-10",
+    isNew: true,
+    applyUrl: "https://www.okx.com/en-eu/join-us",
+    description:
+      "OKX Europe is recruiting a Head of Internal Audit (Internal Audit Director level) for its Malta entity. Reporting to the global Head of Internal Audit, the role coordinates EU/EEA audit activities, drives risk-based audit planning, leads execution and reporting, and acts as third line of defence across OKX''s MiCA-licensed European operations. Requires strong digital assets / fintech audit background plus CPA/CIA/CISA/CISSP certification. Apply via okx.com/en-eu/join-us.",
+    skills: ["Internal Audit Director", "Digital Assets / Crypto", "MiCA / EU Regulatory", "Third Line of Defence", "CPA / CIA / CISA"],
+  },
+
+  {
+    id: "j2302",
+    title: "Chief Engineer",
+    company: "Confidential — Leading Construction Group (North of Malta)",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/engineering-jobs/chief-engineer-north-of-malta/81439",
+    location: "North of Malta",
+    salary: null,
+    posted: "2026-04-15",
+    isNew: false,
+    applyUrl: "https://www.konnekt.com/jobs/apply/81439/engineering-jobs/chief-engineer-north-of-malta",
+    description:
+      "A leading company in Malta requires the services of a Chief Engineer to oversee the engineering function for both construction projects and ongoing operations. The role is based in the North of Malta and involves senior engineering leadership, project oversight, and team management. Apply via Konnekt (ref via job page).",
+    skills: ["Chief Engineer", "Construction Operations", "Engineering Leadership", "Project Oversight", "Team Management"],
+  },
+
+  {
+    id: "j2303",
+    title: "Head of Emergency Dispatch & Assistance",
+    company: "Confidential — Global Medical Consultancy (Air Ambulance)",
+    category: "head",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-emergency-dispatcher-6613.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-04-01",
+    isNew: false,
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-emergency-dispatcher-6613/apply.aspx",
+    description:
+      "GRS is recruiting a Head of Emergency Dispatcher for a global medical consultancy specialising in Air Ambulance and aeromedical services. Reports to the CEO and takes overall responsibility for all non-clinical aspects of the company''s Assistance operations — managing the Alarm Centre, providing 24/7 client support, and overseeing team performance. Relocation assistance provided. Senior background in medical assistance call centres required. Ref #6613.",
+    skills: ["Head of Operations", "Medical Assistance / Aeromedical", "Alarm Centre Management", "24/7 Service Operations", "CEO Reporting"],
+  },
+
+  {
+    id: "j2304",
+    title: "General Manager (CCO Reporting)",
+    company: "Confidential — Well-established Malta Company",
+    category: "general-manager",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-19",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "Konnekt is recruiting a General Manager for a well-established Malta company in a growth phase. The GM reports directly to the Chief Commercial Officer and leads the company''s overall operations, drives strategic execution, and manages cross-functional teams. Full company details and sector available on application to Konnekt.",
+    skills: ["General Management", "CCO Reporting", "Operations Leadership", "Cross-functional Teams", "Growth-stage Business"],
+  },
+
+  {
     id: "j2201",
     title: "Chief Operating Officer (MiCA)",
     company: "OKX Europe",
