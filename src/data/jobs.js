@@ -7,6 +7,40 @@
 export const JOBS = [
 
   {
+    id: "j2401",
+    title: "General Manager — Boutique Hotel",
+    company: "Confidential — Boutique Hotel (via IRIS THAUMAS)",
+    category: "general-manager",
+    source: "LinkedIn",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/general-manager-at-iris-thaumas-ltd-3355061741",
+    location: "Valletta, Malta",
+    salary: null,
+    posted: "2026-05-19",
+    isNew: true,
+    applyUrl: "https://mt.linkedin.com/jobs/view/general-manager-at-iris-thaumas-ltd-3355061741",
+    description:
+      "IRIS THAUMAS — ISO 9001:2015 certified, MCAST licensed employment agency (EA #181) — is recruiting a General Manager for a boutique hotel in Valletta. The GM will head all client operations in hospitality, lead team selection, development, coaching, and engagement, manage room allocations, group operations, reconciliations, and administration, and work closely with all department leadership teams to ensure exceptional guest experiences. Strong leadership presence and charisma essential.",
+    skills: ["Boutique Hotel GM", "Hospitality Operations", "Team Leadership", "Guest Experience", "Group Operations"],
+  },
+
+  {
+    id: "j2402",
+    title: "Managing Director",
+    company: "Confidential — Cryptocurrency Company",
+    category: "general-manager",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/ceo-9922.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-03-01",
+    isNew: false,
+    applyUrl: "https://jobs.grsrecruitment.com/job/ceo-9922/apply.aspx",
+    description:
+      "GRS is recruiting a Managing Director for a pioneering cryptocurrency company establishing its Malta entity. The MD will lead setup of corporate governance, risk, compliance, and operational frameworks, oversee the MFSA Payment Institution or EMI licence application and maintenance, represent the company before MFSA and other EU regulatory authorities, and provide strategic leadership to the executive team. Full P&L and board accountability. Ref #9922 — michellec@grsrecruitment.com.",
+    skills: ["Managing Director", "Crypto / Payments / EMI", "MFSA Licensing", "Entity Setup", "Regulatory Leadership"],
+  },
+
+  {
     id: "j2301",
     title: "Head of Internal Audit, Malta",
     company: "OKX Europe",
