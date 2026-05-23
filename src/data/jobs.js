@@ -17,7 +17,7 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-15",
     isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs",
+    applyUrl: "https://www.konnekt.com/search/employer-industry:fintech",
     description:
       "A start-up company specialised in Business Support and Financial / FinTech Services is looking to onboard a Chief Executive Officer to join their growing team. The CEO will set the overall strategic direction, build the leadership team, and drive the business from early-stage through to scale. Full details and apply via Konnekt.",
     skills: ["CEO / Founder Profile", "FinTech / Financial Services", "Start-up Leadership", "Strategic Direction", "Team Building"],
@@ -34,7 +34,7 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-15",
     isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs",
+    applyUrl: "https://www.konnekt.com/search/employer-industry:fintech",
     description:
       "The same FinTech / Business Support start-up is also recruiting a Chief Financial Officer to join as a founding executive. The CFO will build the financial function from scratch, oversee financial planning and reporting, manage regulatory obligations, and partner closely with the CEO. Full details and apply via Konnekt.",
     skills: ["CFO — Start-up", "FinTech / Financial Services", "Financial Planning & Reporting", "Regulatory Compliance", "Board Partnering"],
@@ -51,7 +51,7 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-10",
     isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs/human-resources-jobs",
+    applyUrl: "https://www.konnekt.com/search/job-focus:human-resources",
     description:
       "An experienced B2B company is looking for a Head of People to lead its People & Culture strategy across Malta, Cyprus, and Greece. The role covers talent acquisition, HR operations, employee engagement, and cultural leadership across three jurisdictions. Reporting to the CEO. Full details and apply via Konnekt.",
     skills: ["Head of People / CHRO", "Multi-country HR", "B2B Environment", "People & Culture", "Talent Strategy"],
@@ -143,29 +143,12 @@ export const JOBS = [
   },
 
   {
-    id: "j2304",
-    title: "General Manager (CCO Reporting)",
-    company: "Confidential — Well-established Malta Company",
-    category: "general-manager",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-19",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "Konnekt is recruiting a General Manager for a well-established Malta company in a growth phase. The GM reports directly to the Chief Commercial Officer and leads the company''s overall operations, drives strategic execution, and manages cross-functional teams. Full company details and sector available on application to Konnekt.",
-    skills: ["General Management", "CCO Reporting", "Operations Leadership", "Cross-functional Teams", "Growth-stage Business"],
-  },
-
-  {
     id: "j2201",
     title: "Chief Operating Officer (MiCA)",
     company: "OKX Europe",
     category: "c-suite",
     source: "LinkedIn",
-    sourceUrl: "https://mt.linkedin.com/jobs/view/chief-operating-officer-mica-at-okx",
+    sourceUrl: "https://web3.career/web3-companies/okx+europe",
     location: "Sliema, Malta",
     salary: null,
     posted: "2026-05-15",
@@ -204,7 +187,7 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-01",
     isNew: true,
-    applyUrl: "https://www.okx.com/en-eu/join-us",
+    applyUrl: "https://www.okx.com/en-eu/join-us?jobDepartment=Human%20Resources",
     description:
       "OKX Europe is recruiting a Head of HR for the EU region, based in Malta. The role shapes and owns the EU People Plan, leads a team of HR professionals, oversees HR operations, local policy, talent planning, and employee engagement across OKX's rapidly expanding EU hub. A strategic senior HR appointment partnering with local and global leadership. Apply via okx.com/en-eu/join-us.",
     skills: ["Head of HR / CHRO", "EU People Strategy", "Crypto / FinTech", "HR Operations", "Talent Planning"],
@@ -262,68 +245,17 @@ export const JOBS = [
   },
 
   {
-    id: "j2002",
-    title: "General Manager",
-    company: "Confidential — New Company Setup",
-    category: "general-manager",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/search/job-focus:management",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-10",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "Konnekt has a new General Manager position reporting directly to the Board of Directors. The role involves the initial setup of the company, including building operational infrastructure, establishing processes, and leading the business from the ground up. Ideal for an entrepreneurial GM with experience launching or restructuring a Malta-based entity. Full details and sector available on application to Konnekt.",
-    skills: ["GM — Company Setup", "Board Reporting", "Operational Leadership", "Entrepreneurial", "Process Building"],
-  },
-
-  {
-    id: "j2003",
-    title: "Head of Operations",
-    company: "Confidential — Senior Management Team",
-    category: "head",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/search/job-focus:management",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-10",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "Konnekt is recruiting a Head of Operations as a key member of the Senior Management team, reporting to the CEO. Responsibilities include setting operational objectives and KPIs, driving operational excellence, managing cross-functional teams, and contributing to overall business strategy. Full sector and company details available on application to Konnekt.",
-    skills: ["Head of Operations", "CEO Reporting", "Operational Strategy", "KPI Management", "Team Leadership"],
-  },
-
-  {
-    id: "j1901",
-    title: "Chief Executive Officer",
-    company: "Confidential — International Client",
-    category: "c-suite",
-    source: "Beautiful Recruitment",
-    sourceUrl: "https://mt.linkedin.com/jobs/view/chief-executive-officer-at-beautiful-recruitment",
-    location: "Valletta, Malta (On-site)",
-    salary: null,
-    posted: "2026-05-12",
-    isNew: true,
-    applyUrl: "https://mt.linkedin.com/jobs/view/chief-executive-officer-at-beautiful-recruitment",
-    description:
-      "Beautiful Recruitment — an international executive recruitment firm — is actively recruiting a CEO for a confidential client based in Valletta, Malta (on-site). Actively recruiting with Easy Apply enabled on LinkedIn. Beautiful Recruitment specialises in senior-level placements across iGaming, financial services, and technology in Malta and internationally.",
-    skills: ["CEO Experience", "Executive Leadership", "Strategic Direction", "Malta-based", "P&L Accountability"],
-  },
-
-  {
     id: "j1902",
     title: "Head of VIP",
     company: "bet365",
     category: "head",
     source: "LinkedIn",
-    sourceUrl: "https://mt.linkedin.com/jobs/view/head-of-vip-at-bet365",
+    sourceUrl: "https://www.bet365careers.com/en/current-vacancies?location=Sliema",
     location: "Sliema, Malta (On-site)",
     salary: null,
     posted: "2026-05-12",
     isNew: true,
-    applyUrl: "https://www.bet365.com/careers",
+    applyUrl: "https://www.bet365careers.com/en/current-vacancies?location=Sliema",
     description:
       "bet365 — one of the world's leading online gambling companies with significant operations in Sliema, Malta — is recruiting a Head of VIP. The role leads the VIP customer strategy across bet365's Malta hub, with 12 company alumni already in the building per LinkedIn. Senior iGaming VIP management experience required. Apply directly via bet365.com/careers.",
     skills: ["VIP Programme Leadership", "iGaming / Sports Betting", "Customer Retention", "High-Value Player Strategy", "Team Management"],
@@ -335,12 +267,12 @@ export const JOBS = [
     company: "Confidential — Malta-based",
     category: "c-suite",
     source: "Reed Malta",
-    sourceUrl: "https://mt.linkedin.com/jobs/view/chief-executive-officer-at-reed-recruitment-malta-4410705339",
+    sourceUrl: "https://www.reedglobal.com.mt/jobs?keywords=chief+executive&location=Malta",
     location: "Marsa, Malta",
     salary: null,
     posted: "2026-05-06",
     isNew: true,
-    applyUrl: "https://www.reedglobal.com.mt/jobs",
+    applyUrl: "https://www.reedglobal.com.mt/jobs?keywords=chief+executive&location=Malta",
     description:
       "Reed Recruitment Malta is retained to find a CEO for a confidential client based in Marsa, Malta. Posted 1 week ago on LinkedIn. Reed Malta specialises in C-suite and senior executive placements across financial services, technology, and professional services. Apply via reedglobal.com.mt/jobs.",
     skills: ["CEO / MD Experience", "Strategic Leadership", "Malta-based", "P&L Ownership", "Stakeholder Management"],
@@ -352,12 +284,12 @@ export const JOBS = [
     company: "Confidential — Global iGaming Leader",
     category: "head",
     source: "Pentasia",
-    sourceUrl: "https://www.pentasia.com/cm/igaming-jobs-malta",
+    sourceUrl: "https://www.pentasia.com/search-jobs/?search=head+of+FP%26A&location=malta",
     location: "Malta (Hybrid)",
     salary: null,
     posted: "2026-05-08",
     isNew: true,
-    applyUrl: "https://www.pentasia.com/cm/igaming-jobs-malta",
+    applyUrl: "https://www.pentasia.com/search-jobs/?search=Head+FPA&location=malta",
     description:
       "Pentasia is recruiting a Head of FP&A for a global iGaming leader in Malta (hybrid). The role leads the Financial Planning & Analysis function, partnering closely with the CFO and executive team. Responsibilities include long-term strategic financial planning, scenario analysis, annual budgeting, rolling forecasts, and monthly financial reporting with variance analysis. A critical strategic finance appointment at a leading Malta-licensed operator.",
     skills: ["Head of FP&A", "Strategic Finance", "iGaming / Gaming", "CFO Partnering", "Budgeting & Forecasting"],
@@ -374,7 +306,7 @@ export const JOBS = [
     salary: null,
     posted: "2026-04-20",
     isNew: false,
-    applyUrl: "https://www.konnekt.com/jobs",
+    applyUrl: "https://www.konnekt.com/search/job-role:chief-digital-officer",
     description:
       "Konnekt is recruiting a Chief Digital Officer for a financial services client in Malta. The CDO will drive the digital agenda across the organisation, including strategic renewal of tools and processes, digital strategy planning, customer journey analysis, agile methodology, and coordination of multifunctional teams. C-Suite / Senior Management level appointment.",
     skills: ["Chief Digital Officer", "Digital Transformation", "Financial Services", "Agile Methodology", "Customer Journey"],
@@ -403,12 +335,12 @@ export const JOBS = [
     company: "Confidential — Multi-Regulated Brokerage",
     category: "head",
     source: "Boston Link",
-    sourceUrl: "https://www.boston-link.com/latest-careers",
+    sourceUrl: "https://www.boston-link.com/latest-careers/?s=head+of+dealing",
     location: "Malta",
     salary: null,
     posted: "2026-05-01",
     isNew: true,
-    applyUrl: "https://www.boston-link.com/latest-careers",
+    applyUrl: "https://www.boston-link.com/latest-careers/?s=head+of+dealing",
     description:
       "Boston Link is recruiting a Head of Dealing for a multi-regulated, multi-asset brokerage in Malta. The role requires a dynamic and highly skilled dealing room leader to oversee trading operations, manage a dealing team, and ensure best execution across multiple asset classes. Senior front-office leadership background in brokerage or investment management required.",
     skills: ["Head of Dealing", "Multi-Asset Brokerage", "Trading Operations", "Best Execution", "Regulated Environment"],
@@ -420,12 +352,12 @@ export const JOBS = [
     company: "Confidential — Business Aviation",
     category: "head",
     source: "Link Talent",
-    sourceUrl: "https://www.linktalent.careers/",
+    sourceUrl: "https://www.linktalent.careers/?s=director+operations",
     location: "Malta",
     salary: null,
     posted: "2026-05-01",
     isNew: true,
-    applyUrl: "https://www.linktalent.careers/",
+    applyUrl: "https://www.linktalent.careers/?s=director+operations",
     description:
       "Link Talent (part of Boston Link group) is seeking a seasoned aviation professional for a Director of Operations (NPGO) role with experience in Business Aviation and/or Special Missions. The NPGO (Nominated Person Ground Operations) will lead ground operations for a Malta-based business aviation operator. Senior aviation leadership background required. Apply via linktalent.careers.",
     skills: ["NPGO / Nominated Person", "Business Aviation", "Ground Operations", "Regulatory Compliance", "Senior Aviation Leadership"],
@@ -437,7 +369,7 @@ export const JOBS = [
     company: "Confidential — Heroix Client",
     category: "general-manager",
     source: "Heroix",
-    sourceUrl: "https://mt.linkedin.com/jobs/view/general-manager-at-heroix-4089939213",
+    sourceUrl: "https://heroix.com.mt/vacancies/?s=general+manager",
     location: "Birkirkara, Malta",
     salary: null,
     posted: "2026-05-01",
@@ -517,23 +449,6 @@ export const JOBS = [
   },
 
   {
-    id: "j1302",
-    title: "General Manager & Registered Broker",
-    company: "Confidential — International Group",
-    category: "general-manager",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-15",
-    isNew: false,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "A leading international group with significant outreach is seeking a General Manager & Registered Broker for their Malta operation. The role combines full commercial leadership of the Malta entity with the regulated function of Registered Broker under MFSA licensing requirements. Dual accountability: commercial GM and regulatory representative.",
-    skills: ["General Management", "MFSA Registered Broker", "International Group", "Regulatory Compliance", "Commercial Leadership"],
-  },
-
-  {
     id: "j1303",
     title: "General Manager — Operations & Engineering",
     company: "Confidential — Santa Venera, Malta",
@@ -568,40 +483,6 @@ export const JOBS = [
   },
 
   {
-    id: "j1101",
-    title: "Chief Operating Officer",
-    company: "Confidential — Is-Swieqi, Malta",
-    category: "c-suite",
-    source: "Careerjet",
-    sourceUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
-    location: "Is-Swieqi, Malta",
-    salary: null,
-    posted: "2025-11-14",
-    isNew: false,
-    applyUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
-    description:
-      "A Malta-based company is seeking a dynamic and results-driven Chief Operating Officer to oversee ongoing operations and drive operational excellence. The COO will report to the CEO and be responsible for all operational functions across the business. Ref: 426305 via Careerjet.",
-    skills: ["COO Experience", "Operational Leadership", "Process Management", "KPI Reporting", "Executive Reporting"],
-  },
-
-  {
-    id: "j1102",
-    title: "Chief Technology Officer",
-    company: "Confidential — Manufacturing Group",
-    category: "c-suite",
-    source: "Careerjet",
-    sourceUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
-    location: "Malta",
-    salary: "€100,000",
-    posted: "2026-04-01",
-    isNew: false,
-    applyUrl: "https://www.careerjet.com.mt/chief-operations-officer-jobs",
-    description:
-      "A leading manufacturing group in Malta is seeking an experienced Chief Technology Officer to lead technology strategy, digital transformation, and IT infrastructure across the group. Salary disclosed at €100,000. Sourced via Careerjet.",
-    skills: ["CTO Experience", "Manufacturing / Industry", "Digital Transformation", "IT Infrastructure", "Group Leadership"],
-  },
-
-  {
     id: "j1103",
     title: "General Manager — Market Strategy (iGaming)",
     company: "Confidential — European Games Provider",
@@ -633,23 +514,6 @@ export const JOBS = [
     description:
       "Posh Turkish Malta is hiring a General Manager to lead their restaurant operation in Mosta. The GM will recruit, onboard and train high-performing teams, maintain project timelines, enforce operational standards, drive sales and profitability, and uphold the company's cultural values. Apply directly by emailing your CV to purchasing@posh.com.mt.",
     skills: ["Restaurant / F&B GM", "Team Leadership", "Sales & Profitability", "Operations Management", "Hospitality Standards"],
-  },
-
-  {
-    id: "j1002",
-    title: "Chief Risk Officer",
-    company: "Confidential — Financial Services",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/articles/tag/347/management",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-01",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "Konnekt is recruiting a Chief Risk Officer for a financial services client. The CRO will track and manage the organisation's overall risk exposure across all business areas, contribute to the preparation of key internal reporting, and build enterprise risk frameworks. Senior financial services risk leadership experience required.",
-    skills: ["Chief Risk Officer", "Enterprise Risk Management", "Financial Services", "Regulatory Reporting", "Board Advisory"],
   },
 
   {
@@ -703,23 +567,6 @@ export const JOBS = [
     description:
       "A leading MFSA-regulated financial services firm is seeking a COO to lead and coordinate core operational areas including IT, risk, payments, and customer service. The COO will drive digital transformation, shape operational strategy alongside the CEO, and oversee business continuity and risk controls. Closing date 31 May 2026. Ref: BZ096 — contact Therisa Gambin at Konnekt (+356 2258 8038).",
     skills: ["Financial Services Ops", "MFSA / EU Regulation", "Digital Transformation", "Risk & Continuity", "C-Suite Leadership"],
-  },
-
-  {
-    id: "j602",
-    title: "Chief Operating Officer — Construction",
-    company: "Confidential — Maltese Construction Group",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://mt.bebee.com/job/223eb8f8c106d4483c14355a951ef7a2",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-28",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "A well-established Maltese construction group is seeking a COO to oversee construction projects from inception to delivery, ensuring they are completed within agreed timeframes and budgets as agreed with the board. The role requires a seasoned operator with deep knowledge of the Maltese construction landscape.",
-    skills: ["Construction Operations", "Project Delivery", "Board Reporting", "Budget Management", "Site Oversight"],
   },
 
   {
@@ -793,23 +640,6 @@ export const JOBS = [
   },
 
   {
-    id: "j603",
-    title: "Head of Sales & Marketing",
-    company: "Expedition42",
-    category: "head",
-    source: "Konnekt",
-    sourceUrl: "https://maltayp.com/company/354/Konnekt/jobs/4",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-15",
-    isNew: false,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "Expedition42 is seeking a Head of Sales & Marketing to join their C-Suite, reporting directly to the CEO. The selected individual will lead both sales and marketing teams, own the commercialisation strategy across multiple brands, and drive client acquisition and retention. 10+ years' experience with strong B2B track record required.",
-    skills: ["Sales & Marketing Leadership", "Multi-brand Strategy", "B2B Commercial", "Team Leadership", "Revenue Growth"],
-  },
-
-  {
     id: "j502",
     title: "Head of Tax Advisory",
     company: "Confidential — Corporate Services Provider",
@@ -861,23 +691,6 @@ export const JOBS = [
   },
 
   // ══ GENERAL MANAGER ════════════════════════════════════════════════════════
-
-  {
-    id: "j604",
-    title: "General Manager — Hospitality",
-    company: "Confidential — Maltese Hospitality Group",
-    category: "general-manager",
-    source: "Konnekt",
-    sourceUrl: "https://mt.trabajo.org/job-1812-72256ae7a69f94cd00530daeee354d68",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-25",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs",
-    description:
-      "A growing Maltese hospitality company is recruiting a General Manager reporting to the Board of Directors. Scope covers all operations, supplier and client relationships, business growth, KPI oversight, P&L management, team leadership, sales targets, and representation at industry events. The ideal candidate brings proven hospitality GM experience with strong commercial acumen.",
-    skills: ["Hospitality GM", "P&L Ownership", "Board Reporting", "Client Relations", "Business Development"],
-  },
 
   {
     id: "j101",
