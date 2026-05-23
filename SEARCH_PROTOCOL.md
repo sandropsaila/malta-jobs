@@ -57,3 +57,31 @@ Run these web searches to surface LinkedIn-posted roles:
 2. Location is Malta or explicitly requires relocation to Malta
 3. Seniority is C-Suite / Head of Function / General Manager / Director minimum
 4. Apply URL resolves to a real page (career page, recruiter listing, or LinkedIn post)
+
+## MANDATORY LINK VERIFICATION (added 23 May 2026)
+Before adding ANY role to jobs.js, both URLs must be verified:
+
+1. **applyUrl** — must resolve to a page that specifically shows this role
+   - ✅ Direct job listing page (e.g. konnekt.com/jobs/category/title/12345)
+   - ✅ Recruiter's apply page for this specific role
+   - ✅ Company careers page when it's the only/primary apply route
+   - ❌ Generic homepage (konnekt.com)
+   - ❌ Category page with no specific role (konnekt.com/jobs)
+   - ❌ LinkedIn company page (linkedin.com/company/konnekt)
+   - ❌ Third-party aggregator that doesn't host the application
+
+2. **sourceUrl** — must resolve to a page that confirms this specific role exists
+   - ✅ The actual job listing page
+   - ✅ A news article mentioning this specific vacancy
+   - ✅ A search result snippet showing the role title + company
+   - ❌ Generic search results page
+   - ❌ Homepage of the recruiter
+
+3. **Verification step** — for every new role:
+   - Run web_search for "[title] [company] Malta apply [year]"
+   - Confirm the URL exists and shows the role
+   - If no direct URL found → do NOT add the role
+   - If only a generic category page found → use it as applyUrl only if it's the recruiter's best apply route, and note this in description
+
+4. **When in doubt → exclude**
+   A missing role is better than a broken link. The user can always add manually.
