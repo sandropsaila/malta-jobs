@@ -7,6 +7,74 @@
 export const JOBS = [
 
   {
+    id: "j2501",
+    title: "Chief Executive Officer",
+    company: "Confidential — FinTech / Business Support Start-up",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.maltayp.com/company/354/Konnekt/jobs",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-15",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "A start-up company specialised in Business Support and Financial / FinTech Services is looking to onboard a Chief Executive Officer to join their growing team. The CEO will set the overall strategic direction, build the leadership team, and drive the business from early-stage through to scale. Full details and apply via Konnekt.",
+    skills: ["CEO / Founder Profile", "FinTech / Financial Services", "Start-up Leadership", "Strategic Direction", "Team Building"],
+  },
+
+  {
+    id: "j2502",
+    title: "Chief Financial Officer",
+    company: "Confidential — FinTech / Business Support Start-up",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.maltayp.com/company/354/Konnekt/jobs",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-15",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "The same FinTech / Business Support start-up is also recruiting a Chief Financial Officer to join as a founding executive. The CFO will build the financial function from scratch, oversee financial planning and reporting, manage regulatory obligations, and partner closely with the CEO. Full details and apply via Konnekt.",
+    skills: ["CFO — Start-up", "FinTech / Financial Services", "Financial Planning & Reporting", "Regulatory Compliance", "Board Partnering"],
+  },
+
+  {
+    id: "j2503",
+    title: "Head of People",
+    company: "Confidential — B2B Company (Malta, Cyprus, Greece)",
+    category: "head",
+    source: "Konnekt",
+    sourceUrl: "https://www.maltayp.com/company/354/Konnekt/jobs",
+    location: "Malta (multi-country: Malta, Cyprus, Greece)",
+    salary: null,
+    posted: "2026-05-10",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "An experienced B2B company is looking for a Head of People to lead its People & Culture strategy across Malta, Cyprus, and Greece. The role covers talent acquisition, HR operations, employee engagement, and cultural leadership across three jurisdictions. Reporting to the CEO. Full details and apply via Konnekt.",
+    skills: ["Head of People / CHRO", "Multi-country HR", "B2B Environment", "People & Culture", "Talent Strategy"],
+  },
+
+  {
+    id: "j2504",
+    title: "Chief Marketing & Brand Communications Officer",
+    company: "Confidential — Konnekt Client",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.linkedin.com/company/konnekt",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-20",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs",
+    description:
+      "Konnekt has just posted a Chief Marketing & Brand Communications Officer vacancy for a confidential client in Malta. The CMBO will lead the full marketing and brand communications strategy at C-suite level. Full details and apply via Konnekt.",
+    skills: ["CMO / CMBO", "Brand Strategy", "Marketing Leadership", "Communications", "C-Suite"],
+  },
+
+  {
     id: "j2401",
     title: "General Manager — Boutique Hotel",
     company: "Confidential — Boutique Hotel (via IRIS THAUMAS)",
