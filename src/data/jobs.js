@@ -7,6 +7,40 @@
 export const JOBS = [
 
   {
+    id: "j2601",
+    title: "Head of HR, Malta",
+    company: "Betsson Group",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://job-boards.greenhouse.io/betsson/jobs/7677081",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-15",
+    isNew: true,
+    applyUrl: "https://job-boards.greenhouse.io/betsson/jobs/7677081",
+    description:
+      "Betsson Group — one of the world''s leading iGaming operators — is hiring a Head of HR for its Operational HQ in Malta. Reporting to the Chief HR Officer and part of the Malta leadership team, the role owns the 360° HR strategy for Malta, leads the leadership and culture strategy, and supports 1,400+ employees through the Lead HR Business Partners. Strong track record in iGaming or fast-paced eCommerce HR leadership required.",
+    skills: ["Head of HR", "iGaming / eCommerce", "People & Culture Strategy", "HRBP Leadership", "1,400+ Employee Hub"],
+  },
+
+  {
+    id: "j2602",
+    title: "HR Director",
+    company: "Betsson Group",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://job-boards.greenhouse.io/betsson/jobs/7238416",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-12",
+    isNew: true,
+    applyUrl: "https://job-boards.greenhouse.io/betsson/jobs/7238416",
+    description:
+      "Betsson Group is hiring an HR Director to join its International HR Leadership Team, based in Malta. The role shapes and drives the global people agenda, aligning HR initiatives with business priorities across multiple locations, partnering with executive stakeholders, and leading an established team of HR Managers and Business Partners. Works closely with the CHRO and HR Leadership Team.",
+    skills: ["HR Director", "Global People Strategy", "Multi-location HR", "Executive Partnering", "Team Leadership"],
+  },
+
+  {
     id: "j2501",
     title: "Chief Executive Officer",
     company: "Confidential — FinTech / Business Support Start-up",
