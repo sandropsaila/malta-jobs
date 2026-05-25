@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j2701",
+    title: "Head of Marketing",
+    company: "highbet (BetJara Group)",
+    category: "head",
+    source: "LinkedIn",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/head-of-marketing-at-highbet",
+    location: "Il-Gzira, Malta (On-site)",
+    salary: null,
+    posted: "2026-05-24",
+    isNew: true,
+    applyUrl: "https://mt.linkedin.com/jobs/view/head-of-marketing-at-highbet",
+    description:
+      "highbet — a dynamic multi-brand iGaming operator focused on regulated markets, part of a group that includes BetJara (licensed in Nigeria) and Highbet — is recruiting a Head of Marketing for its Il-Gzira, Malta office. The role leads the full marketing function across the group''s gaming brands. On-site, full-time. Posted on LinkedIn with applications managed via the company''s own ATS — apply through the LinkedIn listing.",
+    skills: ["Head of Marketing", "iGaming / Multi-brand", "Regulated Markets", "Brand & Acquisition", "Marketing Leadership"],
+  },
+
+  {
     id: "j2601",
     title: "Head of HR, Malta",
     company: "Betsson Group",
