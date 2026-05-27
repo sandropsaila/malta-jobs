@@ -7,6 +7,91 @@
 export const JOBS = [
 
   {
+    id: "j2801",
+    title: "Head of Brand & Commercial Performance",
+    company: "B2Spin Limited",
+    category: "head",
+    source: "LinkedIn",
+    sourceUrl: "https://b2spin.breezy.hr/",
+    location: "Malta (Hybrid)",
+    salary: null,
+    posted: "2026-05-25",
+    isNew: true,
+    applyUrl: "https://b2spin.breezy.hr/",
+    description:
+      "B2Spin Limited — a Gibraltar-registered, globally distributed social casino game studio focused on free-to-play mobile web games — is recruiting a Head of Brand & Commercial Performance for its Malta hybrid operation. The role leads brand strategy and commercial performance across B2Spin''s gaming portfolio. Apply via B2Spin''s Breezy HR careers portal.",
+    skills: ["Head of Brand", "Commercial Performance", "iGaming / Social Casino", "Mobile Gaming", "Brand Strategy"],
+  },
+
+  {
+    id: "j2802",
+    title: "Head of Procurement",
+    company: "AX Group (AX Hotels / AX Development)",
+    category: "head",
+    source: "AX Careers",
+    sourceUrl: "https://axcareersmalta.com/career/VA1250-head-of-procurement/",
+    location: "Mosta, Malta (On-site)",
+    salary: null,
+    posted: "2026-05-19",
+    isNew: true,
+    applyUrl: "https://axcareersmalta.com/career/VA1250-head-of-procurement/",
+    description:
+      "AX Group — one of Malta''s leading diversified groups spanning hotels, care, construction and development — is seeking a strategic and results-driven Head of Procurement to lead procurement operations across its hospitality portfolio. The role drives cost efficiency, supplier excellence, and procurement strategy group-wide.",
+    skills: ["Head of Procurement", "Hospitality Group", "Supplier Management", "Cost Efficiency", "Strategic Procurement"],
+  },
+
+  {
+    id: "j2803",
+    title: "Head of Sales — Luxury & Wellness",
+    company: "AX Group (The Verdala Wellness Hotel)",
+    category: "head",
+    source: "AX Careers",
+    sourceUrl: "https://axcareersmalta.com/career/",
+    location: "Rabat, Malta (On-site)",
+    salary: null,
+    posted: "2026-05-19",
+    isNew: true,
+    applyUrl: "https://axcareersmalta.com/career/",
+    description:
+      "AX Group is seeking a visionary Head of Sales for The Verdala Wellness Hotel — AX Privilege, its ultra-luxury wellness destination in Rabat, Malta. The role drives global sales strategy, bridging ultra-high-end hospitality with holistic health. Requires a strategic expert who understands luxury market nuances and can translate complex wellness philosophies into high-impact commercial narratives for global travellers.",
+    skills: ["Head of Sales", "Ultra-Luxury Hospitality", "Wellness & Spa", "Global Sales Strategy", "UHNW Market"],
+  },
+
+  {
+    id: "j2804",
+    title: "General Manager — Care & Retirement",
+    company: "AX Care (AX Group)",
+    category: "general-manager",
+    source: "AX Careers",
+    sourceUrl: "https://axcareersmalta.com/career/",
+    location: "Malta (On-site)",
+    salary: null,
+    posted: "2026-05-01",
+    isNew: false,
+    applyUrl: "https://axcareersmalta.com/career/",
+    description:
+      "AX Care — one of Malta''s leading providers of elderly care, encompassing Hilltop Gardens independent retirement living and Simblija Care Home — is seeking a seasoned General Manager to lead and oversee operations across both facilities. The GM will create a haven of warmth, dignity, and compassion for elderly residents. People-centric, purpose-driven leadership required.",
+    skills: ["Care Home GM", "Retirement Village Operations", "Elderly Care", "Purpose-led Leadership", "Multi-site Management"],
+  },
+
+  {
+    id: "j2805",
+    title: "Head of Marketing",
+    company: "Confidential — FMCG / iGaming (via Clear Edge)",
+    category: "head",
+    source: "Clear Edge",
+    sourceUrl: "https://www.ceselection.com/vacancies/",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-25",
+    isNew: true,
+    applyUrl: "https://www.ceselection.com/vacancies/",
+    description:
+      "Clear Edge International Search & Selection — an executive search firm with Malta and UK offices specialising in FMCG, iGaming, and Technology — is actively recruiting a Head of Marketing for a confidential Malta-based client. Easy Apply enabled on LinkedIn. Clear Edge places roles from middle management to board level across consumer goods and iGaming sectors.",
+    skills: ["Head of Marketing", "FMCG / iGaming", "Executive Level", "Marketing Leadership", "Malta-based"],
+  },
+
+  {
     id: "j2701",
     title: "Head of Marketing",
     company: "highbet (BetJara Group)",
@@ -851,7 +936,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Beautiful Recruitment", "TalentBet", "Get Recruited Worldwide", "Betting Connections", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Beautiful Recruitment", "TalentBet", "Get Recruited Worldwide", "Betting Connections", "AX Careers", "Clear Edge", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Direct"];
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
@@ -925,6 +1010,9 @@ export const DIRECT_CAREER_PAGES = [
   // Fintech / Payments
   { name: "CMA CGM Malta",      url: "https://jobs.cmacgm-group.com/" },
   { name: "OKX Europe",          url: "https://www.okx.com/en-eu/join-us" },
+  { name: "AX Careers Malta",   url: "https://axcareersmalta.com/career/" },
+  { name: "Clear Edge",         url: "https://www.ceselection.com/vacancies/" },
+  { name: "B2Spin",             url: "https://b2spin.breezy.hr/" },
   { name: "ONE.io",             url: "https://one.io/about-us/" },
   { name: "Trustly Malta",      url: "https://www.trustly.com/careers" },
   { name: "Nuvei Malta",        url: "https://www.nuvei.com/careers" },
