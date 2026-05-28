@@ -107,6 +107,7 @@ export const JOBS = [
     applyUrl: "https://b2spin.breezy.hr/",
     description:
       "B2Spin Limited — a Gibraltar-registered, globally distributed social casino game studio focused on free-to-play mobile web games — is recruiting a Head of Brand & Commercial Performance for its Malta hybrid operation. The role leads brand strategy and commercial performance across B2Spin''s gaming portfolio. Apply via B2Spin''s Breezy HR careers portal.",
+    linkType: "category",
     skills: ["Head of Brand", "Commercial Performance", "iGaming / Social Casino", "Mobile Gaming", "Brand Strategy"],
   },
 
@@ -419,6 +420,7 @@ export const JOBS = [
     applyUrl: "https://jobs.cmacgm-group.com/",
     description:
       "CMA CGM — one of the world's largest container shipping and logistics groups (155,000 employees, 420+ ports, 623 vessels) — is actively recruiting a General Manager for its Malta Agency. The GM leads CMA CGM Malta's 30+ year operation at the Marsaxlokk freeport, overseeing containerised cargo, specialised/refrigerated cargo, breakbulk, and multimodal logistics across the Maltese islands. This is a replacement GM role following the current incumbent's wider group responsibilities. Reports to CMA CGM Group regional leadership. Apply via jobs.cmacgm-group.com.",
+    linkType: "category",
     skills: ["Shipping & Logistics GM", "Port Operations", "P&L Ownership", "Container / RORO", "Malta Market Leadership"],
   },
 
@@ -453,6 +455,7 @@ export const JOBS = [
     applyUrl: "https://www.reedglobal.com.mt/jobs?keywords=chief+executive&location=Malta",
     description:
       "Reed Recruitment Malta is retained to find a CEO for a confidential client based in Marsa, Malta. Posted 1 week ago on LinkedIn. Reed Malta specialises in C-suite and senior executive placements across financial services, technology, and professional services. Apply via reedglobal.com.mt/jobs.",
+    linkType: "category",
     skills: ["CEO / MD Experience", "Strategic Leadership", "Malta-based", "P&L Ownership", "Stakeholder Management"],
   },
 
@@ -470,6 +473,7 @@ export const JOBS = [
     applyUrl: "https://www.pentasia.com/search-jobs/?search=Head+FPA&location=malta",
     description:
       "Pentasia is recruiting a Head of FP&A for a global iGaming leader in Malta (hybrid). The role leads the Financial Planning & Analysis function, partnering closely with the CFO and executive team. Responsibilities include long-term strategic financial planning, scenario analysis, annual budgeting, rolling forecasts, and monthly financial reporting with variance analysis. A critical strategic finance appointment at a leading Malta-licensed operator.",
+    linkType: "category",
     skills: ["Head of FP&A", "Strategic Finance", "iGaming / Gaming", "CFO Partnering", "Budgeting & Forecasting"],
   },
 
@@ -522,6 +526,7 @@ export const JOBS = [
     applyUrl: "https://www.boston-link.com/latest-careers/?s=head+of+dealing",
     description:
       "Boston Link is recruiting a Head of Dealing for a multi-regulated, multi-asset brokerage in Malta. The role requires a dynamic and highly skilled dealing room leader to oversee trading operations, manage a dealing team, and ensure best execution across multiple asset classes. Senior front-office leadership background in brokerage or investment management required.",
+    linkType: "category",
     skills: ["Head of Dealing", "Multi-Asset Brokerage", "Trading Operations", "Best Execution", "Regulated Environment"],
   },
 
@@ -539,6 +544,7 @@ export const JOBS = [
     applyUrl: "https://www.linktalent.careers/?s=director+operations",
     description:
       "Link Talent (part of Boston Link group) is seeking a seasoned aviation professional for a Director of Operations (NPGO) role with experience in Business Aviation and/or Special Missions. The NPGO (Nominated Person Ground Operations) will lead ground operations for a Malta-based business aviation operator. Senior aviation leadership background required. Apply via linktalent.careers.",
+    linkType: "category",
     skills: ["NPGO / Nominated Person", "Business Aviation", "Ground Operations", "Regulatory Compliance", "Senior Aviation Leadership"],
   },
 
@@ -662,6 +668,7 @@ export const JOBS = [
     applyUrl: "https://www.careerjet.com.mt/general-manager-jobs.html",
     description:
       "A respected European B2B casino games provider is seeking a General Manager — Market Strategy with a focus on B2B casino games. The role is varied and covers commercial strategy, market development, and key partner relationships. Malta, Gibraltar, or remote considered for the right candidate. Sourced via Careerjet.",
+    linkType: "category",
     skills: ["iGaming B2B", "Market Strategy", "Commercial Leadership", "Casino Games", "Partner Management"],
   },
 

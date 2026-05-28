@@ -356,6 +356,15 @@ A link to the generic /vacancies/ page is therefore NOT verification of a Malta 
    - ❌ Generic landing pages: /vacancies/, /careers/, /jobs, /join-us
    - ❌ Discipline/category pages with no specific job: konnekt.com/jobs/accounting-jobs
    - ❌ Salary-band filter pages: reedglobal.com.mt/jobs/60000-euros-100000-euros
+   - ❌ SEARCH-RESULTS / QUERY pages — these are NOT specific roles even though they
+       look targeted. Any URL containing a search query is generic:
+         · ?s=director+operations         (e.g. linktalent.careers/?s=...)
+         · ?search=...  ?keywords=...  ?q=...
+         · /search-jobs/?...  /latest-careers/?s=...  /job-search
+         · /general-manager-jobs.html and other "...-jobs.html" listing pages
+   - ❌ Bare ATS / careers homepages: company.breezy.hr/, jobs.company.com/ (root only)
+   - ✅ EXCEPTION — mailto: links are a VALID direct apply method (apply by email);
+       these are acceptable as applyUrl and are NOT treated as generic.
    - ✅ A page with a job ID or slug: .../job/head-of-transformation-10943.aspx,
         konnekt.com/jobs/.../title/85541, ceselection.com/vacancies-igaming/head-retention-igaming/
 
