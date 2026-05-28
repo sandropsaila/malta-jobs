@@ -192,6 +192,7 @@ export const JOBS = [
     applyUrl: "https://www.linkedin.com/company/highbet/jobs/",
     description:
       "highbet — a dynamic multi-brand iGaming operator focused on regulated markets, part of a group that includes BetJara (licensed in Nigeria) and Highbet — is recruiting a Head of Marketing for its Il-Gzira, Malta office. The role leads the full marketing function across the group''s gaming brands. On-site, full-time. Posted on LinkedIn with applications managed via the company''s own ATS — apply through the LinkedIn listing.",
+    linkType: "category",
     skills: ["Head of Marketing", "iGaming / Multi-brand", "Regulated Markets", "Brand & Acquisition", "Marketing Leadership"],
   },
 
@@ -229,39 +230,7 @@ export const JOBS = [
     skills: ["HR Director", "Global People Strategy", "Multi-location HR", "Executive Partnering", "Team Leadership"],
   },
 
-  {
-    id: "j2501",
-    title: "Chief Executive Officer",
-    company: "Confidential — FinTech / Business Support Start-up",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.maltayp.com/company/354/Konnekt/jobs",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-15",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs",
-    description:
-      "A start-up company specialised in Business Support and Financial / FinTech Services is looking to onboard a Chief Executive Officer to join their growing team. The CEO will set the overall strategic direction, build the leadership team, and drive the business from early-stage through to scale. Full details and apply via Konnekt.",
-    skills: ["CEO / Founder Profile", "FinTech / Financial Services", "Start-up Leadership", "Strategic Direction", "Team Building"],
-  },
 
-  {
-    id: "j2502",
-    title: "Chief Financial Officer",
-    company: "Confidential — FinTech / Business Support Start-up",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.maltayp.com/company/354/Konnekt/jobs",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-15",
-    isNew: true,
-    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs",
-    description:
-      "The same FinTech / Business Support start-up is also recruiting a Chief Financial Officer to join as a founding executive. The CFO will build the financial function from scratch, oversee financial planning and reporting, manage regulatory obligations, and partner closely with the CEO. Full details and apply via Konnekt.",
-    skills: ["CFO — Start-up", "FinTech / Financial Services", "Financial Planning & Reporting", "Regulatory Compliance", "Board Partnering"],
-  },
 
   {
     id: "j2503",
@@ -277,6 +246,7 @@ export const JOBS = [
     applyUrl: "https://www.konnekt.com/jobs/human-resources-jobs",
     description:
       "An experienced B2B company is looking for a Head of People to lead its People & Culture strategy across Malta, Cyprus, and Greece. The role covers talent acquisition, HR operations, employee engagement, and cultural leadership across three jurisdictions. Reporting to the CEO. Full details and apply via Konnekt.",
+    linkType: "category",
     skills: ["Head of People / CHRO", "Multi-country HR", "B2B Environment", "People & Culture", "Talent Strategy"],
   },
 
@@ -294,6 +264,7 @@ export const JOBS = [
     applyUrl: "https://www.iristhaumas.com/vacancies",
     description:
       "IRIS THAUMAS — ISO 9001:2015 certified, MCAST licensed employment agency (EA #181) — is recruiting a General Manager for a boutique hotel in Valletta. The GM will head all client operations in hospitality, lead team selection, development, coaching, and engagement, manage room allocations, group operations, reconciliations, and administration, and work closely with all department leadership teams to ensure exceptional guest experiences. Strong leadership presence and charisma essential.",
+    linkType: "category",
     skills: ["Boutique Hotel GM", "Hospitality Operations", "Team Leadership", "Guest Experience", "Group Operations"],
   },
 
@@ -365,22 +336,6 @@ export const JOBS = [
     skills: ["Head of Operations", "Medical Assistance / Aeromedical", "Alarm Centre Management", "24/7 Service Operations", "CEO Reporting"],
   },
 
-  {
-    id: "j2201",
-    title: "Chief Operating Officer (MiCA)",
-    company: "OKX Europe",
-    category: "c-suite",
-    source: "LinkedIn",
-    sourceUrl: "https://web3.career/web3-companies/okx+europe",
-    location: "Sliema, Malta",
-    salary: null,
-    posted: "2026-05-15",
-    isNew: true,
-    applyUrl: "https://www.okx.com/en-eu/join-us",
-    description:
-      "OKX Europe — one of the world's leading crypto exchanges and Malta's MiCA hub since January 2025 — is recruiting a Chief Operating Officer with deep MiCA regulatory expertise. OKX Europe serves 450M+ EU residents, holds a MiCA licence and Payment Institution (PI) licence, and is aggressively expanding into OKX Cards, OKX Pay, and X-Perps. The COO will oversee operations across OKX's Sliema hub as the business scales its EU footprint. Apply via okx.com/en-eu/join-us.",
-    skills: ["COO Experience", "MiCA / Crypto Regulation", "Crypto Exchange Operations", "EU Regulatory Frameworks", "Scaling Operations"],
-  },
 
   {
     id: "j2202",
@@ -532,6 +487,7 @@ export const JOBS = [
     applyUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-digital-officer",
     description:
       "Konnekt is recruiting a Chief Digital Officer for a financial services client in Malta. The CDO will drive the digital agenda across the organisation, including strategic renewal of tools and processes, digital strategy planning, customer journey analysis, agile methodology, and coordination of multifunctional teams. C-Suite / Senior Management level appointment.",
+    linkType: "category",
     skills: ["Chief Digital Officer", "Digital Transformation", "Financial Services", "Agile Methodology", "Customer Journey"],
   },
 
@@ -600,6 +556,7 @@ export const JOBS = [
     applyUrl: "https://heroix.com.mt/vacancies/",
     description:
       "Heroix is recruiting a General Manager for a confidential client based in Birkirkara, Malta. The GM will thrive in a senior management position handling multiple priorities effectively. Requirements include an Engineering degree, bilingual Maltese/English, strong strategic thinking, and experience in operations, business administration, and management. Apply via Heroix.",
+    linkType: "category",
     skills: ["General Management", "Operations", "Strategic Thinking", "Engineering Background", "Bilingual Maltese/English"],
   },
 
@@ -634,25 +591,10 @@ export const JOBS = [
     applyUrl: "https://accelerate.mt/finance-jobs/",
     description:
       "Accelerate Finance & Legal Recruitment is recruiting a Head of Finance for a FinTech company in Malta. The role oversees the full finance function, financial reporting, regulatory compliance, and business partnering with senior leadership. Accelerate specialises in finance and legal recruitment in Malta across fintech, iGaming, payments, crypto, and banking sectors. Contact Accelerate directly for full details.",
+    linkType: "category",
     skills: ["Head of Finance", "FinTech", "Financial Reporting", "Regulatory Compliance", "Business Partnering"],
   },
 
-  {
-    id: "j1401",
-    title: "Chief Development Officer",
-    company: "Premier Capital plc (McDonald's Europe)",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://hiliventures.com/news/premier-capital-appoints-new-senior-leadership-team-ahead-of-expansion/",
-    location: "Marsa, Malta",
-    salary: null,
-    posted: "2023-08-01",
-    isNew: false,
-    applyUrl: "https://hiliventures.com/careers/",
-    description:
-      "Premier Capital plc — Hili Ventures' McDonald's developmental licensee operating 200+ restaurants across Malta, Estonia, Greece, Latvia, Lithuania and Romania — has had its Chief Development Officer position vacant since Victor Tedesco's retirement. The CDO leads Premier Capital's restaurant expansion strategy, committed to opening 12 new restaurants per year across the European network. Melo Hili (Group CEO and Premier Capital Chairman) confirmed the position remains open. Apply via hiliventures.com/careers.",
-    skills: ["Restaurant Expansion", "Franchise Development", "Multi-country Operations", "QSR / McDonald's", "Strategic Growth"],
-  },
 
   {
     id: "j1301",
@@ -668,6 +610,7 @@ export const JOBS = [
     applyUrl: "https://www.argus.com.mt/about-argus/careers",
     description:
       "Argus Insurance Company (Europe) Limited — part of the Bermuda-based Argus Group and Malta's established general insurance provider — is seeking a General Manager to perform the regulated Branch Manager role. The GM will lead day-to-day operations, maintain a strong control environment, and drive growth across Argus Malta's commercial and personal lines portfolio. Argus Malta offers motor, home, commercial, liability, and marine insurance products.",
+    linkType: "category",
     skills: ["Insurance GM / Branch Manager", "MFSA-regulated Role", "General Insurance", "Commercial & Personal Lines", "P&L Ownership"],
   },
 
@@ -806,6 +749,7 @@ export const JOBS = [
     applyUrl: "https://hiliventures.com/careers/",
     description:
       "Hili Properties plc — part of Hili Ventures with a €234M+ commercial real estate portfolio across Malta, Latvia, Lithuania, Estonia and Romania — is recruiting a permanent CEO following the suspension of its previous MD in January 2026. Daniela Pavia (CFO) serves as interim CEO. Listed-company appointment reporting to the Hili Ventures board.",
+    linkType: "category",
     skills: ["Listed Company CEO", "Real Estate P&L", "Board Reporting", "Multi-country Portfolio", "Investor Relations"],
   },
 
@@ -823,25 +767,10 @@ export const JOBS = [
     applyUrl: "https://hiliventures.com/careers/",
     description:
       "Lead the group-wide internal audit function across Hili Ventures' 10-country, 13,000-person operation spanning food service, retail (McDonald's & Apple), real estate, shipping, oil & gas, and technology. Newly created C-suite role reporting to the Group CEO.",
+    linkType: "category",
     skills: ["Internal Audit Leadership", "Group Governance", "Risk Frameworks", "Multi-jurisdiction", "Big 4 Background"],
   },
 
-  {
-    id: "j203",
-    title: "Chief People Officer",
-    company: "Premier Capital plc (McDonald's Europe)",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://hiliventures.com/careers/",
-    location: "Marsa, Malta",
-    salary: null,
-    posted: "2026-05-01",
-    isNew: true,
-    applyUrl: "https://hiliventures.com/careers/",
-    description:
-      "Premier Capital plc — Hili Ventures' McDonald's franchise arm with 200+ restaurants across Estonia, Greece, Latvia, Lithuania, Malta and Romania — is hiring a Chief People Officer to lead the HR agenda across its European restaurant network of 13,000+ employees.",
-    skills: ["CPO / CHRO Experience", "Multi-country HR", "QSR / Hospitality", "Culture & Engagement", "Talent Development"],
-  },
 
   // ══ HEAD OF FUNCTION ═══════════════════════════════════════════════════════
 
@@ -929,6 +858,7 @@ export const JOBS = [
     applyUrl: "https://www.farsons.com/careers/vacancies",
     description:
       "Lead Farsons' flagship beverage retail outlet adjacent to the brewery in Mriehel. Full P&L accountability for in-store and farsonsdirect.com operations — customer experience, merchandising, team leadership, and commercial performance across the full Farsons brand portfolio.",
+    linkType: "category",
     skills: ["Retail / Outlet GM", "P&L Ownership", "FMCG / Beverages", "E-commerce", "Team Leadership"],
   },
 
@@ -946,6 +876,7 @@ export const JOBS = [
     applyUrl: "https://amsm.com.mt/careers/",
     description:
       "AMSM is Malta's leading FMCG importer and distributor with 200+ brands across all supermarket and grocery channels. Senior GM roles are typically filled via executive search or standing open application. Apply at amsm.com.mt/careers or approach directly.",
+    linkType: "category",
     skills: ["FMCG Distribution", "P&L Management", "Multi-brand Portfolio", "Commercial Strategy", "Team Leadership"],
   },
 
@@ -963,6 +894,7 @@ export const JOBS = [
     applyUrl: "https://www.reedglobal.com.mt/jobs",
     description:
       "Reed Malta is recruiting a Head of Transformation for a confidential financial services client. Bridges strategy and delivery at the highest level — owning how ideas move from demand into production, defining delivery frameworks, leading re-architecture of legacy platforms, and driving consolidation programmes with measurable outcomes. 15+ years IT experience across systems analysis, development and delivery management with deep enterprise architecture expertise required. Contact antonio.ruiz@reed.com or +356 9903 6496.",
+    linkType: "category",
     skills: ["Enterprise Architecture", "Digital Transformation", "Legacy Modernisation", "Delivery Management", "Senior IT Leadership"],
   },
 
@@ -980,6 +912,7 @@ export const JOBS = [
     applyUrl: "https://broadwing.jobs/careers/",
     description:
       "Broadwing is recruiting a CFO for a growing Maltese construction and M&E group. Requires 5+ years in a senior finance leadership role within construction or M&E, a recognised accounting qualification (ACA, ACCA, CPA), and strong experience in project finance, cash flow management, multi-entity structures, and M&A. The CFO will align financial strategy with long-term group expansion, working closely with the board.",
+    linkType: "category",
     skills: ["Construction Finance", "Project Finance", "Multi-entity CFO", "M&A Experience", "ACA / ACCA / CPA"],
   },
 
@@ -997,6 +930,7 @@ export const JOBS = [
     applyUrl: "https://broadwing.jobs/careers/",
     description:
       "Broadwing is recruiting a Head of Risk for a Malta-based financial services firm — tracking and managing overall risk exposure across all business areas, contributing to key internal reporting, and building the firm's risk framework. Senior financial services risk background essential.",
+    linkType: "category",
     skills: ["Risk Management", "Financial Services", "Regulatory Reporting", "Risk Frameworks", "Senior Leadership"],
   },
 
