@@ -7,6 +7,40 @@
 export const JOBS = [
 
   {
+    id: "j2901",
+    title: "Chief Financial Officer",
+    company: "Confidential — Services Industry",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/85541",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-01",
+    isNew: false,
+    applyUrl: "https://www.konnekt.com/jobs/apply/85541/accounting-jobs/chief-financial-officer-cfo",
+    description:
+      "A renowned Maltese services industry client via Konnekt is seeking a Chief Financial Officer. The CFO will hold a key position in the executive team, overseeing all financial operations, strategic planning, and financial reporting. Full details available via direct application to Konnekt.",
+    skills: ["CFO Experience", "Services Industry", "Financial Strategy", "Executive Team", "Malta-based"],
+  },
+
+  {
+    id: "j2902",
+    title: "Chief Financial Officer (Web3 / Stablecoin)",
+    company: "StablR",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://web3.career/i/=MTO5IjN",
+    location: "Ta\'Xbiex, Malta",
+    salary: "€54,000 – €60,000",
+    posted: "2026-04-01",
+    isNew: false,
+    applyUrl: "https://web3.career/i/=MTO5IjN",
+    description:
+      "StablR — a Malta MFSA-registered Virtual Financial Asset Issuer and EMI licence applicant building EURR, a fully euro-backed stablecoin — is seeking a CFO based in Malta. The CFO sits on the Executive Committee, reports to the Board of Directors, and leads StablR''s financial strategy across its Malta and Amsterdam operations. The role covers financial planning, regulatory compliance (MFSA), treasury, and supporting stablecoin reserve management. Team of 16 growing fast.",
+    skills: ["CFO — Web3 / Stablecoin", "MFSA Regulated", "DeFi / Blockchain Finance", "Executive Committee", "Malta-based"],
+  },
+
+  {
     id: "j2801",
     title: "Head of Brand & Commercial Performance",
     company: "B2Spin Limited",
