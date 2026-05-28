@@ -269,22 +269,6 @@ export const JOBS = [
     skills: ["Boutique Hotel GM", "Hospitality Operations", "Team Leadership", "Guest Experience", "Group Operations"],
   },
 
-  {
-    id: "j2402",
-    title: "Managing Director",
-    company: "Confidential — Cryptocurrency Company",
-    category: "general-manager",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/ceo-9922.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-03-01",
-    isNew: false,
-    applyUrl: "https://jobs.grsrecruitment.com/job/ceo-9922/apply.aspx",
-    description:
-      "GRS is recruiting a Managing Director for a pioneering cryptocurrency company establishing its Malta entity. The MD will lead setup of corporate governance, risk, compliance, and operational frameworks, oversee the MFSA Payment Institution or EMI licence application and maintenance, represent the company before MFSA and other EU regulatory authorities, and provide strategic leadership to the executive team. Full P&L and board accountability. Ref #9922 — michellec@grsrecruitment.com.",
-    skills: ["Managing Director", "Crypto / Payments / EMI", "MFSA Licensing", "Entity Setup", "Regulatory Leadership"],
-  },
 
   {
     id: "j2301",
@@ -815,22 +799,6 @@ export const JOBS = [
     skills: ["Tax Advisory Leadership", "International Tax Law", "FATCA / CRS / Pillar 2", "Client Development", "Team Leadership"],
   },
 
-  {
-    id: "j301",
-    title: "Global Head of Operations",
-    company: "Confidential — International Retail Client",
-    category: "head",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/global-head-of-operations-10304.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-15",
-    isNew: false,
-    applyUrl: "https://jobs.grsrecruitment.com/job/global-head-of-operations-10304/apply.aspx",
-    description:
-      "An e-commerce retailer establishing its operational hub in Malta seeks a Global Head of Operations reporting to the CEO. Initial scope covers customer service and global DTC logistics, expanding to finance and marketing as functions migrate from the UK and USA. 8+ years operations, strong e-commerce / DTC background. Ref #10304 — michellec@grsrecruitment.com.",
-    skills: ["Operations Leadership", "E-commerce / DTC", "Global Logistics", "Hub Setup", "Customer Service"],
-  },
 
   {
     id: "j302",

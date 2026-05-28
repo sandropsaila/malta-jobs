@@ -1,6 +1,44 @@
-# Malta Jobs — Search Protocol v2
+# Malta Jobs — Search Protocol v3
 # Run this protocol every time the user says "Update searches" or "Refresh"
 # ─────────────────────────────────────────────────────────────────────────────
+
+## STEP 0 — LIVENESS RE-CHECK OF EXISTING LISTINGS (added 28 May 2026) — RUN FIRST
+**This is the FIRST pass of EVERY "update search". Do it BEFORE searching for new roles.**
+The board must never show a role that has been filled, expired, or removed. Stale roles
+erode trust faster than a missing role, so re-validate what's already there first.
+
+### Procedure — for every role currently in the JOBS array:
+1. **Re-verify the role still exists at its source** (same standard as Step 7 Criterion 0):
+   - For roles with a SPECIFIC URL (job ID/slug): web_fetch or web_search the URL/title.
+     - If the page is 404 / 410 / "position filled" / "no longer available" / "applications
+       closed" / redirects to a generic listing → the role is DEAD.
+   - For roles with `linkType: "category"` (recruiter listing pages): run a site: search or
+     fetch the listing and confirm the SPECIFIC role title still appears on it.
+     - If the title no longer appears on the listing → treat as DEAD (it was filled/pulled).
+   - For news-sourced roles (e.g. a CEO search announced in an article): search for a more
+     recent article. If a permanent appointment has since been announced → the role is FILLED.
+   - For `mailto:` apply roles: re-confirm the original posting (e.g. LinkedIn company jobs
+     page) still lists the role. If gone → DEAD.
+
+2. **Check the closing date** if one is known (some pages show it, e.g. AMSM, Farsons,
+   government postings). If the closing date has passed → DEAD.
+
+3. **Action on each role:**
+   - LIVE and unchanged → keep.
+   - LIVE but details changed (title, location, link) → update the fields.
+   - DEAD (filled / expired / removed / 404) → REMOVE it from the JOBS array.
+   - UNCERTAIN (can't reach source, ambiguous) → keep but do NOT mark isNew; note in the
+     commit message that it could not be re-verified this cycle. If it stays unverifiable
+     across TWO consecutive update cycles → remove it.
+
+4. **Refresh the `isNew` flag** on survivors: isNew:true only if posted within last 14 days
+   of today's date; otherwise isNew:false.
+
+5. **Report** in the response: how many roles were re-checked, how many removed (with reasons),
+   how many updated, before listing any newly-added roles.
+
+### RULE: Never skip Step 0. A board of 40 verified-live roles beats 55 with stale entries.
+The order of every update is: STEP 0 (prune dead) → STEPS 1–6 (find new) → STEP 7 (verify new).
 
 ## STEP 1 — Recruiter portals (direct fetch)
 Fetch these pages and scan for C-Suite / Head of / GM / Director roles:
