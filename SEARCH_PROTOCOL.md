@@ -339,6 +339,49 @@ For each company, check their /careers page AND run a Google site: query.
 - site:malitainvestments.com "careers" OR "vacancy" OR "jobs" senior manager director chief
 - site:plazamalta.com "careers" OR "vacancy" OR "jobs" senior manager director chief
 
+## STEP 7 — FINAL SOURCE VERIFICATION (added 28 May 2026) — MANDATORY
+**This is the LAST gate before any role is added OR kept. No exceptions.**
+
+Many forwarded/sourced links are WRONG: they point to a recruiter's generic landing
+page, a UK/other-country division, or a category page that does not host the specific
+Malta role claimed. A real example: Clear Edge (ceselection.com) — its CONSUMER division
+(/vacancies-consumer/) lists UK roles in GBP (e.g. "National Account Executive – Wine,
+£60k, UK Wide"), while only its iGaming division (/vacancies-igaming/) covers Malta.
+A link to the generic /vacancies/ page is therefore NOT verification of a Malta role.
+
+### For EVERY role (new or already on the board), the applyUrl/sourceUrl MUST pass ALL 4:
+
+1. **PAGE RESOLVES TO THE SPECIFIC ROLE**
+   - The URL must open a page that shows THIS role's title + description.
+   - ❌ Generic landing pages: /vacancies/, /careers/, /jobs, /join-us
+   - ❌ Discipline/category pages with no specific job: konnekt.com/jobs/accounting-jobs
+   - ❌ Salary-band filter pages: reedglobal.com.mt/jobs/60000-euros-100000-euros
+   - ✅ A page with a job ID or slug: .../job/head-of-transformation-10943.aspx,
+        konnekt.com/jobs/.../title/85541, ceselection.com/vacancies-igaming/head-retention-igaming/
+
+2. **LOCATION IS GENUINELY MALTA**
+   - The specific page must state Malta (or explicit relocation-to-Malta).
+   - ❌ UK/other-country roles on a recruiter's site that also covers Malta.
+   - ❌ Salary quoted in £/$ with a UK/EU-mainland location = NOT Malta.
+   - Watch multi-country recruiters (Clear Edge, GRS, Broadwing list Cyprus/UK/Limassol
+     roles side-by-side with Malta ones — read the location line, not the agency).
+
+3. **SENIORITY MATCHES** — C-Suite / Head of / GM / Director minimum, on that page.
+
+4. **ROLE IS LIVE** — not "removed", "expired", "applications closed", or filled.
+
+### Verification procedure:
+- Run web_search for the exact "[title] [company/recruiter] Malta [year]".
+- Prefer to web_fetch the specific job page and READ the location + currency + title.
+- If only a generic landing/category page can be found → the role FAILS. Either find the
+  specific URL, or DO NOT add it. If it is already on the board with a generic URL and no
+  specific page can be confirmed, REMOVE it or downgrade to a verified specific link.
+- If a recruiter operates in multiple countries, you MUST confirm the Malta location on
+  the role page itself — the agency being "in Malta" is not enough.
+
+### RULE: A generic recruiter landing page is NEVER acceptable as proof a Malta role exists.
+When in doubt → exclude. A missing role is better than a wrong/misattributed one.
+
 ## DEDUPLICATION RULES
 - Never add a role already in JOBS array (check by title + company)
 - If a role appears across multiple sources, use the most direct apply link

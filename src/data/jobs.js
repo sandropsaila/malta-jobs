@@ -36,7 +36,8 @@ export const JOBS = [
     isNew: true,
     applyUrl: "https://www.reedglobal.com.mt/jobs/fmcg/other",
     description:
-      "Reed Malta is supporting a leading service company on the island who are looking for a General Manager to join their team. The GM will oversee the company's daily operations, ensuring the execution of strategic goals, business growth, and customer satisfaction. Apply directly via reedglobal.com.mt — search General Manager under FMCG/Service sector.",
+      "Reed Malta (Malta-only agency, Ta' Xbiex) is supporting a leading service company on the island who are looking for a General Manager to join their team. The GM will oversee the company's daily operations, ensuring the execution of strategic goals, business growth, and customer satisfaction. NOTE: Reed does not publish stable per-role URLs — the link opens Reed's FMCG/Service listing where this role appears; search 'General Manager' there.",
+    linkType: "category",
     skills: ["General Management", "Operations Leadership", "Strategic Execution", "Business Growth", "Customer Satisfaction"],
   },
 
@@ -53,7 +54,8 @@ export const JOBS = [
     isNew: true,
     applyUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
     description:
-      "Reed Malta is supporting a leading company seeking an experienced HR professional for a Chief Officer People and Culture role. The successful candidate will manage the full recruitment process, advise on people and culture strategy, and lead the HR function at executive level. Apply via reedglobal.com.mt — search Chief Officer People Culture in the senior/executive salary band.",
+      "Reed Malta (Malta-only agency, Ta' Xbiex) is supporting a leading company seeking an experienced HR professional for a Chief Officer People and Culture role. The successful candidate will manage the full recruitment process, advise on people and culture strategy, and lead the HR function at executive level. NOTE: Reed does not publish stable per-role URLs — the link opens Reed's senior/executive (€60k–100k) listing where this role appears; search 'Chief Officer People Culture' there.",
+    linkType: "category",
     skills: ["Chief People Officer", "HR Strategy", "Talent Acquisition", "Culture & Engagement", "Executive HR Leadership"],
   },
 
@@ -161,19 +163,19 @@ export const JOBS = [
 
   {
     id: "j2805",
-    title: "Head of Marketing",
-    company: "Confidential — FMCG / iGaming (via Clear Edge)",
+    title: "Head of Retention (CRM)",
+    company: "Confidential — Multi-Brand iGaming Operator (via Clear Edge)",
     category: "head",
     source: "Clear Edge",
-    sourceUrl: "https://www.ceselection.com/vacancies/",
+    sourceUrl: "https://www.ceselection.com/vacancies-igaming/head-retention-igaming/",
     location: "Malta",
     salary: null,
-    posted: "2026-05-25",
+    posted: "2026-05-28",
     isNew: true,
-    applyUrl: "https://www.ceselection.com/vacancies/",
+    applyUrl: "https://www.ceselection.com/vacancies-igaming/head-retention-igaming/",
     description:
-      "Clear Edge International Search & Selection — an executive search firm with Malta and UK offices specialising in FMCG, iGaming, and Technology — is actively recruiting a Head of Marketing for a confidential Malta-based client. Easy Apply enabled on LinkedIn. Clear Edge places roles from middle management to board level across consumer goods and iGaming sectors.",
-    skills: ["Head of Marketing", "FMCG / iGaming", "Executive Level", "Marketing Leadership", "Malta-based"],
+      "Clear Edge (iGaming division, Malta) has partnered with a fast-growing iGaming company managing 10+ casino brands across regulated markets to recruit a Head of Retention (CRM). Reporting to the CEO of Regulated Markets, the role leads a team of 6 CRM specialists, owns CRM and player-retention strategy across the brand portfolio (ATL and BTL), and works closely with Product, Marketing and Analytics. Senior CRM/retention experience in iGaming required. Apply via Clear Edge's iGaming vacancies page (verified Malta listing).",
+    skills: ["Head of Retention / CRM", "iGaming", "Player Loyalty & LTV", "Multi-Brand Campaigns", "Team Leadership"],
   },
 
   {
