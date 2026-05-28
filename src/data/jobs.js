@@ -7,6 +7,57 @@
 export const JOBS = [
 
   {
+    id: "j3001",
+    title: "Head of Transformation",
+    company: "Confidential — Food & Beverages Company (Malta)",
+    category: "head",
+    source: "GRS Recruitment",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-28",
+    isNew: true,
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943/apply.aspx",
+    description:
+      "GRS Recruitment (Ref#10943) is seeking a Head of Transformation for a dynamic and well-known Food & Beverages company in Malta. This senior strategic leadership role shapes, governs, and drives large-scale change initiatives — covering digital enablement, process redesign, Target Operating Model development, and cultural transformation. The role leads the Transformation Management Office (TMO), reporting to executive leadership. FMCG, manufacturing or supply chain background strongly preferred. Apply by emailing sarah@grsrecruitment.com quoting Ref#10943.",
+    skills: ["Transformation Leadership", "TMO / PMO Governance", "FMCG / Food & Beverages", "Digital Enablement", "Process Redesign & TOM"],
+  },
+
+  {
+    id: "j3002",
+    title: "General Manager",
+    company: "Confidential — Leading Service Company (Malta)",
+    category: "general-manager",
+    source: "Reed Malta",
+    sourceUrl: "https://www.reedglobal.com.mt/jobs/fmcg/other",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-28",
+    isNew: true,
+    applyUrl: "https://www.reedglobal.com.mt/jobs/fmcg/other",
+    description:
+      "Reed Malta is supporting a leading service company on the island who are looking for a General Manager to join their team. The GM will oversee the company's daily operations, ensuring the execution of strategic goals, business growth, and customer satisfaction. Apply directly via reedglobal.com.mt — search General Manager under FMCG/Service sector.",
+    skills: ["General Management", "Operations Leadership", "Strategic Execution", "Business Growth", "Customer Satisfaction"],
+  },
+
+  {
+    id: "j3003",
+    title: "Chief Officer People & Culture",
+    company: "Confidential — Leading Company (Malta)",
+    category: "c-suite",
+    source: "Reed Malta",
+    sourceUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-28",
+    isNew: true,
+    applyUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
+    description:
+      "Reed Malta is supporting a leading company seeking an experienced HR professional for a Chief Officer People and Culture role. The successful candidate will manage the full recruitment process, advise on people and culture strategy, and lead the HR function at executive level. Apply via reedglobal.com.mt — search Chief Officer People Culture in the senior/executive salary band.",
+    skills: ["Chief People Officer", "HR Strategy", "Talent Acquisition", "Culture & Engagement", "Executive HR Leadership"],
+  },
+
+  {
     id: "j2901",
     title: "Chief Financial Officer",
     company: "Confidential — Services Industry",
