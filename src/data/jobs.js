@@ -851,41 +851,7 @@ export const JOBS = [
 
   // ══ GENERAL MANAGER ════════════════════════════════════════════════════════
 
-  {
-    id: "j101",
-    title: "Farsonsdirect Manager",
-    company: "Simonds Farsons Cisk plc",
-    category: "general-manager",
-    source: "Direct",
-    sourceUrl: "https://www.farsons.com/careers/vacancies",
-    location: "Mriehel, Malta",
-    salary: null,
-    posted: "2026-04-28",
-    isNew: true,
-    applyUrl: "https://www.farsons.com/careers/vacancies",
-    description:
-      "Lead Farsons' flagship beverage retail outlet adjacent to the brewery in Mriehel. Full P&L accountability for in-store and farsonsdirect.com operations — customer experience, merchandising, team leadership, and commercial performance across the full Farsons brand portfolio.",
-    linkType: "category",
-    skills: ["Retail / Outlet GM", "P&L Ownership", "FMCG / Beverages", "E-commerce", "Team Leadership"],
-  },
 
-  {
-    id: "j001",
-    title: "General Manager",
-    company: "Alf Mizzi & Sons Marketing Group (AMSM)",
-    category: "general-manager",
-    source: "Direct",
-    sourceUrl: "https://amsm.com.mt/careers/",
-    location: "Marsa, Malta",
-    salary: null,
-    posted: "2026-03-01",
-    isNew: false,
-    applyUrl: "https://amsm.com.mt/careers/",
-    description:
-      "AMSM is Malta's leading FMCG importer and distributor with 200+ brands across all supermarket and grocery channels. Senior GM roles are typically filled via executive search or standing open application. Apply at amsm.com.mt/careers or approach directly.",
-    linkType: "category",
-    skills: ["FMCG Distribution", "P&L Management", "Multi-brand Portfolio", "Commercial Strategy", "Team Leadership"],
-  },
 
   {
     id: "j801",

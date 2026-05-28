@@ -349,6 +349,25 @@ Malta role claimed. A real example: Clear Edge (ceselection.com) — its CONSUME
 £60k, UK Wide"), while only its iGaming division (/vacancies-igaming/) covers Malta.
 A link to the generic /vacancies/ page is therefore NOT verification of a Malta role.
 
+### CRITERION 0 — THE ROLE MUST ACTUALLY EXIST (most important; check FIRST)
+A resolving link is NOT proof the role exists. The specific role TITLE must actually
+appear on the live source page (careers page, recruiter listing, or news article).
+- ❌ NEVER invent a "plausible" senior role for a company just because the company is
+     big/important (e.g. "Company X is FMCG leader, so they probably need a GM").
+- ❌ NEVER add a role whose description hedges: "typically filled via", "standing open
+     application", "roles like this usually", "approach directly", "may arise". These
+     phrases mean NO confirmed vacancy exists → do NOT add.
+- ❌ A company careers page that lists ONLY junior roles (shelf stackers, drivers,
+     cashiers, warehouse) is NOT evidence of a senior vacancy. Real examples caught:
+     · AMSM /careers/ → only Shelf Stackers, Warehouse roles. NO General Manager existed.
+     · Farsons /careers/vacancies → only Operations/Logistics/driver roles. NO
+       "Farsonsdirect Manager" existed.
+- ✅ The exact role title must be visible on the live page, OR named in a dated news
+     article / company announcement, OR returned by a site: search showing that title.
+- RULE: If you cannot point to the specific role title on a live source → DO NOT ADD IT,
+  and if it is already on the board → REMOVE it. A "standing open application" page is
+  not a vacancy.
+
 ### For EVERY role (new or already on the board), the applyUrl/sourceUrl MUST pass ALL 4:
 
 1. **PAGE RESOLVES TO THE SPECIFIC ROLE**
