@@ -85,3 +85,15 @@ Before adding ANY role to jobs.js, both URLs must be verified:
 
 4. **When in doubt → exclude**
    A missing role is better than a broken link. The user can always add manually.
+
+## LINKEDIN URL POLICY (added 28 May 2026)
+LinkedIn job view URLs (linkedin.com/jobs/view/...) MUST NEVER be used as sourceUrl or applyUrl.
+They expire within days/weeks and become "Unable to load the page" errors.
+
+INSTEAD use:
+- Company's own careers page (preferred)
+- Recruiter's own website listing
+- linkedin.com/company/COMPANY-NAME/jobs/ (stable, shows all current company jobs)
+- Greenhouse / Workday / Ashby ATS URL if the job redirects there
+
+RULE: If the only URL available is a linkedin.com/jobs/view/ link → use linkedin.com/company/NAME/jobs/ as a fallback, and note in description that role was sourced from LinkedIn.
