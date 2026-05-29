@@ -7,22 +7,6 @@
 export const JOBS = [
 
 
-  {
-    id: "j3101",
-    title: "Chief Financial Officer",
-    company: "Confidential — Senior Executive role (via Broadwing)",
-    category: "c-suite",
-    source: "Broadwing",
-    sourceUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
-    location: "Birkirkara, Malta",
-    salary: null,
-    posted: "2026-03-06",
-    isNew: true,
-    applyUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
-    description:
-      "Broadwing Recruitment (Job ID 12087, Ref 3454) is recruiting a Chief Financial Officer for a permanent senior-executive role in Birkirkara, Malta. The role covers financial strategy, forecasting, risk, investments, account management, ERP, and operational leadership. Requires CPA qualification and strong strategic-thinking, problem-solving and communication skills. Apply directly via Broadwing's job page (specific listing — verified live, posted 6 March 2026).",
-    skills: ["Chief Financial Officer", "CPA Qualified", "Financial Strategy & Forecasting", "ERP & Risk", "Strategic Leadership"],
-  },
 
   {
     id: "j3102",
@@ -236,23 +220,6 @@ export const JOBS = [
     skills: ["Head of People / CHRO", "Multi-country HR", "B2B Environment", "People & Culture", "Talent Strategy"],
   },
 
-  {
-    id: "j2401",
-    title: "General Manager — Boutique Hotel",
-    company: "Confidential — Boutique Hotel (via IRIS THAUMAS)",
-    category: "general-manager",
-    source: "LinkedIn",
-    sourceUrl: "https://www.iristhaumas.com/vacancies",
-    location: "Valletta, Malta",
-    salary: null,
-    posted: "2026-05-19",
-    isNew: true,
-    applyUrl: "https://www.iristhaumas.com/vacancies",
-    description:
-      "IRIS THAUMAS — ISO 9001:2015 certified, MCAST licensed employment agency (EA #181) — is recruiting a General Manager for a boutique hotel in Valletta. The GM will head all client operations in hospitality, lead team selection, development, coaching, and engagement, manage room allocations, group operations, reconciliations, and administration, and work closely with all department leadership teams to ensure exceptional guest experiences. Strong leadership presence and charisma essential.",
-    linkType: "category",
-    skills: ["Boutique Hotel GM", "Hospitality Operations", "Team Leadership", "Guest Experience", "Group Operations"],
-  },
 
 
   {
@@ -407,6 +374,7 @@ export const JOBS = [
     applyUrl: "https://www.bet365careers.com/en/current-vacancies?location=Sliema",
     description:
       "bet365 — one of the world's leading online gambling companies with significant operations in Sliema, Malta — is recruiting a Head of VIP. The role leads the VIP customer strategy across bet365's Malta hub, with 12 company alumni already in the building per LinkedIn. Senior iGaming VIP management experience required. Apply directly via bet365.com/careers.",
+    linkType: "category",
     skills: ["VIP Programme Leadership", "iGaming / Sports Betting", "Customer Retention", "High-Value Player Strategy", "Team Management"],
   },
 
@@ -686,12 +654,12 @@ export const JOBS = [
     company: "Hili Ventures Ltd",
     category: "c-suite",
     source: "Direct",
-    sourceUrl: "https://hiliventures.com/careers/",
+    sourceUrl: "https://bebee.com/mt/jobs/chief-audit-officer-hili-ventures-ltd--techmap_mt_NDQ1MTM4IDEwMQ",
     location: "Marsa, Malta",
     salary: null,
     posted: "2026-05-01",
     isNew: true,
-    applyUrl: "https://hiliventures.com/careers/",
+    applyUrl: "https://bebee.com/mt/jobs/chief-audit-officer-hili-ventures-ltd--techmap_mt_NDQ1MTM4IDEwMQ",
     description:
       "Lead the group-wide internal audit function across Hili Ventures' 10-country, 13,000-person operation spanning food service, retail (McDonald's & Apple), real estate, shipping, oil & gas, and technology. Newly created C-suite role reporting to the Group CEO.",
     linkType: "category",
@@ -764,12 +732,12 @@ export const JOBS = [
     company: "Confidential — Construction & M&E Group",
     category: "c-suite",
     source: "Direct",
-    sourceUrl: "https://broadwing.jobs/careers/",
+    sourceUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
     location: "Malta",
     salary: "€45,000 – €55,000",
     posted: "2026-03-06",
     isNew: false,
-    applyUrl: "https://broadwing.jobs/careers/",
+    applyUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
     description:
       "Broadwing is recruiting a CFO for a growing Maltese construction and M&E group. Requires 5+ years in a senior finance leadership role within construction or M&E, a recognised accounting qualification (ACA, ACCA, CPA), and strong experience in project finance, cash flow management, multi-entity structures, and M&A. The CFO will align financial strategy with long-term group expansion, working closely with the board.",
     linkType: "category",
@@ -782,12 +750,12 @@ export const JOBS = [
     company: "Confidential — Financial Services",
     category: "head",
     source: "Direct",
-    sourceUrl: "https://broadwing.jobs/careers/",
+    sourceUrl: "https://broadwing.jobs/careers/job/head-of-risk-3452/",
     location: "Malta",
     salary: null,
     posted: "2026-02-03",
     isNew: false,
-    applyUrl: "https://broadwing.jobs/careers/",
+    applyUrl: "https://broadwing.jobs/careers/job/head-of-risk-3452/",
     description:
       "Broadwing is recruiting a Head of Risk for a Malta-based financial services firm — tracking and managing overall risk exposure across all business areas, contributing to key internal reporting, and building the firm's risk framework. Senior financial services risk background essential.",
     linkType: "category",
