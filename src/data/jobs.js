@@ -6,7 +6,23 @@
 
 export const JOBS = [
 
-
+  {
+    id: "j3301",
+    title: "Head of Marketing",
+    company: "Alta Platform Gaming Ltd",
+    category: "head",
+    source: "LinkedIn",
+    sourceUrl: "https://www.linkedin.com/company/alta-platform-gaming/jobs/",
+    location: "Il-Gżira, Malta (Hybrid)",
+    salary: null,
+    posted: "2026-05-29",
+    isNew: true,
+    applyUrl: "https://www.linkedin.com/company/alta-platform-gaming/jobs/",
+    description:
+      "Alta Platform Gaming Ltd — a Malta-registered iGaming company (Santa Venera, MT C 108045; CEO Adam Vella, ex-Betsson) — is recruiting a Head of Marketing for its Il-Gżira operation (hybrid). The role leads the full marketing function for the gaming platform. Listed on LinkedIn with Easy Apply. NOTE: no stable per-role URL — link opens Alta Platform Gaming's LinkedIn jobs page; search 'Head of Marketing' there.",
+    linkType: "category",
+    skills: ["Head of Marketing", "iGaming", "Brand & Performance Marketing", "Marketing Leadership", "Malta-based"],
+  },
 
   {
     id: "j3102",

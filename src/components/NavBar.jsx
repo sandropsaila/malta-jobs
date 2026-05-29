@@ -1,6 +1,6 @@
 import { Search, SlidersHorizontal, Building2 } from "lucide-react";
 
-const LAST_UPDATED = "29 May 2026, 13:30";
+const LAST_UPDATED = "29 May 2026, 14:00";
 
 export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, searchVal }) {
   return (
