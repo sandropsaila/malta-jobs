@@ -7,6 +7,40 @@
 export const JOBS = [
 
   {
+    id: "j3101",
+    title: "Chief Financial Officer",
+    company: "Confidential — Senior Executive role (via Broadwing)",
+    category: "c-suite",
+    source: "Broadwing",
+    sourceUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
+    location: "Birkirkara, Malta",
+    salary: null,
+    posted: "2026-03-06",
+    isNew: true,
+    applyUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
+    description:
+      "Broadwing Recruitment (Job ID 12087, Ref 3454) is recruiting a Chief Financial Officer for a permanent senior-executive role in Birkirkara, Malta. The role covers financial strategy, forecasting, risk, investments, account management, ERP, and operational leadership. Requires CPA qualification and strong strategic-thinking, problem-solving and communication skills. Apply directly via Broadwing's job page (specific listing — verified live, posted 6 March 2026).",
+    skills: ["Chief Financial Officer", "CPA Qualified", "Financial Strategy & Forecasting", "ERP & Risk", "Strategic Leadership"],
+  },
+
+  {
+    id: "j3102",
+    title: "Chief Executive Officer",
+    company: "Hili Ventures Ltd",
+    category: "c-suite",
+    source: "BeBee / LinkedIn",
+    sourceUrl: "https://bebee.com/mt/jobs/chief-executive-officer-hili-ventures-ltd--bs-mt-57197e2a-a836-4a3d-934b-339e8fbf9cae",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-21",
+    isNew: true,
+    applyUrl: "https://bebee.com/mt/jobs/chief-executive-officer-hili-ventures-ltd--bs-mt-57197e2a-a836-4a3d-934b-339e8fbf9cae",
+    description:
+      "Hili Ventures Ltd is recruiting a Chief Executive Officer to lead the Company and oversee day-to-day running of its portfolio across logistics (Mariner), McDonald's franchise (Premier Capital across 5 countries), IT (iSpot/Harvest), real estate (Hili Properties), engineering, and marine (Manoel Island Yacht Yard). The CEO will assume responsibility for sustained business growth while maximising shareholder value across this diversified group. Reports to the board. Listed via BeBee; also confirmed by Peter Hili (Premier Capital) on LinkedIn within the past week.",
+    skills: ["Group CEO", "Multi-Country P&L", "Diversified Portfolio", "Board Reporting", "Strategic Leadership"],
+  },
+
+  {
     id: "j3001",
     title: "Head of Transformation",
     company: "Confidential — Food & Beverages Company (Malta)",
@@ -134,12 +168,12 @@ export const JOBS = [
     company: "AX Group (The Verdala Wellness Hotel)",
     category: "head",
     source: "AX Careers",
-    sourceUrl: "https://axcareersmalta.com/career/",
+    sourceUrl: "https://axcareersmalta.com/career/VA1201-head-of-sales-luxury-wellness/",
     location: "Rabat, Malta (On-site)",
     salary: null,
     posted: "2026-05-19",
     isNew: true,
-    applyUrl: "https://axcareersmalta.com/career/",
+    applyUrl: "https://axcareersmalta.com/career/VA1201-head-of-sales-luxury-wellness/",
     description:
       "AX Group is seeking a visionary Head of Sales for The Verdala Wellness Hotel — AX Privilege, its ultra-luxury wellness destination in Rabat, Malta. The role drives global sales strategy, bridging ultra-high-end hospitality with holistic health. Requires a strategic expert who understands luxury market nuances and can translate complex wellness philosophies into high-impact commercial narratives for global travellers.",
     skills: ["Head of Sales", "Ultra-Luxury Hospitality", "Wellness & Spa", "Global Sales Strategy", "UHNW Market"],
@@ -214,22 +248,6 @@ export const JOBS = [
     skills: ["Head of HR", "iGaming / eCommerce", "People & Culture Strategy", "HRBP Leadership", "1,400+ Employee Hub"],
   },
 
-  {
-    id: "j2602",
-    title: "HR Director",
-    company: "Betsson Group",
-    category: "head",
-    source: "Direct",
-    sourceUrl: "https://job-boards.greenhouse.io/betsson/jobs/7238416",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-12",
-    isNew: true,
-    applyUrl: "https://job-boards.greenhouse.io/betsson/jobs/7238416",
-    description:
-      "Betsson Group is hiring an HR Director to join its International HR Leadership Team, based in Malta. The role shapes and drives the global people agenda, aligning HR initiatives with business priorities across multiple locations, partnering with executive stakeholders, and leading an established team of HR Managers and Business Partners. Works closely with the CHRO and HR Leadership Team.",
-    skills: ["HR Director", "Global People Strategy", "Multi-location HR", "Executive Partnering", "Team Leadership"],
-  },
 
 
 
@@ -604,22 +622,6 @@ export const JOBS = [
     skills: ["Insurance GM / Branch Manager", "MFSA-regulated Role", "General Insurance", "Commercial & Personal Lines", "P&L Ownership"],
   },
 
-  {
-    id: "j1303",
-    title: "General Manager — Operations & Engineering",
-    company: "Confidential — Santa Venera, Malta",
-    category: "general-manager",
-    source: "Broadwing",
-    sourceUrl: "https://broadwing.jobs/careers/job/general-manager-3068/",
-    location: "Santa Venera, Malta",
-    salary: null,
-    posted: "2024-12-09",
-    isNew: false,
-    applyUrl: "https://broadwing.jobs/careers/job/general-manager-3068/",
-    description:
-      "Broadwing is recruiting a General Manager for a Malta-based engineering and operations business in Santa Venera. The GM will handle multiple priorities in a senior management capacity, covering job costing, coordination, customer requirements, strategic thinking, and full operational oversight. Engineering degree and Maltese/English bilingualism required.",
-    skills: ["Operations Management", "Engineering Background", "Job Costing", "Strategic Thinking", "Bilingual Maltese/English"],
-  },
 
   {
     id: "j1201",
@@ -709,22 +711,6 @@ export const JOBS = [
     skills: ["CCO / Commercial Leadership", "B2B & B2C Sales", "Digital Marketing", "Brand Portfolio", "Revenue Growth"],
   },
 
-  {
-    id: "j401",
-    title: "Chief Operating Officer",
-    company: "Confidential — Financial Services Leader",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-operating-officer/83978",
-    location: "Central Malta",
-    salary: null,
-    posted: "2025-11-26",
-    isNew: false,
-    applyUrl: "https://www.konnekt.com/jobs/apply/83978/general-management-jobs/chief-operating-officer",
-    description:
-      "A leading MFSA-regulated financial services firm is seeking a COO to lead and coordinate core operational areas including IT, risk, payments, and customer service. The COO will drive digital transformation, shape operational strategy alongside the CEO, and oversee business continuity and risk controls. Closing date 31 May 2026. Ref: BZ096 — contact Therisa Gambin at Konnekt (+356 2258 8038).",
-    skills: ["Financial Services Ops", "MFSA / EU Regulation", "Digital Transformation", "Risk & Continuity", "C-Suite Leadership"],
-  },
 
   {
     id: "j201",
