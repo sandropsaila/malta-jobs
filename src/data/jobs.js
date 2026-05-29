@@ -65,6 +65,7 @@ export const JOBS = [
     title: "Chief Financial Officer",
     company: "Confidential — Services Industry",
     category: "c-suite",
+    domain: ["finance"],
     source: "Konnekt",
     sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/85541",
     location: "Malta",
@@ -82,6 +83,7 @@ export const JOBS = [
     title: "Chief Financial Officer (Web3 / Stablecoin)",
     company: "StablR",
     category: "c-suite",
+    domain: ["finance"],
     source: "Direct",
     sourceUrl: "https://web3.career/i/=MTO5IjN",
     location: "Ta\'Xbiex, Malta",
@@ -243,6 +245,7 @@ export const JOBS = [
     title: "Head of Internal Audit, Malta",
     company: "OKX Europe",
     category: "head",
+    domain: ["finance"],
     source: "Direct",
     sourceUrl: "https://www.coindesk.com/business/2024/07/11/okx-picks-malta-over-france-as-europe-hub-to-comply-with-eus-mica-crypto-rules-sources",
     location: "Sliema, Malta",
@@ -346,6 +349,7 @@ export const JOBS = [
     title: "Head of Compliance (CO/MLRO)",
     company: "Confidential — Wealth Management Company",
     category: "head",
+    domain: ["legal"],
     source: "GRS",
     sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-compliance-11023.aspx",
     location: "Malta",
@@ -400,6 +404,7 @@ export const JOBS = [
     title: "Head of FP&A",
     company: "Confidential — Global iGaming Leader",
     category: "head",
+    domain: ["finance"],
     source: "Pentasia",
     sourceUrl: "https://www.pentasia.com/search-jobs/?search=head+of+FP%26A&location=malta",
     location: "Malta (Hybrid)",
@@ -436,6 +441,7 @@ export const JOBS = [
     title: "Audit Director",
     company: "Confidential — Global Accounting & Advisory Firm",
     category: "head",
+    domain: ["finance"],
     source: "GRS",
     sourceUrl: "https://jobs.grsrecruitment.com/job/audit-director-9370.aspx",
     location: "Malta",
@@ -524,6 +530,7 @@ export const JOBS = [
     title: "Head of Finance (FinTech)",
     company: "Confidential — FinTech Company",
     category: "head",
+    domain: ["finance"],
     source: "Accelerate",
     sourceUrl: "https://accelerate.mt/finance-jobs/",
     location: "Malta",
@@ -669,6 +676,7 @@ export const JOBS = [
     title: "Chief Audit Officer",
     company: "Hili Ventures Ltd",
     category: "c-suite",
+    domain: ["finance"],
     source: "Direct",
     sourceUrl: "https://bebee.com/mt/jobs/chief-audit-officer-hili-ventures-ltd--techmap_mt_NDQ1MTM4IDEwMQ",
     location: "Marsa, Malta",
@@ -707,6 +715,7 @@ export const JOBS = [
     title: "Head of Tax Advisory",
     company: "Confidential — Corporate Services Provider",
     category: "head",
+    domain: ["finance"],
     source: "GRS",
     sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-tax-advisory-10494.aspx",
     location: "Malta",
@@ -725,6 +734,7 @@ export const JOBS = [
     title: "Group Head of Compliance & Regulatory Strategy",
     company: "Confidential — Wealth Management Group",
     category: "head",
+    domain: ["legal"],
     source: "GRS",
     sourceUrl: "https://jobs.grsrecruitment.com/job/group-head-of-compliance-and-regulatory-strategy-10489.aspx",
     location: "Malta",
@@ -747,6 +757,7 @@ export const JOBS = [
     title: "Chief Financial Officer",
     company: "Confidential — Construction & M&E Group",
     category: "c-suite",
+    domain: ["finance"],
     source: "Direct",
     sourceUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
     location: "Malta",
@@ -765,6 +776,7 @@ export const JOBS = [
     title: "Head of Risk",
     company: "Confidential — Financial Services",
     category: "head",
+    domain: ["finance"],
     source: "Direct",
     sourceUrl: "https://broadwing.jobs/careers/job/head-of-risk-3452/",
     location: "Malta",
@@ -799,9 +811,33 @@ export const CATEGORIES = {
     bg: "rgba(0,122,77,0.07)",
     border: "rgba(0,122,77,0.25)",
   },
+  finance: {
+    label: "Finance",
+    color: "#8A6D00",           // Gold/amber
+    bg: "rgba(138,109,0,0.07)",
+    border: "rgba(138,109,0,0.25)",
+    dimension: "domain",        // matched against job.domain, not job.category
+  },
+  legal: {
+    label: "Legal",
+    color: "#5B2A86",           // Purple
+    bg: "rgba(91,42,134,0.07)",
+    border: "rgba(91,42,134,0.25)",
+    dimension: "domain",
+  },
 };
 
 export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Beautiful Recruitment", "TalentBet", "Get Recruited Worldwide", "Betting Connections", "AX Careers", "Clear Edge", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Direct"];
+
+// Returns true if a job belongs to the given category key, honouring the
+// "domain" dimension (Finance/Legal are tags on job.domain, not job.category).
+export function jobMatchesCategory(job, key) {
+  const cat = CATEGORIES[key];
+  if (cat && cat.dimension === "domain") {
+    return Array.isArray(job.domain) && job.domain.includes(key);
+  }
+  return job.category === key;
+}
 
 export const SEARCH_QUERIES = [
   // ── C-Suite titles ─────────────────────────────────────────────────────
@@ -823,6 +859,21 @@ export const SEARCH_QUERIES = [
   "Head of Risk Malta 2026",
   "Head of Compliance Malta 2026",
   "Head of Transformation Malta 2026",
+  // ── Finance domain ─────────────────────────────────────────────────────
+  "Head of Finance Malta 2026",
+  "Finance Director Malta 2026",
+  "Head of Tax Malta 2026",
+  "Head of Audit OR Audit Director Malta 2026",
+  "Head of FP&A Malta 2026",
+  "Financial Controller Malta senior 2026",
+  "Head of Risk Malta 2026",
+  // ── Legal domain ───────────────────────────────────────────────────────
+  "Head of Legal Malta 2026",
+  "General Counsel Malta 2026",
+  "Head of Compliance Malta 2026",
+  "MLRO Malta senior 2026",
+  "Head of Regulatory OR Regulatory Affairs Malta 2026",
+  "Company Secretary OR Head of Governance Malta 2026",
   "Marketing Director Malta 2026",
   "Sales Director Malta 2026",
   "Commercial Director Malta 2026",

@@ -8,7 +8,7 @@ import DesktopSidebar from "./components/DesktopSidebar";
 import JobCard from "./components/JobCard";
 import CompaniesDirectory from "./components/CompaniesDirectory";
 import LiveJobSearch from "./components/LiveJobSearch";
-import { JOBS } from "./data/jobs";
+import { JOBS, jobMatchesCategory } from "./data/jobs";
 import "./styles/global.css";
 import "./styles/pinlock.css";
 import "./styles/navbar.css";
@@ -47,7 +47,7 @@ export default function App() {
 
   const filtered = useMemo(() => {
     let jobs = [...JOBS];
-    if (filters.category) jobs = jobs.filter((j) => j.category === filters.category);
+    if (filters.category) jobs = jobs.filter((j) => jobMatchesCategory(j, filters.category));
     if (filters.source) jobs = jobs.filter((j) => j.source === filters.source);
     if (search.trim()) {
       const q = search.toLowerCase();

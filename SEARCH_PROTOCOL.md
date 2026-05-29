@@ -489,6 +489,21 @@ This is because no link on the board is a guaranteed-live direct application; ev
 points to a recruiter/company page that the user must check. "Apply Now" implies a
 verified live application and over-promises. Always use "View Listing".
 
+
+## DOMAIN TAGGING (Finance / Legal) — added 29 May 2026
+The board has two filter dimensions:
+1. Seniority (job.category): "c-suite" | "head" | "general-manager" — always required, one value.
+2. Domain (job.domain): optional array, ["finance"] and/or ["legal"], used by the Finance &
+   Legal filters. A role keeps its seniority badge AND surfaces under its domain filter.
+When adding a role, set domain when it fits:
+- FINANCE: CFO, Head/Director of Finance, Financial Controller, Head of FP&A, Head of Tax,
+  Audit Director / Head of Audit / Chief Audit Officer, Head of Risk, Treasury.
+- LEGAL: General Counsel, Head of Legal, Head of Compliance / MLRO / Compliance Officer,
+  Head of Regulatory / Regulatory Affairs, Company Secretary, Head of Governance.
+- A role can be BOTH (e.g. "Head of Legal & Compliance" → ["legal"]; a regulated-finance
+  compliance role could be ["legal","finance"] if it spans both — use judgement).
+- Most roles have NO domain (marketing, ops, HR, GM, commercial, engineering) — leave it unset.
+
 ## DEDUPLICATION RULES
 - Never add a role already in JOBS array (check by title + company)
 - If a role appears across multiple sources, use the most direct apply link

@@ -1,4 +1,4 @@
-import { CATEGORIES } from "../data/jobs";
+import { CATEGORIES, jobMatchesCategory } from "../data/jobs";
 
 export default function StatsBar({ jobs, activeCategory, onCategoryClick }) {
   const total = jobs.length;
@@ -13,7 +13,7 @@ export default function StatsBar({ jobs, activeCategory, onCategoryClick }) {
         <span className="stat-label">All Vacancies</span>
       </button>
       {Object.entries(CATEGORIES).map(([key, cat]) => {
-        const count = jobs.filter((j) => j.category === key).length;
+        const count = jobs.filter((j) => jobMatchesCategory(j, key)).length;
         return (
           <button
             key={key}
