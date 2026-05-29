@@ -75,11 +75,9 @@ export default function JobCard({ job }) {
               rel="noopener noreferrer"
               className="btn-apply"
             >
-              {job.linkType === "category"
-                ? "View Listing"
-                : job.applyUrl.startsWith("mailto:")
+              {job.applyUrl.startsWith("mailto:")
                 ? "Apply by Email"
-                : "Apply Now"}{" "}
+                : "View Listing"}{" "}
               <ExternalLink size={13} />
             </a>
             {job.sourceUrl !== job.applyUrl && (

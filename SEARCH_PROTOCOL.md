@@ -480,6 +480,15 @@ appear on the live source page (careers page, recruiter listing, or news article
 ### RULE: A generic recruiter landing page is NEVER acceptable as proof a Malta role exists.
 When in doubt → exclude. A missing role is better than a wrong/misattributed one.
 
+
+## BUTTON LABELLING POLICY (added 29 May 2026)
+The primary action button on every job card NEVER says "Apply Now".
+- Default label: **"View Listing"** (the user verifies the role on the source before applying).
+- Only exception: applyUrl starting with `mailto:` → label **"Apply by Email"**.
+This is because no link on the board is a guaranteed-live direct application; every link
+points to a recruiter/company page that the user must check. "Apply Now" implies a
+verified live application and over-promises. Always use "View Listing".
+
 ## DEDUPLICATION RULES
 - Never add a role already in JOBS array (check by title + company)
 - If a role appears across multiple sources, use the most direct apply link

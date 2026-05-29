@@ -266,7 +266,7 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-10",
     isNew: true,
-    applyUrl: "https://www.okx.com/en-eu/join-us?jobCategory=Compliance%2C%20Legal%20%26%20Audit&jobLocation=Malta",
+    applyUrl: "https://web3.career/head-of-internal-audit-malta-okx/67714",
     description:
       "OKX Europe is recruiting a Head of Internal Audit (Internal Audit Director level) for its Malta entity. Reporting to the global Head of Internal Audit, the role coordinates EU/EEA audit activities, drives risk-based audit planning, leads execution and reporting, and acts as third line of defence across OKX''s MiCA-licensed European operations. Requires strong digital assets / fintech audit background plus CPA/CIA/CISA/CISSP certification. Apply via okx.com/en-eu/join-us.",
     skills: ["Internal Audit Director", "Digital Assets / Crypto", "MiCA / EU Regulatory", "Third Line of Defence", "CPA / CIA / CISA"],
@@ -335,7 +335,7 @@ export const JOBS = [
     salary: null,
     posted: "2026-05-01",
     isNew: true,
-    applyUrl: "https://www.okx.com/en-eu/join-us?jobDepartment=Human%20Resources",
+    applyUrl: "https://web3.career/head-of-hr-eu-okx/66742",
     description:
       "OKX Europe is recruiting a Head of HR for the EU region, based in Malta. The role shapes and owns the EU People Plan, leads a team of HR professionals, oversees HR operations, local policy, talent planning, and employee engagement across OKX's rapidly expanding EU hub. A strategic senior HR appointment partnering with local and global leadership. Apply via okx.com/en-eu/join-us.",
     skills: ["Head of HR / CHRO", "EU People Strategy", "Crypto / FinTech", "HR Operations", "Talent Planning"],
