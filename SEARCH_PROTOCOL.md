@@ -38,6 +38,23 @@ erode trust faster than a missing role, so re-validate what's already there firs
      listing (the listing may lag behind by hours).
    Category-link rot is the single biggest source of stale entries; do not skip 2a.
 
+   **2b. SOURCES WITH UNRELIABLE LISTING PAGES — DO NOT TRUST THE LISTING (added 29 May 2026)**
+   Some recruiters publish a listing page that shows role summaries whose click-through
+   detail pages have already expired. The listing is essentially a stale cache. Even when
+   the title is visible on the listing, the actual role is dead.
+   - **Reed Malta (reedglobal.com.mt → reedglobal.mt)** is confirmed in this category.
+     Worked example (29 May 2026): "Head of Financial Control" appeared on the live
+     reedglobal.com.mt listing at 11:00, was added to the board at 11:00, and by 12:23
+     its click-through URL on reedglobal.mt returned "Job Has Expired." Same pattern
+     killed Reed GM (j3002, 28→29 May) and very likely affected j3003 and j801.
+   - For sources flagged as "listing-unreliable": only add a role if you can find the
+     SPECIFIC reedglobal.mt (or equivalent per-role) URL AND that URL returns a real
+     job page (not "Job Has Expired", not a redirect to the listing). The listing
+     showing the role is NOT sufficient evidence.
+   - Currently flagged listing-unreliable sources: Reed Malta.
+   - If you cannot find a per-role URL for a Reed Malta listing, DO NOT ADD the role —
+     it is more likely than not already dead.
+
 3. **Action on each role:**
    - LIVE and unchanged → keep.
    - LIVE but details changed (title, location, link) → update the fields.

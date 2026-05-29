@@ -6,23 +6,6 @@
 
 export const JOBS = [
 
-  {
-    id: "j3201",
-    title: "Head of Financial Control",
-    company: "Confidential — Renowned Group of Companies (via Reed Malta)",
-    category: "head",
-    source: "Reed Malta",
-    sourceUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-29",
-    isNew: true,
-    applyUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
-    description:
-      "Reed Malta is supporting a renowned Group of Companies on the island looking for a Head of Financial Control. The role manages the group's accounting procedures, ensures budgets and forecasts are prepared, reviews management accounts and the annual audit. NOTE: Reed doesn't publish stable per-role URLs — link opens Reed's senior salary band listing where this role appears today (29 May 2026). Search 'Head of Financial Control' there.",
-    linkType: "category",
-    skills: ["Head of Financial Control", "Group Accounting", "Budgets & Forecasts", "Management Accounts", "Annual Audit"],
-  },
 
   {
     id: "j3101",
@@ -76,23 +59,6 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j3003",
-    title: "Chief Officer People & Culture",
-    company: "Confidential — Leading Company (Malta)",
-    category: "c-suite",
-    source: "Reed Malta",
-    sourceUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-28",
-    isNew: true,
-    applyUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
-    description:
-      "Reed Malta (Malta-only agency, Ta' Xbiex) is supporting a leading company seeking an experienced HR professional for a Chief Officer People and Culture role. The successful candidate will manage the full recruitment process, advise on people and culture strategy, and lead the HR function at executive level. NOTE: Reed does not publish stable per-role URLs — the link opens Reed's senior/executive (€60k–100k) listing where this role appears; search 'Chief Officer People Culture' there.",
-    linkType: "category",
-    skills: ["Chief People Officer", "HR Strategy", "Talent Acquisition", "Culture & Engagement", "Executive HR Leadership"],
-  },
 
   {
     id: "j2901",
