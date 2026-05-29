@@ -23,6 +23,21 @@ erode trust faster than a missing role, so re-validate what's already there firs
 2. **Check the closing date** if one is known (some pages show it, e.g. AMSM, Farsons,
    government postings). If the closing date has passed → DEAD.
 
+   **2a. CATEGORY-LINKED ROLES — explicit title search required (added 29 May 2026)**
+   Category links (`linkType: "category"`) rot the fastest. The link still resolves, but
+   the underlying role is silently gone. Real example: Reed Malta GM (j3002) was added
+   28 May, and by 29 May the specific URL redirected to a "Job Has Expired" page even
+   though the category listing was still up.
+   For EVERY category-linked role, do BOTH:
+   - Run a `site:` search or fetch the recruiter's listing page and **scan for the exact
+     role title** (e.g. "Head of Financial Control" on reedglobal.com.mt). If the title
+     is NOT visible on the live listing → role is DEAD, remove it.
+   - If the role has a known specific redirect URL (e.g. reedglobal.mt/jobs/general-manager-...),
+     also fetch that URL. If it returns "Job Has Expired" / "no longer available" / 404
+     / redirects to a generic listing → DEAD even if the title still appears on the
+     listing (the listing may lag behind by hours).
+   Category-link rot is the single biggest source of stale entries; do not skip 2a.
+
 3. **Action on each role:**
    - LIVE and unchanged → keep.
    - LIVE but details changed (title, location, link) → update the fields.

@@ -7,6 +7,24 @@
 export const JOBS = [
 
   {
+    id: "j3201",
+    title: "Head of Financial Control",
+    company: "Confidential — Renowned Group of Companies (via Reed Malta)",
+    category: "head",
+    source: "Reed Malta",
+    sourceUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-29",
+    isNew: true,
+    applyUrl: "https://www.reedglobal.com.mt/jobs/60000-euros-100000-euros",
+    description:
+      "Reed Malta is supporting a renowned Group of Companies on the island looking for a Head of Financial Control. The role manages the group's accounting procedures, ensures budgets and forecasts are prepared, reviews management accounts and the annual audit. NOTE: Reed doesn't publish stable per-role URLs — link opens Reed's senior salary band listing where this role appears today (29 May 2026). Search 'Head of Financial Control' there.",
+    linkType: "category",
+    skills: ["Head of Financial Control", "Group Accounting", "Budgets & Forecasts", "Management Accounts", "Annual Audit"],
+  },
+
+  {
     id: "j3101",
     title: "Chief Financial Officer",
     company: "Confidential — Senior Executive role (via Broadwing)",
@@ -57,23 +75,6 @@ export const JOBS = [
     skills: ["Transformation Leadership", "TMO / PMO Governance", "FMCG / Food & Beverages", "Digital Enablement", "Process Redesign & TOM"],
   },
 
-  {
-    id: "j3002",
-    title: "General Manager",
-    company: "Confidential — Leading Service Company (Malta)",
-    category: "general-manager",
-    source: "Reed Malta",
-    sourceUrl: "https://www.reedglobal.com.mt/jobs/fmcg/other",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-28",
-    isNew: true,
-    applyUrl: "https://www.reedglobal.com.mt/jobs/fmcg/other",
-    description:
-      "Reed Malta (Malta-only agency, Ta' Xbiex) is supporting a leading service company on the island who are looking for a General Manager to join their team. The GM will oversee the company's daily operations, ensuring the execution of strategic goals, business growth, and customer satisfaction. NOTE: Reed does not publish stable per-role URLs — the link opens Reed's FMCG/Service listing where this role appears; search 'General Manager' there.",
-    linkType: "category",
-    skills: ["General Management", "Operations Leadership", "Strategic Execution", "Business Growth", "Customer Satisfaction"],
-  },
 
   {
     id: "j3003",
@@ -443,23 +444,6 @@ export const JOBS = [
     skills: ["VIP Programme Leadership", "iGaming / Sports Betting", "Customer Retention", "High-Value Player Strategy", "Team Management"],
   },
 
-  {
-    id: "j1903",
-    title: "Chief Executive Officer",
-    company: "Confidential — Malta-based",
-    category: "c-suite",
-    source: "Reed Malta",
-    sourceUrl: "https://www.reedglobal.com.mt/jobs?keywords=chief+executive&location=Malta",
-    location: "Marsa, Malta",
-    salary: null,
-    posted: "2026-05-06",
-    isNew: true,
-    applyUrl: "https://www.reedglobal.com.mt/jobs?keywords=chief+executive&location=Malta",
-    description:
-      "Reed Recruitment Malta is retained to find a CEO for a confidential client based in Marsa, Malta. Posted 1 week ago on LinkedIn. Reed Malta specialises in C-suite and senior executive placements across financial services, technology, and professional services. Apply via reedglobal.com.mt/jobs.",
-    linkType: "category",
-    skills: ["CEO / MD Experience", "Strategic Leadership", "Malta-based", "P&L Ownership", "Stakeholder Management"],
-  },
 
   {
     id: "j1904",
@@ -807,23 +791,6 @@ export const JOBS = [
 
 
 
-  {
-    id: "j801",
-    title: "Head of Transformation",
-    company: "Confidential — Financial Services",
-    category: "head",
-    source: "Direct",
-    sourceUrl: "https://www.reedglobal.com.mt/jobs",
-    location: "Birkirkara, Malta",
-    salary: null,
-    posted: "2026-04-18",
-    isNew: false,
-    applyUrl: "https://www.reedglobal.com.mt/jobs",
-    description:
-      "Reed Malta is recruiting a Head of Transformation for a confidential financial services client. Bridges strategy and delivery at the highest level — owning how ideas move from demand into production, defining delivery frameworks, leading re-architecture of legacy platforms, and driving consolidation programmes with measurable outcomes. 15+ years IT experience across systems analysis, development and delivery management with deep enterprise architecture expertise required. Contact antonio.ruiz@reed.com or +356 9903 6496.",
-    linkType: "category",
-    skills: ["Enterprise Architecture", "Digital Transformation", "Legacy Modernisation", "Delivery Management", "Senior IT Leadership"],
-  },
 
   {
     id: "j802",
