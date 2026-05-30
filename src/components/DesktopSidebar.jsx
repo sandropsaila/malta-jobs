@@ -1,4 +1,4 @@
-import { CATEGORIES, SOURCES } from "../data/jobs";
+import { CATEGORIES, SOURCES, jobMatchesCategory } from "../data/jobs";
 
 export default function DesktopSidebar({ jobs, filters, onChange }) {
   const update = (key, val) => onChange({ ...filters, [key]: val });
@@ -19,7 +19,7 @@ export default function DesktopSidebar({ jobs, filters, onChange }) {
             <span className="chip-count">{jobs.length}</span>
           </button>
           {Object.entries(CATEGORIES).map(([key, cat]) => {
-            const count = jobs.filter((j) => j.category === key).length;
+            const count = jobs.filter((j) => jobMatchesCategory(j, key)).length;
             return (
               <button
                 key={key}

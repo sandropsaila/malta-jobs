@@ -75,7 +75,10 @@ export default function JobCard({ job }) {
               rel="noopener noreferrer"
               className="btn-apply"
             >
-              Apply Now <ExternalLink size={13} />
+              {job.applyUrl.startsWith("mailto:")
+                ? "Apply by Email"
+                : "View Listing"}{" "}
+              <ExternalLink size={13} />
             </a>
             {job.sourceUrl !== job.applyUrl && (
               <a
@@ -88,6 +91,12 @@ export default function JobCard({ job }) {
               </a>
             )}
           </div>
+          {job.linkType === "category" && (
+            <p className="link-note">
+              Link opens the recruiter's listing page (no stable per-role URL) —
+              search the role title there.
+            </p>
+          )}
         </div>
       )}
     </article>

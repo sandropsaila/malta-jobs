@@ -178,3 +178,11 @@
   transition: background 0.15s, color 0.15s;
 }
 .btn-source:hover { background: var(--bbc-blue-mid); color: #fff; }
+
+.link-note {
+  margin: 8px 0 0;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #6b6b6b;
+  font-style: italic;
+}
