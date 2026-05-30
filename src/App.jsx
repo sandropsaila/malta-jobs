@@ -29,7 +29,7 @@ export default function App() {
   const [companiesUnlocked, setCompaniesUnlocked] = useState(() => sessionStorage.getItem(COMPANIES_PIN_KEY) === "1");
   const [search, setSearch] = useState("");
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [filters, setFilters] = useState({ category: null, source: null, sort: "date" });
+  const [filters, setFilters] = useState({ category: null, source: null, func: null, sort: "date" });
 
   const handleUnlock = () => {
     sessionStorage.setItem(SESSION_KEY, "1");
@@ -49,6 +49,7 @@ export default function App() {
     let jobs = [...JOBS];
     if (filters.category) jobs = jobs.filter((j) => jobMatchesCategory(j, filters.category));
     if (filters.source) jobs = jobs.filter((j) => j.source === filters.source);
+    if (filters.func) jobs = jobs.filter((j) => j.func === filters.func);
     if (search.trim()) {
       const q = search.toLowerCase();
       jobs = jobs.filter(
@@ -101,7 +102,7 @@ export default function App() {
           {filtered.length === 0 ? (
             <div className="empty-state">
               <p>No vacancies match your search.</p>
-              <button onClick={() => { setSearch(""); setFilters({ category: null, source: null, sort: "date" }); }}>
+              <button onClick={() => { setSearch(""); setFilters({ category: null, source: null, func: null, sort: "date" }); }}>
                 Clear filters
               </button>
             </div>

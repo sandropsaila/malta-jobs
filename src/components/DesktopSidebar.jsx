@@ -36,6 +36,33 @@ export default function DesktopSidebar({ jobs, filters, onChange }) {
         </div>
       </div>
 
+      {/* Function filter */}
+      <div className="sidebar-panel">
+        <h3 className="sidebar-heading">Function</h3>
+        <div className="sidebar-options">
+          <button
+            className={`sidebar-chip${!filters.func ? " active" : ""}`}
+            onClick={() => update("func", null)}
+          >
+            All Functions
+          </button>
+          <button
+            className={`sidebar-chip${filters.func === "finance" ? " active" : ""}`}
+            onClick={() => update("func", "finance")}
+          >
+            Finance
+            <span className="chip-count">{jobs.filter((j) => j.func === "finance").length}</span>
+          </button>
+          <button
+            className={`sidebar-chip${filters.func === "legal" ? " active" : ""}`}
+            onClick={() => update("func", "legal")}
+          >
+            Legal & Compliance
+            <span className="chip-count">{jobs.filter((j) => j.func === "legal").length}</span>
+          </button>
+        </div>
+      </div>
+
       {/* Source filter */}
       <div className="sidebar-panel">
         <h3 className="sidebar-heading">Source</h3>
@@ -79,10 +106,10 @@ export default function DesktopSidebar({ jobs, filters, onChange }) {
       </div>
 
       {/* Clear filters */}
-      {(filters.category || filters.source || filters.sort !== "date") && (
+      {(filters.category || filters.source || filters.func || filters.sort !== "date") && (
         <button
           className="sidebar-clear"
-          onClick={() => onChange({ category: null, source: null, sort: "date" })}
+          onClick={() => onChange({ category: null, source: null, func: null, sort: "date" })}
         >
           Clear all filters
         </button>

@@ -1,6 +1,7 @@
 import { Search, SlidersHorizontal, Building2 } from "lucide-react";
 
-const LAST_UPDATED = "30 May 2026, 15:00";
+// Injected at build time by Vite (see vite.config.js) — auto-updates every deploy
+const LAST_UPDATED = typeof __BUILD_DATE__ !== "undefined" ? __BUILD_DATE__ : "";
 
 export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, searchVal }) {
   return (

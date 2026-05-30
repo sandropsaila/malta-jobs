@@ -40,6 +40,30 @@ export default function FilterDrawer({ isOpen, onClose, filters, onChange }) {
         </div>
 
         <div className="drawer-section">
+          <label className="drawer-label">Function</label>
+          <div className="drawer-options">
+            <button
+              className={`drawer-chip${!filters.func ? " selected" : ""}`}
+              onClick={() => update("func", null)}
+            >
+              All
+            </button>
+            <button
+              className={`drawer-chip${filters.func === "finance" ? " selected" : ""}`}
+              onClick={() => update("func", "finance")}
+            >
+              Finance
+            </button>
+            <button
+              className={`drawer-chip${filters.func === "legal" ? " selected" : ""}`}
+              onClick={() => update("func", "legal")}
+            >
+              Legal & Compliance
+            </button>
+          </div>
+        </div>
+
+        <div className="drawer-section">
           <label className="drawer-label">Source</label>
           <div className="drawer-options">
             <button
