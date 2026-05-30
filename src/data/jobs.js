@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j3001",
+    title: "Head of Transformation",
+    company: "Confidential — Food & Beverages Company",
+    category: "head",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-20",
+    isNew: true,
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943/apply.aspx",
+    description:
+      "GRS is recruiting a Head of Transformation for a renowned Food & Beverages company in Malta. This strategic leadership role shapes, governs, and drives large-scale change initiatives to enhance operational excellence, digital enablement, and organisational performance. Responsibilities include leading the Transformation Management Office (TMO), establishing governance and reporting frameworks, overseeing risk and benefits realisation, and strengthening performance through data-driven KPIs and continuous improvement. FMCG/manufacturing/supply chain background with digital transformation experience required. Ref #10943 — sarah@grsrecruitment.com.",
+    skills: ["Transformation Leadership", "Food & Beverages / FMCG", "Digital Enablement", "TMO Governance", "Operational Excellence"],
+  },
+
+  {
     id: "j2901",
     title: "Chief Financial Officer",
     company: "Confidential — Services Industry",
