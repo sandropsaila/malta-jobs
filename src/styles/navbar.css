@@ -1,4 +1,4 @@
-/* ── BBC-style dark blue navbar ─────────────────────────────────────────── */
+/* ── BBC-style navbar ────────────────────────────────────────────────────── */
 .navbar {
   position: fixed;
   top: 0;
@@ -8,53 +8,90 @@
   max-width: 480px;
   z-index: 100;
   background: var(--nav-bg);
-  border-bottom: 4px solid var(--bbc-red);
+  border-bottom: 3px solid var(--bbc-red);
+  padding: max(env(safe-area-inset-top), 8px) 0 0;
 }
 
-.navbar-inner {
+/* Top row: brand + actions */
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 16px 6px;
+  padding: 8px 16px 10px;
 }
 
-.navbar-brand { display: flex; align-items: center; gap: 10px; }
-.navbar-brand div { display: flex; flex-direction: column; gap: 1px; }
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+}
+
+.navbar-logo { flex-shrink: 0; }
+
+.navbar-brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
 
 .navbar-title {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 800;
   color: #FFFFFF;
   letter-spacing: -0.02em;
-  line-height: 1;
+  line-height: 1.05;
+  white-space: nowrap;
 }
 
 .navbar-sub {
   font-size: 0.62rem;
-  color: #FFD0D0;
-  font-weight: 600;
+  color: #FFB3B3;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.07em;
-}
-
-.navbar-updated {
-  font-size: 0.63rem;
-  color: rgba(255,255,255,0.55);
+  letter-spacing: 0.12em;
   white-space: nowrap;
 }
 
-.navbar-search-row {
+.navbar-actions {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 0 12px 10px;
+  flex-shrink: 0;
 }
 
-.search-wrap { flex: 1; position: relative; }
+.filter-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.14);
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.filter-btn:active { background: rgba(255,255,255,0.28); }
+@media (hover: hover) {
+  .filter-btn:hover { background: rgba(255,255,255,0.24); }
+}
+
+/* Search row */
+.navbar-search-row {
+  padding: 0 16px 8px;
+}
+
+.search-wrap {
+  position: relative;
+  width: 100%;
+}
 
 .search-icon {
   position: absolute;
-  left: 11px;
+  left: 13px;
   top: 50%;
   transform: translateY(-50%);
   color: var(--text-dim);
@@ -64,51 +101,56 @@
 .search-input {
   width: 100%;
   background: #FFFFFF;
-  border: 2px solid transparent;
-  border-radius: 4px;
+  border: none;
+  border-radius: 10px;
   color: var(--text);
   font-family: inherit;
-  font-size: 0.85rem;
-  padding: 9px 14px 9px 34px;
+  font-size: 0.9rem;
+  padding: 11px 14px 11px 40px;
   outline: none;
-  transition: border-color 0.15s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
 .search-input::placeholder { color: var(--text-dim); }
-.search-input:focus { border-color: var(--bbc-red); }
+.search-input:focus { box-shadow: 0 0 0 2px var(--bbc-red); }
 
-.filter-btn {
-  flex-shrink: 0;
-  width: 38px;
-  height: 38px;
-  border-radius: 4px;
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.2);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: background 0.15s;
+/* Updated row */
+.navbar-updated-row {
+  padding: 0 16px 9px;
 }
-.filter-btn:hover { background: rgba(255,255,255,0.22); }
+
+.navbar-updated {
+  font-size: 0.66rem;
+  color: rgba(255,255,255,0.6);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
 
 /* ── Desktop navbar ─────────────────────────────────────────────────────── */
 @media (min-width: 900px) {
-  .navbar { max-width: 100%; }
-
-  .navbar-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
-    height: 68px;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 24px;
-    align-items: center;
+  .navbar {
+    max-width: 100%;
+    padding: 0;
   }
 
-  .navbar-search-row { display: none; }
+  .navbar-top {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 40px 0;
+  }
 
-  .navbar-inner .search-wrap { display: block; max-width: 460px; }
-  .navbar-inner .filter-btn  { display: flex; }
+  .navbar-search-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 40px 6px;
+  }
+  .navbar-search-row .search-wrap {
+    max-width: 500px;
+  }
+
+  .navbar-updated-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px 10px;
+    text-align: right;
+  }
 }
