@@ -7,6 +7,24 @@
 export const JOBS = [
 
   {
+    id: "j3101",
+    title: "Associated Director — Back-Office Support",
+    company: "Confidential — International FinTech Firm",
+    category: "head",
+    func: "finance",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/associated-director-backoffice-support-10986.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-25",
+    isNew: true,
+    applyUrl: "https://jobs.grsrecruitment.com/job/associated-director-backoffice-support-10986/apply.aspx",
+    description:
+      "An international FinTech firm is seeking an Associated Director of Back-Office Support to join its team in Malta. The role leads back-office operations within a regulated banking and finance environment, overseeing operational processes, team management, and service delivery. Director-level appointment in the Banking & Finance function. Ref #10986 — apply via GRS Recruitment.",
+    skills: ["Back-Office Leadership", "FinTech / Banking", "Operations Director", "Team Management", "Regulated Environment"],
+  },
+
+  {
     id: "j3001",
     title: "Head of Transformation",
     company: "Confidential — Food & Beverages Company",
