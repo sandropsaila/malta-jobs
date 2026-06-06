@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j3301",
+    title: "General Manager",
+    company: "Confidential — Leading Malta Company",
+    category: "general-manager",
+    source: "Konnekt",
+    sourceUrl: "https://www.careerjet.com.mt/general-manager-jobs.html",
+    location: "Malta",
+    salary: "\u20ac70,000 \u2013 \u20ac80,000",
+    posted: "2026-05-21",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs",
+    description:
+      "A leading company in Malta is hiring a General Manager to lead the company''s next stage of growth and performance. The role reports directly to the Chairman and focuses on strategy, operations, and financial performance \u2014 driving commercial results, operational excellence, and organisational development. Permanent, full-time. Salary \u20ac70,000\u2013\u20ac80,000 per year. Sourced via Konnekt (listed on Careerjet).",
+    skills: ["General Manager", "Chairman Reporting", "Strategy & Operations", "Financial Performance", "P&L Ownership"],
+  },
+
+  {
     id: "j3201",
     title: "Head of Payments Operations",
     company: "Confidential — Financial Services",
