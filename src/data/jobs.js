@@ -7,6 +7,24 @@
 export const JOBS = [
 
   {
+    id: "j3201",
+    title: "Head of Payments Operations",
+    company: "Confidential — Financial Services",
+    category: "head",
+    func: "finance",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/finance-jobs/head-of-payments-operations/88536",
+    location: "Malta",
+    salary: null,
+    posted: "2026-05-22",
+    isNew: true,
+    applyUrl: "https://www.konnekt.com/jobs/apply/88536/finance-jobs/head-of-payments-operations",
+    description:
+      "A financial services client via Konnekt is seeking a strategic and hands-on Head of Payments Operations. The role leads the payments operations function, overseeing transaction processing, settlement, reconciliation, and operational risk within a regulated payments environment. Senior leadership appointment in the finance/payments space. Listing active through end June 2026.",
+    skills: ["Head of Payments", "Payments Operations", "Financial Services", "Settlement & Reconciliation", "Operational Risk"],
+  },
+
+  {
     id: "j3101",
     title: "Associated Director — Back-Office Support",
     company: "Confidential — International FinTech Firm",
