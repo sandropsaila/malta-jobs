@@ -7,6 +7,24 @@
 export const JOBS = [
 
   {
+    id: "j3401",
+    title: "Head of Finance",
+    company: "Confidential — Established Legal Firm",
+    category: "head",
+    func: "finance",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-06-02",
+    isNew: true,
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139/apply.aspx",
+    description:
+      "GRS is recruiting a Head of Finance for a well-established legal firm in Malta. Reporting directly to the Managing Partner and CEO, the successful candidate will be a hands-on finance leader overseeing the firm''s full financial function — financial reporting, controls, budgeting, and strategic financial management. ACCA-qualified with strong IFRS knowledge and senior finance leadership experience required. Ref #11139 — fetched live and confirmed Malta-based.",
+    skills: ["Head of Finance", "Legal / Professional Services", "ACCA Qualified", "Financial Leadership", "Managing Partner Reporting"],
+  },
+
+  {
     id: "j3301",
     title: "General Manager",
     company: "Confidential — Leading Malta Company",
