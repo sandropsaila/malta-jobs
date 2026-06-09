@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j3501",
+    title: "B2C Managing Director",
+    company: "Thelivering (The Mill Adventure Group)",
+    category: "general-manager",
+    source: "Direct",
+    sourceUrl: "https://apply.workable.com/the-mill-adventure/j/CF0D00DAD2",
+    location: "Malta (Remote)",
+    salary: "\u20ac100,000",
+    posted: "2026-06-01",
+    isNew: true,
+    applyUrl: "https://apply.workable.com/the-mill-adventure/j/CF0D00DAD2",
+    description:
+      "Thelivering \u2014 an audacious B2C iGaming operator running the Casinobud and Budsino brands, part of The Mill Adventure Group \u2014 is hiring a B2C Managing Director. The MD leads the full B2C operation: brand growth, commercial strategy, player experience, and P&L across both casino brands. Remote, Malta-based. Salary circa \u20ac100,000. The Mill Adventure is a St Julian''s-headquartered iGaming platform scale-up (130+ specialists, founded 2019). Apply via Workable.",
+    skills: ["B2C Managing Director", "iGaming / Casino", "P&L Ownership", "Brand Growth", "Commercial Strategy"],
+  },
+
+  {
     id: "j3401",
     title: "Head of Finance",
     company: "Confidential — Established Legal Firm",
