@@ -1,0 +1,169 @@
+.requpdate {
+  width: 100%;
+}
+
+/* Trigger button */
+.requpdate-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--bbc-blue);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+  cursor: pointer;
+  transition: background 0.15s;
+  box-shadow: var(--shadow);
+}
+.requpdate-trigger:active { background: #002d66; }
+@media (hover: hover) {
+  .requpdate-trigger:hover { background: #002d66; }
+}
+
+/* Expanded panel */
+.requpdate-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--bbc-red);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--shadow-md);
+}
+
+.requpdate-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.requpdate-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.requpdate-x {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  width: 28px;
+  height: 28px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.requpdate-msg {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.requpdate-input {
+  width: 100%;
+  background: var(--surface2);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 11px 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.requpdate-input::placeholder { color: var(--text-dim); }
+.requpdate-input:focus { border-color: var(--bbc-blue); }
+
+.requpdate-error {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--bbc-red);
+  line-height: 1.4;
+}
+
+.requpdate-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--bbc-red);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.requpdate-submit:active { background: #8e0000; }
+.requpdate-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+@media (hover: hover) {
+  .requpdate-submit:hover:not(:disabled) { background: #8e0000; }
+}
+
+/* Success state */
+.requpdate-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  padding: 8px 0;
+}
+
+.requpdate-success-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 99px;
+  background: rgba(0,122,77,0.12);
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.requpdate-success-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.requpdate-success-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.requpdate-close-btn {
+  margin-top: 8px;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--bbc-blue);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 9px 24px;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .requpdate { grid-column: 1 / -1; }
+}

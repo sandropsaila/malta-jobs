@@ -8,6 +8,7 @@ import DesktopSidebar from "./components/DesktopSidebar";
 import JobCard from "./components/JobCard";
 import CompaniesDirectory from "./components/CompaniesDirectory";
 import LiveJobSearch from "./components/LiveJobSearch";
+import RequestUpdate from "./components/RequestUpdate";
 import { JOBS, jobMatchesCategory } from "./data/jobs";
 import "./styles/global.css";
 import "./styles/pinlock.css";
@@ -19,6 +20,7 @@ import "./styles/drawer.css";
 import "./styles/sidebar.css";
 import "./styles/directory.css";
 import "./styles/livesearch.css";
+import "./styles/requpdate.css";
 
 const SESSION_KEY = "malta_jobs_auth";
 const COMPANIES_PIN_KEY = "malta_companies_auth";
@@ -96,6 +98,7 @@ export default function App() {
           onCategoryClick={(cat) => setFilters((f) => ({ ...f, category: cat }))}
         />
         <MarketSnapshot jobs={JOBS} />
+        <RequestUpdate />
         <DesktopSidebar jobs={JOBS} filters={filters} onChange={setFilters} />
         <div className="jobs-list">
           <div className="jobs-list-label">Curated vacancies</div>
