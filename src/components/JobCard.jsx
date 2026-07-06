@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp, ExternalLink, MapPin, Calendar, Briefcase } from "lucide-react";
-import { CATEGORIES } from "../data/jobs";
+import { CATEGORIES, isJobNew } from "../data/jobs";
 
 function formatDate(dateStr) {
   const d = new Date(dateStr);
@@ -26,7 +26,7 @@ export default function JobCard({ job }) {
       <button className="job-card-header" onClick={() => setOpen((o) => !o)}>
         <div className="job-card-top">
           <div className="job-badges">
-            {job.isNew && <span className="badge-new">NEW</span>}
+            {isJobNew(job) && <span className="badge-new">NEW</span>}
             <span className="badge-cat">{cat.label}</span>
             <span className="badge-source">{job.source}</span>
           </div>

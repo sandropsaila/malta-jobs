@@ -1,7 +1,7 @@
-import { CATEGORIES, jobMatchesCategory } from "../data/jobs";
+import { CATEGORIES, jobMatchesCategory, isJobNew } from "../data/jobs";
 
 export default function MarketSnapshot({ jobs }) {
-  const newCount = jobs.filter((j) => j.isNew).length;
+  const newCount = jobs.filter((j) => isJobNew(j)).length;
   const topCat = Object.entries(CATEGORIES)
     .map(([key, cat]) => ({ key, label: cat.label, count: jobs.filter((j) => jobMatchesCategory(j, key)).length }))
     .sort((a, b) => b.count - a.count)[0];

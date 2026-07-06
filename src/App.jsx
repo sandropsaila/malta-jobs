@@ -63,7 +63,7 @@ export default function App() {
       );
     }
     if (filters.sort === "new") {
-      jobs = jobs.sort((a, b) => b.isNew - a.isNew || new Date(b.posted) - new Date(a.posted));
+      jobs = jobs.sort((a, b) => (isJobNew(b) - isJobNew(a)) || new Date(b.posted) - new Date(a.posted));
     } else if (filters.sort === "salary") {
       jobs = jobs.sort((a, b) => (b.salary ? 1 : 0) - (a.salary ? 1 : 0) || new Date(b.posted) - new Date(a.posted));
     } else {

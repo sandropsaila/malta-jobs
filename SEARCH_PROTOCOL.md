@@ -555,3 +555,16 @@ INSTEAD use:
 - Greenhouse / Workday / Ashby ATS URL if the job redirects there
 
 RULE: If the only URL available is a linkedin.com/jobs/view/ link → use linkedin.com/company/NAME/jobs/ as a fallback, and note in description that role was sourced from LinkedIn.
+
+## "NEW" BADGE POLICY (added 6 Jul 2026)
+NEW is now date-driven, not manual. In jobs.js:
+- `LAST_UPDATE_DATE` = the date of the most recent update that added roles
+- `isJobNew(job)` returns true only if job.posted >= LAST_UPDATE_DATE
+
+WORKFLOW on every "update searches" that ADDS at least one role:
+1. Set each new job's `posted` to today's date
+2. Update `LAST_UPDATE_DATE` to today's date
+3. Result: only the roles added in this round show the NEW badge; all prior NEW badges clear automatically
+
+If an update adds NO roles, leave LAST_UPDATE_DATE unchanged (the previous batch keeps its badge until the next roles are added, or clear it if preferred).
+Never hand-set isNew — the field has been removed.
