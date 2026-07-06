@@ -12,6 +12,9 @@
   padding: max(env(safe-area-inset-top), 8px) 0 0;
 }
 
+.navbar-actions-mobile { display: block; }
+.navbar-actions-desktop { display: none; }
+
 /* Top row: brand + actions */
 .navbar-top {
   display: flex;
@@ -125,32 +128,45 @@
   letter-spacing: 0.01em;
 }
 
-/* ── Desktop navbar ─────────────────────────────────────────────────────── */
+/* ── Desktop navbar — single compact row ─────────────────────────────────── */
 @media (min-width: 900px) {
   .navbar {
     max-width: 100%;
     padding: 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "brand search actions";
+    align-items: center;
+    column-gap: 28px;
+    height: 66px;
+    padding-left: max(40px, calc((100% - 1200px) / 2 + 40px));
+    padding-right: max(40px, calc((100% - 1200px) / 2 + 40px));
   }
 
   .navbar-top {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 12px 40px 0;
+    grid-area: brand;
+    padding: 0;
   }
 
   .navbar-search-row {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px 40px 6px;
-  }
-  .navbar-search-row .search-wrap {
-    max-width: 500px;
+    grid-area: search;
+    padding: 0;
+    max-width: 520px;
+    width: 100%;
+    justify-self: center;
   }
 
+  /* Hide mobile actions, show desktop actions */
+  .navbar-actions-mobile { display: none; }
+  .navbar-actions-desktop { display: block; }
+
   .navbar-updated-row {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px 10px;
-    text-align: right;
+    grid-area: actions;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-self: end;
   }
+  .navbar-updated { white-space: nowrap; }
 }

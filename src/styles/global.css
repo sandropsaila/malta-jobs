@@ -78,7 +78,7 @@ body {
 
 /* ── Desktop layout (≥ 900px) ───────────────────────────────────────────── */
 @media (min-width: 900px) {
-  :root { --nav-h: 68px; }
+  :root { --nav-h: 70px; }
 
   .app { max-width: 1200px; width: 100%; }
 

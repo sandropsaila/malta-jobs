@@ -4,9 +4,20 @@ import { Search, SlidersHorizontal, Building2 } from "lucide-react";
 const LAST_UPDATED = typeof __BUILD_DATE__ !== "undefined" ? __BUILD_DATE__ : "";
 
 export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, searchVal }) {
+  const actions = (
+    <div className="navbar-actions">
+      <button className="filter-btn" onClick={onCompaniesOpen} aria-label="Companies">
+        <Building2 size={19} />
+      </button>
+      <button className="filter-btn" onClick={onFilterOpen} aria-label="Filters">
+        <SlidersHorizontal size={19} />
+      </button>
+    </div>
+  );
+
   return (
     <header className="navbar">
-      {/* Top row: brand left, action icons right */}
+      {/* Brand */}
       <div className="navbar-top">
         <div className="navbar-brand">
           <svg className="navbar-logo" width="30" height="30" viewBox="0 0 40 40" fill="none">
@@ -18,18 +29,11 @@ export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, search
             <span className="navbar-sub">Malta Vacancies</span>
           </div>
         </div>
-
-        <div className="navbar-actions">
-          <button className="filter-btn" onClick={onCompaniesOpen} aria-label="Companies">
-            <Building2 size={19} />
-          </button>
-          <button className="filter-btn" onClick={onFilterOpen} aria-label="Filters">
-            <SlidersHorizontal size={19} />
-          </button>
-        </div>
+        {/* Actions show here on mobile */}
+        <div className="navbar-actions-mobile">{actions}</div>
       </div>
 
-      {/* Search row */}
+      {/* Search */}
       <div className="navbar-search-row">
         <div className="search-wrap">
           <Search size={17} className="search-icon" />
@@ -42,9 +46,10 @@ export default function NavBar({ onSearch, onFilterOpen, onCompaniesOpen, search
         </div>
       </div>
 
-      {/* Updated line — subtle, its own row */}
+      {/* Updated + actions (actions show here on desktop) */}
       <div className="navbar-updated-row">
         <span className="navbar-updated">Updated {LAST_UPDATED}</span>
+        <div className="navbar-actions-desktop">{actions}</div>
       </div>
     </header>
   );
