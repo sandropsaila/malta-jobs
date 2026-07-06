@@ -164,6 +164,3 @@
   cursor: pointer;
 }
 
-@media (min-width: 900px) {
-  .requpdate { grid-column: 1 / -1; }
-}
