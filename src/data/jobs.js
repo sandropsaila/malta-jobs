@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j3301b",
+    title: "Head of Client Accounting",
+    company: "Confidential — Legal & Corporate Firm",
+    category: "head",
+    func: "finance",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-client-accounting-11034.aspx",
+    location: "Malta",
+    salary: "\u20ac75,000 \u2013 \u20ac85,000",
+    posted: "2026-07-07",
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-client-accounting-11034/apply.aspx",
+    description:
+      "GRS is recruiting a Head of Client Accounting for a Legal & Corporate firm in Malta. Reporting to a member of the Board, the role leads the Client Accounting Department with full responsibility for delivery of client financial statements, management accounts, and regulatory filings, plus process improvement, automation, business development, and cross-department collaboration. ACCA-qualified with 5+ years at senior/manager level required; legal firm, CSP, or gaming background an asset. Salary \u20ac75,000\u2013\u20ac85,000 gross. Ref #11034 — fetched live & confirmed active (posted 17 Jun 2026).",
+    skills: ["Head of Client Accounting", "Legal / Corporate Services", "ACCA Qualified", "Team Leadership", "Maltese Tax & VAT"],
+  },
+
+  {
     id: "j3501",
     title: "B2C Managing Director",
     company: "Thelivering (The Mill Adventure Group)",
@@ -813,7 +830,7 @@ export const JOBS = [
 // A job is tagged NEW only if it was added in the most recent update round.
 // Set this to the date of the latest "update searches" that added roles.
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
-export const LAST_UPDATE_DATE = "2026-06-02";
+export const LAST_UPDATE_DATE = "2026-07-07";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
