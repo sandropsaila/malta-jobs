@@ -561,10 +561,12 @@ NEW is now date-driven, not manual. In jobs.js:
 - `LAST_UPDATE_DATE` = the date of the most recent update that added roles
 - `isJobNew(job)` returns true only if job.posted >= LAST_UPDATE_DATE
 
-WORKFLOW on every "update searches" that ADDS at least one role:
-1. Set each new job's `posted` to today's date
-2. Update `LAST_UPDATE_DATE` to today's date
-3. Result: only the roles added in this round show the NEW badge; all prior NEW badges clear automatically
-
-If an update adds NO roles, leave LAST_UPDATE_DATE unchanged (the previous batch keeps its badge until the next roles are added, or clear it if preferred).
+WORKFLOW on EVERY "update searches" run (whether or not it adds roles):
+1. Set `LAST_UPDATE_DATE` to today's date — always.
+2. If roles are added this round, set each new job's `posted` to today's date too.
+3. Result:
+   - A round that ADDS roles → only those roles show NEW.
+   - A round that adds NOTHING → LAST_UPDATE_DATE moves forward, so no job has
+     posted >= today, and ALL NEW badges clear automatically.
+This makes NEW strictly mean "added in the most recent update search."
 Never hand-set isNew — the field has been removed.
