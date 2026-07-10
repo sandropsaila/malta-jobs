@@ -7,6 +7,23 @@
 export const JOBS = [
 
   {
+    id: "j3601",
+    title: "Chief Financial Officer",
+    company: "Confidential — Retail Sector",
+    category: "c-suite",
+    func: "finance",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/89940",
+    location: "Malta",
+    salary: null,
+    posted: "2026-07-10",
+    applyUrl: "https://www.konnekt.com/jobs/apply/89940/accounting-jobs/chief-financial-officer-cfo",
+    description:
+      "A highly regarded and reputable retail-sector client via Konnekt is seeking a Chief Financial Officer. The CFO acts as a strategic business partner to the Board of Directors and CEO on financial, commercial, and operational matters — supporting business growth, expansion projects, and investment opportunities. Responsibilities span monthly management accounts, quarterly and annual financial statements, budget performance, IFRS compliance, and strategic planning across business units. Fetched live & confirmed active through 31 Jul 2026.",
+    skills: ["CFO Experience", "Retail Sector", "IFRS", "Board & CEO Partnering", "Strategic Planning"],
+  },
+
+  {
     id: "j3301b",
     title: "Head of Client Accounting",
     company: "Confidential — Legal & Corporate Firm",
@@ -832,7 +849,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-07-09";
+export const LAST_UPDATE_DATE = "2026-07-10";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
