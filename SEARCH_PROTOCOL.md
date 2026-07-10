@@ -570,3 +570,14 @@ WORKFLOW on EVERY "update searches" run (whether or not it adds roles):
      posted >= today, and ALL NEW badges clear automatically.
 This makes NEW strictly mean "added in the most recent update search."
 Never hand-set isNew — the field has been removed.
+
+## STEP 0 — CAREER-PAGE REACHABILITY (run first, every update)
+Before the 5 search layers, consult CAREER_PAGE_REACHABILITY.md and sweep sources
+by their tier:
+1. ✅ Directly reachable → fetch specific job pages, verify live (not 410/closed).
+2. 🟡 Indexed-only → company-name/site: queries, fetch whatever specific URL returns.
+3. 🔴 JS-walled/bot-blocked (Jobhound, Careerjet, LinkedIn direct) → note as walled,
+   rely on user screenshots.
+If any 🟡/🔴 source is discovered to expose crawlable job URLs (as Hili Ventures did
+via jobs.hiliventures.com), promote it to ✅ and fix its URL in DIRECT_CAREER_PAGES.
+Report the reachability sweep result at the top of each update summary.

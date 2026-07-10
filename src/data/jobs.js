@@ -1037,7 +1037,7 @@ export const DIRECT_CAREER_PAGES = [
   { name: "Everi / NRT Malta",  url: "https://everi.com/careers/" },
   // Consumer / FMCG
   { name: "Simonds Farsons Cisk", url: "https://www.farsons.com/careers/vacancies" },
-  { name: "Hili Ventures",      url: "https://hiliventures.com/careers/" },
+  { name: "Hili Ventures",      url: "https://jobs.hiliventures.com/jobs" },
   { name: "Gasan Group",        url: "https://careers.smartrecruiters.com/GasanGroup1" },
   { name: "AMSM",               url: "https://amsm.com.mt/careers/" },
   // Malta job boards
