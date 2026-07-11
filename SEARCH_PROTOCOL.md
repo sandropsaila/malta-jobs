@@ -581,3 +581,13 @@ by their tier:
 If any 🟡/🔴 source is discovered to expose crawlable job URLs (as Hili Ventures did
 via jobs.hiliventures.com), promote it to ✅ and fix its URL in DIRECT_CAREER_PAGES.
 Report the reachability sweep result at the top of each update summary.
+
+## STEP 0.5 — MSE-LISTED COMPANY SWEEP (run after Step 0, every update)
+Consult MSE_COMPANIES.md (66 verified Malta-listed companies). Individually browse
+each company's careers page, ROTATING ~15-20 per update (round-robin), prioritising
+banks, IHI, GO, Farsons, AX, RS2, PG, Premier Capital, Harvest, BMIT, Mapfre, MIDI,
+Tumas. For each: query
+  "<Company>" Malta "Head of" OR "Chief" OR "Director" OR "General Manager" OR "CEO" OR "CFO" vacancy 2026
+Fetch any specific role URL returned; verify live + seniority gate before adding.
+Distinguish APPOINTMENTS (filled — exclude) from open VACANCIES (add if verified).
+Report per-company sweep results at top of update summary.
