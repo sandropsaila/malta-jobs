@@ -6,7 +6,6 @@
 These serve static HTML; I fetch the specific job URL to confirm live (not 410/closed).
 - GRS Recruitment      — jobs.grsrecruitment.com  (fetch job URL, check "advert closed"/410)
 - Konnekt              — konnekt.com/jobs/...       (fetch job URL, check 410, unavailable_after)
-- Hili Ventures        — jobs.hiliventures.com/jobs (CRAWLABLE subdomain — NOT hiliventures.com/careers)
 - OKX (Greenhouse)     — job-boards.greenhouse.io/okx
 - Betsson (Greenhouse) — job-boards.greenhouse.io/betsson
 - The Mill Adventure   — apply.workable.com/the-mill-adventure
@@ -16,6 +15,8 @@ These serve static HTML; I fetch the specific job URL to confirm live (not 410/c
 ## 🟡 INDEXED-ONLY — reachable via Google, not by direct fetch of the careers page
 The careers page itself is JS/bot-walled, but Google indexes individual roles.
 Search site: or company-name queries; fetch whatever specific URL Google returns.
+- Hili Ventures — jobs.hiliventures.com indexed by Google (role snippets visible) but job
+  DETAIL pages bot-block direct fetch, so verify live status from snippet dates/deadlines
 - Farsons, AMSM, Gasan, Argus, CMA CGM, Premier Capital (via jobs.hiliventures.com or bebee)
 - Reed Malta, Broadwing, AIMS, Manpower, Outreach, Heroix, Accelerate
 - BOV, HSBC Malta, GO, Corinthia, Malta Airport
