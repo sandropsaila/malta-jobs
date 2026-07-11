@@ -742,6 +742,23 @@ export const JOBS = [
   },
 
   {
+    id: "j3703",
+    title: "Global Sales Director",
+    company: "Altenar",
+    category: "c-suite",
+    source: "LinkedIn",
+    sourceUrl: "https://www.linkedin.com/company/altenar/jobs/",
+    location: "San Ġiljan, Malta (On-site)",
+    salary: null,
+    posted: "2026-07-11",
+    applyUrl: "https://www.linkedin.com/company/altenar/jobs/",
+    description:
+      "Altenar — a leading B2B sportsbook software and services provider headquartered in the Isle of Man with a major office in San Ġiljan, Malta (800+ employees globally, licensed operators in 50+ countries) — is hiring a Global Sales Director to lead global sales strategy and team management for its sportsbook platform business. On-site, Malta HQ. Surfaced via LinkedIn Job Alert (Easy Apply); Altenar's own SmartRecruiters careers page was not listing the role independently at time of verification, so apply via Altenar's LinkedIn company jobs page and confirm the listing is still live before applying.",
+    linkType: "category",
+    skills: ["Global Sales Director", "B2B Sportsbook / iGaming", "Sales Leadership", "International Markets", "Team Management"],
+  },
+
+  {
     id: "j803",
     title: "Head of Risk",
     company: "Confidential — Financial Services",

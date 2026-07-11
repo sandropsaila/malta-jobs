@@ -72,6 +72,15 @@ erode trust faster than a missing role, so re-validate what's already there firs
 ### RULE: Never skip Step 0. A board of 40 verified-live roles beats 55 with stale entries.
 The order of every update is: STEP 0 (prune dead) → STEPS 1–6 (find new) → STEP 7 (verify new).
 
+### RULE: Never skip Steps 1–6 sourcing layers, especially Step 3 (added 11 Jul 2026).
+Under time pressure it's tempting to run only 2-3 of the sourcing layers (e.g. just
+GRS + Konnekt + MSE sweep) and call the update done. This produces false negatives:
+a role can be live and Malta-based but simply never appear in the recruiter-portal or
+MSE layers because the company posted it directly to LinkedIn. Confirmed failure case:
+Altenar's Global Sales Director (San Ġiljan, on-site) was missed on 11 Jul 2026 because
+Step 3 was skipped entirely that round. Every "update searches" run must touch ALL of
+Steps 1–6 at least once, even briefly, before considering the round complete.
+
 ## STEP 1 — Recruiter portals (direct fetch)
 Fetch these pages and scan for C-Suite / Head of / GM / Director roles:
 
@@ -93,13 +102,50 @@ Fetch these and scan for senior openings:
 - Gasan Group:    https://careers.smartrecruiters.com/GasanGroup1
 - ONE.io:         https://one.io/about-us/
 
-## STEP 3 — Google-indexed LinkedIn searches (no login needed)
-Run these web searches to surface LinkedIn-posted roles:
+## STEP 3 — Google-indexed LinkedIn searches (no login needed) — MANDATORY EVERY ROUND
+**Do not skip this step. Skipping Step 3 was the direct cause of a missed Global Sales
+Director role at Altenar (11 Jul 2026) — the recruiter-portal layer (GRS/Konnekt/Boston
+Link) and MSE sweep do NOT surface company-direct LinkedIn-only postings. Both layers
+are required every cycle, not just when time permits.**
+
+Run these web searches to surface LinkedIn-posted roles. Titles list expanded beyond
+CEO/COO/CFO/GM to catch Director- and Head-level functional titles that recruiter
+portals often miss because the company posted directly to LinkedIn instead of via an
+agency:
 
 - site:linkedin.com/jobs "Malta" "Chief Executive Officer"
 - site:linkedin.com/jobs "Malta" "Chief Operating Officer"
 - site:linkedin.com/jobs "Malta" "Chief Financial Officer"
+- site:linkedin.com/jobs "Malta" "Chief Commercial Officer" OR "Chief Marketing Officer" OR "Chief Product Officer" OR "Chief Technology Officer"
 - site:linkedin.com/jobs "Malta" "General Manager"
+- site:linkedin.com/jobs "Malta" "Head of" director senior
+- site:linkedin.com/jobs "Malta" "Managing Director"
+- site:linkedin.com/jobs "Malta" "Global Sales Director" OR "Sales Director" OR "Commercial Director"
+- site:linkedin.com/jobs "Malta" "Regional Director" OR "Country Manager"
+- site:linkedin.com/jobs "Malta" "VP" OR "Vice President"
+- site:linkedin.com/jobs Malta fintech payments CEO vacancy 2026
+- site:linkedin.com/jobs Malta iGaming "Head of" OR "Chief" OR "Director" vacancy 2026
+- site:linkedin.com/jobs Malta FMCG "General Manager" OR "Head of" vacancy 2026
+
+### Handling LinkedIn results (linkedin.com/jobs/view/... is BANNED, this is the workaround):
+A `linkedin.com/jobs/view/...` URL is never usable as source or apply link (expires
+within days — permanently banned per Step 7). When a search or a person-supplied
+screenshot/alert (e.g. a LinkedIn Job Alert email) surfaces a real role at a company
+whose own careers/ATS page does NOT independently list that role at verification time:
+- ✅ ACCEPTABLE FALLBACK: use `linkedin.com/company/{company-slug}/jobs/` (the company's
+  LinkedIn jobs tab) as both sourceUrl and applyUrl, tagged `linkType: "category"`.
+  This is a live, non-expiring link to the company's current openings, even though it
+  doesn't guarantee the specific title is still there when clicked — same tradeoff as
+  any other category-linked role on the board (Reed exception aside).
+- The person's own dated evidence (e.g. a same-day LinkedIn Job Alert screenshot showing
+  title + company + location + an active Apply button) satisfies Criterion 0 on its own.
+  Do not discard a real, dated sighting just because an independent second source
+  couldn't be found — cross-verification is preferred but not always available for
+  LinkedIn-exclusive postings, and requiring it would systematically bias the board
+  against companies that recruit primarily via LinkedIn rather than agencies.
+- Still apply Criterion 1-4 as normal: confirm Malta location, seniority tier, and that
+  the role reads as live (not "closed", not evidently stale).
+
 - site:linkedin.com/jobs "Malta" "Head of" director senior
 - site:linkedin.com/jobs "Malta" "Managing Director"
 - site:linkedin.com/jobs Malta fintech payments CEO vacancy 2026
