@@ -139,23 +139,6 @@ export const JOBS = [
     skills: ["Transformation Leadership", "Food & Beverages / FMCG", "Digital Enablement", "TMO Governance", "Operational Excellence"],
   },
 
-  {
-    id: "j2901",
-    title: "Chief Financial Officer",
-    company: "Confidential — Services Industry",
-    category: "c-suite",
-    func: "finance",
-    domain: ["finance"],
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/85541",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-01",
-    applyUrl: "https://www.konnekt.com/jobs/apply/85541/accounting-jobs/chief-financial-officer-cfo",
-    description:
-      "A renowned Maltese services industry client via Konnekt is seeking a Chief Financial Officer. The CFO will hold a key position in the executive team, overseeing all financial operations, strategic planning, and financial reporting. Full details available via direct application to Konnekt.",
-    skills: ["CFO Experience", "Services Industry", "Financial Strategy", "Executive Team", "Malta-based"],
-  },
 
   {
     id: "j2902",
@@ -256,22 +239,6 @@ export const JOBS = [
     skills: ["Head of Retention / CRM", "iGaming", "Player Loyalty & LTV", "Multi-Brand Campaigns", "Team Leadership"],
   },
 
-  {
-    id: "j2701",
-    title: "Head of Marketing",
-    company: "highbet (BetJara Group)",
-    category: "head",
-    source: "LinkedIn",
-    sourceUrl: "https://b2spin.breezy.hr/",
-    location: "Il-Gzira, Malta (On-site)",
-    salary: null,
-    posted: "2026-05-24",
-    applyUrl: "https://www.linkedin.com/company/highbet/jobs/",
-    description:
-      "highbet — a dynamic multi-brand iGaming operator focused on regulated markets, part of a group that includes BetJara (licensed in Nigeria) and Highbet — is recruiting a Head of Marketing for its Il-Gzira, Malta office. The role leads the full marketing function across the group''s gaming brands. On-site, full-time. Posted on LinkedIn with applications managed via the company''s own ATS — apply through the LinkedIn listing.",
-    linkType: "category",
-    skills: ["Head of Marketing", "iGaming / Multi-brand", "Regulated Markets", "Brand & Acquisition", "Marketing Leadership"],
-  },
 
   {
     id: "j2601",
@@ -361,21 +328,6 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j2202",
-    title: "Chief Executive Officer",
-    company: "Trade Malta Ltd",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-executive-officer-ceo/80167",
-    location: "Luqa, Malta (On-site)",
-    salary: null,
-    posted: "2025-06-17",
-    applyUrl: "https://www.konnekt.com/jobs/apply/80167/general-management-jobs/chief-executive-officer-ceo",
-    description:
-      "Trade Malta Ltd — a public-private partnership between the Government of Malta and The Malta Chamber of Commerce — is seeking a CEO reporting to the Board of Directors. The CEO oversees day-to-day operations, develops and retains talent, assists the local business community with internationalisation, and monitors international markets of interest to Maltese enterprises. Tania Brown was appointed interim CEO in November 2025; this listing remains active for the permanent appointment.",
-    skills: ["CEO / MD Experience", "Public-Private Partnership", "International Trade", "Government Relations", "Business Development"],
-  },
 
   {
     id: "j2203",
@@ -428,22 +380,6 @@ export const JOBS = [
     skills: ["CO / MLRO", "Wealth Management", "AML / CTF", "MiFID II / MFSA", "FATCA / CRS"],
   },
 
-  {
-    id: "j2001",
-    title: "General Manager Malta",
-    company: "CMA CGM Malta Agency",
-    category: "general-manager",
-    source: "LinkedIn",
-    sourceUrl: "https://jobs.cmacgm-group.com/",
-    location: "Marsaxlokk, Malta",
-    salary: null,
-    posted: "2026-05-14",
-    applyUrl: "https://jobs.cmacgm-group.com/",
-    description:
-      "CMA CGM — one of the world's largest container shipping and logistics groups (155,000 employees, 420+ ports, 623 vessels) — is actively recruiting a General Manager for its Malta Agency. The GM leads CMA CGM Malta's 30+ year operation at the Marsaxlokk freeport, overseeing containerised cargo, specialised/refrigerated cargo, breakbulk, and multimodal logistics across the Maltese islands. This is a replacement GM role following the current incumbent's wider group responsibilities. Reports to CMA CGM Group regional leadership. Apply via jobs.cmacgm-group.com.",
-    linkType: "category",
-    skills: ["Shipping & Logistics GM", "Port Operations", "P&L Ownership", "Container / RORO", "Malta Market Leadership"],
-  },
 
   {
     id: "j1902",
@@ -463,24 +399,6 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j1904",
-    title: "Head of FP&A",
-    company: "Confidential — Global iGaming Leader",
-    category: "head",
-    func: "finance",
-    domain: ["finance"],
-    source: "Pentasia",
-    sourceUrl: "https://www.pentasia.com/search-jobs/?search=head+of+FP%26A&location=malta",
-    location: "Malta (Hybrid)",
-    salary: null,
-    posted: "2026-05-08",
-    applyUrl: "https://www.pentasia.com/search-jobs/?search=Head+FPA&location=malta",
-    description:
-      "Pentasia is recruiting a Head of FP&A for a global iGaming leader in Malta (hybrid). The role leads the Financial Planning & Analysis function, partnering closely with the CFO and executive team. Responsibilities include long-term strategic financial planning, scenario analysis, annual budgeting, rolling forecasts, and monthly financial reporting with variance analysis. A critical strategic finance appointment at a leading Malta-licensed operator.",
-    linkType: "category",
-    skills: ["Head of FP&A", "Strategic Finance", "iGaming / Gaming", "CFO Partnering", "Budgeting & Forecasting"],
-  },
 
   {
     id: "j1801",
@@ -534,22 +452,6 @@ export const JOBS = [
     skills: ["Head of Dealing", "Multi-Asset Brokerage", "Trading Operations", "Best Execution", "Regulated Environment"],
   },
 
-  {
-    id: "j1701",
-    title: "Director of Operations (NPGO) — Business Aviation",
-    company: "Confidential — Business Aviation",
-    category: "head",
-    source: "Link Talent",
-    sourceUrl: "https://www.linktalent.careers/?s=director+operations",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-01",
-    applyUrl: "https://www.linktalent.careers/?s=director+operations",
-    description:
-      "Link Talent (part of Boston Link group) is seeking a seasoned aviation professional for a Director of Operations (NPGO) role with experience in Business Aviation and/or Special Missions. The NPGO (Nominated Person Ground Operations) will lead ground operations for a Malta-based business aviation operator. Senior aviation leadership background required. Apply via linktalent.careers.",
-    linkType: "category",
-    skills: ["NPGO / Nominated Person", "Business Aviation", "Ground Operations", "Regulatory Compliance", "Senior Aviation Leadership"],
-  },
 
   {
     id: "j1601",
@@ -622,21 +524,6 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j1201",
-    title: "Head of Spa",
-    company: "db Group Malta (db Seabank / db San Antonio / Pearl Spa)",
-    category: "head",
-    source: "Careerjet",
-    sourceUrl: "https://mt.trabajo.org/job-4111-d8e68b612ceb1884c281565abc21414c",
-    location: "Birkirkara, Malta (primarily db Seabank Resort + Spa)",
-    salary: null,
-    posted: "2026-04-07",
-    applyUrl: "https://alfred.com.mt/job/head-of-spa",
-    description:
-      "Malta's largest hospitality group — db Group, operator of db Seabank Resort + Spa, db San Antonio Hotel + Spa, Pearl Spa, Hard Rock Café Malta, Starbucks Malta, and 10+ concept restaurants — is seeking a Head of Spa for strategic leadership of the entire Spa division. The role covers revenue growth, guest experience, wellness innovation, team performance, and operational excellence across the group's spa properties. A visionary leader with a strong commercial track record in luxury spa / wellness required. Apply via alfred.com.mt.",
-    skills: ["Spa / Wellness Leadership", "Revenue & Commercial Growth", "Luxury Hospitality", "Team Management", "Guest Experience Strategy"],
-  },
 
   {
     id: "j1103",
@@ -823,6 +710,38 @@ export const JOBS = [
   },
 
   {
+    id: "j3701",
+    title: "Group Chief Executive Officer",
+    company: "Confidential — iGaming & Sports Betting Group (via Initiate International)",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://bebee.com/mt/jobs/group-ceo-initiate-international-gzira--ss-mt-1rr1h9q",
+    location: "Gżira, Malta",
+    salary: null,
+    posted: "2026-07-11",
+    applyUrl: "https://bebee.com/mt/jobs/group-ceo-initiate-international-gzira--ss-mt-1rr1h9q",
+    description:
+      "A high-growth iGaming and sports betting group is seeking an outstanding Group CEO to lead its next stage of international growth, commercial expansion, and operational maturity. Board-level role with full ownership of strategy, commercial and operational direction across multiple markets — spanning sportsbook, casino, player acquisition/retention, compliance, and governance. Requires proven Group CEO / CEO / Regional CEO experience in iGaming or sports betting at scale, strong P&L ownership, and board/investor-level stakeholder management. Sourced via Initiate International, listed on BeBee — closing 18 Jul 2026.",
+    skills: ["Group CEO", "iGaming / Sports Betting", "P&L Ownership", "Board & Investor Relations", "International Expansion"],
+  },
+
+  {
+    id: "j3702",
+    title: "CEO of Nigeria",
+    company: "Confidential — iGaming & Sports Betting Group (Malta/Nigeria, via Initiate International)",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://bebee.com/mt/jobs/ceo-of-nigeria-initiate-international--ss-mt-11c95et",
+    location: "Gżira, Malta (oversight of Nigeria operations)",
+    salary: null,
+    posted: "2026-07-11",
+    applyUrl: "https://bebee.com/mt/jobs/ceo-of-nigeria-initiate-international--ss-mt-11c95et",
+    description:
+      "A bold iGaming and sports betting business with operations across Malta and Nigeria is seeking a CEO of Nigeria, based in Gżira, Malta, to lead the Nigerian business end-to-end. Full P&L ownership, platform/partner relationships, AML/KYC and regulatory oversight, and board reporting. Acts as the bridge between Malta HQ, shareholders, and the Nigerian operation. Requires senior leadership experience in iGaming/sports betting and knowledge of the Nigerian regulatory landscape. Sourced via Initiate International, listed on BeBee — closing 18 Jul 2026.",
+    skills: ["CEO", "iGaming / Sports Betting", "African Market Expansion", "P&L Ownership", "Regulatory & Partner Management"],
+  },
+
+  {
     id: "j803",
     title: "Head of Risk",
     company: "Confidential — Financial Services",
@@ -849,7 +768,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-07-10";
+export const LAST_UPDATE_DATE = "2026-07-11";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
