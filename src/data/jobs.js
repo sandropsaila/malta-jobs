@@ -89,22 +89,6 @@ export const JOBS = [
     skills: ["General Manager", "Chairman Reporting", "Strategy & Operations", "Financial Performance", "P&L Ownership"],
   },
 
-  {
-    id: "j3201",
-    title: "Head of Payments Operations",
-    company: "Confidential — Financial Services",
-    category: "head",
-    func: "finance",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/finance-jobs/head-of-payments-operations/88536",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-22",
-    applyUrl: "https://www.konnekt.com/jobs/apply/88536/finance-jobs/head-of-payments-operations",
-    description:
-      "A financial services client via Konnekt is seeking a strategic and hands-on Head of Payments Operations. The role leads the payments operations function, overseeing transaction processing, settlement, reconciliation, and operational risk within a regulated payments environment. Senior leadership appointment in the finance/payments space. Listing active through end June 2026.",
-    skills: ["Head of Payments", "Payments Operations", "Financial Services", "Settlement & Reconciliation", "Operational Risk"],
-  },
 
   {
     id: "j3101",
@@ -140,40 +124,7 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j2902",
-    title: "Chief Financial Officer (Web3 / Stablecoin)",
-    company: "StablR",
-    category: "c-suite",
-    func: "finance",
-    domain: ["finance"],
-    source: "Direct",
-    sourceUrl: "https://web3.career/i/=MTO5IjN",
-    location: "Ta\'Xbiex, Malta",
-    salary: "€54,000 – €60,000",
-    posted: "2026-04-01",
-    applyUrl: "https://web3.career/i/=MTO5IjN",
-    description:
-      "StablR — a Malta MFSA-registered Virtual Financial Asset Issuer and EMI licence applicant building EURR, a fully euro-backed stablecoin — is seeking a CFO based in Malta. The CFO sits on the Executive Committee, reports to the Board of Directors, and leads StablR''s financial strategy across its Malta and Amsterdam operations. The role covers financial planning, regulatory compliance (MFSA), treasury, and supporting stablecoin reserve management. Team of 16 growing fast.",
-    skills: ["CFO — Web3 / Stablecoin", "MFSA Regulated", "DeFi / Blockchain Finance", "Executive Committee", "Malta-based"],
-  },
 
-  {
-    id: "j2801",
-    title: "Head of Brand & Commercial Performance",
-    company: "B2Spin Limited",
-    category: "head",
-    source: "LinkedIn",
-    sourceUrl: "https://b2spin.breezy.hr/",
-    location: "Malta (Hybrid)",
-    salary: null,
-    posted: "2026-05-25",
-    applyUrl: "https://b2spin.breezy.hr/",
-    description:
-      "B2Spin Limited — a Gibraltar-registered, globally distributed social casino game studio focused on free-to-play mobile web games — is recruiting a Head of Brand & Commercial Performance for its Malta hybrid operation. The role leads brand strategy and commercial performance across B2Spin''s gaming portfolio. Apply via B2Spin''s Breezy HR careers portal.",
-    linkType: "category",
-    skills: ["Head of Brand", "Commercial Performance", "iGaming / Social Casino", "Mobile Gaming", "Brand Strategy"],
-  },
 
   {
     id: "j2802",
@@ -223,21 +174,6 @@ export const JOBS = [
     skills: ["Care Home GM", "Retirement Village Operations", "Elderly Care", "Purpose-led Leadership", "Multi-site Management"],
   },
 
-  {
-    id: "j2805",
-    title: "Head of Retention (CRM)",
-    company: "Confidential — Multi-Brand iGaming Operator (via Clear Edge)",
-    category: "head",
-    source: "Clear Edge",
-    sourceUrl: "https://www.ceselection.com/vacancies-igaming/head-retention-igaming/",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-28",
-    applyUrl: "https://www.ceselection.com/vacancies-igaming/head-retention-igaming/",
-    description:
-      "Clear Edge (iGaming division, Malta) has partnered with a fast-growing iGaming company managing 10+ casino brands across regulated markets to recruit a Head of Retention (CRM). Reporting to the CEO of Regulated Markets, the role leads a team of 6 CRM specialists, owns CRM and player-retention strategy across the brand portfolio (ATL and BTL), and works closely with Product, Marketing and Analytics. Senior CRM/retention experience in iGaming required. Apply via Clear Edge's iGaming vacancies page (verified Malta listing).",
-    skills: ["Head of Retention / CRM", "iGaming", "Player Loyalty & LTV", "Multi-Brand Campaigns", "Team Leadership"],
-  },
 
 
   {
@@ -759,6 +695,38 @@ export const JOBS = [
   },
 
   {
+    id: "j3704",
+    title: "Chief Operating Officer",
+    company: "Confidential — Clinical, Retail & Laboratory Group (via Manpower Malta)",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://www.careers-page.com/manpower-malta/job/V633666R",
+    location: "Malta",
+    salary: null,
+    posted: "2026-02-04",
+    applyUrl: "https://www.careers-page.com/manpower-malta/job/V633666R",
+    description:
+      "Manpower Malta is recruiting a Chief Operating Officer on behalf of a client operating across clinical, retail, and laboratory facilities in Malta. The COO will oversee day-to-day operations across all three business lines, driving operational excellence, coordination between units, and organisational performance. Sourced via Manpower Malta's own careers page — verify listing is still open before applying, as posting date is from Feb 2026.",
+    skills: ["COO", "Multi-Site Operations", "Healthcare & Retail", "Operational Leadership"],
+  },
+
+  {
+    id: "j3705",
+    title: "Chief Executive Officer",
+    company: "Nineteen Twenty Three (Hili Ventures Group)",
+    category: "c-suite",
+    source: "Direct",
+    sourceUrl: "https://jobs.hiliventures.com/jobs/details/malta/marsa/nineteen-twenty-three-marsa-head-office/also-publishes-on-ybh-page/chief-executive-officer/1096",
+    location: "Marsa, Malta (Hili Ventures HQ)",
+    salary: null,
+    posted: "2026-01-18",
+    applyUrl: "https://jobs.hiliventures.com/jobs/details/malta/marsa/nineteen-twenty-three-marsa-head-office/also-publishes-on-ybh-page/chief-executive-officer/1096",
+    description:
+      "Hili Ventures — a Malta-based, privately-owned holding company (est. 1923) spanning food service & retail, real estate & hospitality, and shipping, engineering & technology across 10+ countries, partnering with McDonald's, Apple, Konecranes, Microsoft, and others — is recruiting a Chief Executive Officer at its Marsa, Malta head office. Hili Ventures' careers portal blocks automated verification (bot-detection); listing confirmed via search index dated 18 Jan 2026. Recommend re-verifying directly before relying on this listing, as posting is several months old.",
+    skills: ["CEO", "Group Holding Company", "Multi-Sector Leadership", "P&L Ownership"],
+  },
+
+  {
     id: "j803",
     title: "Head of Risk",
     company: "Confidential — Financial Services",
@@ -785,7 +753,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-07-11";
+export const LAST_UPDATE_DATE = "2026-07-12";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
