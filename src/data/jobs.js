@@ -645,37 +645,7 @@ export const JOBS = [
     skills: ["Construction Finance", "Project Finance", "Multi-entity CFO", "M&A Experience", "ACA / ACCA / CPA"],
   },
 
-  {
-    id: "j3701",
-    title: "Group Chief Executive Officer",
-    company: "Confidential — iGaming & Sports Betting Group (via Initiate International)",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://bebee.com/mt/jobs/group-ceo-initiate-international-gzira--ss-mt-1rr1h9q",
-    location: "Gżira, Malta",
-    salary: null,
-    posted: "2026-07-11",
-    applyUrl: "https://bebee.com/mt/jobs/group-ceo-initiate-international-gzira--ss-mt-1rr1h9q",
-    description:
-      "A high-growth iGaming and sports betting group is seeking an outstanding Group CEO to lead its next stage of international growth, commercial expansion, and operational maturity. Board-level role with full ownership of strategy, commercial and operational direction across multiple markets — spanning sportsbook, casino, player acquisition/retention, compliance, and governance. Requires proven Group CEO / CEO / Regional CEO experience in iGaming or sports betting at scale, strong P&L ownership, and board/investor-level stakeholder management. Sourced via Initiate International, listed on BeBee — closing 18 Jul 2026.",
-    skills: ["Group CEO", "iGaming / Sports Betting", "P&L Ownership", "Board & Investor Relations", "International Expansion"],
-  },
 
-  {
-    id: "j3702",
-    title: "CEO of Nigeria",
-    company: "Confidential — iGaming & Sports Betting Group (Malta/Nigeria, via Initiate International)",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://bebee.com/mt/jobs/ceo-of-nigeria-initiate-international--ss-mt-11c95et",
-    location: "Gżira, Malta (oversight of Nigeria operations)",
-    salary: null,
-    posted: "2026-07-11",
-    applyUrl: "https://bebee.com/mt/jobs/ceo-of-nigeria-initiate-international--ss-mt-11c95et",
-    description:
-      "A bold iGaming and sports betting business with operations across Malta and Nigeria is seeking a CEO of Nigeria, based in Gżira, Malta, to lead the Nigerian business end-to-end. Full P&L ownership, platform/partner relationships, AML/KYC and regulatory oversight, and board reporting. Acts as the bridge between Malta HQ, shareholders, and the Nigerian operation. Requires senior leadership experience in iGaming/sports betting and knowledge of the Nigerian regulatory landscape. Sourced via Initiate International, listed on BeBee — closing 18 Jul 2026.",
-    skills: ["CEO", "iGaming / Sports Betting", "African Market Expansion", "P&L Ownership", "Regulatory & Partner Management"],
-  },
 
   {
     id: "j3703",
@@ -753,7 +723,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-07-13";
+export const LAST_UPDATE_DATE = "2026-07-14";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
