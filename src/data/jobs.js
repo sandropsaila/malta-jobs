@@ -697,6 +697,56 @@ export const JOBS = [
   },
 
   {
+    id: "j3706",
+    title: "Chief Operating Officer",
+    company: "Confidential — via Firinne Solutions",
+    category: "c-suite",
+    source: "LinkedIn",
+    sourceUrl: "https://www.linkedin.com/company/firinne-solutions/jobs/",
+    location: "Sliema, Malta (Hybrid)",
+    salary: null,
+    posted: "2026-07-15",
+    applyUrl: "https://www.linkedin.com/company/firinne-solutions/jobs/",
+    description:
+      "Firinne Solutions — a Malta-based executive search firm specialising in placing decision-makers across senior and C-suite levels — is recruiting a Chief Operating Officer for a confidential client, based in Sliema, Malta (Hybrid). Surfaced via a same-day LinkedIn Job Alert with an active Easy Apply button. Firinne's own specific job page could not be independently located at time of verification, so apply via their LinkedIn company jobs page and confirm the listing is still live before applying.",
+    linkType: "category",
+    skills: ["COO", "Executive Search Placement", "Operational Leadership"],
+  },
+
+  {
+    id: "j3707",
+    title: "Head of Finance",
+    company: "Famalco Holdings Ltd",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://jobs.accaglobal.com/job/14007249/head-of-finance/",
+    location: "Attard, Malta (On-site)",
+    salary: null,
+    posted: "2026-07-15",
+    applyUrl: "https://jobs.accaglobal.com/job/14007249/head-of-finance/",
+    description:
+      "Famalco Holdings Ltd — established in 1994 and one of Malta's most diversified investment and asset management groups — is recruiting a Head of Finance, based in Attard, Malta. Maltese-speaking candidates preferred. Confirmed live via ACCA's official global jobs board in addition to the original LinkedIn/Famalco Careers listing.",
+    skills: ["Head of Finance", "Investment & Asset Management", "Maltese Speaking", "Financial Leadership"],
+  },
+
+  {
+    id: "j3708",
+    title: "Head of HR Business Partnering",
+    company: "Confidential — via Frazer Jones",
+    category: "head",
+    source: "LinkedIn",
+    sourceUrl: "https://www.linkedin.com/company/frazer-jones/jobs/",
+    location: "Valletta, Malta (Hybrid)",
+    salary: null,
+    posted: "2026-07-15",
+    applyUrl: "https://www.linkedin.com/company/frazer-jones/jobs/",
+    description:
+      "Frazer Jones — a globally established HR executive search and recruitment consultancy, part of The SR Group, placing HR leaders from generalist through CHRO level — is recruiting a Head of HR Business Partnering for a confidential client based in Valletta, Malta (Hybrid). Surfaced via a same-day LinkedIn Job Alert marked 'Actively recruiting' with an active Easy Apply button. Frazer Jones' own specific job page for this Malta listing could not be independently located at time of verification, so apply via their LinkedIn company jobs page and confirm the listing is still live before applying.",
+    linkType: "category",
+    skills: ["Head of HR Business Partnering", "HR Executive Search Placement", "Strategic HR Leadership"],
+  },
+
+  {
     id: "j803",
     title: "Head of Risk",
     company: "Confidential — Financial Services",
