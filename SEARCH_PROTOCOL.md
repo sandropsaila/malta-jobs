@@ -79,7 +79,13 @@ a role can be live and Malta-based but simply never appear in the recruiter-port
 MSE layers because the company posted it directly to LinkedIn. Confirmed failure case:
 Altenar's Global Sales Director (San Ġiljan, on-site) was missed on 11 Jul 2026 because
 Step 3 was skipped entirely that round. Every "update searches" run must touch ALL of
-Steps 1–6 at least once, even briefly, before considering the round complete.
+Steps 1–6 at least once, even briefly, before considering the round complete. Step 2.5
+(boutique agencies) is part of this same requirement — it exists because Step 3's
+general title searches don't reliably surface low-volume boutique-agency postings.
+Confirmed failure case: three roles (Firinne Solutions COO, Famalco Head of Finance,
+Frazer Jones Head of HR Business Partnering) were only caught on 15 Jul 2026 because
+the person forwarded a personal LinkedIn job alert — none of them had surfaced through
+Steps 1–3 in the preceding rounds.
 
 ## STEP 1 — Recruiter portals (direct fetch)
 Fetch these pages and scan for C-Suite / Head of / GM / Director roles:
@@ -101,6 +107,40 @@ Fetch these and scan for senior openings:
 - AMSM:           https://amsm.com.mt/careers/
 - Gasan Group:    https://careers.smartrecruiters.com/GasanGroup1
 - ONE.io:         https://one.io/about-us/
+
+## STEP 2.5 — Boutique / specialist executive search agencies (added 15 Jul 2026)
+**Run every round, not just when a job alert prompts it.** These are boutique or
+specialist agencies whose Malta client roles are typically LinkedIn-native —
+no scrapeable jobs portal of their own, so they never surface via Step 1's
+direct-fetch recruiter portals, and they're too low-volume to reliably appear
+in Step 3's general title-based LinkedIn searches. They were only caught this
+round because the person forwarded a personal LinkedIn job alert; the fix is
+to search for them by name directly rather than rely on that channel.
+
+For each agency below, run: site:linkedin.com/jobs "{agency name}" Malta
+
+- Firinne Solutions (Malta-based executive search, decision-maker placements)
+- Frazer Jones (global HR executive search, part of The SR Group — CHRO/HR
+  Director/Head of HR placements)
+- Carter Murray (marketing & sales search, sister brand to Frazer Jones under
+  The SR Group)
+- Keller West (technology executive search, sister brand under The SR Group)
+- Taylor Root (legal, risk & compliance search, sister brand under The SR Group)
+- Ceek Talent (cross-referenced Malta corporate services / tax roles previously)
+- Eaton SAKS International (retail/consumer executive search, seen placing
+  Malta-relevant VP/Director roles)
+- APS Resources International (holding-company CEO/Group Executive search)
+
+When an agency's own site has a specific job page (as Ceek Talent did for
+Head of Tax Advisory), prefer that as sourceUrl. When only a LinkedIn listing
+exists and no independent job page can be found, use the agency's LinkedIn
+company jobs page (linkedin.com/company/{slug}/jobs/) as the category-link
+fallback per the Step 3 procedure below — same standard applies: confirm Malta
+location, seniority tier, and that the role reads as live before adding.
+
+This list is a starting point, not exhaustive — add any boutique agency here
+once it's been confirmed to place genuine Malta C-Suite/Head/GM/Director roles,
+so it becomes part of the standard rotation rather than a one-off lookup.
 
 ## STEP 3 — Google-indexed LinkedIn searches (no login needed) — MANDATORY EVERY ROUND
 **Do not skip this step. Skipping Step 3 was the direct cause of a missed Global Sales
