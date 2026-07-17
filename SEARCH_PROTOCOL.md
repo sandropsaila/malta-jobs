@@ -107,6 +107,12 @@ Fetch these and scan for senior openings:
 - AMSM:           https://amsm.com.mt/careers/
 - Gasan Group:    https://careers.smartrecruiters.com/GasanGroup1
 - ONE.io:         https://one.io/about-us/
+- Kaizen Gaming:  https://www.linkedin.com/company/kaizengaming/jobs/ (Malta HQ,
+  San Ġiljan — regularly hires Country Managers for international markets from
+  its Malta base; no scrapeable own-site jobs page found, LinkedIn is primary)
+- FalconX:        https://job-boards.greenhouse.io/falconx (has a dedicated
+  Malta-based Risk/Compliance/Treasury hiring stream on Greenhouse — direct,
+  fetchable, reliable source)
 
 ## STEP 2.5 — Boutique / specialist executive search agencies (added 15 Jul 2026)
 **Run every round, not just when a job alert prompts it.** These are boutique or
@@ -130,6 +136,8 @@ For each agency below, run: site:linkedin.com/jobs "{agency name}" Malta
 - Eaton SAKS International (retail/consumer executive search, seen placing
   Malta-relevant VP/Director roles)
 - APS Resources International (holding-company CEO/Group Executive search)
+- BettingJobs (specialist iGaming recruitment agency, seen placing Head of
+  Payments and similar senior roles across Malta iGaming)
 
 When an agency's own site has a specific job page (as Ceek Talent did for
 Head of Tax Advisory), prefer that as sourceUrl. When only a LinkedIn listing
@@ -141,6 +149,30 @@ location, seniority tier, and that the role reads as live before adding.
 This list is a starting point, not exhaustive — add any boutique agency here
 once it's been confirmed to place genuine Malta C-Suite/Head/GM/Director roles,
 so it becomes part of the standard rotation rather than a one-off lookup.
+
+## KNOWN NON-MALTA COMPANIES — do not re-investigate each round (added 16 Jul 2026)
+These companies repeatedly surface in Malta-targeted LinkedIn searches (because
+their job postings loosely geo-match to Malta-based viewers, or because they
+have a Malta office alongside others) but have been confirmed on multiple
+occasions NOT to be genuinely Malta-based roles. Skip listings from these
+sources unless a specific role explicitly and unambiguously states an on-site
+Malta location with no other office listed as an alternative:
+
+- **B2Spin Limited** — Gibraltar-registered and headquartered; hires remotely/
+  hybrid across Malta, Bulgaria, Georgia, Isle of Man, Poland, Romania, Serbia
+  offices simultaneously for most roles. Confirmed non-Malta on three separate
+  occasions (Head of Brand & Commercial Performance, Head of Retention,
+  Head of Workforce & Player Operations Technology, Head of CRM Strategy —
+  all actually Gibraltar-based despite Malta appearing in alert feeds).
+- **Explora Journeys (MSC Group)** — General Manager and similar "GM"/officer
+  titles at this cruise line are shipboard/onboard positions (e.g. "GM,
+  EXPLORA I"), not shore-based Malta office roles, even though Explora's
+  corporate/HR function may be based in Valletta. Treat any Explora Journeys
+  "GM" listing as a maritime crew role unless explicitly stated otherwise.
+
+If a new listing from either company appears, don't add it without re-confirming
+location fine print in the actual job description — general Malta involvement
+by a company doesn't mean a specific advertised opening is Malta-based.
 
 ## STEP 3 — Google-indexed LinkedIn searches (no login needed) — MANDATORY EVERY ROUND
 **Do not skip this step. Skipping Step 3 was the direct cause of a missed Global Sales

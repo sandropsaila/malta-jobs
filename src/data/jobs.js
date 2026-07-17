@@ -40,21 +40,6 @@ export const JOBS = [
     skills: ["Head of Client Accounting", "Legal / Corporate Services", "ACCA Qualified", "Team Leadership", "Maltese Tax & VAT"],
   },
 
-  {
-    id: "j3501",
-    title: "B2C Managing Director",
-    company: "Thelivering (The Mill Adventure Group)",
-    category: "general-manager",
-    source: "Direct",
-    sourceUrl: "https://apply.workable.com/the-mill-adventure/j/CF0D00DAD2",
-    location: "Malta (Remote)",
-    salary: "\u20ac100,000",
-    posted: "2026-06-01",
-    applyUrl: "https://apply.workable.com/the-mill-adventure/j/CF0D00DAD2",
-    description:
-      "Thelivering \u2014 an audacious B2C iGaming operator running the Casinobud and Budsino brands, part of The Mill Adventure Group \u2014 is hiring a B2C Managing Director. The MD leads the full B2C operation: brand growth, commercial strategy, player experience, and P&L across both casino brands. Remote, Malta-based. Salary circa \u20ac100,000. The Mill Adventure is a St Julian''s-headquartered iGaming platform scale-up (130+ specialists, founded 2019). Apply via Workable.",
-    skills: ["B2C Managing Director", "iGaming / Casino", "P&L Ownership", "Brand Growth", "Commercial Strategy"],
-  },
 
   {
     id: "j3401",
@@ -73,21 +58,6 @@ export const JOBS = [
     skills: ["Head of Finance", "Legal / Professional Services", "ACCA Qualified", "Financial Leadership", "Managing Partner Reporting"],
   },
 
-  {
-    id: "j3301",
-    title: "General Manager",
-    company: "Confidential — Leading Malta Company",
-    category: "general-manager",
-    source: "Konnekt",
-    sourceUrl: "https://www.careerjet.com.mt/general-manager-jobs.html",
-    location: "Malta",
-    salary: "\u20ac70,000 \u2013 \u20ac80,000",
-    posted: "2026-05-21",
-    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs",
-    description:
-      "A leading company in Malta is hiring a General Manager to lead the company''s next stage of growth and performance. The role reports directly to the Chairman and focuses on strategy, operations, and financial performance \u2014 driving commercial results, operational excellence, and organisational development. Permanent, full-time. Salary \u20ac70,000\u2013\u20ac80,000 per year. Sourced via Konnekt (listed on Careerjet).",
-    skills: ["General Manager", "Chairman Reporting", "Strategy & Operations", "Financial Performance", "P&L Ownership"],
-  },
 
 
   {
@@ -747,6 +717,56 @@ export const JOBS = [
   },
 
   {
+    id: "j3709",
+    title: "Country Manager",
+    company: "Kaizen Gaming (Betano)",
+    category: "c-suite",
+    source: "LinkedIn",
+    sourceUrl: "https://www.linkedin.com/company/kaizengaming/jobs/",
+    location: "San Ġiljan, Malta (On-site)",
+    salary: null,
+    posted: "2026-07-16",
+    applyUrl: "https://www.linkedin.com/company/kaizengaming/jobs/",
+    description:
+      "Kaizen Gaming — the team powering Betano and Stoiximan, one of the world's largest GameTech companies, headquartered in San Ġiljan, Malta with 2,700+ employees across 40+ nationalities — is hiring a Country Manager based at its Malta HQ. Kaizen Gaming regularly hires Country Managers from Malta to lead individual market strategy, P&L, and go-to-market execution for Betano's international expansion (confirmed pattern across Sweden, Nigeria, and Ghana hires). Surfaced via a same-day LinkedIn Job Alert. Kaizen's specific job page for this exact listing could not be independently located at time of verification, so apply via their LinkedIn company jobs page and confirm the listing is still live before applying.",
+    linkType: "category",
+    skills: ["Country Manager", "iGaming / Sports Betting", "P&L Ownership", "Market Strategy", "International Expansion"],
+  },
+
+  {
+    id: "j3710",
+    title: "Head of Risk",
+    company: "FalconX",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://job-boards.greenhouse.io/falconx/jobs/4713572005",
+    location: "Malta",
+    salary: "€84,000 – €115,000",
+    posted: "2026-07-16",
+    applyUrl: "https://job-boards.greenhouse.io/falconx/jobs/4713572005",
+    description:
+      "FalconX — a leading digital assets prime broker revolutionising institutional access to crypto markets — is hiring a Head of Risk based in Malta, requiring physical presence in Malta and completion of the MFSA PQ (Person Qualified) process. Responsible for the Risk Management Framework, risk appetite recommendations to the Board, credit and counterparty risk, and regulatory compliance across AML/CFT, ICT, operational, market, and credit risk domains. Confirmed live and current via FalconX's own Greenhouse careers board, marked 'New', with full salary transparency per the EU Pay Transparency Directive.",
+    skills: ["Head of Risk", "Digital Assets / Crypto", "Risk Management Framework", "MFSA PQ", "Regulatory Compliance"],
+  },
+
+  {
+    id: "j3711",
+    title: "Head of Payments",
+    company: "Confidential — iGaming (via BettingJobs)",
+    category: "head",
+    source: "LinkedIn",
+    sourceUrl: "https://www.linkedin.com/company/bettingjobs/jobs/",
+    location: "Valletta, Malta (On-site)",
+    salary: null,
+    posted: "2026-07-16",
+    applyUrl: "https://www.linkedin.com/company/bettingjobs/jobs/",
+    description:
+      "BettingJobs — a specialist iGaming recruitment agency — is recruiting a Head of Payments for a confidential Malta iGaming client, based in Valletta, Malta (On-site). Corroborated by a genuine, active pattern of Head of Payments / Head of Payments and Fraud hiring across Malta's iGaming sector at time of verification. Surfaced via a same-day LinkedIn Job Alert with an active Easy Apply button. BettingJobs' own specific job page could not be independently located at time of verification, so apply via their LinkedIn company jobs page and confirm the listing is still live before applying.",
+    linkType: "category",
+    skills: ["Head of Payments", "iGaming / Sports Betting", "Payments Operations", "Fraud & Risk"],
+  },
+
+  {
     id: "j803",
     title: "Head of Risk",
     company: "Confidential — Financial Services",
@@ -773,7 +793,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-07-15";
+export const LAST_UPDATE_DATE = "2026-07-16";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
