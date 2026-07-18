@@ -793,7 +793,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-07-16";
+export const LAST_UPDATE_DATE = "2026-07-17";
 
 export function isJobNew(job) {
   if (!job.posted) return false;

@@ -132,7 +132,13 @@ For each agency below, run: site:linkedin.com/jobs "{agency name}" Malta
   The SR Group)
 - Keller West (technology executive search, sister brand under The SR Group)
 - Taylor Root (legal, risk & compliance search, sister brand under The SR Group)
-- Ceek Talent (cross-referenced Malta corporate services / tax roles previously)
+- Ceek Talent — has its own live, scrapeable jobs board (not just LinkedIn):
+  https://jobs.ceektalent.com/jobs.aspx — 100+ live Malta roles, filterable by
+  "Management & Executive Positions" category. Prefer this over LinkedIn
+  searches for this agency specifically. Note: many "Financial Controller" /
+  "Group Financial Controller" titles here are Controller-tier (second-in-
+  command, reports to CFO/senior leadership), NOT Head-of-Function or C-suite
+  — check the actual reporting line before adding, don't add on title alone.
 - Eaton SAKS International (retail/consumer executive search, seen placing
   Malta-relevant VP/Director roles)
 - APS Resources International (holding-company CEO/Group Executive search)
