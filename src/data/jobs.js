@@ -767,6 +767,40 @@ export const JOBS = [
   },
 
   {
+    id: "j3712",
+    title: "Group Financial Controller",
+    company: "Confidential — FMCG & Retail Group",
+    category: "head",
+    domain: ["finance"],
+    source: "Direct",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/group-financial-controller/80805",
+    location: "Central Malta",
+    salary: "€90,000 – €100,000",
+    posted: "2026-07-17",
+    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/group-financial-controller/80805",
+    description:
+      "A reputable Malta group operating in FMCG and Retail is seeking a seasoned Group Financial Controller, reporting to and supporting the Group CFO on strategic financial planning, budgeting, forecasting, statutory and management reporting, treasury operations, and Board-level financial and legal advisory. Classified 'Senior Management' employment level by Konnekt. Requires 8+ years senior group finance experience and fluent English and Maltese. Confirmed live and currently 'Collecting CVs' directly on Konnekt's own site.",
+    skills: ["Group Financial Controller", "FMCG / Retail", "Group Reporting & Consolidation", "Treasury", "Board Advisory"],
+  },
+
+  {
+    id: "j3713",
+    title: "Financial Controller",
+    company: "Confidential — International Multi-Entity Group",
+    category: "head",
+    domain: ["finance"],
+    source: "Direct",
+    sourceUrl: "https://jobs.ceektalent.com/job/financial-controller-2065.aspx",
+    location: "Malta",
+    salary: "€70,000",
+    posted: "2026-07-15",
+    applyUrl: "https://jobs.ceektalent.com/job/financial-controller-2065.aspx",
+    description:
+      "A rapidly expanding international group with diverse operations across multiple jurisdictions is seeking a Financial Controller to lead the finance function — overseeing financial operations, IFRS-compliant statutory and management reporting, internal controls, budgeting, forecasting, treasury, and audit coordination across the group. Confirmed live directly on Ceek Talent's own jobs board with an active Apply link.",
+    skills: ["Financial Controller", "IFRS Reporting", "Multi-Entity / Multi-Jurisdiction", "Internal Controls", "Treasury"],
+  },
+
+  {
     id: "j803",
     title: "Head of Risk",
     company: "Confidential — Financial Services",
