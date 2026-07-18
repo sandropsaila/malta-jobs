@@ -2,6 +2,15 @@
 # Run this protocol every time the user says "Update searches" or "Refresh"
 # ─────────────────────────────────────────────────────────────────────────────
 
+## SCOPE (updated 17 Jul 2026)
+The board covers Malta-based C-Suite, Head-of-Function, General Manager, Director,
+and Financial Controller level roles. Financial Controller was added as an explicit
+floor on 17 Jul 2026 — before this date it was deliberately excluded as below the
+seniority bar (see Steps 0 commit history for prior exclusions of Konnekt's and
+Ceek Talent's Financial Controller listings). This does not extend to Controller-
+adjacent titles below Financial Controller itself (Assistant Financial Controller,
+Credit Controller, Financial Accountant, etc.) — those remain excluded.
+
 ## STEP 0 — LIVENESS RE-CHECK OF EXISTING LISTINGS (added 28 May 2026) — RUN FIRST
 **This is the FIRST pass of EVERY "update search". Do it BEFORE searching for new roles.**
 The board must never show a role that has been filled, expired, or removed. Stale roles
@@ -135,10 +144,10 @@ For each agency below, run: site:linkedin.com/jobs "{agency name}" Malta
 - Ceek Talent — has its own live, scrapeable jobs board (not just LinkedIn):
   https://jobs.ceektalent.com/jobs.aspx — 100+ live Malta roles, filterable by
   "Management & Executive Positions" category. Prefer this over LinkedIn
-  searches for this agency specifically. Note: many "Financial Controller" /
-  "Group Financial Controller" titles here are Controller-tier (second-in-
-  command, reports to CFO/senior leadership), NOT Head-of-Function or C-suite
-  — check the actual reporting line before adding, don't add on title alone.
+  searches for this agency specifically. Financial Controller and Group
+  Financial Controller titles here ARE now in scope (as of 17 Jul 2026) — check
+  Malta location and that the role reads as live, same as any other listing.
+  Assistant Financial Controller and Credit Controller remain out of scope.
 - Eaton SAKS International (retail/consumer executive search, seen placing
   Malta-relevant VP/Director roles)
 - APS Resources International (holding-company CEO/Group Executive search)
@@ -588,7 +597,11 @@ appear on the live source page (careers page, recruiter listing, or news article
    - Watch multi-country recruiters (Clear Edge, GRS, Broadwing list Cyprus/UK/Limassol
      roles side-by-side with Malta ones — read the location line, not the agency).
 
-3. **SENIORITY MATCHES** — C-Suite / Head of / GM / Director minimum, on that page.
+3. **SENIORITY MATCHES** — C-Suite / Head of / GM / Director / Financial Controller
+   minimum, on that page. (Financial Controller added 17 Jul 2026 as an explicit floor —
+   see note below; do not extend this same allowance to other Controller-tier titles
+   like Assistant Financial Controller, Credit Controller, or Financial Controller's
+   direct reports without a similar explicit decision.)
 
 4. **ROLE IS LIVE** — not "removed", "expired", "applications closed", or filled.
 
@@ -637,7 +650,8 @@ When adding a role, set domain when it fits:
 ## QUALITY GATES — only add if ALL of these are true:
 1. Role is real and currently open (not filled, not expired)
 2. Location is Malta or explicitly requires relocation to Malta
-3. Seniority is C-Suite / Head of Function / General Manager / Director minimum
+3. Seniority is C-Suite / Head of Function / General Manager / Director / Financial
+   Controller minimum
 4. Apply URL resolves to a real page (career page, recruiter listing, or LinkedIn post)
 
 ## MANDATORY LINK VERIFICATION (added 23 May 2026)
