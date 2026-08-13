@@ -191,11 +191,11 @@ export const JOBS = [
     category: "head",
     domain: ["finance"],
     source: "Direct",
-    sourceUrl: "https://www.coindesk.com/business/2024/07/11/okx-picks-malta-over-france-as-europe-hub-to-comply-with-eus-mica-crypto-rules-sources",
+    sourceUrl: "https://isecjobs.com/job/265126-head-of-internal-audit-malta/",
     location: "Sliema, Malta",
     salary: null,
     posted: "2026-05-10",
-    applyUrl: "https://web3.career/head-of-internal-audit-malta-okx/67714",
+    applyUrl: "https://isecjobs.com/job/265126-head-of-internal-audit-malta/",
     description:
       "OKX Europe is recruiting a Head of Internal Audit (Internal Audit Director level) for its Malta entity. Reporting to the global Head of Internal Audit, the role coordinates EU/EEA audit activities, drives risk-based audit planning, leads execution and reporting, and acts as third line of defence across OKX''s MiCA-licensed European operations. Requires strong digital assets / fintech audit background plus CPA/CIA/CISA/CISSP certification. Apply via okx.com/en-eu/join-us.",
     skills: ["Internal Audit Director", "Digital Assets / Crypto", "MiCA / EU Regulatory", "Third Line of Defence", "CPA / CIA / CISA"],
@@ -339,23 +339,6 @@ export const JOBS = [
     description:
       "GRS is recruiting an Audit Director for a global accounting and advisory firm in Malta. The director will work closely with a Partner, lead and direct an experienced team of auditors, and shape the long-term vision for the audit function. Requires 10+ years progressive audit experience, MQF Level 7 qualification, and ACCA/ACA/CPA certification. Ref #9370 — contact GRS directly.",
     skills: ["Audit Leadership", "Big 4 / Advisory Firm", "ACCA / ACA / CPA", "Team Management", "Strategic Audit Planning"],
-  },
-
-  {
-    id: "j1803",
-    title: "Head of Dealing",
-    company: "Confidential — Multi-Regulated Brokerage",
-    category: "head",
-    source: "Boston Link",
-    sourceUrl: "https://www.boston-link.com/latest-careers/?s=head+of+dealing",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-01",
-    applyUrl: "https://www.boston-link.com/latest-careers/?s=head+of+dealing",
-    description:
-      "Boston Link is recruiting a Head of Dealing for a multi-regulated, multi-asset brokerage in Malta. The role requires a dynamic and highly skilled dealing room leader to oversee trading operations, manage a dealing team, and ensure best execution across multiple asset classes. Senior front-office leadership background in brokerage or investment management required.",
-    linkType: "category",
-    skills: ["Head of Dealing", "Multi-Asset Brokerage", "Trading Operations", "Best Execution", "Regulated Environment"],
   },
 
 
@@ -514,25 +497,6 @@ export const JOBS = [
       "Hili Properties plc — part of Hili Ventures with a €234M+ commercial real estate portfolio across Malta, Latvia, Lithuania, Estonia and Romania — is recruiting a permanent CEO following the suspension of its previous MD in January 2026. Daniela Pavia (CFO) serves as interim CEO. Listed-company appointment reporting to the Hili Ventures board.",
     linkType: "category",
     skills: ["Listed Company CEO", "Real Estate P&L", "Board Reporting", "Multi-country Portfolio", "Investor Relations"],
-  },
-
-  {
-    id: "j202",
-    title: "Chief Audit Officer",
-    company: "Hili Ventures Ltd",
-    category: "c-suite",
-    func: "finance",
-    domain: ["finance"],
-    source: "Direct",
-    sourceUrl: "https://bebee.com/mt/jobs/chief-audit-officer-hili-ventures-ltd--techmap_mt_NDQ1MTM4IDEwMQ",
-    location: "Marsa, Malta",
-    salary: null,
-    posted: "2026-05-01",
-    applyUrl: "https://bebee.com/mt/jobs/chief-audit-officer-hili-ventures-ltd--techmap_mt_NDQ1MTM4IDEwMQ",
-    description:
-      "Lead the group-wide internal audit function across Hili Ventures' 10-country, 13,000-person operation spanning food service, retail (McDonald's & Apple), real estate, shipping, oil & gas, and technology. Newly created C-suite role reporting to the Group CEO.",
-    linkType: "category",
-    skills: ["Internal Audit Leadership", "Group Governance", "Risk Frameworks", "Multi-jurisdiction", "Big 4 Background"],
   },
 
 
@@ -801,6 +765,24 @@ export const JOBS = [
   },
 
   {
+    id: "j3714",
+    title: "Head of Finance",
+    company: "Confidential — Boutique Corporate & Fiduciary Services Firm",
+    category: "head",
+    func: "finance",
+    domain: ["finance"],
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11351.aspx",
+    location: "Valletta, Malta",
+    salary: null,
+    posted: "2026-08-13",
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11351/apply.aspx",
+    description:
+      "GRS is recruiting a Head of Finance for a boutique corporate and fiduciary services firm in Valletta. Reporting directly to the directors, this is the most senior finance role in the business, taking full ownership of the finance function and leading a team of six across accounting, payroll, financial reporting, budgeting, forecasting, and cash flow management. A strong fit for a Big 4 or practice-trained finance professional seeking a senior, hands-on role in a smaller, trust-based environment. Experience in corporate services, fiduciary, or legal firms and familiarity with Xero/Sage considered a plus. Ref #11351 — fetched live & confirmed active.",
+    skills: ["Head of Finance", "Corporate & Fiduciary Services", "Financial Strategy", "Team Leadership", "Big 4 / Practice Background"],
+  },
+
+  {
     id: "j803",
     title: "Head of Risk",
     company: "Confidential — Financial Services",
@@ -827,7 +809,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-07-20";
+export const LAST_UPDATE_DATE = "2026-08-13";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
