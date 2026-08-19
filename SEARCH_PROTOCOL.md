@@ -11,6 +11,37 @@ Ceek Talent's Financial Controller listings). This does not extend to Controller
 adjacent titles below Financial Controller itself (Assistant Financial Controller,
 Credit Controller, Financial Accountant, etc.) — those remain excluded.
 
+## TOOLS AVAILABLE FOR ALL SEARCH STEPS (added 19 Aug 2026)
+In addition to web_search / web_fetch, the Nimble connector is available and MUST be
+used alongside standard search for every "update searches" round — it is not a
+replacement for web_search/web_fetch, it's a complementary layer that catches roles
+plain search misses.
+
+- **nimble_search** — use as an alternative/parallel query engine to web_search for
+  Steps 1, 2, 2.5, 3, 4, 5, and 6. Nimble's results sometimes surface roles (especially
+  on JS-heavy career pages and boutique-agency sites) that standard web_search snippets
+  don't index cleanly. Run it as a second pass on any Step that comes back thin.
+- **nimble_crawl** / **nimble_map** — use for Step 1 (recruiter portals) and Step 2
+  (direct company career pages) instead of a single web_fetch when the page is a
+  listing that paginates or lazy-loads (e.g. jobsinmalta.com, Boston Link's filtered
+  careers page, AX Careers). A crawl catches roles sitting on page 2+ that a single
+  fetch of the landing page misses.
+- **nimble_extract** / **nimble_extract_templates_run** — use for Step 7 final source
+  verification when a page's structure makes it hard to confirm via plain fetch text
+  (e.g. confirming a specific closing date or "Job Has Expired" banner buried in page
+  chrome). Extract gives a cleaner structured read than raw fetch on these.
+- **nimble_agents_create / nimble_agents_run** — for a recurring or multi-page sourcing
+  sweep (e.g. the full Step 6 topcompanies.xlsx pass, or Step 0.5 MSE sweep), an agent
+  can be set up to check a batch of company career pages in one run rather than fetching
+  each individually. Use when reviewing 10+ pages in a single Step.
+
+**Rule: don't skip standard web_search/web_fetch in favour of Nimble** — the two should
+run together, not one instead of the other, since either can surface a role the other
+misses. Where results conflict (Nimble shows a role live, web_search/web_fetch suggests
+it's gone, or vice versa), re-check with web_fetch on the specific role URL before
+deciding — Step 0's "Reed Malta"-style listing-unreliable rules still take precedence
+over any single tool's positive result.
+
 ## STEP 0 — LIVENESS RE-CHECK OF EXISTING LISTINGS (added 28 May 2026) — RUN FIRST
 **This is the FIRST pass of EVERY "update search". Do it BEFORE searching for new roles.**
 The board must never show a role that has been filled, expired, or removed. Stale roles
