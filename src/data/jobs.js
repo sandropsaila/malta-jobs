@@ -6,22 +6,6 @@
 
 export const JOBS = [
 
-  {
-    id: "j3601",
-    title: "Chief Financial Officer",
-    company: "Confidential — Retail Sector",
-    category: "c-suite",
-    func: "finance",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/89940",
-    location: "Malta",
-    salary: null,
-    posted: "2026-07-10",
-    applyUrl: "https://www.konnekt.com/jobs/apply/89940/accounting-jobs/chief-financial-officer-cfo",
-    description:
-      "A highly regarded and reputable retail-sector client via Konnekt is seeking a Chief Financial Officer. The CFO acts as a strategic business partner to the Board of Directors and CEO on financial, commercial, and operational matters — supporting business growth, expansion projects, and investment opportunities. Responsibilities span monthly management accounts, quarterly and annual financial statements, budget performance, IFRS compliance, and strategic planning across business units. Fetched live & confirmed active through 31 Jul 2026.",
-    skills: ["CFO Experience", "Retail Sector", "IFRS", "Board & CEO Partnering", "Strategic Planning"],
-  },
 
   {
     id: "j3301b",
@@ -41,76 +25,14 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j3401",
-    title: "Head of Finance",
-    company: "Confidential — Established Legal Firm",
-    category: "head",
-    func: "finance",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-06-02",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139/apply.aspx",
-    description:
-      "GRS is recruiting a Head of Finance for a well-established legal firm in Malta. Reporting directly to the Managing Partner and CEO, the successful candidate will be a hands-on finance leader overseeing the firm''s full financial function — financial reporting, controls, budgeting, and strategic financial management. ACCA-qualified with strong IFRS knowledge and senior finance leadership experience required. Ref #11139 — fetched live and confirmed Malta-based.",
-    skills: ["Head of Finance", "Legal / Professional Services", "ACCA Qualified", "Financial Leadership", "Managing Partner Reporting"],
-  },
-
-
-
-  {
-    id: "j3101",
-    title: "Associated Director — Back-Office Support",
-    company: "Confidential — International FinTech Firm",
-    category: "head",
-    func: "finance",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/associated-director-backoffice-support-10986.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-25",
-    applyUrl: "https://jobs.grsrecruitment.com/job/associated-director-backoffice-support-10986/apply.aspx",
-    description:
-      "An international FinTech firm is seeking an Associated Director of Back-Office Support to join its team in Malta. The role leads back-office operations within a regulated banking and finance environment, overseeing operational processes, team management, and service delivery. Director-level appointment in the Banking & Finance function. Ref #10986 — apply via GRS Recruitment.",
-    skills: ["Back-Office Leadership", "FinTech / Banking", "Operations Director", "Team Management", "Regulated Environment"],
-  },
-
-  {
-    id: "j3001",
-    title: "Head of Transformation",
-    company: "Confidential — Food & Beverages Company",
-    category: "head",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-20",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943/apply.aspx",
-    description:
-      "GRS is recruiting a Head of Transformation for a renowned Food & Beverages company in Malta. This strategic leadership role shapes, governs, and drives large-scale change initiatives to enhance operational excellence, digital enablement, and organisational performance. Responsibilities include leading the Transformation Management Office (TMO), establishing governance and reporting frameworks, overseeing risk and benefits realisation, and strengthening performance through data-driven KPIs and continuous improvement. FMCG/manufacturing/supply chain background with digital transformation experience required. Ref #10943 — sarah@grsrecruitment.com.",
-    skills: ["Transformation Leadership", "Food & Beverages / FMCG", "Digital Enablement", "TMO Governance", "Operational Excellence"],
-  },
 
 
 
 
-  {
-    id: "j2802",
-    title: "Head of Procurement",
-    company: "AX Group (AX Hotels / AX Development)",
-    category: "head",
-    source: "AX Careers",
-    sourceUrl: "https://axcareersmalta.com/career/VA1250-head-of-procurement/",
-    location: "Mosta, Malta (On-site)",
-    salary: null,
-    posted: "2026-05-19",
-    applyUrl: "https://axcareersmalta.com/career/VA1250-head-of-procurement/",
-    description:
-      "AX Group — one of Malta''s leading diversified groups spanning hotels, care, construction and development — is seeking a strategic and results-driven Head of Procurement to lead procurement operations across its hospitality portfolio. The role drives cost efficiency, supplier excellence, and procurement strategy group-wide.",
-    skills: ["Head of Procurement", "Hospitality Group", "Supplier Management", "Cost Efficiency", "Strategic Procurement"],
-  },
+
+
+
+
 
   {
     id: "j2803",
@@ -128,110 +50,18 @@ export const JOBS = [
     skills: ["Head of Sales", "Ultra-Luxury Hospitality", "Wellness & Spa", "Global Sales Strategy", "UHNW Market"],
   },
 
-  {
-    id: "j2804",
-    title: "General Manager — Care & Retirement",
-    company: "AX Care (AX Group)",
-    category: "general-manager",
-    source: "AX Careers",
-    sourceUrl: "https://axcareersmalta.com/career/",
-    location: "Malta (On-site)",
-    salary: null,
-    posted: "2026-05-01",
-    applyUrl: "https://axcareersmalta.com/career/",
-    description:
-      "AX Care — one of Malta''s leading providers of elderly care, encompassing Hilltop Gardens independent retirement living and Simblija Care Home — is seeking a seasoned General Manager to lead and oversee operations across both facilities. The GM will create a haven of warmth, dignity, and compassion for elderly residents. People-centric, purpose-driven leadership required.",
-    skills: ["Care Home GM", "Retirement Village Operations", "Elderly Care", "Purpose-led Leadership", "Multi-site Management"],
-  },
-
-
-
-  {
-    id: "j2601",
-    title: "Head of HR, Malta",
-    company: "Betsson Group",
-    category: "head",
-    source: "Direct",
-    sourceUrl: "https://job-boards.greenhouse.io/betsson/jobs/7677081",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-15",
-    applyUrl: "https://job-boards.greenhouse.io/betsson/jobs/7677081",
-    description:
-      "Betsson Group — one of the world''s leading iGaming operators — is hiring a Head of HR for its Operational HQ in Malta. Reporting to the Chief HR Officer and part of the Malta leadership team, the role owns the 360° HR strategy for Malta, leads the leadership and culture strategy, and supports 1,400+ employees through the Lead HR Business Partners. Strong track record in iGaming or fast-paced eCommerce HR leadership required.",
-    skills: ["Head of HR", "iGaming / eCommerce", "People & Culture Strategy", "HRBP Leadership", "1,400+ Employee Hub"],
-  },
 
 
 
 
-  {
-    id: "j2503",
-    title: "Head of People",
-    company: "Confidential — B2B Company (Malta, Cyprus, Greece)",
-    category: "head",
-    source: "Konnekt",
-    sourceUrl: "https://www.maltayp.com/company/354/Konnekt/jobs",
-    location: "Malta (multi-country: Malta, Cyprus, Greece)",
-    salary: null,
-    posted: "2026-05-10",
-    applyUrl: "https://www.konnekt.com/jobs/human-resources-jobs",
-    description:
-      "An experienced B2B company is looking for a Head of People to lead its People & Culture strategy across Malta, Cyprus, and Greece. The role covers talent acquisition, HR operations, employee engagement, and cultural leadership across three jurisdictions. Reporting to the CEO. Full details and apply via Konnekt.",
-    linkType: "category",
-    skills: ["Head of People / CHRO", "Multi-country HR", "B2B Environment", "People & Culture", "Talent Strategy"],
-  },
 
 
 
-  {
-    id: "j2301",
-    title: "Head of Internal Audit, Malta",
-    company: "OKX Europe",
-    category: "head",
-    domain: ["finance"],
-    source: "Direct",
-    sourceUrl: "https://isecjobs.com/job/265126-head-of-internal-audit-malta/",
-    location: "Sliema, Malta",
-    salary: null,
-    posted: "2026-05-10",
-    applyUrl: "https://isecjobs.com/job/265126-head-of-internal-audit-malta/",
-    description:
-      "OKX Europe is recruiting a Head of Internal Audit (Internal Audit Director level) for its Malta entity. Reporting to the global Head of Internal Audit, the role coordinates EU/EEA audit activities, drives risk-based audit planning, leads execution and reporting, and acts as third line of defence across OKX''s MiCA-licensed European operations. Requires strong digital assets / fintech audit background plus CPA/CIA/CISA/CISSP certification. Apply via okx.com/en-eu/join-us.",
-    skills: ["Internal Audit Director", "Digital Assets / Crypto", "MiCA / EU Regulatory", "Third Line of Defence", "CPA / CIA / CISA"],
-  },
 
-  {
-    id: "j2302",
-    title: "Chief Engineer",
-    company: "Confidential — Leading Construction Group (North of Malta)",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/engineering-jobs/chief-engineer-north-of-malta/81439",
-    location: "North of Malta",
-    salary: null,
-    posted: "2026-04-15",
-    applyUrl: "https://www.konnekt.com/jobs/apply/81439/engineering-jobs/chief-engineer-north-of-malta",
-    description:
-      "A leading company in Malta requires the services of a Chief Engineer to oversee the engineering function for both construction projects and ongoing operations. The role is based in the North of Malta and involves senior engineering leadership, project oversight, and team management. Apply via Konnekt (ref via job page).",
-    skills: ["Chief Engineer", "Construction Operations", "Engineering Leadership", "Project Oversight", "Team Management"],
-  },
 
-  {
-    id: "j2303",
-    title: "Head of Emergency Dispatch & Assistance",
-    company: "Confidential — Global Medical Consultancy (Air Ambulance)",
-    category: "head",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-emergency-dispatcher-6613.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-01",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-emergency-dispatcher-6613/apply.aspx",
-    description:
-      "GRS is recruiting a Head of Emergency Dispatcher for a global medical consultancy specialising in Air Ambulance and aeromedical services. Reports to the CEO and takes overall responsibility for all non-clinical aspects of the company''s Assistance operations — managing the Alarm Centre, providing 24/7 client support, and overseeing team performance. Relocation assistance provided. Senior background in medical assistance call centres required. Ref #6613.",
-    skills: ["Head of Operations", "Medical Assistance / Aeromedical", "Alarm Centre Management", "24/7 Service Operations", "CEO Reporting"],
-  },
+
+
+
 
 
 
@@ -251,58 +81,9 @@ export const JOBS = [
     skills: ["Head of HR / CHRO", "EU People Strategy", "Crypto / FinTech", "HR Operations", "Talent Planning"],
   },
 
-  {
-    id: "j2101",
-    title: "Head of Corporate Services",
-    company: "Confidential — Accountancy & Consultancy Firm",
-    category: "head",
-    func: "finance",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-corporate-services-11026.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-10",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-corporate-services-11026/apply.aspx",
-    description:
-      "GRS is recruiting a Head of Corporate Services to lead the Corporate Services Division of a well-established accountancy and consultancy firm in Malta. The role drives strategic growth, oversees service delivery to a diverse client base, and shapes the firm's future direction. Requires ACCA qualification, 5+ years post-qualification experience, 3+ years in senior management, and a strong track record in corporate client management within practice. Ref #11026 — michellec@grsrecruitment.com.",
-    skills: ["Corporate Services Leadership", "ACCA Qualified", "Client Portfolio Management", "Team Development", "Strategic Growth"],
-  },
-
-  {
-    id: "j2102",
-    title: "Head of Compliance (CO/MLRO)",
-    company: "Confidential — Wealth Management Company",
-    category: "head",
-    func: "legal",
-    domain: ["legal"],
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-compliance-11023.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-05-10",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-compliance-11023/apply.aspx",
-    description:
-      "GRS is recruiting a Head of Compliance for a reputable wealth management company in Malta. The role serves as the Authorised Compliance Officer and MLRO, managing regulatory and financial crime compliance risk. Scope covers AML/CTF, MiFID II, MiFIR, MAR, MFSA conduct of business rules, FATCA/CRS reporting, and KYC/CDD. Part of the senior management team, reporting to the Board of Directors. Ref #11023 — michellec@grsrecruitment.com.",
-    skills: ["CO / MLRO", "Wealth Management", "AML / CTF", "MiFID II / MFSA", "FATCA / CRS"],
-  },
 
 
-  {
-    id: "j1902",
-    title: "Head of VIP",
-    company: "bet365",
-    category: "head",
-    source: "LinkedIn",
-    sourceUrl: "https://www.bet365careers.com/en/current-vacancies?location=Sliema",
-    location: "Sliema, Malta (On-site)",
-    salary: null,
-    posted: "2026-05-12",
-    applyUrl: "https://www.bet365careers.com/en/current-vacancies?location=Sliema",
-    description:
-      "bet365 — one of the world's leading online gambling companies with significant operations in Sliema, Malta — is recruiting a Head of VIP. The role leads the VIP customer strategy across bet365's Malta hub, with 12 company alumni already in the building per LinkedIn. Senior iGaming VIP management experience required. Apply directly via bet365.com/careers.",
-    linkType: "category",
-    skills: ["VIP Programme Leadership", "iGaming / Sports Betting", "Customer Retention", "High-Value Player Strategy", "Team Management"],
-  },
+
 
 
 
@@ -342,38 +123,7 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j1601",
-    title: "General Manager",
-    company: "Confidential — Heroix Client",
-    category: "general-manager",
-    source: "Heroix",
-    sourceUrl: "https://heroix.com.mt/vacancies/?s=general+manager",
-    location: "Birkirkara, Malta",
-    salary: null,
-    posted: "2026-05-01",
-    applyUrl: "https://heroix.com.mt/vacancies/",
-    description:
-      "Heroix is recruiting a General Manager for a confidential client based in Birkirkara, Malta. The GM will thrive in a senior management position handling multiple priorities effectively. Requirements include an Engineering degree, bilingual Maltese/English, strong strategic thinking, and experience in operations, business administration, and management. Apply via Heroix.",
-    linkType: "category",
-    skills: ["General Management", "Operations", "Strategic Thinking", "Engineering Background", "Bilingual Maltese/English"],
-  },
 
-  {
-    id: "j1501",
-    title: "Head of Brands",
-    company: "Confidential — Pharmaceutical & Healthcare Distributor",
-    category: "head",
-    source: "Heroix",
-    sourceUrl: "https://alfred.com.mt/job/head-of-brands-2",
-    location: "Malta",
-    salary: "€70,000 – €80,000",
-    posted: "2025-12-02",
-    applyUrl: "https://alfred.com.mt/job/head-of-brands-2",
-    description:
-      "Heroix is recruiting a Head of Brands for a trusted leader in the distribution of pharmaceuticals, medical devices, and healthcare equipment in Malta. The role leads the Commercial Team, overseeing key brand operations locally. Responsibilities include driving brand growth through strategic planning, budget management, and multi-channel initiatives, working closely with the Chief Commercial Officer. Salary: €70,000 – €80,000. Application deadline was 13 January 2026 — contact Heroix directly to confirm status.",
-    skills: ["Brand Leadership", "Pharmaceutical / Healthcare", "Commercial Strategy", "Budget Management", "Multi-channel Marketing"],
-  },
 
   {
     id: "j1502",
@@ -431,21 +181,6 @@ export const JOBS = [
     skills: ["iGaming B2B", "Market Strategy", "Commercial Leadership", "Casino Games", "Partner Management"],
   },
 
-  {
-    id: "j1001",
-    title: "General Manager",
-    company: "Posh Turkish Malta",
-    category: "general-manager",
-    source: "LinkedIn",
-    sourceUrl: "https://www.linkedin.com/company/posh-turkish-malta/jobs/",
-    location: "Mosta, Malta",
-    salary: null,
-    posted: "2026-05-12",
-    applyUrl: "mailto:purchasing@posh.com.mt",
-    description:
-      "Posh Turkish Malta is hiring a General Manager to lead their restaurant operation in Mosta. The GM will recruit, onboard and train high-performing teams, maintain project timelines, enforce operational standards, drive sales and profitability, and uphold the company's cultural values. Apply directly by emailing your CV to purchasing@posh.com.mt.",
-    skills: ["Restaurant / F&B GM", "Team Leadership", "Sales & Profitability", "Operations Management", "Hospitality Standards"],
-  },
 
   {
     id: "j701",
@@ -465,58 +200,12 @@ export const JOBS = [
 
   // ══ C-SUITE ════════════════════════════════════════════════════════════════
 
-  {
-    id: "j601",
-    title: "Chief Commercial Officer",
-    company: "Expedition42 (Konnekt / Jobsinmalta / Talexio)",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://www.konnekt.com/jobs/marketing-pr-jobs/chief-commercial-officer/28515",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-20",
-    applyUrl: "https://www.konnekt.com/jobs/apply/28515/marketing-pr-jobs/chief-commercial-officer",
-    description:
-      "Expedition42 — the hybrid tech and HR services group behind Konnekt, Jobsinmalta, Payrollmalta, Salariesinmalta and Talexio — is recruiting a CCO to drive sustainable revenue and margin growth across its entire brand portfolio. The CCO leads a 12-person sales and marketing team, owns the full customer lifecycle from acquisition to LTV, and reports to the CEO. 10+ years' commercial experience required, 5 in management. Contact jonathan.camilleri@exp42.com.",
-    skills: ["CCO / Commercial Leadership", "B2B & B2C Sales", "Digital Marketing", "Brand Portfolio", "Revenue Growth"],
-  },
 
 
-  {
-    id: "j201",
-    title: "Chief Executive Officer",
-    company: "Hili Properties plc",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://thebusinesspicture.com/2026/01/30/hili-properties-suspends-its-ceo/",
-    location: "Marsa, Malta",
-    salary: null,
-    posted: "2026-02-01",
-    applyUrl: "https://hiliventures.com/careers/",
-    description:
-      "Hili Properties plc — part of Hili Ventures with a €234M+ commercial real estate portfolio across Malta, Latvia, Lithuania, Estonia and Romania — is recruiting a permanent CEO following the suspension of its previous MD in January 2026. Daniela Pavia (CFO) serves as interim CEO. Listed-company appointment reporting to the Hili Ventures board.",
-    linkType: "category",
-    skills: ["Listed Company CEO", "Real Estate P&L", "Board Reporting", "Multi-country Portfolio", "Investor Relations"],
-  },
 
 
   // ══ HEAD OF FUNCTION ═══════════════════════════════════════════════════════
 
-  {
-    id: "j501",
-    title: "Head of Sales and Marketing",
-    company: "Confidential — FMCG Company",
-    category: "head",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-sales-and-marketing-10942.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-30",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-sales-and-marketing-10942/apply.aspx",
-    description:
-      "A Malta-based FMCG company is seeking a Head of Sales and Marketing reporting to the General Manager, responsible for directing both departments to grow revenue, increase market share, and execute strategies in collaboration with brand principals. 7+ years in FMCG sales and marketing, 3+ in senior leadership. Ref #10942 — sarah@grsrecruitment.com.",
-    skills: ["FMCG Sales Leadership", "Brand & Marketing Strategy", "P&L / Budget Management", "Market Expansion", "Principal Management"],
-  },
 
   {
     id: "j502",
@@ -537,47 +226,12 @@ export const JOBS = [
   },
 
 
-  {
-    id: "j302",
-    title: "Group Head of Compliance & Regulatory Strategy",
-    company: "Confidential — Wealth Management Group",
-    category: "head",
-    func: "legal",
-    domain: ["legal"],
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/group-head-of-compliance-and-regulatory-strategy-10489.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-10",
-    applyUrl: "https://jobs.grsrecruitment.com/job/group-head-of-compliance-and-regulatory-strategy-10489/apply.aspx",
-    description:
-      "A prominent wealth management group seeks a Group Head of Compliance & Regulatory Strategy to own group compliance policy and regulatory strategy across digital assets, trading and payments — senior advisor to the board across multiple regulated entities. Ref #10489 — michellec@grsrecruitment.com.",
-    skills: ["Compliance Leadership", "Regulatory Strategy", "Digital Assets", "Multi-jurisdiction", "Board Advisor"],
-  },
 
   // ══ GENERAL MANAGER ════════════════════════════════════════════════════════
 
 
 
 
-  {
-    id: "j802",
-    title: "Chief Financial Officer",
-    company: "Confidential — Construction & M&E Group",
-    category: "c-suite",
-    func: "finance",
-    domain: ["finance"],
-    source: "Direct",
-    sourceUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
-    location: "Malta",
-    salary: "€45,000 – €55,000",
-    posted: "2026-03-06",
-    applyUrl: "https://broadwing.jobs/careers/job/chief-financial-officer-3454/",
-    description:
-      "Broadwing is recruiting a CFO for a growing Maltese construction and M&E group. Requires 5+ years in a senior finance leadership role within construction or M&E, a recognised accounting qualification (ACA, ACCA, CPA), and strong experience in project finance, cash flow management, multi-entity structures, and M&A. The CFO will align financial strategy with long-term group expansion, working closely with the board.",
-    linkType: "category",
-    skills: ["Construction Finance", "Project Finance", "Multi-entity CFO", "M&A Experience", "ACA / ACCA / CPA"],
-  },
 
 
 
@@ -598,70 +252,9 @@ export const JOBS = [
     skills: ["Global Sales Director", "B2B Sportsbook / iGaming", "Sales Leadership", "International Markets", "Team Management"],
   },
 
-  {
-    id: "j3704",
-    title: "Chief Operating Officer",
-    company: "Confidential — Clinical, Retail & Laboratory Group (via Manpower Malta)",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://www.careers-page.com/manpower-malta/job/V633666R",
-    location: "Malta",
-    salary: null,
-    posted: "2026-02-04",
-    applyUrl: "https://www.careers-page.com/manpower-malta/job/V633666R",
-    description:
-      "Manpower Malta is recruiting a Chief Operating Officer on behalf of a client operating across clinical, retail, and laboratory facilities in Malta. The COO will oversee day-to-day operations across all three business lines, driving operational excellence, coordination between units, and organisational performance. Sourced via Manpower Malta's own careers page — verify listing is still open before applying, as posting date is from Feb 2026.",
-    skills: ["COO", "Multi-Site Operations", "Healthcare & Retail", "Operational Leadership"],
-  },
 
-  {
-    id: "j3705",
-    title: "Chief Executive Officer",
-    company: "Nineteen Twenty Three (Hili Ventures Group)",
-    category: "c-suite",
-    source: "Direct",
-    sourceUrl: "https://jobs.hiliventures.com/jobs/details/malta/marsa/nineteen-twenty-three-marsa-head-office/also-publishes-on-ybh-page/chief-executive-officer/1096",
-    location: "Marsa, Malta (Hili Ventures HQ)",
-    salary: null,
-    posted: "2026-01-18",
-    applyUrl: "https://jobs.hiliventures.com/jobs/details/malta/marsa/nineteen-twenty-three-marsa-head-office/also-publishes-on-ybh-page/chief-executive-officer/1096",
-    description:
-      "Hili Ventures — a Malta-based, privately-owned holding company (est. 1923) spanning food service & retail, real estate & hospitality, and shipping, engineering & technology across 10+ countries, partnering with McDonald's, Apple, Konecranes, Microsoft, and others — is recruiting a Chief Executive Officer at its Marsa, Malta head office. Hili Ventures' careers portal blocks automated verification (bot-detection); listing confirmed via search index dated 18 Jan 2026. Recommend re-verifying directly before relying on this listing, as posting is several months old.",
-    skills: ["CEO", "Group Holding Company", "Multi-Sector Leadership", "P&L Ownership"],
-  },
 
-  {
-    id: "j3706",
-    title: "Chief Operating Officer",
-    company: "Confidential — via Firinne Solutions",
-    category: "c-suite",
-    source: "LinkedIn",
-    sourceUrl: "https://www.linkedin.com/company/firinne-solutions/jobs/",
-    location: "Sliema, Malta (Hybrid)",
-    salary: null,
-    posted: "2026-07-15",
-    applyUrl: "https://www.linkedin.com/company/firinne-solutions/jobs/",
-    description:
-      "Firinne Solutions — a Malta-based executive search firm specialising in placing decision-makers across senior and C-suite levels — is recruiting a Chief Operating Officer for a confidential client, based in Sliema, Malta (Hybrid). Surfaced via a same-day LinkedIn Job Alert with an active Easy Apply button. Firinne's own specific job page could not be independently located at time of verification, so apply via their LinkedIn company jobs page and confirm the listing is still live before applying.",
-    linkType: "category",
-    skills: ["COO", "Executive Search Placement", "Operational Leadership"],
-  },
 
-  {
-    id: "j3707",
-    title: "Head of Finance",
-    company: "Famalco Holdings Ltd",
-    category: "head",
-    source: "Direct",
-    sourceUrl: "https://jobs.accaglobal.com/job/14007249/head-of-finance/",
-    location: "Attard, Malta (On-site)",
-    salary: null,
-    posted: "2026-07-15",
-    applyUrl: "https://jobs.accaglobal.com/job/14007249/head-of-finance/",
-    description:
-      "Famalco Holdings Ltd — established in 1994 and one of Malta's most diversified investment and asset management groups — is recruiting a Head of Finance, based in Attard, Malta. Maltese-speaking candidates preferred. Confirmed live via ACCA's official global jobs board in addition to the original LinkedIn/Famalco Careers listing.",
-    skills: ["Head of Finance", "Investment & Asset Management", "Maltese Speaking", "Financial Leadership"],
-  },
 
   {
     id: "j3708",
@@ -686,13 +279,13 @@ export const JOBS = [
     company: "Kaizen Gaming (Betano)",
     category: "c-suite",
     source: "LinkedIn",
-    sourceUrl: "https://www.linkedin.com/company/kaizengaming/jobs/",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/country-manager-at-kaizen-gaming-4430560391",
     location: "San Ġiljan, Malta (On-site)",
     salary: null,
     posted: "2026-07-16",
-    applyUrl: "https://www.linkedin.com/company/kaizengaming/jobs/",
+    applyUrl: "https://mt.linkedin.com/jobs/view/country-manager-at-kaizen-gaming-4430560391",
     description:
-      "Kaizen Gaming — the team powering Betano and Stoiximan, one of the world's largest GameTech companies, headquartered in San Ġiljan, Malta with 2,700+ employees across 40+ nationalities — is hiring a Country Manager based at its Malta HQ. Kaizen Gaming regularly hires Country Managers from Malta to lead individual market strategy, P&L, and go-to-market execution for Betano's international expansion (confirmed pattern across Sweden, Nigeria, and Ghana hires). Surfaced via a same-day LinkedIn Job Alert. Kaizen's specific job page for this exact listing could not be independently located at time of verification, so apply via their LinkedIn company jobs page and confirm the listing is still live before applying.",
+      "Kaizen Gaming — the team powering Betano and Stoiximan, one of the world's largest GameTech companies, headquartered in San Ġiljan, Malta with 2,700+ employees across 40+ nationalities — is hiring a Country Manager based at its Malta HQ, leading growth in the Swedish market as Kaizen Gaming's key territory representative. Kaizen Gaming regularly hires Country Managers from Malta to lead individual market strategy, P&L, and go-to-market execution for Betano's international expansion. Fetched live & confirmed active this cycle via the specific LinkedIn job listing.",",
     linkType: "category",
     skills: ["Country Manager", "iGaming / Sports Betting", "P&L Ownership", "Market Strategy", "International Expansion"],
   },
@@ -730,39 +323,7 @@ export const JOBS = [
     skills: ["Head of Payments", "iGaming / Sports Betting", "Payments Operations", "Fraud & Risk"],
   },
 
-  {
-    id: "j3712",
-    title: "Group Financial Controller",
-    company: "Confidential — FMCG & Retail Group",
-    category: "head",
-    domain: ["finance"],
-    source: "Direct",
-    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/group-financial-controller/80805",
-    location: "Central Malta",
-    salary: "€90,000 – €100,000",
-    posted: "2026-07-17",
-    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/group-financial-controller/80805",
-    description:
-      "A reputable Malta group operating in FMCG and Retail is seeking a seasoned Group Financial Controller, reporting to and supporting the Group CFO on strategic financial planning, budgeting, forecasting, statutory and management reporting, treasury operations, and Board-level financial and legal advisory. Classified 'Senior Management' employment level by Konnekt. Requires 8+ years senior group finance experience and fluent English and Maltese. Confirmed live and currently 'Collecting CVs' directly on Konnekt's own site.",
-    skills: ["Group Financial Controller", "FMCG / Retail", "Group Reporting & Consolidation", "Treasury", "Board Advisory"],
-  },
 
-  {
-    id: "j3713",
-    title: "Financial Controller",
-    company: "Confidential — International Multi-Entity Group",
-    category: "head",
-    domain: ["finance"],
-    source: "Direct",
-    sourceUrl: "https://jobs.ceektalent.com/job/financial-controller-2065.aspx",
-    location: "Malta",
-    salary: "€70,000",
-    posted: "2026-07-15",
-    applyUrl: "https://jobs.ceektalent.com/job/financial-controller-2065.aspx",
-    description:
-      "A rapidly expanding international group with diverse operations across multiple jurisdictions is seeking a Financial Controller to lead the finance function — overseeing financial operations, IFRS-compliant statutory and management reporting, internal controls, budgeting, forecasting, treasury, and audit coordination across the group. Confirmed live directly on Ceek Talent's own jobs board with an active Apply link.",
-    skills: ["Financial Controller", "IFRS Reporting", "Multi-Entity / Multi-Jurisdiction", "Internal Controls", "Treasury"],
-  },
 
   {
     id: "j3714",
@@ -783,22 +344,38 @@ export const JOBS = [
   },
 
   {
-    id: "j803",
-    title: "Head of Risk",
-    company: "Confidential — Financial Services",
+    id: "j3715",
+    title: "Head of Yachting",
+    company: "Confidential — Corporate Services Provider",
     category: "head",
     func: "legal",
-    domain: ["finance"],
-    source: "Direct",
-    sourceUrl: "https://broadwing.jobs/careers/job/head-of-risk-3452/",
+    domain: ["legal"],
+    source: "GRS",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/head-of-operations-at-grs-recruitment-4455590937",
     location: "Malta",
-    salary: null,
-    posted: "2026-02-03",
-    applyUrl: "https://broadwing.jobs/careers/job/head-of-risk-3452/",
+    salary: "€70,000 – €80,000",
+    posted: "2026-08-18",
+    applyUrl: "https://mt.linkedin.com/jobs/view/head-of-operations-at-grs-recruitment-4455590937",
     description:
-      "Broadwing is recruiting a Head of Risk for a Malta-based financial services firm — tracking and managing overall risk exposure across all business areas, contributing to key internal reporting, and building the firm's risk framework. Senior financial services risk background essential.",
+      "GRS is recruiting a Head of Yachting for a well-established corporate services provider in Malta. The role leads and develops the firm's yachting practice within a regulated Maltese CSP environment — covering yacht ownership and holding structures, registration and renewals, vessel administration, and compliance — while also supporting the strategic development of the firm's aviation offering. Requires a Malta-admitted lawyer with 10+ years in the yachting sector and strong technical grounding in maritime law, tax, and structuring. €70,000–€80,000 gross per annum. Fetched live & confirmed active this cycle.",
+    skills: ["Head of Yachting", "Maritime Law", "Corporate & Fiduciary Services", "Yacht Registration", "AML/CFT Compliance"],
+  },
+
+  {
+    id: "j3716",
+    title: "Chief Product Officer — B2C iGaming",
+    company: "Confidential — B2C Casino & Sportsbook Operator",
+    category: "c-suite",
+    source: "Firinne Solutions",
+    sourceUrl: "https://mt.linkedin.com/jobs/view/chief-product-officer-b2c-igaming-at-firinne-solutions-4455316455",
+    location: "Malta / Spain",
+    salary: null,
+    posted: "2026-08-18",
+    applyUrl: "https://mt.linkedin.com/jobs/view/chief-product-officer-b2c-igaming-at-firinne-solutions-4455316455",
+    description:
+      "Firinne Solutions is recruiting a Chief Product Officer for an established B2C casino and sportsbook operator expanding into the Nordics market. The successful candidate will lead the end-to-end product strategy and roadmap, driving innovation while keeping player experience central, with strong commercial awareness and a track record leading product direction within a Nordic-facing online casino operation. AI adoption is core to the customer-personalisation strategy. Role can be based from either the Malta or Spain office with full relocation provided if needed. Fetched live & confirmed active this cycle.",
     linkType: "category",
-    skills: ["Risk Management", "Financial Services", "Regulatory Reporting", "Risk Frameworks", "Senior Leadership"],
+    skills: ["Chief Product Officer", "iGaming / Casino & Sportsbook", "Product Strategy", "Nordics Market", "AI-Driven Personalisation"],
   },
 
 ];
@@ -809,7 +386,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-08-13";
+export const LAST_UPDATE_DATE = "2026-08-19";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
