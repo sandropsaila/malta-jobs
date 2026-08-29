@@ -378,6 +378,129 @@ export const JOBS = [
     skills: ["Chief Product Officer", "iGaming / Casino & Sportsbook", "Product Strategy", "Nordics Market", "AI-Driven Personalisation"],
   },
 
+  {
+    id: "j4001",
+    title: "Chief Financial Officer",
+    company: "Confidential — IT / Cyber Security Company",
+    category: "c-suite",
+    func: "finance",
+    domain: ["finance"],
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/chief-financial-officer-11530.aspx",
+    location: "Malta",
+    salary: "€80,000 – €120,000",
+    posted: "2026-08-27",
+    applyUrl: "https://jobs.grsrecruitment.com/job/chief-financial-officer-11530/apply.aspx",
+    description:
+      "GRS is recruiting a Chief Financial Officer for a dynamic, growing IT company in Malta, reporting directly to the CEO. Hands-on, high-impact role covering financial strategy, capital management, international tax and IP structuring, corporate governance, and commercial contract execution across a global group. 10+ years executive finance experience required, with direct Cyber Security / Cyber Intelligence sector experience highly preferred (or comparable Defense Tech, FinTech, RegTech, or Enterprise SaaS background). Ref #11530 — fetched live & confirmed active.",
+    skills: ["Chief Financial Officer", "International Tax Structuring", "Corporate Governance", "B2G / Enterprise Contracts", "Cyber Security Sector"],
+  },
+
+  {
+    id: "j4002",
+    title: "Tax Director",
+    company: "Confidential — Audit Firm",
+    category: "director",
+    func: "finance",
+    domain: ["finance"],
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/tax-director/90583",
+    location: "Central Malta",
+    salary: null,
+    posted: "2026-07-28",
+    applyUrl: "https://www.konnekt.com/jobs/apply/90583/accounting-jobs/tax-director",
+    description:
+      "An audit firm in Malta is recruiting a Tax Director to provide strategic leadership for the tax service line, overseeing tax compliance and advisory delivery, leading and developing the tax team, and acting as principal advisor on complex local and international tax matters. Requires 5+ years in a senior tax leadership role, strong knowledge of Maltese and international tax frameworks (ATAD, OECD Model Tax Convention, Pillar Two, transfer pricing), and a track record of business development. Ref XG226 — fetched live & confirmed active, closing 31/08/2026.",
+    skills: ["Tax Director", "International Tax", "Transfer Pricing", "Team Leadership", "Business Development"],
+  },
+
+  {
+    id: "j4003",
+    title: "Head of Finance and Treasury",
+    company: "Confidential — Financial Services / Banking",
+    category: "head",
+    func: "finance",
+    domain: ["finance"],
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/head-of-finance-and-treasury/90566",
+    location: "Central Malta",
+    salary: "€100,000 – €120,000",
+    posted: "2026-07-28",
+    applyUrl: "https://www.konnekt.com/jobs/apply/90566/accounting-jobs/head-of-finance-and-treasury",
+    description:
+      "A financial services firm in Malta is recruiting a Head of Finance and Treasury to oversee financial strategy, treasury operations, financial control, and regulatory reporting, acting as strategic advisor to the CEO on capital structure and performance. Responsibilities include funding strategy, liquidity management, IFRS reporting, and leading finance-related transformation initiatives. Requires 10+ years in banking/financial services with treasury and finance leadership exposure. Ref XK978 — fetched live & confirmed active, closing 31/08/2026.",
+    skills: ["Head of Finance & Treasury", "Liquidity Management", "IFRS Reporting", "Banking Regulation", "Financial Strategy"],
+  },
+
+  {
+    id: "j4004",
+    title: "General Manager — Insurance (Captive)",
+    company: "Confidential — Licensed Captive Insurer",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/insurance-jobs/general-manager-insurance/90495",
+    location: "Central Malta",
+    salary: "€100,000 – €110,000",
+    posted: "2026-07-24",
+    applyUrl: "https://www.konnekt.com/jobs/apply/90495/insurance-jobs/general-manager-insurance",
+    description:
+      "A licensed captive insurer in Malta is recruiting a General Manager reporting directly to the Board, responsible for day-to-day operations of the captive, reinsurer liaison, insurance risk assessments (including travel to related European entities), and broker relationships. ACII or equivalent qualification preferred. Ref QW442 — fetched live & confirmed active, closing 31/08/2026.",
+    linkType: "category",
+    skills: ["General Manager", "Captive Insurance", "Reinsurance", "Risk Assessment", "Board Reporting"],
+  },
+
+  {
+    id: "j4005",
+    title: "Head of Distribution",
+    company: "Confidential — Insurance Company",
+    category: "head",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/insurance-jobs/head-of-distribution/89051",
+    location: "Central Malta",
+    salary: "€70,000 – €80,000",
+    posted: "2026-06-08",
+    applyUrl: "https://www.konnekt.com/jobs/apply/89051/insurance-jobs/head-of-distribution",
+    description:
+      "An insurance company in Malta is recruiting a Head of Distribution to drive profitable growth across all distribution channels — developing strategies for traditional and digital channels, managing strategic partnerships, and mentoring distribution teams. Requires 10-20+ years in insurance distribution, sales leadership, or commercial strategy, with strong understanding of underwriting principles and channel profitability. Ref YP169 — fetched live & confirmed active, closing 31/08/2026.",
+    linkType: "category",
+    skills: ["Head of Distribution", "Insurance Sales Leadership", "Digital Distribution Strategy", "Channel Profitability", "Team Mentoring"],
+  },
+
+  {
+    id: "j4006",
+    title: "General Manager",
+    company: "Confidential — Media / Exhibitions Company",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/corporate-services-jobs/general-manager/90146",
+    location: "Central Malta",
+    salary: "€70,000 – €80,000",
+    posted: "2026-08-25",
+    applyUrl: "https://www.konnekt.com/jobs/apply/90146/corporate-services-jobs/general-manager",
+    description:
+      "A leading media/exhibitions company in Malta is recruiting a General Manager to develop and implement long-term strategic plans, direct day-to-day operations across all divisions, drive business development, and manage client and supplier relationships. Reports to the Board of Directors. Requires proven senior/general management experience, ideally within exhibitions or technical project delivery. Ref ZI304 — fetched live & confirmed active, closing 31/08/2026.",
+    linkType: "category",
+    skills: ["General Manager", "Strategic Planning", "Business Development", "Board Reporting", "Exhibitions / Events Industry"],
+  },
+
+  {
+    id: "j4007",
+    title: "Audit Director",
+    company: "Confidential — Financial & Corporate Services Firm",
+    category: "director",
+    func: "finance",
+    domain: ["finance"],
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/finance-jobs/audit-director/88866",
+    location: "Central Malta",
+    salary: "€85,000 – €95,000",
+    posted: "2026-06-01",
+    applyUrl: "https://www.konnekt.com/jobs/apply/88866/finance-jobs/audit-director",
+    description:
+      "A financial and corporate services firm in Malta is recruiting an Audit Director to lead and manage the audit team, oversee planning and execution of external audits, review and approve final audit reports, and serve as primary client contact on audit matters. Requires 8+ years' local senior external-audit experience with sign-off authority on audit opinions. Ref JO856 — fetched live & confirmed active, closing 31/08/2026.",
+    skills: ["Audit Director", "External Audit Sign-Off", "Team Leadership", "IFRS Compliance", "Client Relationship Management"],
+  },
+
 ];
 
 // ─── "NEW" logic ────────────────────────────────────────────────────────────
@@ -386,7 +509,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-08-19";
+export const LAST_UPDATE_DATE = "2026-08-29";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
