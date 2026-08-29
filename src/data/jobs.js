@@ -285,7 +285,7 @@ export const JOBS = [
     posted: "2026-07-16",
     applyUrl: "https://mt.linkedin.com/jobs/view/country-manager-at-kaizen-gaming-4430560391",
     description:
-      "Kaizen Gaming — the team powering Betano and Stoiximan, one of the world's largest GameTech companies, headquartered in San Ġiljan, Malta with 2,700+ employees across 40+ nationalities — is hiring a Country Manager based at its Malta HQ, leading growth in the Swedish market as Kaizen Gaming's key territory representative. Kaizen Gaming regularly hires Country Managers from Malta to lead individual market strategy, P&L, and go-to-market execution for Betano's international expansion. Fetched live & confirmed active this cycle via the specific LinkedIn job listing.",",
+      "Kaizen Gaming — the team powering Betano and Stoiximan, one of the world's largest GameTech companies, headquartered in San Ġiljan, Malta with 2,700+ employees across 40+ nationalities — is hiring a Country Manager based at its Malta HQ, leading growth in the Swedish market as Kaizen Gaming's key territory representative. Kaizen Gaming regularly hires Country Managers from Malta to lead individual market strategy, P&L, and go-to-market execution for Betano's international expansion. Fetched live & confirmed active this cycle via the specific LinkedIn job listing.",
     linkType: "category",
     skills: ["Country Manager", "iGaming / Sports Betting", "P&L Ownership", "Market Strategy", "International Expansion"],
   },
