@@ -9,7 +9,7 @@ import JobCard from "./components/JobCard";
 import CompaniesDirectory from "./components/CompaniesDirectory";
 import LiveJobSearch from "./components/LiveJobSearch";
 import RequestUpdate from "./components/RequestUpdate";
-import { JOBS, jobMatchesCategory } from "./data/jobs";
+import { JOBS, jobMatchesCategory, isJobNew } from "./data/jobs";
 import "./styles/global.css";
 import "./styles/pinlock.css";
 import "./styles/navbar.css";

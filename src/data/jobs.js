@@ -400,7 +400,7 @@ export const JOBS = [
     id: "j4002",
     title: "Tax Director",
     company: "Confidential — Audit Firm",
-    category: "director",
+    category: "head",
     func: "finance",
     domain: ["finance"],
     source: "Konnekt",
@@ -487,7 +487,7 @@ export const JOBS = [
     id: "j4007",
     title: "Audit Director",
     company: "Confidential — Financial & Corporate Services Firm",
-    category: "director",
+    category: "head",
     func: "finance",
     domain: ["finance"],
     source: "Konnekt",
@@ -551,7 +551,7 @@ export const CATEGORIES = {
   },
 };
 
-export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Beautiful Recruitment", "TalentBet", "Get Recruited Worldwide", "Betting Connections", "AX Careers", "Clear Edge", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Direct"];
+export const SOURCES = ["LinkedIn", "GRS", "Reed Malta", "Broadwing", "COREcruitment", "AIMS", "Manpower", "Outreach", "Keepmeposted", "Jobsinmalta", "Jobhound", "Konnekt", "Heroix", "Accelerate", "Castille Resources", "M Recruitment", "Jobsplus", "Cross Border Talents", "Ceek Talent", "JobMatchingPartner", "Next Job Abroad", "Pentasia", "Boston Link", "Link Talent", "Beautiful Recruitment", "TalentBet", "Get Recruited Worldwide", "Betting Connections", "AX Careers", "Clear Edge", "Van Kaizen", "Archer IT", "Meliteh", "Muovo", "Careerjet", "Firinne Solutions", "Direct"];
 
 // Returns true if a job belongs to the given category key, honouring the
 // "domain" dimension (Finance/Legal are tags on job.domain, not job.category).
