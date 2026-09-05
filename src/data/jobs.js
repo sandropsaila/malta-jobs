@@ -104,23 +104,6 @@ export const JOBS = [
     skills: ["Chief Digital Officer", "Digital Transformation", "Financial Services", "Agile Methodology", "Customer Journey"],
   },
 
-  {
-    id: "j1802",
-    title: "Audit Director",
-    company: "Confidential — Global Accounting & Advisory Firm",
-    category: "head",
-    func: "finance",
-    domain: ["finance"],
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/audit-director-9370.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-03-01",
-    applyUrl: "https://jobs.grsrecruitment.com/job/audit-director-9370/apply.aspx",
-    description:
-      "GRS is recruiting an Audit Director for a global accounting and advisory firm in Malta. The director will work closely with a Partner, lead and direct an experienced team of auditors, and shape the long-term vision for the audit function. Requires 10+ years progressive audit experience, MQF Level 7 qualification, and ACCA/ACA/CPA certification. Ref #9370 — contact GRS directly.",
-    skills: ["Audit Leadership", "Big 4 / Advisory Firm", "ACCA / ACA / CPA", "Team Management", "Strategic Audit Planning"],
-  },
 
 
 
@@ -387,7 +370,7 @@ export const JOBS = [
   {
     id: "j5006",
     title: "Head of Finance",
-    company: "Confidential — Professional Services Firm",
+    company: "Confidential — Pharmaceutical Company",
     category: "head",
     func: "finance",
     source: "Ceek Talent",
@@ -451,6 +434,74 @@ export const JOBS = [
     skills: ["Chief Financial Officer", "Construction / M&E Sector", "Capital Allocation", "Financial Planning & Controls", "ACA / ACCA / CPA Qualified"],
   },
 
+  {
+    id: "j5101",
+    title: "Head of Compliance",
+    company: "Confidential — International Financial Services Group",
+    category: "head",
+    func: "legal",
+    domain: ["legal"],
+    source: "Ceek Talent",
+    sourceUrl: "https://jobs.ceektalent.com/job/head-of-compliance-1995.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-05",
+    applyUrl: "https://jobs.ceektalent.com/job/head-of-compliance-1995.aspx",
+    description:
+      "Ceek Talent is recruiting a Head of Compliance for a leading international financial services group in Malta \u2014 a key leadership role within a dynamic and globally connected environment, owning the compliance function across a regulated financial services operation. Ref #1995 \u2014 fetched live & confirmed active this cycle.",
+    skills: ["Head of Compliance", "Financial Services Regulation", "AML/CFT", "Regulatory Reporting", "Leadership"],
+  },
+
+  {
+    id: "j5102",
+    title: "Head of Operations, Training & Quality",
+    company: "Confidential — Emergency Response Organisation",
+    category: "head",
+    source: "Ceek Talent",
+    sourceUrl: "https://jobs.ceektalent.com/job/head-of-operations,-training-and-quality-2083.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-05",
+    applyUrl: "https://jobs.ceektalent.com/job/head-of-operations,-training-and-quality-2083.aspx",
+    description:
+      "Ceek Talent is hiring a Head of Operations, Training & Quality for a specialist organisation within the emergency response sector in Malta, to oversee and enhance operational frameworks, training programmes, and quality assurance processes. Candidates must hold the legal right to work in Malta or the EU. Ref #2083 \u2014 fetched live & confirmed active this cycle.",
+    skills: ["Head of Operations", "Training & Development", "Quality Assurance", "Emergency Response Sector", "Operational Frameworks"],
+  },
+
+  {
+    id: "j5103",
+    title: "Head of Finance",
+    company: "Confidential — Legal Firm",
+    category: "head",
+    func: "finance",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-05",
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
+    description:
+      "GRS Recruitment is seeking a Head of Finance for a well-established legal company in Malta, reporting directly to the Managing Partner and CEO. The role is a hands-on finance leadership position covering day-to-day financial activities while contributing to the Group\u2019s strategic growth, operational transformation, and governance initiatives. Requires 8\u201310 years\u2019 progressive finance experience including 3\u20135 years at senior leadership level, with at least 4 years in the Maltese market and strong knowledge of Maltese financial regulations and tax legislation. Ref #11139 \u2014 fetched live & confirmed active this cycle.",
+    skills: ["Head of Finance", "Legal Sector", "Maltese Tax & Regulation", "Financial Strategy", "Team Leadership"],
+  },
+
+  {
+    id: "j5104",
+    title: "Chief Financial Officer",
+    company: "Confidential — Retail Group",
+    category: "c-suite",
+    func: "finance",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/89940",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-05",
+    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/89940",
+    description:
+      "Konnekt is recruiting a Chief Financial Officer for a highly regarded client in the Maltese retail sector. Reporting to and working closely with the CEO, the CFO will develop and implement the company\u2019s long-term financial strategy aligned with overall business objectives, act as strategic business partner to the Board and CEO on financial, commercial, and operational matters, and present financial reports and performance analysis to senior management and the Board. Ref #89940 \u2014 fetched live & confirmed active this cycle.",
+    skills: ["Chief Financial Officer", "Retail Sector", "Financial Strategy", "Board Partnering", "Performance Analysis"],
+  },
+
 ];
 
 // ─── "NEW" logic ────────────────────────────────────────────────────────────
@@ -459,7 +510,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-09-04";
+export const LAST_UPDATE_DATE = "2026-09-05";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
