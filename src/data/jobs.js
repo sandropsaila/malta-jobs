@@ -71,8 +71,8 @@ export const JOBS = [
     company: "OKX Europe",
     category: "head",
     source: "Direct",
-    sourceUrl: "https://web3.career/web3-companies/okx+europe",
-    location: "Malta (On-site)",
+    sourceUrl: "https://web3.career/head-of-hr-eu-okx/66742",
+    location: "Malta (Valletta, On-site)",
     salary: null,
     posted: "2026-05-01",
     applyUrl: "https://web3.career/head-of-hr-eu-okx/66742",
@@ -123,7 +123,7 @@ export const JOBS = [
     source: "COREcruitment",
     sourceUrl: "https://www.corecruitment.com/vacancies/8694220681",
     location: "Malta (Relocation Required)",
-    salary: null,
+    salary: "\u20ac150,000 \u2013 \u20ac200,000 + 10% KPI bonus",
     posted: "2026-05-08",
     applyUrl: "https://www.corecruitment.com/vacancies/8694220681",
     description:
@@ -502,6 +502,56 @@ export const JOBS = [
     skills: ["Chief Financial Officer", "Retail Sector", "Financial Strategy", "Board Partnering", "Performance Analysis"],
   },
 
+  {
+    id: "j5201",
+    title: "Head of Compliance and Risk",
+    company: "Confidential — Financial Services Company",
+    category: "head",
+    func: "legal",
+    domain: ["legal"],
+    source: "Broadwing",
+    sourceUrl: "https://broadwing.jobs/careers/job/head-of-compliance-and-risk-3660/",
+    location: "Naxxar, Malta",
+    salary: null,
+    posted: "2026-09-06",
+    applyUrl: "https://broadwing.jobs/careers/job/head-of-compliance-and-risk-3660/",
+    description:
+      "Broadwing Recruitment is hiring a Head of Compliance and Risk for a financial services company in Naxxar, Malta. Listed at Senior Executive level, the role covers regulatory compliance, risk assessment, monitoring and reporting, MFSA engagement, due diligence, and compliance strategy within an MFSA-regulated environment. Ref #3660 \u2014 fetched live & confirmed active this cycle.",
+    skills: ["Head of Compliance", "Risk Management", "MFSA Regulation", "Due Diligence", "Regulatory Reporting"],
+  },
+
+  {
+    id: "j5202",
+    title: "Head of Data Management and Business Information",
+    company: "Confidential — Financial Services Company",
+    category: "head",
+    source: "Broadwing",
+    sourceUrl: "https://broadwing.jobs/careers/job/head-of-data-management-and-business-information-3641/",
+    location: "Birkirkara, Malta",
+    salary: null,
+    posted: "2026-09-06",
+    applyUrl: "https://broadwing.jobs/careers/job/head-of-data-management-and-business-information-3641/",
+    description:
+      "Broadwing Recruitment is seeking a Head of Data Management and Business Information for a financial services / banking organisation in Birkirkara, Malta. Listed at Senior Executive level, the role leads data analytics and business intelligence, data security and GDPR compliance, and AI adoption across the data function, with reporting into senior leadership. Ref #3641 \u2014 fetched live & confirmed active this cycle.",
+    skills: ["Data Management", "Business Intelligence", "Data Security & GDPR", "Artificial Intelligence", "Banking / Financial Services"],
+  },
+
+  {
+    id: "j5203",
+    title: "Head of Operations",
+    company: "SkyCity Entertainment Malta",
+    category: "head",
+    source: "Pentasia",
+    sourceUrl: "https://www.pentasia.com/careers/head-operations-malta-37829-28563",
+    location: "St. Julian\u2019s, Malta",
+    salary: null,
+    posted: "2026-09-06",
+    applyUrl: "https://www.pentasia.com/careers/head-operations-malta-37829-28563",
+    description:
+      "Pentasia is recruiting a Head of Operations for SkyCity Entertainment Malta (iGaming), based in St. Julian\u2019s. The role leads day-to-day iGaming operations within an MGA-regulated, Malta-based environment, identifying trends, improving workflows and case management tools, and contributing to broader risk mitigation strategy. Requires proficiency across key iGaming systems including platforms, CRMs, CMS tools, and fraud/AML solutions, plus 2\u20134 years\u2019 leadership experience in iGaming operations. Fetched live & confirmed active this cycle.",
+    skills: ["iGaming Operations", "MGA-Regulated Environment", "Fraud & AML Systems", "Workflow Optimisation", "Team Leadership"],
+  },
+
 ];
 
 // ─── "NEW" logic ────────────────────────────────────────────────────────────
@@ -510,7 +560,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-09-05";
+export const LAST_UPDATE_DATE = "2026-09-06";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
