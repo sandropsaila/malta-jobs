@@ -478,7 +478,7 @@ export const JOBS = [
     sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
     location: "Malta",
     salary: null,
-    posted: "2026-09-05",
+    posted: "2026-06-03",
     applyUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
     description:
       "GRS Recruitment is seeking a Head of Finance for a well-established legal company in Malta, reporting directly to the Managing Partner and CEO. The role is a hands-on finance leadership position covering day-to-day financial activities while contributing to the Group\u2019s strategic growth, operational transformation, and governance initiatives. Requires 8\u201310 years\u2019 progressive finance experience including 3\u20135 years at senior leadership level, with at least 4 years in the Maltese market and strong knowledge of Maltese financial regulations and tax legislation. Ref #11139 \u2014 fetched live & confirmed active this cycle.",
@@ -552,6 +552,72 @@ export const JOBS = [
     skills: ["iGaming Operations", "MGA-Regulated Environment", "Fraud & AML Systems", "Workflow Optimisation", "Team Leadership"],
   },
 
+  {
+    id: "j5301",
+    title: "Chief Financial Officer",
+    company: "Confidential — Yachting / Maritime Group",
+    category: "c-suite",
+    func: "finance",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer/78822",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-11",
+    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer/78822",
+    description:
+      "Konnekt is recruiting a Chief Financial Officer for a reputable client \u2014 a Group of Entities operating primarily within the Yachting / Maritime industry in Malta \u2014 to join their growing business and team of professionals. Ref #78822 \u2014 source page fetched live & confirmed active this cycle.",
+    skills: ["Chief Financial Officer", "Yachting / Maritime Sector", "Group Finance", "Financial Reporting", "Leadership"],
+  },
+
+  {
+    id: "j5302",
+    title: "Chief Financial Officer",
+    company: "Confidential — Services Group",
+    category: "c-suite",
+    func: "finance",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/85541",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-11",
+    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/85541",
+    description:
+      "Konnekt is recruiting a Chief Financial Officer for a renowned name on the Maltese islands operating in the services industry. The CFO reports directly to the CEO and is a senior executive and core member of the leadership team, acting as strategic partner to the CEO and Board. Ref #85541 \u2014 source page fetched live & confirmed active this cycle.",
+    skills: ["Chief Financial Officer", "Board Partnering", "Financial Strategy", "Services Sector", "Executive Leadership"],
+  },
+
+  {
+    id: "j5303",
+    title: "Director of Sales & Marketing",
+    company: "Confidential — Luxury Hospitality Property",
+    category: "head",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/marketing-pr-jobs/director-of-sales-and-marketing/89312",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-11",
+    applyUrl: "https://www.konnekt.com/jobs/marketing-pr-jobs/director-of-sales-and-marketing/89312",
+    description:
+      "Konnekt is seeking an experienced and commercially driven Director of Sales & Marketing to lead the strategic growth, positioning, and revenue performance of a luxury hospitality property in Malta. Responsibilities include preparing, managing and monitoring the annual Sales & Marketing budget with monthly forecasts and financial reporting to the Director of Finance, and working closely with senior leadership (GM, Director of Revenue, Director of Finance) to support strategic business decisions and achieve revenue objectives. Ref #89312 \u2014 source page fetched live & confirmed active this cycle.",
+    skills: ["Sales & Marketing Leadership", "Luxury Hospitality", "Revenue Management", "Budgeting & Forecasting", "Commercial Strategy"],
+  },
+
+  {
+    id: "j5304",
+    title: "Chief Medical Officer",
+    company: "Confidential — Global Health Operations",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/health-fitness-jobs/chief-medical-officer/87724",
+    location: "Malta",
+    salary: null,
+    posted: "2026-09-11",
+    applyUrl: "https://www.konnekt.com/jobs/health-fitness-jobs/chief-medical-officer/87724",
+    description:
+      "Konnekt is recruiting a Chief Medical Officer to head the Clinical Governance Team and provide expert medical support across global operations, based in Malta. Ref #87724 \u2014 source page fetched live & confirmed active this cycle.",
+    skills: ["Chief Medical Officer", "Clinical Governance", "Global Operations", "Medical Leadership", "Healthcare"],
+  },
+
 ];
 
 // ─── "NEW" logic ────────────────────────────────────────────────────────────
@@ -560,7 +626,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-09-06";
+export const LAST_UPDATE_DATE = "2026-09-11";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
