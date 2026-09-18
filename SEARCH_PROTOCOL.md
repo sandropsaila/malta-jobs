@@ -760,3 +760,35 @@ Tumas. For each: query
 Fetch any specific role URL returned; verify live + seniority gate before adding.
 Distinguish APPOINTMENTS (filled — exclude) from open VACANCIES (add if verified).
 Report per-company sweep results at top of update summary.
+
+## CRITICAL: validThrough is the authoritative liveness signal (added 18 Sep 2026)
+
+Nimble search results return the raw JSON-LD `JobPosting` blob for GRS and Ceek
+(likely other Firefish/ATS-backed boards too). That blob contains `datePosted`
+and `validThrough`. **`validThrough` is the liveness test — not "does the page
+resolve".**
+
+Why this matters: GRS and Ceek leave expired adverts up with full body content
+and no closure banner. A page-resolves check therefore returns a false LIVE.
+Only very old adverts (e.g. GRS ref#2828, 2022) eventually show
+"Sorry, this advert is now closed."
+
+On 18 Sep 2026 this check removed 9 listings that prior cycles had marked
+"fetched live & confirmed active" purely on page-resolves — some expired months
+earlier (GRS 9922 expired 2026-02-13, GRS 10943 expired 2026-05-27).
+
+Rules:
+- Treat `validThrough` in the past as STALE -> remove. Do not count page-resolves
+  or intact body content as evidence of live.
+- GRS sets `validThrough` = `datePosted` + ~30 days. Ceek windows are shorter
+  (~2 weeks). Expect listings to age out fast; a role added one cycle may be
+  stale the next.
+- Capture `validThrough` in the job description text when adding a role, so the
+  expiry is auditable without re-querying.
+- Query pattern to surface the blob:
+  `"{slug}" {site-name} validThrough datePosted`
+  or a `site:` sweep, which returns the blob for several roles at once.
+- Sources not yet audited against validThrough (do these next): Konnekt,
+  Broadwing, Pentasia, Careerjet, COREcruitment, web3.career, Greenhouse/FalconX,
+  AX Careers, and the LinkedIn company-page fallbacks (Altenar, BettingJobs,
+  Firinne).

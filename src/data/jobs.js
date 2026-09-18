@@ -7,22 +7,6 @@
 export const JOBS = [
 
 
-  {
-    id: "j3301b",
-    title: "Head of Client Accounting",
-    company: "Confidential — Legal & Corporate Firm",
-    category: "head",
-    func: "finance",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-client-accounting-11034.aspx",
-    location: "Malta",
-    salary: "\u20ac75,000 \u2013 \u20ac85,000",
-    posted: "2026-07-07",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-client-accounting-11034/apply.aspx",
-    description:
-      "GRS is recruiting a Head of Client Accounting for a Legal & Corporate firm in Malta. Reporting to a member of the Board, the role leads the Client Accounting Department with full responsibility for delivery of client financial statements, management accounts, and regulatory filings, plus process improvement, automation, business development, and cross-department collaboration. ACCA-qualified with 5+ years at senior/manager level required; legal firm, CSP, or gaming background an asset. Salary \u20ac75,000\u2013\u20ac85,000 gross. Ref #11034 — fetched live & confirmed active (posted 17 Jun 2026).",
-    skills: ["Head of Client Accounting", "Legal / Corporate Services", "ACCA Qualified", "Team Leadership", "Maltese Tax & VAT"],
-  },
 
 
 
@@ -209,41 +193,7 @@ export const JOBS = [
 
 
 
-  {
-    id: "j3714",
-    title: "Head of Finance",
-    company: "Confidential — Boutique Corporate & Fiduciary Services Firm",
-    category: "head",
-    func: "finance",
-    domain: ["finance"],
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11351.aspx",
-    location: "Valletta, Malta",
-    salary: null,
-    posted: "2026-08-13",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11351/apply.aspx",
-    description:
-      "GRS is recruiting a Head of Finance for a boutique corporate and fiduciary services firm in Valletta. Reporting directly to the directors, this is the most senior finance role in the business, taking full ownership of the finance function and leading a team of six across accounting, payroll, financial reporting, budgeting, forecasting, and cash flow management. A strong fit for a Big 4 or practice-trained finance professional seeking a senior, hands-on role in a smaller, trust-based environment. Experience in corporate services, fiduciary, or legal firms and familiarity with Xero/Sage considered a plus. Ref #11351 — fetched live & confirmed active.",
-    skills: ["Head of Finance", "Corporate & Fiduciary Services", "Financial Strategy", "Team Leadership", "Big 4 / Practice Background"],
-  },
 
-  {
-    id: "j3715",
-    title: "Head of Yachting",
-    company: "Confidential — Corporate Services Provider",
-    category: "head",
-    func: "legal",
-    domain: ["legal"],
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-yachting-11482.aspx",
-    location: "Malta",
-    salary: "€70,000 – €80,000",
-    posted: "2026-08-18",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-yachting-11482.aspx",
-    description:
-      "GRS is recruiting a Head of Yachting for a well-established corporate services provider in Malta. The role leads and develops the firm's yachting practice within a regulated Maltese CSP environment — covering yacht ownership and holding structures, registration and renewals, vessel administration, and compliance — while also supporting the strategic development of the firm's aviation offering. Requires a Malta-admitted lawyer with 10+ years in the yachting sector and strong technical grounding in maritime law, tax, and structuring. €70,000–€80,000 gross per annum (Ref #11482). URL fixed 4 Sep 2026 — was previously a banned linkedin.com/jobs/view link; now points to the direct, non-expiring GRS job page.",
-    skills: ["Head of Yachting", "Maritime Law", "Corporate & Fiduciary Services", "Yacht Registration", "AML/CFT Compliance"],
-  },
 
   {
     id: "j3716",
@@ -284,88 +234,10 @@ export const JOBS = [
 
 
 
-  {
-    id: "j5001",
-    title: "Director Financial Advisory",
-    company: "Confidential — Accounting Firm",
-    category: "head",
-    func: "finance",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/director-financial-advisory-11436.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-08-29",
-    applyUrl: "https://jobs.grsrecruitment.com/job/director-financial-advisory-11436.aspx",
-    description:
-      "GRS Recruitment is partnering with a reputable accounting firm in Malta to source a Director of Financial Advisory. Reporting directly to the partners, the role manages Financial Advisory Services (FAS) engagements end to end, interfacing with clients, financiers, and auditors, while providing strategic leadership, shaping the direction of the advisory team, and driving the department's overall growth and profitability. Requires strong analytical judgement and staff leadership experience (delegating, reviewing, mentoring). Ref #11436 — fetched live & confirmed active.",
-    skills: ["Financial Advisory", "Client & Stakeholder Management", "Team Leadership", "Strategic Planning", "Accounting / Audit Background"],
-  },
 
-  {
-    id: "j5002",
-    title: "Head of Transformation",
-    company: "Confidential — Food & Beverages Company",
-    category: "head",
-    func: "operations",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-08-29",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-transformation-10943.aspx",
-    description:
-      "GRS Recruitment is hiring a Head of Transformation for a dynamic and innovative Food & Beverages company in Malta. This strategic leadership role shapes, governs, and drives large-scale change initiatives — leading digital and operational transformation, end-to-end process redesign, development of a Target Operating Model, and technology-enabled modernisation — to enhance operational excellence and organisational performance. Requires demonstrated delivery of measurable operational improvements through process redesign, automation, or systems transformation. Ref #10943 — fetched live & confirmed active.",
-    skills: ["Digital Transformation", "Process Redesign", "Target Operating Model", "Change Management", "Food & Beverage Industry"],
-  },
 
-  {
-    id: "j5003",
-    title: "Managing Director",
-    company: "Confidential — Cryptocurrency Company",
-    category: "c-suite",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/ceo-9922.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-08-29",
-    applyUrl: "https://jobs.grsrecruitment.com/job/ceo-9922.aspx",
-    description:
-      "GRS Recruitment is seeking a Managing Director for a pioneering cryptocurrency company based in Malta. The role provides leadership to the executive team, ensures alignment with company objectives, and reports regularly to the Board of Directors and shareholders. Requires a proven track record of strategic leadership, exceptional communication skills, and deep commitment to the organisation's mission and values. Ref #9922 — fetched live & confirmed active, Malta-based role.",
-    skills: ["Managing Director", "Executive Leadership", "Cryptocurrency / Digital Assets", "Board Reporting", "Strategic Leadership"],
-  },
 
-  {
-    id: "j5004",
-    title: "Head of Corporate Services",
-    company: "Confidential — Accountancy & Consultancy Firm",
-    category: "head",
-    func: "finance",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-corporate-services-11026.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-08-29",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-corporate-services-11026.aspx",
-    description:
-      "GRS Recruitment is hiring a Head of Corporate Services to head the Corporate Services Division of an accountancy firm in Malta. The successful candidate will drive strategic growth, oversee service delivery to a diverse client base, provide technical guidance on complex corporate accounting and reporting matters, and play a central role in shaping the firm's future direction. Requires ACCA qualification (or equivalent) with 5+ years post-qualification experience and 3+ years in senior management. Ref #11026 — fetched live & confirmed active.",
-    skills: ["Head of Corporate Services", "Corporate Accounting", "Client Relationship Management", "ACCA Qualified", "Strategic Growth"],
-  },
 
-  {
-    id: "j5005",
-    title: "Chief Operating Officer",
-    company: "Confidential — Professional Services Firm",
-    category: "c-suite",
-    source: "Ceek Talent",
-    sourceUrl: "https://jobs.ceektalent.com/job/chief-operating-officer-2082.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-04",
-    applyUrl: "https://jobs.ceektalent.com/job/chief-operating-officer-2082.aspx",
-    description:
-      "Ceek Talent is recruiting a Chief Operating Officer for a well-established professional services firm in Malta, to oversee all operational functions and ensure efficient delivery of services. Requires excellent strategic planning, organisational, and project management skills, strong commercial awareness, and the ability to translate strategy into execution across multiple complex, concurrent priorities. Ref #2082 — fetched live & confirmed active.",
-    skills: ["Chief Operating Officer", "Operations Strategy", "Project Management", "Professional Services", "Commercial Awareness"],
-  },
 
   {
     id: "j5006",
@@ -468,22 +340,6 @@ export const JOBS = [
     skills: ["Head of Operations", "Training & Development", "Quality Assurance", "Emergency Response Sector", "Operational Frameworks"],
   },
 
-  {
-    id: "j5103",
-    title: "Head of Finance",
-    company: "Confidential — Legal Firm",
-    category: "head",
-    func: "finance",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-06-03",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-finance-11139.aspx",
-    description:
-      "GRS Recruitment is seeking a Head of Finance for a well-established legal company in Malta, reporting directly to the Managing Partner and CEO. The role is a hands-on finance leadership position covering day-to-day financial activities while contributing to the Group\u2019s strategic growth, operational transformation, and governance initiatives. Requires 8\u201310 years\u2019 progressive finance experience including 3\u20135 years at senior leadership level, with at least 4 years in the Maltese market and strong knowledge of Maltese financial regulations and tax legislation. Ref #11139 \u2014 fetched live & confirmed active this cycle.",
-    skills: ["Head of Finance", "Legal Sector", "Maltese Tax & Regulation", "Financial Strategy", "Team Leadership"],
-  },
 
   {
     id: "j5104",
@@ -618,6 +474,22 @@ export const JOBS = [
     skills: ["Chief Medical Officer", "Clinical Governance", "Global Operations", "Medical Leadership", "Healthcare"],
   },
 
+  {
+    id: "j5401",
+    title: "Head of Advisory & Business Development",
+    company: "Confidential \u2014 Residency & Immigration Mobility Consultancy",
+    category: "head",
+    source: "GRS",
+    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-advisory-and-business-development-11598.aspx",
+    location: "Ta\u2019 Xbiex, Malta",
+    salary: null,
+    posted: "2026-09-14",
+    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-advisory-and-business-development-11598.aspx",
+    description:
+      "GRS Recruitment is seeking a Head of Advisory & Business Development for a prominent Residency & Immigration Mobility Consultancy firm in Ta\u2019 Xbiex, Malta. The role leads and builds the advisory and commercial function, combining team leadership with hands-on responsibility for B2C and B2B growth. Requires an experienced investment migration professional able to create structure, develop markets and channels, manage lead-generation investment, and convert commercial opportunities into measurable results. Ref #11598 \u2014 posted 14 Sep 2026, listing valid through 14 Oct 2026 (JSON-LD verified).",
+    skills: ["Advisory Leadership", "Business Development", "Investment Migration", "B2B & B2C Growth", "Team Leadership"],
+  },
+
 ];
 
 // ─── "NEW" logic ────────────────────────────────────────────────────────────
@@ -626,7 +498,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-09-11";
+export const LAST_UPDATE_DATE = "2026-09-18";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
