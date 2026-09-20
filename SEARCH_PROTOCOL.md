@@ -792,3 +792,31 @@ Rules:
   Broadwing, Pentasia, Careerjet, COREcruitment, web3.career, Greenhouse/FalconX,
   AX Careers, and the LinkedIn company-page fallbacks (Altenar, BettingJobs,
   Firinne).
+
+## Per-source expiry behaviour (measured 20 Sep 2026)
+
+| Source | Exposes expiry? | Field | Window | Notes |
+|---|---|---|---|---|
+| GRS | Yes | JSON-LD `validThrough` | ~30 days | Leaves expired ads up, full content, no banner |
+| Ceek | Yes | JSON-LD `validThrough` | ~2 weeks | Same. Very short window — roles age out within one cycle |
+| Konnekt | Yes | `validThrough` + visible "Closing Date" | ~3 weeks | Page shows a stale "Closing in N days" counter — IGNORE it, it reflects crawl time, not now |
+| Broadwing | Yes | JSON-LD `validThrough` | ~90 days | Longest window; most durable source |
+
+Ref-number monotonicity: within a source, higher ref = later posting. Two dated
+anchors either side of an unknown ref bound its expiry. Used 20 Sep to resolve
+Ceek 1837/1879/1995/2058 (bracketed by 1885 exp 16 Mar and 2039 exp 2 Jul) and
+Konnekt 78822/87724/89312 (bracketed by 85541 exp 28 Feb and 89940 exp 31 Jul).
+State the inference in the commit when relying on it rather than a direct read.
+
+Implication for cadence: Ceek and Konnekt roles will usually be stale by the next
+update. Prefer Broadwing and GRS for entries expected to survive a cycle.
+
+## STILL UNVERIFIED against validThrough (as of 20 Sep 2026)
+These 9 predate the validThrough rule and have NOT been expiry-checked. Audit next:
+j2803 AX Careers · j2203 web3.career/OKX · j1801 Careerjet (Konnekt CDO — Konnekt's
+own listings all proved expired, so treat as high-risk) · j701 COREcruitment ·
+j3703 Altenar (LinkedIn company page) · j3710 FalconX (Greenhouse) · j3711
+BettingJobs (LinkedIn company page) · j3716 Firinne (LinkedIn company page) ·
+j5203 Pentasia.
+Note: LinkedIn company-page fallbacks carry no per-role expiry data at all, so they
+can never be validThrough-verified — decide whether to keep that class of entry.

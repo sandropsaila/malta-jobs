@@ -239,124 +239,13 @@ export const JOBS = [
 
 
 
-  {
-    id: "j5006",
-    title: "Head of Finance",
-    company: "Confidential — Pharmaceutical Company",
-    category: "head",
-    func: "finance",
-    source: "Ceek Talent",
-    sourceUrl: "https://jobs.ceektalent.com/job/head-of-finance-2085.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-04",
-    applyUrl: "https://jobs.ceektalent.com/job/head-of-finance-2085.aspx",
-    description:
-      "Ceek Talent is hiring a Head of Finance to lead finance operations for a professional services firm in Malta, managing working capital, cash flow, and financial risk, and implementing robust internal controls and financial policies. Requires a recognised professional accounting qualification (ACCA, ACA, or CPA) and extensive experience in a senior finance leadership role such as Head of Finance or Financial Director. Ref #2085 — fetched live & confirmed active.",
-    skills: ["Head of Finance", "Cash Flow & Working Capital", "Internal Controls", "ACCA / ACA / CPA Qualified", "Financial Risk Management"],
-  },
-
-  {
-    id: "j5007",
-    title: "Head of Mechanical Design & Estimations",
-    company: "Confidential — Engineering Firm",
-    category: "head",
-    func: "operations",
-    source: "Ceek Talent",
-    sourceUrl: "https://jobs.ceektalent.com/job/head-of-mechanical-design-and-estimations-2058.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-04",
-    applyUrl: "https://jobs.ceektalent.com/job/head-of-mechanical-design-and-estimations-2058.aspx",
-    description:
-      "Ceek Talent is recruiting a Head of Mechanical Design & Estimations for a prominent engineering firm in Malta, to oversee all aspects of mechanical design, project estimations, and team development, and to lead and manage the department's strategic planning, coordination, and monitoring of activities. Requires a valid Warrant to Practise as an Engineer, a degree in Mechanical Engineering, and extensive experience with a significant portion in a leadership or senior management capacity. Ref #2058 — fetched live & confirmed active.",
-    skills: ["Mechanical Design", "Project Estimations", "Engineering Leadership", "Warranted Engineer", "Team Development"],
-  },
-
-  {
-    id: "j5008",
-    title: "Head of People & Performance",
-    company: "Confidential — Company",
-    category: "head",
-    func: "hr",
-    source: "Ceek Talent",
-    sourceUrl: "https://jobs.ceektalent.com/job/head-of-people-and-performance-1837.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-04",
-    applyUrl: "https://jobs.ceektalent.com/job/head-of-people-and-performance-1837.aspx",
-    description:
-      "Ceek Talent is hiring a Head of People & Performance for a Malta-based business, a hands-on leadership role driving strategy, decisions, and execution to let the business scale without distracting senior leadership. Takes full ownership of the people function — organisational structure, hiring, performance management, and exits — and implements performance frameworks to drive accountability and results across managers and teams. Ref #1837 — fetched live & confirmed active.",
-    skills: ["Head of People & Performance", "Organisational Design", "Performance Management", "Hiring & Talent Strategy", "Leadership"],
-  },
-
-  {
-    id: "j5009",
-    title: "Chief Financial Officer",
-    company: "Confidential — Construction / M&E Group",
-    category: "c-suite",
-    source: "Ceek Talent",
-    sourceUrl: "https://jobs.ceektalent.com/job/chief-financial-officer-1879.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-04",
-    applyUrl: "https://jobs.ceektalent.com/job/chief-financial-officer-1879.aspx",
-    description:
-      "Ceek Talent is recruiting a Chief Financial Officer for a multi-entity construction/M&E group in Malta, working closely with the CEO and senior leadership team to shape and execute financial strategy, drive capital allocation, and establish robust structures and controls to support the group's next growth phase. Requires 5+ years' senior financial leadership (Financial Controller or Head of Finance level) within construction or M&E, and professional qualification (ACA, ACCA, CPA, or equivalent). Ref #1879 — fetched live & confirmed active.",
-    skills: ["Chief Financial Officer", "Construction / M&E Sector", "Capital Allocation", "Financial Planning & Controls", "ACA / ACCA / CPA Qualified"],
-  },
-
-  {
-    id: "j5101",
-    title: "Head of Compliance",
-    company: "Confidential — International Financial Services Group",
-    category: "head",
-    func: "legal",
-    domain: ["legal"],
-    source: "Ceek Talent",
-    sourceUrl: "https://jobs.ceektalent.com/job/head-of-compliance-1995.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-05",
-    applyUrl: "https://jobs.ceektalent.com/job/head-of-compliance-1995.aspx",
-    description:
-      "Ceek Talent is recruiting a Head of Compliance for a leading international financial services group in Malta \u2014 a key leadership role within a dynamic and globally connected environment, owning the compliance function across a regulated financial services operation. Ref #1995 \u2014 fetched live & confirmed active this cycle.",
-    skills: ["Head of Compliance", "Financial Services Regulation", "AML/CFT", "Regulatory Reporting", "Leadership"],
-  },
-
-  {
-    id: "j5102",
-    title: "Head of Operations, Training & Quality",
-    company: "Confidential — Emergency Response Organisation",
-    category: "head",
-    source: "Ceek Talent",
-    sourceUrl: "https://jobs.ceektalent.com/job/head-of-operations,-training-and-quality-2083.aspx",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-05",
-    applyUrl: "https://jobs.ceektalent.com/job/head-of-operations,-training-and-quality-2083.aspx",
-    description:
-      "Ceek Talent is hiring a Head of Operations, Training & Quality for a specialist organisation within the emergency response sector in Malta, to oversee and enhance operational frameworks, training programmes, and quality assurance processes. Candidates must hold the legal right to work in Malta or the EU. Ref #2083 \u2014 fetched live & confirmed active this cycle.",
-    skills: ["Head of Operations", "Training & Development", "Quality Assurance", "Emergency Response Sector", "Operational Frameworks"],
-  },
 
 
-  {
-    id: "j5104",
-    title: "Chief Financial Officer",
-    company: "Confidential — Retail Group",
-    category: "c-suite",
-    func: "finance",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/89940",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-05",
-    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/89940",
-    description:
-      "Konnekt is recruiting a Chief Financial Officer for a highly regarded client in the Maltese retail sector. Reporting to and working closely with the CEO, the CFO will develop and implement the company\u2019s long-term financial strategy aligned with overall business objectives, act as strategic business partner to the Board and CEO on financial, commercial, and operational matters, and present financial reports and performance analysis to senior management and the Board. Ref #89940 \u2014 fetched live & confirmed active this cycle.",
-    skills: ["Chief Financial Officer", "Retail Sector", "Financial Strategy", "Board Partnering", "Performance Analysis"],
-  },
+
+
+
+
+
 
   {
     id: "j5201",
@@ -408,71 +297,9 @@ export const JOBS = [
     skills: ["iGaming Operations", "MGA-Regulated Environment", "Fraud & AML Systems", "Workflow Optimisation", "Team Leadership"],
   },
 
-  {
-    id: "j5301",
-    title: "Chief Financial Officer",
-    company: "Confidential — Yachting / Maritime Group",
-    category: "c-suite",
-    func: "finance",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer/78822",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-11",
-    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer/78822",
-    description:
-      "Konnekt is recruiting a Chief Financial Officer for a reputable client \u2014 a Group of Entities operating primarily within the Yachting / Maritime industry in Malta \u2014 to join their growing business and team of professionals. Ref #78822 \u2014 source page fetched live & confirmed active this cycle.",
-    skills: ["Chief Financial Officer", "Yachting / Maritime Sector", "Group Finance", "Financial Reporting", "Leadership"],
-  },
 
-  {
-    id: "j5302",
-    title: "Chief Financial Officer",
-    company: "Confidential — Services Group",
-    category: "c-suite",
-    func: "finance",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/85541",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-11",
-    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/chief-financial-officer-cfo/85541",
-    description:
-      "Konnekt is recruiting a Chief Financial Officer for a renowned name on the Maltese islands operating in the services industry. The CFO reports directly to the CEO and is a senior executive and core member of the leadership team, acting as strategic partner to the CEO and Board. Ref #85541 \u2014 source page fetched live & confirmed active this cycle.",
-    skills: ["Chief Financial Officer", "Board Partnering", "Financial Strategy", "Services Sector", "Executive Leadership"],
-  },
 
-  {
-    id: "j5303",
-    title: "Director of Sales & Marketing",
-    company: "Confidential — Luxury Hospitality Property",
-    category: "head",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/marketing-pr-jobs/director-of-sales-and-marketing/89312",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-11",
-    applyUrl: "https://www.konnekt.com/jobs/marketing-pr-jobs/director-of-sales-and-marketing/89312",
-    description:
-      "Konnekt is seeking an experienced and commercially driven Director of Sales & Marketing to lead the strategic growth, positioning, and revenue performance of a luxury hospitality property in Malta. Responsibilities include preparing, managing and monitoring the annual Sales & Marketing budget with monthly forecasts and financial reporting to the Director of Finance, and working closely with senior leadership (GM, Director of Revenue, Director of Finance) to support strategic business decisions and achieve revenue objectives. Ref #89312 \u2014 source page fetched live & confirmed active this cycle.",
-    skills: ["Sales & Marketing Leadership", "Luxury Hospitality", "Revenue Management", "Budgeting & Forecasting", "Commercial Strategy"],
-  },
 
-  {
-    id: "j5304",
-    title: "Chief Medical Officer",
-    company: "Confidential — Global Health Operations",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.konnekt.com/jobs/health-fitness-jobs/chief-medical-officer/87724",
-    location: "Malta",
-    salary: null,
-    posted: "2026-09-11",
-    applyUrl: "https://www.konnekt.com/jobs/health-fitness-jobs/chief-medical-officer/87724",
-    description:
-      "Konnekt is recruiting a Chief Medical Officer to head the Clinical Governance Team and provide expert medical support across global operations, based in Malta. Ref #87724 \u2014 source page fetched live & confirmed active this cycle.",
-    skills: ["Chief Medical Officer", "Clinical Governance", "Global Operations", "Medical Leadership", "Healthcare"],
-  },
 
   {
     id: "j5401",
@@ -498,7 +325,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-09-18";
+export const LAST_UPDATE_DATE = "2026-09-20";
 
 export function isJobNew(job) {
   if (!job.posted) return false;
