@@ -18,21 +18,6 @@ export const JOBS = [
 
 
 
-  {
-    id: "j2803",
-    title: "Head of Sales — Luxury & Wellness",
-    company: "AX Group (The Verdala Wellness Hotel)",
-    category: "head",
-    source: "AX Careers",
-    sourceUrl: "https://axcareersmalta.com/career/VA1201-head-of-sales-luxury-wellness/",
-    location: "Rabat, Malta (On-site)",
-    salary: null,
-    posted: "2026-05-19",
-    applyUrl: "https://axcareersmalta.com/career/VA1201-head-of-sales-luxury-wellness/",
-    description:
-      "AX Group is seeking a visionary Head of Sales for The Verdala Wellness Hotel — AX Privilege, its ultra-luxury wellness destination in Rabat, Malta. The role drives global sales strategy, bridging ultra-high-end hospitality with holistic health. Requires a strategic expert who understands luxury market nuances and can translate complex wellness philosophies into high-impact commercial narratives for global travellers.",
-    skills: ["Head of Sales", "Ultra-Luxury Hospitality", "Wellness & Spa", "Global Sales Strategy", "UHNW Market"],
-  },
 
 
 
@@ -49,21 +34,6 @@ export const JOBS = [
 
 
 
-  {
-    id: "j2203",
-    title: "Head of HR, Europe",
-    company: "OKX Europe",
-    category: "head",
-    source: "Direct",
-    sourceUrl: "https://web3.career/head-of-hr-eu-okx/66742",
-    location: "Malta (Valletta, On-site)",
-    salary: null,
-    posted: "2026-05-01",
-    applyUrl: "https://web3.career/head-of-hr-eu-okx/66742",
-    description:
-      "OKX Europe is recruiting a Head of HR for the EU region, based in Malta. The role shapes and owns the EU People Plan, leads a team of HR professionals, oversees HR operations, local policy, talent planning, and employee engagement across OKX's rapidly expanding EU hub. A strategic senior HR appointment partnering with local and global leadership. Apply via okx.com/en-eu/join-us.",
-    skills: ["Head of HR / CHRO", "EU People Strategy", "Crypto / FinTech", "HR Operations", "Talent Planning"],
-  },
 
 
 
@@ -71,22 +41,6 @@ export const JOBS = [
 
 
 
-  {
-    id: "j1801",
-    title: "Chief Digital Officer",
-    company: "Confidential — Financial Services",
-    category: "c-suite",
-    source: "Konnekt",
-    sourceUrl: "https://www.careerjet.com.mt/jobad/mte9822cb9e49ecf1ca1c475319a73982b",
-    location: "Malta",
-    salary: null,
-    posted: "2026-04-20",
-    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-digital-officer",
-    description:
-      "Konnekt is recruiting a Chief Digital Officer for a financial services client in Malta. The CDO will drive the digital agenda across the organisation, including strategic renewal of tools and processes, digital strategy planning, customer journey analysis, agile methodology, and coordination of multifunctional teams. C-Suite / Senior Management level appointment.",
-    linkType: "category",
-    skills: ["Chief Digital Officer", "Digital Transformation", "Financial Services", "Agile Methodology", "Customer Journey"],
-  },
 
 
 
@@ -212,23 +166,6 @@ export const JOBS = [
     skills: ["Chief Product Officer", "iGaming / Casino & Sportsbook", "Product Strategy", "Nordics Market", "AI-Driven Personalisation"],
   },
 
-  {
-    id: "j4001",
-    title: "Chief Financial Officer",
-    company: "Confidential — IT / Cyber Security Company",
-    category: "c-suite",
-    func: "finance",
-    domain: ["finance"],
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/chief-financial-officer-11530.aspx",
-    location: "Malta",
-    salary: "€80,000 – €120,000",
-    posted: "2026-08-27",
-    applyUrl: "https://jobs.grsrecruitment.com/job/chief-financial-officer-11530/apply.aspx",
-    description:
-      "GRS is recruiting a Chief Financial Officer for a dynamic, growing IT company in Malta, reporting directly to the CEO. Hands-on, high-impact role covering financial strategy, capital management, international tax and IP structuring, corporate governance, and commercial contract execution across a global group. 10+ years executive finance experience required, with direct Cyber Security / Cyber Intelligence sector experience highly preferred (or comparable Defense Tech, FinTech, RegTech, or Enterprise SaaS background). Ref #11530 — fetched live & confirmed active.",
-    skills: ["Chief Financial Officer", "International Tax Structuring", "Corporate Governance", "B2G / Enterprise Contracts", "Cyber Security Sector"],
-  },
 
 
 
@@ -281,21 +218,6 @@ export const JOBS = [
     skills: ["Data Management", "Business Intelligence", "Data Security & GDPR", "Artificial Intelligence", "Banking / Financial Services"],
   },
 
-  {
-    id: "j5203",
-    title: "Head of Operations",
-    company: "SkyCity Entertainment Malta",
-    category: "head",
-    source: "Pentasia",
-    sourceUrl: "https://www.pentasia.com/careers/head-operations-malta-37829-28563",
-    location: "St. Julian\u2019s, Malta",
-    salary: null,
-    posted: "2026-09-06",
-    applyUrl: "https://www.pentasia.com/careers/head-operations-malta-37829-28563",
-    description:
-      "Pentasia is recruiting a Head of Operations for SkyCity Entertainment Malta (iGaming), based in St. Julian\u2019s. The role leads day-to-day iGaming operations within an MGA-regulated, Malta-based environment, identifying trends, improving workflows and case management tools, and contributing to broader risk mitigation strategy. Requires proficiency across key iGaming systems including platforms, CRMs, CMS tools, and fraud/AML solutions, plus 2\u20134 years\u2019 leadership experience in iGaming operations. Fetched live & confirmed active this cycle.",
-    skills: ["iGaming Operations", "MGA-Regulated Environment", "Fraud & AML Systems", "Workflow Optimisation", "Team Leadership"],
-  },
 
 
 
@@ -325,7 +247,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-09-20";
+export const LAST_UPDATE_DATE = "2026-10-13";
 
 export function isJobNew(job) {
   if (!job.posted) return false;

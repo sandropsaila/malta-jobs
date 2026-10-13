@@ -820,3 +820,29 @@ BettingJobs (LinkedIn company page) · j3716 Firinne (LinkedIn company page) ·
 j5203 Pentasia.
 Note: LinkedIn company-page fallbacks carry no per-role expiry data at all, so they
 can never be validThrough-verified — decide whether to keep that class of entry.
+
+## Expiry signals beyond validThrough (added 13 Oct 2026)
+
+Not every source uses JSON-LD `validThrough`. Check in this order:
+
+1. **JSON-LD `validThrough`** — GRS, Ceek, Konnekt, Broadwing (see table above).
+2. **Visible "Closing Date" on the page** — AX Careers publishes one
+   (`Closing Date: 31/05/2026` on VA1201). AX keeps expired roles listed on its
+   own current-vacancies page, so presence in that list proves nothing.
+3. **Explicit closed-state text** — web3.career prints "This job is closed" in the
+   body. Read the body, don't just confirm HTTP 200.
+4. **Post date age, when no expiry field exists** — Pentasia shows only
+   `Post Date`. Treat anything older than ~3 months as stale.
+
+**Greenhouse is the exception**: it removes closed roles (404), so a resolving
+Greenhouse page with intact content IS valid evidence of live. Confirmed for
+FalconX 13 Oct 2026.
+
+**Aggregators (Careerjet, Reed, beBee) carry no reliable expiry** and re-publish
+stale summaries. Do not source from them; verify against the original poster.
+
+### Structurally unverifiable — the open question
+LinkedIn company-page fallbacks (`linkedin.com/company/<x>/jobs/`) point at a
+company's job LIST, not a role. They carry no per-role expiry and can never be
+validThrough-verified. Currently affects Altenar, BettingJobs, Firinne. Pending a
+decision from Sandro: keep as best-effort pointers, or drop the class entirely.
