@@ -53,21 +53,6 @@ export const JOBS = [
 
 
 
-  {
-    id: "j701",
-    title: "Chief Executive Officer",
-    company: "Confidential — Food Manufacturing Company",
-    category: "c-suite",
-    source: "COREcruitment",
-    sourceUrl: "https://www.corecruitment.com/vacancies/8694220681",
-    location: "Malta (Relocation Required)",
-    salary: "\u20ac150,000 \u2013 \u20ac200,000 + 10% KPI bonus",
-    posted: "2026-05-08",
-    applyUrl: "https://www.corecruitment.com/vacancies/8694220681",
-    description:
-      "COREcruitment is retained by a dynamic Maltese food manufacturing company to find an exceptional CEO. The ideal candidate is a food sector specialist with a proven career progression from hands-on operational roles to executive leadership — someone who has grown through production, operations, or commercial functions and now leads at board level. Responsibilities include directing long-term strategy, overseeing manufacturing operations, optimising quality and cost-efficiency, and inspiring high-performing teams to drive sustainable growth and profitability. Relocation to Malta required. Apply via corecruitment.com (ref #8694220681).",
-    skills: ["Food Manufacturing", "CEO / MD Experience", "Operational Leadership", "P&L Ownership", "Strategic Planning"],
-  },
 
   // ══ C-SUITE ════════════════════════════════════════════════════════════════
 
@@ -112,21 +97,6 @@ export const JOBS = [
 
 
 
-  {
-    id: "j3710",
-    title: "Head of Risk",
-    company: "FalconX",
-    category: "head",
-    source: "Direct",
-    sourceUrl: "https://job-boards.greenhouse.io/falconx/jobs/4713572005",
-    location: "Malta",
-    salary: "€84,000 – €115,000",
-    posted: "2026-07-16",
-    applyUrl: "https://job-boards.greenhouse.io/falconx/jobs/4713572005",
-    description:
-      "FalconX — a leading digital assets prime broker revolutionising institutional access to crypto markets — is hiring a Head of Risk based in Malta, requiring physical presence in Malta and completion of the MFSA PQ (Person Qualified) process. Responsible for the Risk Management Framework, risk appetite recommendations to the Board, credit and counterparty risk, and regulatory compliance across AML/CFT, ICT, operational, market, and credit risk domains. Confirmed live and current via FalconX's own Greenhouse careers board, marked 'New', with full salary transparency per the EU Pay Transparency Directive.",
-    skills: ["Head of Risk", "Digital Assets / Crypto", "Risk Management Framework", "MFSA PQ", "Regulatory Compliance"],
-  },
 
   {
     id: "j3711",
@@ -184,61 +154,186 @@ export const JOBS = [
 
 
 
+
+
+
+
+
+
+
+
   {
-    id: "j5201",
-    title: "Head of Compliance and Risk",
-    company: "Confidential — Financial Services Company",
+    id: "j5501",
+    title: "Chief Executive Officer",
+    company: "Confidential — Multi-sector Technology Group",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-executive-officer-ceo/92246",
+    location: "Central Malta (On-site)",
+    salary: null,
+    posted: "2026-10-14",
+    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-executive-officer-ceo/92246",
+    description: "Konnekt is recruiting a CEO reporting to the Chairman and Board of a multi-sector technology group serving banking, healthcare, border control, gaming, retail and IT outsourcing clients. The role sets group growth strategy, capital allocation and M&A/partnership activity, drives digital transformation and governance, and represents the group to investors and regulators. Requires 5+ years senior leadership in technology and international scaling experience. Ref 92246 (SG837) — published 2 Oct 2026, validThrough 31 Oct 2026 (JSON-LD verified 14 Oct).",
+    skills: ["CEO", "Technology Group Leadership", "M&A / Strategic Investment", "Capital Allocation", "Board Reporting"],
+  },
+  {
+    id: "j5502",
+    title: "Chief Operations Officer (COO – Construction)",
+    company: "Confidential — Construction Company",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-operations-officer-coo-construction/92540",
+    location: "Central Malta",
+    salary: "€100,000 – €120,000",
+    posted: "2026-10-14",
+    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-operations-officer-coo-construction/92540",
+    description: "Konnekt is recruiting a newly created COO for a growing Malta construction company formalising its corporate structure, reporting to the Director. Leads architectural, engineering and master-planning teams, vendor selection and contract negotiation, field operations against schedule/budget/quality, and builds department heads across design, purchasing and site operations. Ref 92540 (BZ868) — published 14 Oct 2026, validThrough 31 Oct 2026 (JSON-LD verified 14 Oct).",
+    skills: ["COO", "Construction / Real Estate Development", "Operational Scaling", "Procurement & Vendor Management", "SOPs & Internal Controls"],
+  },
+  {
+    id: "j5503",
+    title: "Chief Operating Officer",
+    company: "Confidential — Financial Services (Banking)",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-operating-officer/91540",
+    location: "Central Malta (On-site)",
+    salary: null,
+    posted: "2026-10-14",
+    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-operating-officer/91540",
+    description: "Konnekt is recruiting a COO for a financial services firm in Malta, leading IT, risk, payments and customer service operations within an MFSA-regulated environment. Drives digital transformation, operational risk controls, business continuity and KPI-based performance, working closely with the CEO. English and Maltese required. Ref 91540 (UP116) — published 4 Sep 2026, validThrough 31 Oct 2026 (JSON-LD verified 14 Oct).",
+    skills: ["COO", "Financial Services Operations", "MFSA Regulation", "Digital Transformation", "Operational Risk & BCP"],
+  },
+  {
+    id: "j5504",
+    title: "Chief Operations Officer (COO)",
+    company: "Confidential — Technology Services (Malta Group)",
+    category: "c-suite",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-operations-officer-coo/88019",
+    location: "Central Malta",
+    salary: "€100,000 – €130,000",
+    posted: "2026-10-14",
+    applyUrl: "https://www.konnekt.com/jobs/general-management-jobs/chief-operations-officer-coo/88019",
+    description: "Konnekt is recruiting a COO for a technology-services company within a leading diversified Malta group, with a stated succession path to top company level. Owns delivery of the Board-approved plan across technical service, logistics, customer support and sales delivery; unifies Sales, Service, Operations, Finance and IT workflows; accountable for revenue, margin and SLA metrics. Maltese and English required. Ref 88019 (UA279) — published 23 Sep 2026, validThrough 31 Oct 2026 (JSON-LD verified 14 Oct).",
+    skills: ["COO", "Technology Services", "P&L / Margin Ownership", "SLA & Service Delivery", "Change Management"],
+  },
+  {
+    id: "j5505",
+    title: "Director of Corporate Administration & Accounting",
+    company: "Confidential — Corporate Services Provider",
     category: "head",
-    func: "legal",
-    domain: ["legal"],
+    func: "finance",
+    domain: ["finance"],
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/corporate-services-jobs/director-of-corporate-administration-accounting/92506",
+    location: "Central Malta (Hybrid)",
+    salary: null,
+    posted: "2026-10-14",
+    applyUrl: "https://www.konnekt.com/jobs/corporate-services-jobs/director-of-corporate-administration-accounting/92506",
+    description: "Konnekt is recruiting a Director of Corporate Administration & Accounting for a Malta corporate services provider. Provides strategic and operational leadership of the Corporate and Accounting departments, oversees company secretarial, accounting and client services, works with the MLRO and Compliance Officer on governance, and leads key client relationships and business development. Requires 5+ years local corporate services/fiduciary experience. Ref 92506 (OM315) — published 13 Oct 2026, validThrough 31 Oct 2026 (JSON-LD verified 14 Oct).",
+    skills: ["Corporate Services", "Fiduciary / Trusts", "Accounting Leadership", "Client Relationship Management", "Regulatory Compliance"],
+  },
+  {
+    id: "j5506",
+    title: "Financial Controller",
+    company: "Confidential — Retail Group",
+    category: "head",
+    func: "finance",
+    domain: ["finance"],
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/accounting-jobs/financial-controller/92551",
+    location: "Central Malta (On-site)",
+    salary: "€70,000 – €75,000",
+    posted: "2026-10-14",
+    applyUrl: "https://www.konnekt.com/jobs/accounting-jobs/financial-controller/92551",
+    description: "Konnekt is recruiting a Financial Controller for a retail business, reporting to the Group CFO and the Board. Owns management accounts, budgeting and forecasting, cash flow and working capital, Board dashboards and KPIs, and Maltese tax/statutory compliance, acting as strategic adviser to senior management. Requires a locally warranted accountant with 5+ years in a similar role. Ref 92551 (TZ827) — published 14 Oct 2026, validThrough 31 Oct 2026 (JSON-LD verified 14 Oct).",
+    skills: ["Financial Controller", "Retail", "Management Accounts & Forecasting", "Board Reporting", "Maltese Tax & Statutory"],
+  },
+  {
+    id: "j5507",
+    title: "Head of Card Programmes & Scheme Relations",
+    company: "Confidential — Payments / Fintech",
+    category: "head",
+    source: "Konnekt",
+    sourceUrl: "https://www.konnekt.com/jobs/banking-jobs/head-of-card-programmes-scheme-relations/92182",
+    location: "Central Malta (Hybrid)",
+    salary: "€70,000 – €90,000",
+    posted: "2026-10-14",
+    applyUrl: "https://www.konnekt.com/jobs/banking-jobs/head-of-card-programmes-scheme-relations/92182",
+    description: "Konnekt is recruiting a Head of Card Programmes & Scheme Relations for a Malta payments company — a standalone head role in a newly established function. Main card-scheme contact, leads a second scheme-membership application and overseas BIN sponsorship, owns programme governance and go-live readiness across processor, tokenisation and digital wallets, and provides board-level reporting. Requires 5+ years in card issuing with Mastercard/Visa rules expertise. Ref 92182 (OL355) — published 1 Oct 2026, validThrough 31 Oct 2026 (JSON-LD verified 14 Oct).",
+    skills: ["Card Issuing", "Mastercard / Visa Scheme Relations", "BIN Sponsorship", "Programme Governance", "Payments / Fintech"],
+  },
+  {
+    id: "j5508",
+    title: "Head of On-site Energy",
+    company: "Confidential — Yachting Services Company",
+    category: "head",
     source: "Broadwing",
-    sourceUrl: "https://broadwing.jobs/careers/job/head-of-compliance-and-risk-3660/",
-    location: "Naxxar, Malta",
+    sourceUrl: "https://broadwing.jobs/careers/job/head-of-on-site-energy-3662/",
+    location: "Żejtun, Malta",
     salary: null,
-    posted: "2026-09-06",
-    applyUrl: "https://broadwing.jobs/careers/job/head-of-compliance-and-risk-3660/",
-    description:
-      "Broadwing Recruitment is hiring a Head of Compliance and Risk for a financial services company in Naxxar, Malta. Listed at Senior Executive level, the role covers regulatory compliance, risk assessment, monitoring and reporting, MFSA engagement, due diligence, and compliance strategy within an MFSA-regulated environment. Ref #3660 \u2014 fetched live & confirmed active this cycle.",
-    skills: ["Head of Compliance", "Risk Management", "MFSA Regulation", "Due Diligence", "Regulatory Reporting"],
+    posted: "2026-10-14",
+    applyUrl: "https://broadwing.jobs/careers/job/head-of-on-site-energy-3662/",
+    description: "Broadwing Recruitment is recruiting a Head of On-site Energy for a leading yachting-services company in Żejtun, Malta. Leads the On-Site Energy department's sales and technical teams across multiple international locations, oversees project delivery, technical sales (tenders, proposals, contract negotiation), after-sales and maintenance contracts, and reports to executive management. Requires an engineering or business degree and 7–10 years including departmental leadership in energy systems, power generation or EPC. Ref 3662 (Job ID 12356) — posted 1 Sep 2026, validThrough 30 Nov 2026 (JSON-LD verified 14 Oct).",
+    skills: ["Energy Systems / Power Generation", "Technical Sales & Tendering", "Department Leadership", "EPC Projects", "KPI Management"],
   },
-
   {
-    id: "j5202",
-    title: "Head of Data Management and Business Information",
-    company: "Confidential — Financial Services Company",
+    id: "j5509",
+    title: "Head of HR – Support Functions & Malta",
+    company: "Betsson Group",
     category: "head",
-    source: "Broadwing",
-    sourceUrl: "https://broadwing.jobs/careers/job/head-of-data-management-and-business-information-3641/",
-    location: "Birkirkara, Malta",
+    source: "Direct",
+    sourceUrl: "https://job-boards.greenhouse.io/betsson/jobs/8208140",
+    location: "Malta (On-site, 5 days)",
     salary: null,
-    posted: "2026-09-06",
-    applyUrl: "https://broadwing.jobs/careers/job/head-of-data-management-and-business-information-3641/",
-    description:
-      "Broadwing Recruitment is seeking a Head of Data Management and Business Information for a financial services / banking organisation in Birkirkara, Malta. Listed at Senior Executive level, the role leads data analytics and business intelligence, data security and GDPR compliance, and AI adoption across the data function, with reporting into senior leadership. Ref #3641 \u2014 fetched live & confirmed active this cycle.",
-    skills: ["Data Management", "Business Intelligence", "Data Security & GDPR", "Artificial Intelligence", "Banking / Financial Services"],
+    posted: "2026-10-14",
+    applyUrl: "https://job-boards.greenhouse.io/betsson/jobs/8208140",
+    description: "Betsson Group is hiring a Head of HR for its Malta hub (1,500 staff at its operational HQ), shaping Malta people strategy and acting as People Partner to the Finance and Legal functions. Covers employee relations, Maltese employment-law compliance, local HR policy, people analytics, engagement and culture. Requires 6+ years HR with senior business-partnering experience. Confirmed live on Betsson's own Greenhouse board 14 Oct 2026 (Greenhouse removes closed roles, so a resolving page is valid evidence).",
+    skills: ["Head of HR", "HR Business Partnering", "Maltese Employment Law", "Employee Relations", "iGaming"],
   },
-
-
-
-
-
-
   {
-    id: "j5401",
-    title: "Head of Advisory & Business Development",
-    company: "Confidential \u2014 Residency & Immigration Mobility Consultancy",
+    id: "j5510",
+    title: "Head of HR Business Partnering",
+    company: "Tipico",
     category: "head",
-    source: "GRS",
-    sourceUrl: "https://jobs.grsrecruitment.com/job/head-of-advisory-and-business-development-11598.aspx",
-    location: "Ta\u2019 Xbiex, Malta",
+    source: "Direct",
+    sourceUrl: "https://www.tipico-careers.com/en/jobs/job/head-of-hr-business-partnering-m-f-x-st-julian-s-ac21d7c8-f67a-44c3-8a32-f0fe68a65e6a/",
+    location: "St Julian's, Malta (On-site)",
     salary: null,
-    posted: "2026-09-14",
-    applyUrl: "https://jobs.grsrecruitment.com/job/head-of-advisory-and-business-development-11598.aspx",
-    description:
-      "GRS Recruitment is seeking a Head of Advisory & Business Development for a prominent Residency & Immigration Mobility Consultancy firm in Ta\u2019 Xbiex, Malta. The role leads and builds the advisory and commercial function, combining team leadership with hands-on responsibility for B2C and B2B growth. Requires an experienced investment migration professional able to create structure, develop markets and channels, manage lead-generation investment, and convert commercial opportunities into measurable results. Ref #11598 \u2014 posted 14 Sep 2026, listing valid through 14 Oct 2026 (JSON-LD verified).",
-    skills: ["Advisory Leadership", "Business Development", "Investment Migration", "B2B & B2C Growth", "Team Leadership"],
+    posted: "2026-10-14",
+    applyUrl: "https://www.tipico-careers.com/en/jobs/job/head-of-hr-business-partnering-m-f-x-st-julian-s-ac21d7c8-f67a-44c3-8a32-f0fe68a65e6a/",
+    description: "Tipico, Germany's leading sports-betting provider, is hiring a Head of HR Business Partnering at its international HQ in St Julian's. Leads and develops the HRBP team across international locations, partners with the Director of HR on people strategy, advises senior leaders on org design, talent and succession, and oversees complex employee relations and restructuring. Requires 10+ years HRBP experience including 3–5 years managing people. Confirmed live on Tipico's own careers site 14 Oct 2026 (SmartRecruiters ref 744000153469949); relocation support offered.",
+    skills: ["Head of HR Business Partnering", "People Strategy", "Org Design & Succession", "Employee Relations", "Sports Betting / iGaming"],
   },
-
+  {
+    id: "j5511",
+    title: "Head of In-House Games",
+    company: "bet365",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://jobs.smartrecruiters.com/Bet3651/744000151315908-head-of-in-house-games",
+    location: "Sliema, Malta (On-site)",
+    salary: null,
+    posted: "2026-10-14",
+    applyUrl: "https://jobs.smartrecruiters.com/Bet3651/744000151315908-head-of-in-house-games",
+    description: "bet365 is hiring a Head of In-House Games in its Gaming Product (Malta) department in Sliema. Defines and executes the in-house games content strategy, drives commercial performance of the proprietary game portfolio, manages external studios and exclusive content agreements, and builds and leads the in-house games team. Confirmed live on bet365's own SmartRecruiters page 14 Oct 2026 (originally posted ~23 Sep 2026).",
+    skills: ["Games Content Strategy", "Casino / iGaming Product", "Studio & Partner Management", "Commercial Performance", "Team Leadership"],
+  },
+  {
+    id: "j5512",
+    title: "Senior Product Director",
+    company: "FDJ United",
+    category: "head",
+    source: "Direct",
+    sourceUrl: "https://careers.fdjunited.com/en/job/sliema/senior-product-director/3226/42384447296",
+    location: "Sliema, Malta (or Gibraltar)",
+    salary: null,
+    posted: "2026-10-14",
+    applyUrl: "https://careers.fdjunited.com/en/job/sliema/senior-product-director/3226/42384447296",
+    description: "FDJ United is hiring a Senior Product Director to own the end-to-end product vision, strategy and roadmap across its OBG verticals — Sportsbook, Casino, Poker/Bingo, Player Account Management, payments and platform automation — leading a multi-product, multi-market team of product managers, owners and analysts. Requires 12+ years in product management including senior leadership in iGaming/sports betting. The posting lists both Sliema, Malta and Gibraltar as locations — Malta is an explicit option. Confirmed live on FDJ United's own careers site 14 Oct 2026 (ref JR103037).",
+    skills: ["Product Leadership", "Sportsbook & Casino", "Player Account Management", "Product Strategy & Roadmap", "iGaming"],
+  },
 ];
 
 // ─── "NEW" logic ────────────────────────────────────────────────────────────
@@ -247,7 +342,7 @@ export const JOBS = [
 // Any job whose `posted` date is on/after this cutoff shows the NEW badge.
 // Advanced to the date of the most recent "update searches" run (whether or not
 // it added roles). A job shows NEW only if it was added in that latest run.
-export const LAST_UPDATE_DATE = "2026-10-13";
+export const LAST_UPDATE_DATE = "2026-10-14";
 
 export function isJobNew(job) {
   if (!job.posted) return false;

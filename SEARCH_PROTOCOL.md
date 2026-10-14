@@ -846,3 +846,24 @@ LinkedIn company-page fallbacks (`linkedin.com/company/<x>/jobs/`) point at a
 company's job LIST, not a role. They carry no per-role expiry and can never be
 validThrough-verified. Currently affects Altenar, BettingJobs, Firinne. Pending a
 decision from Sandro: keep as best-effort pointers, or drop the class entirely.
+
+## Lessons from 14 Oct 2026 cycle
+
+1. **Broadwing pulls roles BEFORE validThrough.** j5201 (#3660, validThrough 24 Nov)
+   and j5202 (#3641, validThrough 28 Oct) both 302-redirect to `/careers/` and had
+   vanished from the Senior Executive / Managerial sector listings. A future
+   validThrough is necessary but NOT sufficient for Broadwing: also confirm the
+   role URL still renders the role (not the `/careers/` landing page).
+2. **Greenhouse removal confirmed again**: FalconX Head of Risk (j3710) redirects to
+   the board root with `?error=true` and is absent from the 17-role list → closed.
+3. **Konnekt ref monotonicity can break on reposts.** #88019 carried datePosted
+   23 Sep 2026 (a repost) despite a lower ref than expired #89940. Read each page's
+   JSON-LD; do not infer expiry from ref order alone for Konnekt.
+4. **Konnekt closing dates cluster at month-end** (every senior role read this cycle:
+   validThrough 2026-10-31). Expect a bulk expiry check on the first cycle in November.
+5. **myjob.mt is a useful LEAD source** (surfaced Betsson, Tipico, bet365, FDJ United
+   senior roles) but is an aggregator — always verify on the employer's own ATS
+   page and use that as source/apply URL.
+6. Sourcing gaps this cycle: Ceek deep scan (site search errored; page 1 had no
+   senior roles), Step 0.5 MSE rotation and Step 2.5 boutique agencies were thin —
+   prioritise these next cycle.
