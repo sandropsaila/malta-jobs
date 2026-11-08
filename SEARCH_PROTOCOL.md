@@ -867,3 +867,28 @@ decision from Sandro: keep as best-effort pointers, or drop the class entirely.
 6. Sourcing gaps this cycle: Ceek deep scan (site search errored; page 1 had no
    senior roles), Step 0.5 MSE rotation and Step 2.5 boutique agencies were thin —
    prioritise these next cycle.
+
+## Lessons from 8 Nov 2026 cycle
+
+1. **Konnekt extends closing dates rather than expiring.** Six of seven roles with
+   validThrough 31 Oct were still live on 8 Nov with Closing Date moved to 20/30 Nov.
+   A past validThrough recorded in our description is NOT proof of expiry for Konnekt —
+   re-read the live page's "Closing Date" before removing. (The seventh, CEO 92246,
+   returned "page not found" → genuinely closed.)
+2. **Broadwing listing pages lie in both directions.** Sector listings dropped the live-
+   until-30-Nov Head of On-site Energy (3662 now 302s to /careers/) while still showing
+   3631 and 3608, both past validThrough. Only the per-role URL is authoritative.
+3. **SmartRecruiters expired roles** keep the full description and add "Sorry, this job
+   has expired" near the footer (bet365 Head of In-House Games). Grep for that phrase;
+   a 200 with intact body is not proof of live.
+4. **BettingJobs' own site** marks closed roles with an `/expired/` URL segment — a
+   search hit on that path is direct closure evidence for the LinkedIn-fallback entry.
+5. **Tipico careers** 403s plain fetches; use a stealth driver (vx10) on the
+   /en/jobs/ list (21 jobs, 2 pages) and confirm the title is present.
+6. **Title-only seniority is not enough.** Excluded Konnekt "Head of Finance" 93140
+   (explicitly open to junior candidates, bookkeeping-level duties, €40–55k) and
+   Konnekt "General Manger" 93302 (tagged Middle Management, GTM marketing role).
+7. **LinkedIn-fallback class:** Firinne CPO removed under the two-cycle unverifiable
+   rule (no sighting since Aug). Altenar retained only because a fresh LinkedIn
+   posting ID appeared (repost). BettingJobs removed on /expired/ evidence.
+8. myjob.mt was offline ("deployment paused") 8 Nov — not a reliable lead source.
